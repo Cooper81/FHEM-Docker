@@ -1,0 +1,95 @@
+version: '2'
+
+services:
+    fhem:
+        restart: always
+        expose:
+            - "8083"
+            - "7072"
+        ports:
+            - "8083:8083"
+            - "7072:7072"
+        build: fhem
+        privileged: true
+        volumes:
+            - ./fhem/core/:/opt/fhem/
+        networks:
+            - fhem-network
+        depends_on:
+            - "mysql"
+            - "mqtt"
+
+    homebridge:
+        restart: always
+        expose:
+            - "51826"
+            - "8282"
+            - "5353"
+        ports:
+            - "51826:51826"
+            - "8282:8282"
+            - "5353:5353"
+        build: homebridge
+        volumes:
+            - ./homebridge/start.sh:/root/start.sh
+            - ./homebridge/config.json:/root/.homebridge/config.json
+        networks:
+            - fhem-network
+        depends_on:
+            - "fhem"
+
+    habridge:
+        restart: always
+        build: habridge
+        network_mode: host
+
+    mysql:
+        restart: always
+        expose:
+            - "3306"
+            - "33060"
+        ports:
+            - "3306:3306"
+            - "33060:33060"
+        image: mysql/mysql-server:5.7
+        volumes:
+            - ./mysql/init.sql:/docker-entrypoint-initdb.d/fhem-init.sql
+            - ./mysql/data:/var/lib/mysql
+        environment:
+            - MYSQL_RANDOM_ROOT_PASSWORD=yes
+        networks:
+            - fhem-network
+
+    mqtt:
+        restart: always
+        expose:
+            - "1883"
+            - "9001"
+        ports:
+            - "1883:1883"
+            - "9001:9001"
+        image: toke/mosquitto
+        networks:
+            - fhem-network
+        volumes:
+            - ./mqtt/config/:/mqtt/config/
+            - ./mqtt/log/:/mqtt/log/
+            - ./mqtt/data/:/mqtt/data/
+
+    nodered:
+        restart: always
+        expose:
+            - "1880"
+        ports:
+            - "1880:1880"
+        image: nodered/node-red-docker:0.17.5
+        volumes:
+            - ./nodered/data/:/data/
+        networks:
+            - fhem-network
+        depends_on:
+            - "mqtt"
+
+networks:
+    fhem-network:
+        driver: bridge
