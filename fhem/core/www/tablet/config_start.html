@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+    <div class="page" id="config_start">
+			<div class="big">Wähle eine neue Startseite:</div>
+			<div class="large">Hier siehst du die gleiche Darstellung wie im Menü.</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<div onclick="fully.setStartUrl(location.origin + '/fhem/tablet/index.html#content_home.html');  var answer = confirm('Startseite&nbsp;&quot;Home&quot;&nbsp;eingestellt.\nSeite&nbsp;jetzt&nbsp;laden?'); if (answer == true) { fully.loadStartUrl(); }"
+				 style="height:auto; width:205px; color:white; background-color:#333; line-height:45px;"
+				 class="large centered top-space">
+				 <div class="linklefticon fa fa-home fa-lg fa-fw bigger"></div>
+				 <div style="display:inline-block; text-align:center; vertical-align:5%; padding:3px; white-space:nowrap; width:155px;">Home</div>
+			</div>
+			<div onclick="fully.setStartUrl(location.origin + '/fhem/tablet/index.html#content_wohnen.html');  var answer = confirm('Startseite&nbsp;&quot;Wohnen&quot;&nbsp;eingestellt.\nSeite&nbsp;jetzt&nbsp;laden?',''); if (answer) { fully.loadStartUrl(); } else { return; }"
+				 style="height:auto; width:205px; color:white; background-color:#333; line-height:45px;"
+				 class="large centered top-space">
+				 <div class="linklefticon fa ro-sofa fa-lg fa-fw bigger"></div>
+				 <div style="display:inline-block; text-align:center; vertical-align:5%; padding:3px; white-space:nowrap; width:155px;">Wohnen</div>
+			</div>
+			<div onclick="fully.setStartUrl(location.origin + '/fhem/tablet/index.html#content_buro.html');  var answer = confirm('Startseite&nbsp;&quot;B&uuml;ro&quot;&nbsp;eingestellt.\nSeite&nbsp;jetzt&nbsp;laden?',''); if (answer) { fully.loadStartUrl(); } else { return; }"
+				 style="height:auto; width:205px; color:white; background-color:#333; line-height:45px;"
+				 class="large centered top-space">
+				 <div class="linklefticon fa ro-pc fa-lg fa-fw bigger"></div>
+				 <div style="display:inline-block; text-align:center; vertical-align:5%; padding:3px; white-space:nowrap; width:155px;">B&uuml;ro</div>
+			</div>
+			<div onclick="fully.setStartUrl(location.origin + '/fhem/tablet/index.html#content_flur.html');  var answer = confirm('Startseite&nbsp;&quot;Flur&quot;&nbsp;eingestellt.\nSeite&nbsp;jetzt&nbsp;laden?',''); if (answer) { fully.loadStartUrl(); } else { return; }"
+				 style="height:auto; width:205px; color:white; background-color:#333; line-height:45px;"
+				 class="large centered top-space">
+				 <div class="linklefticon fa ro-hanger fa-lg fa-fw bigger"></div>
+				 <div style="display:inline-block; text-align:center; vertical-align:5%; padding:3px; white-space:nowrap; width:155px;">Flur</div>
+			</div>
+			<div onclick="fully.setStartUrl(location.origin + '/fhem/tablet/index.html#content_kuche.html');  var answer = confirm('Startseite&nbsp;&quot;K&uuml;che&quot;&nbsp;eingestellt.\nSeite&nbsp;jetzt&nbsp;laden?',''); if (answer) { fully.loadStartUrl(); } else { return; }"
+				 style="height:auto; width:205px; color:white; background-color:#333; line-height:45px;"
+				 class="large centered top-space">
+				 <div class="linklefticon fa fa-cutlery fa-lg fa-fw bigger"></div>
+				 <div style="display:inline-block; text-align:center; vertical-align:5%; padding:3px; white-space:nowrap; width:155px;">K&uuml;che</div>
+			</div>
+			<div onclick="fully.setStartUrl(location.origin + '/fhem/tablet/index.html#content_schlafen.html');  var answer = confirm('Startseite&nbsp;&quot;Schlafen&quot;&nbsp;eingestellt.\nSeite&nbsp;jetzt&nbsp;laden?',''); if (answer) { fully.loadStartUrl(); } else { return; }"
+				 style="height:auto; width:205px; color:white; background-color:#333; line-height:45px;"
+				 class="large centered top-space">
+				 <div class="linklefticon fa fa-bed fa-lg fa-fw bigger"></div>
+				 <div style="display:inline-block; text-align:center; vertical-align:5%; padding:3px; white-space:nowrap; width:155px;">Schlafen</div>
+			</div>
+			<div onclick="fully.setStartUrl(location.origin + '/fhem/tablet/index.html#content_wohnen.html');  var answer = confirm('Startseite&nbsp;&quot;Wohnen&quot;&nbsp;eingestellt.\nSeite&nbsp;jetzt&nbsp;laden?',''); if (answer) { fully.loadStartUrl(); } else { return; }"
+				 style="height:auto; width:205px; color:white; background-color:#333; line-height:45px;"
+				 class="large centered top-space">
+				 <div class="linklefticon fa ro-sofa fa-lg fa-fw bigger"></div>
+				 <div style="display:inline-block; text-align:center; vertical-align:5%; padding:3px; white-space:nowrap; width:155px;">Wohnen</div>
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:darkorange;"></div>
+			<div onclick="fully.setStartUrl(location.origin + '/fhem/tablet/index.html#content_draussen.html');  var answer = confirm('Startseite&nbsp;&quot;Drau&szlig;en&quot;&nbsp;eingestellt.\nSeite&nbsp;jetzt&nbsp;laden?',''); if (answer) { fully.loadStartUrl(); } else { return; }"
+				 style="height:auto; width:205px; color:white; background-color:#333; line-height:45px;"
+				 class="large centered top-space-mobile">
+				 <div class="linklefticon fa fs-building_outside fa-lg fa-fw bigger"></div>
+				 <div style="display:inline-block; text-align:center; vertical-align:5%; padding:3px; white-space:nowrap; width:155px;">Drau&szlig;en</div>
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:darkorange;"></div>
+			<div onclick="fully.setStartUrl(location.origin + '/fhem/tablet/index.html#content_wetter.html');  var answer = confirm('Startseite&nbsp;&quot;Wetter&quot;&nbsp;eingestellt.\nSeite&nbsp;jetzt&nbsp;laden?',''); if (answer) { fully.loadStartUrl(); } else { return; }"
+				 style="height:auto; width:205px; color:white; background-color:#333; line-height:45px;"
+				 class="large centered top-space-mobile">
+				 <div class="linklefticon fa fa-cloud fa-lg fa-fw bigger"></div>
+				 <div style="display:inline-block; text-align:center; vertical-align:5%; padding:3px; white-space:nowrap; width:155px;">Wetter</div>
+			</div>
+			<div onclick="fully.setStartUrl(location.origin + '/fhem/tablet/index.html#content_dwd.html');  var answer = confirm('Startseite&nbsp;&quot;DWD&quot;&nbsp;eingestellt.\nSeite&nbsp;jetzt&nbsp;laden?',''); if (answer) { fully.loadStartUrl(); } else { return; }"
+				 style="height:auto; width:205px; color:white; background-color:#333; line-height:45px;"
+				 class="large centered top-space">
+				 <div class="linklefticon fa fa-bolt fa-lg fa-fw bigger"></div>
+				 <div style="display:inline-block; text-align:center; vertical-align:5%; padding:3px; white-space:nowrap; width:155px;">DWD</div>
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:darkorange;"></div>
+			<div onclick="fully.setStartUrl(location.origin + '/fhem/tablet/index.html#content_roman.html');  var answer = confirm('Startseite&nbsp;&quot;Roman&quot;&nbsp;eingestellt.\nSeite&nbsp;jetzt&nbsp;laden?',''); if (answer) { fully.loadStartUrl(); } else { return; }"
+				 style="height:auto; width:205px; color:white; background-color:#333; line-height:45px;"
+				 class="large centered top-space-mobile">
+				 <div class="linklefticon fa fa-th-list fa-lg fa-fw bigger"></div>
+				 <div style="display:inline-block; text-align:center; vertical-align:5%; padding:3px; white-space:nowrap; width:155px;">Roman</div>
+			</div>
+			<div onclick="fully.setStartUrl(location.origin + '/fhem/tablet/index.html#content_sarah.html');  var answer = confirm('Startseite&nbsp;&quot;Sarah&quot;&nbsp;eingestellt.\nSeite&nbsp;jetzt&nbsp;laden?',''); if (answer) { fully.loadStartUrl(); } else { return; }"
+				 style="height:auto; width:205px; color:white; background-color:#333; line-height:45px;"
+				 class="large centered top-space">
+				 <div class="linklefticon fa fa-th-list fa-lg fa-fw bigger"></div>
+				 <div style="display:inline-block; text-align:center; vertical-align:5%; padding:3px; white-space:nowrap; width:155px;">Sarah</div>
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:darkorange;"></div>
+			<div onclick="fully.setStartUrl(location.origin + '/fhem/tablet/index.html#content_sprit.html');  var answer = confirm('Startseite&nbsp;&quot;Spritpreise&quot;&nbsp;eingestellt.\nSeite&nbsp;jetzt&nbsp;laden?',''); if (answer) { fully.loadStartUrl(); } else { return; }"
+				 style="height:auto; width:205px; color:white; background-color:#333; line-height:45px;"
+				 class="large centered top-space-mobile">
+				 <div class="linklefticon fa mi-local_gas_station fa-lg fa-fw bigger"></div>
+				 <div style="display:inline-block; text-align:center; vertical-align:5%; padding:3px; white-space:nowrap; width:155px;">Spritpreise</div>
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:darkorange;"></div>
+			<div onclick="fully.setStartUrl(location.origin + '/fhem/tablet/index.html#content_system.html');  var answer = confirm('Startseite&nbsp;&quot;System&quot;&nbsp;eingestellt.\nSeite&nbsp;jetzt&nbsp;laden?',''); if (answer) { fully.loadStartUrl(); } else { return; }"
+				 style="height:auto; width:205px; color:white; background-color:#333; line-height:45px;"
+				 class="large centered top-space-mobile">
+				 <div class="linklefticon fa fa-server fa-lg fa-fw bigger"></div>
+				 <div style="display:inline-block; text-align:center; vertical-align:5%; padding:3px; white-space:nowrap; width:155px;">System</div>
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:darkorange;"></div>
+			<div onclick="fully.setStartUrl(location.origin + '/fhem/tablet/index.html#content_config.html');  var answer = confirm('Startseite&nbsp;&quot;Einstellungen&quot;&nbsp;eingestellt.\nSeite&nbsp;jetzt&nbsp;laden?',''); if (answer) { fully.loadStartUrl(); } else { return; }"
+				 style="height:auto; width:205px; color:white; background-color:#333; line-height:45px;"
+				 class="large centered top-space-mobile bottom-space">
+				 <div class="linklefticon fa fa-cogs fa-lg fa-fw bigger"></div>
+				 <div style="display:inline-block; text-align:center; vertical-align:5%; padding:3px; white-space:nowrap; width:155px;">Einstellungen</div>
+			</div>
+    </div>
+</body>
+</html>

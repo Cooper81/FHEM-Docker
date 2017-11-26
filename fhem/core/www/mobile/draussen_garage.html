@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>DRAUßEN / GARAGE</title>
+</head>
+<body>
+
+<div class="gridster">
+<ul>
+<li class="halbTransparent border-left border-right" data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">HOME</header>
+	<div data-type="pagetab"
+		 data-device="st_alert"
+		 data-get-on='["off","[1-9]{1}|[0-9]{2}"]'
+		 data-url="index_home.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-home"
+		 data-icons='["fa-home","fa-home warn"]'
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent" data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">MENÜ</header>
+	<div data-type="pagetab"
+		 data-url="menu.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-bars"
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent border-left border-right" data-row="1" data-col="3" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">DWD</header>
+	<div data-type="pagetab"
+		 data-device="gds"
+		 data-get="a_count"
+		 data-get-on='["no","^[1-9][0-9]|[1-9]$"]'
+		 data-url="dwd.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-bolt"
+		 data-icons='["fa-bolt","fa-bolt warn"]'
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent border-right" data-row="1" data-col="4" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">WETTER</header>
+	<div data-type="pagetab"
+		 data-url="wetter.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-cloud"
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent border-left" data-row="2" data-col="1" data-sizex="2" data-sizey="1">
+	<header class="headerTransparent">TEMP / HUM</header>
+	<div class="top-space-mobile">
+		<div data-type="label"
+			 data-device="esp8266_DS18Temp_aussen"
+			 data-unit="%B0C%0A"
+			 data-substitution="s/(\d$)//g"
+			 data-limits='[-70,20,25]'
+			 data-colors='["#6699FF","green","firebrick"]'
+			 class="big inline">
+		</div>
+		<div data-type="label"
+			 data-device=""
+			 data-get=""
+			 data-unit="%"
+			 data-limits='[-70,20,25]'
+			 data-colors='["#6699FF","green","firebrick"]'
+			 class="big inline">XX%
+		</div>
+		<hr width="85%" class="">
+		<div class="big narrow orange">Draußen
+		</div>
+	</div>
+</li>
+
+<li class="halbTransparent border-left" data-row="2" data-col="3" data-sizex="2" data-sizey="1">
+</li>
+
+<li class="halbTransparent" data-row="3" data-col="1" data-sizex="4" data-sizey="3">
+</li>
+
+<li class="halbTransparent border-left border-right" data-row="6" data-col="1" data-sizex="4" data-sizey="1">
+    <header class="headerTransparent">BATTERIEN</header>
+	<div class="">
+		<div class="inline">
+			<div data-type="symbol"
+				 data-device="esp8266_DS18Temp_aussen"
+				 data-get="battery"
+				 data-states='["ok","low"]'
+				 data-icons='["fa-battery-4","fa-battery-1 fa-blink"]'
+				 data-colors='["green","firebrick"]'
+				 class="">
+			</div>
+			<div class="narrow">Temperatur
+			</div>
+		</div>
+	</div>
+</li>
+
+</ul>
+</div>
+</body>
+</html>

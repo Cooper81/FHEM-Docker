@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Musik</title>
+</head>
+<body>
+
+<div class="gridster">
+<ul>
+<li class="halbTransparent border-left border-right" data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">HOME</header>
+	<div data-type="pagetab"
+		 data-device="st_alert"
+		 data-get-on='["off","[1-9]{1}|[0-9]{2}"]'
+		 data-url="index_home.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-home"
+		 data-icons='["fa-home","fa-home warn"]'
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent" data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">MENÜ</header>
+	<div data-type="pagetab"
+		 data-url="menu.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-bars"
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent border-left border-right" data-row="1" data-col="3" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">DWD</header>
+	<div data-type="pagetab"
+		 data-device="gds"
+		 data-get="a_count"
+		 data-get-on='["no","^[1-9][0-9]|[1-9]$"]'
+		 data-url="dwd.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-bolt"
+		 data-icons='["fa-bolt","fa-bolt warn"]'
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent border-right" data-row="1" data-col="4" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">WETTER</header>
+	<div data-type="pagetab"
+		 data-url="wetter.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-cloud"
+		 class="big cell">
+	</div>
+</li>
+<li class="halbTransparent border-left border-right" data-row="2" data-col="1" data-sizex="4" data-sizey="1">
+	<header class="headerTransparent">SCHLAFZIMMER</header>
+	<div class="top-space-mobile-2">
+		<div class="inline">
+			<div data-type="popup"
+				 data-height="235px"
+				 data-width="325px"
+				 data-draggable="false"
+				 class="">
+				<div data-type="push"
+					 data-off-color="#808080"
+					 data-off-background-color="#3D4C66"
+					 data-icon="ma-queue_music"
+					 class="">
+				</div>
+				<div class="">Sender
+				</div>
+				<div class="dialog dialogTransparent">
+					<header class="dialogheaderTransparent">SCHLAFZIMMER - SENDER</header>
+	<div class="top-space-mobile">
+		<div class="inline">
+							<div onclick="$('.dialog-close').trigger('click');"
+								 data-type="image"
+								 data-url="./images/1live.png"
+								 data-size="76"
+								 data-opacity="1"
+								 data-fhem-cmd="setreading MPD2 now_playing_img ./images/1live.png; set MPD2 playfile http://wdr-1live-live.icecast.wdr.de/wdr/1live/live/mp3/128/stream.mp3; setreading MPD2 now_playing_name 1live; set MPD2 play"
+								 class="">
+							</div>
+							<div class="">&nbsp;
+							</div>
+						</div>
+						<div class="inline left-space">
+							<div onclick="$('.dialog-close').trigger('click');"
+								 data-type="image"
+								 data-url="./images/bochum.png"
+								 data-size="76"
+								 data-opacity="1"
+								 data-fhem-cmd="setreading MPD2 now_playing_img ./images/bochum.png; set MPD2 playfile http://radiobochum.cast.addradio.de/radiobochum/simulcast/high/stream.mp3; setreading MPD2 now_playing_name Radio Bochum; set MPD2 play"
+								 class="">
+							</div>
+							<div class="">&nbsp;
+							</div>
+						</div>
+						<div class="inline left-space">
+							<div onclick="$('.dialog-close').trigger('click');"
+								 data-type="image"
+								 data-url="./images/wdr2.png"
+								 data-size="76"
+								 data-opacity="1"
+								 data-fhem-cmd="setreading MPD2 now_playing_img ./images/wdr2.png; set MPD2 playfile http://wdr-wdr2-ruhrgebiet.icecast.wdr.de/wdr/wdr2/ruhrgebiet/mp3/128/stream.mp3; setreading MPD2 now_playing_name WDR2; set MPD2 play"
+								 class="">
+							</div>
+							<div class="">&nbsp;
+							</div>
+						</div>
+					</div>
+					<div class="">
+						<div class="inline">
+							<div onclick="$('.dialog-close').trigger('click');"
+								 data-type="image"
+								 data-url="./images/rautemusikhouse.png"
+								 data-size="76"
+								 data-opacity="1"
+								 data-fhem-cmd="setreading MPD2 now_playing_img ./images/rautemusikhouse.png; set MPD2 playfile http://de-hz-fal-stream03.rautemusik.fm/house; setreading MPD2 now_playing_name RauteMusik-House; set MPD2 play"
+								 class="">
+							</div>
+							<div class="">&nbsp;
+							</div>
+						</div>
+						<div class="inline left-space">
+							<div onclick="$('.dialog-close').trigger('click');"
+								 data-type="image"
+								 data-url="./images/90er.png"
+								 data-size="76"
+								 data-opacity="1"
+								 data-fhem-cmd="setreading MPD2 now_playing_img ./images/90er.png; set MPD2 playfile http://regiocast.hoerradar.de/sunshinelive-90er-mp3-hq; setreading MPD2 now_playing_name Sunshine Live Die 90er; set MPD2 play"							 
+class="">							</div>
+							<div class="">&nbsp;
+							</div>
+						</div>
+						<div class="inline left-space">
+							<div onclick="$('.dialog-close').trigger('click');"
+								 data-type="image"
+								 data-url="./images/sunshine.png"
+								 data-size="76"
+								 data-opacity="1"
+								 data-fhem-cmd="setreading MPD2 now_playing_img ./images/sunshine.png; set MPD2 playfile http://sunshinelive.hoerradar.de/sunshinelive-live-mp3-hq; setreading MPD2 now_playing_name sunshine live; set MPD2 play"
+								 class="">
+							</div>
+							<div class="">&nbsp;
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="inline">
+			<div data-type="switch"
+				 data-device="MPD2"
+				 data-set-states='["play","stop"]'
+				 data-states='["stop|play/pause|play/buffering|play/duck|play/disconnected|complete|error|PLAY|STOP","play"]'
+				 data-icons='["fa-play","fa-stop"]'
+				 data-colors='["#808080","#808080"]'
+				 data-background-icons='["fa-circle-thin","fa-circle-thin"]'
+				 data-background-colors='["#3D4C66","#3D4C66"]'
+				 class="">
+			</div>
+			<div class="">Play/Stop
+			</div>
+		</div>
+		<div class="inline">
+			<div data-type="symbol"
+				 data-device="MPD2"
+				 data-states='["play","stop","play/pause","play/buffering","play/duck","play/disconnected","complete","error","PLAY","STOP"]'
+				 data-icons='["fa-play","fa-stop","fa-pause","fa-play fa-blink","fa-play fa-blink","ma-signal_wifi_off","fa-stop","fa-exclamation-triangle","fa-play blink","fa-stop blink"]'
+				 data-colors='["green","#808080","#aa6900","#aa6900","#aa6900","firebrick","#808080","firebrick","green","#808080"]'
+				 class="">
+			</div>
+			<div class="">Status
+			</div>
+		</div>
+		<div class="inline left-space-2">
+			<div data-type="popup"
+				 data-width="235"
+				 data-height="100"
+				 data-draggable="false"
+				 class="">
+				<div data-type="image"
+					 data-device="MPD2"
+					 data-get="now_playing_img"
+					 data-size="64"
+					 class="">
+				 </div>
+				 <div class="dialog dialogTransparent">
+					<header class="dialogheaderTransparent">SCHLAFEN - LAUTSTÄRKE</header>
+					<div class="top-space left-space">
+						<div data-type="spinner"
+							 data-device="MPD2"
+							 data-get="volume"
+							 data-set="volume"
+                                      data-icon-left="fa-volume-down"
+                                      data-icon-right="fa-volume-up"
+							 data-max="100"
+							 data-step="1"
+							 data-width="200"
+							 data-color="cornflowerblue"
+							 data-background-color="#3D4C66"
+							 class="horizontal tap">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="">&nbsp;
+			</div>
+		</div>
+	</div>
+</li>
+<li class="halbTransparent border-left border-right" data-row="4" data-col="1" data-sizex="4" data-sizey="1">
+	<header class="headerTransparent">BADEZIMMER</header>
+	<div class="top-space-mobile-2">
+		<div class="inline">		
+				<div data-type="popup"
+				 data-height="235px"
+				 data-width="325px"
+				 data-draggable="false"
+				 class="">
+				<div data-type="push"
+					 data-off-color="#808080"
+					 data-off-background-color="#3D4C66"
+					 data-icon="ma-queue_music"
+					 class="">
+				</div>
+				<div class="">Sender
+				</div>
+				<div class="dialog dialogTransparent">
+					<header class="dialogheaderTransparent">BADEZIMMER - SENDER</header>
+					<div class="top-space">
+						<div class="inline">
+							<div onclick="$('.dialog-close').trigger('click');"
+								 data-type="image"
+								 data-url="./images/1live.png"
+								 data-size="76"
+								 data-opacity="1"
+								 data-fhem-cmd="setreading MPD3 now_playing_img ./images/1live.png; set MPD3 playfile http://wdr-1live-live.icecast.wdr.de/wdr/1live/live/mp3/128/stream.mp3; setreading MPD3 now_playing_name 1live; set MPD3 play"
+								 class="">
+							</div>
+							<div class="">&nbsp;
+							</div>
+						</div>
+						<div class="inline left-space">
+							<div onclick="$('.dialog-close').trigger('click');"
+								 data-type="image"
+								 data-url="./images/bochum.png"
+								 data-size="76"
+								 data-opacity="1"
+								 data-fhem-cmd="setreading MPD3 now_playing_img ./images/bochum.png; set MPD3 playfile http://radiobochum.cast.addradio.de/radiobochum/simulcast/high/stream.mp3; setreading MPD3 now_playing_name Radio Bochum; set MPD3 play"
+								 class="">
+							</div>
+							<div class="">&nbsp;
+							</div>
+						</div>
+						<div class="inline left-space">
+							<div onclick="$('.dialog-close').trigger('click');"
+								 data-type="image"
+								 data-url="./images/wdr2.png"
+								 data-size="76"
+								 data-opacity="1"
+								 data-fhem-cmd="setreading MPD3 now_playing_img ./images/wdr2.png; set MPD3 playfile http://wdr-wdr2-ruhrgebiet.icecast.wdr.de/wdr/wdr2/ruhrgebiet/mp3/128/stream.mp3; setreading MPD3 now_playing_name WDR2; set MPD3 play"
+								 class="">
+							</div>
+							<div class="">&nbsp;
+							</div>
+						</div>
+					</div>
+					<div class="">
+						<div class="inline">
+							<div onclick="$('.dialog-close').trigger('click');"
+								 data-type="image"
+								 data-url="./images/rautemusikhouse.png"
+								 data-size="76"
+								 data-opacity="1"
+								 data-fhem-cmd="setreading MPD3 now_playing_img ./images/rautemusikhouse.png; set MPD3 playfile http://de-hz-fal-stream03.rautemusik.fm/house; setreading MPD3 now_playing_name RauteMusik-House; set MPD3 play"
+								 class="">
+							</div>
+							<div class="">&nbsp;
+							</div>
+						</div>
+						<div class="inline left-space">
+							<div onclick="$('.dialog-close').trigger('click');"
+								 data-type="image"
+								 data-url="./images/90er.png"
+								 data-size="76"
+								 data-opacity="1"
+								 data-fhem-cmd="setreading MPD3 now_playing_img ./images/90er.png; set MPD3 playfile http://regiocast.hoerradar.de/sunshinelive-90er-mp3-hq; setreading MPD3 now_playing_name Sunshine Live Die 90er; set MPD3 play"						 class="">
+							</div>
+							<div class="">&nbsp;
+							</div>
+						</div>
+						<div class="inline left-space">
+							<div onclick="$('.dialog-close').trigger('click');"
+								 data-type="image"
+								 data-url="./images/sunshine.png"
+								 data-size="76"
+								 data-opacity="1"
+								 data-fhem-cmd="setreading MPD3 now_playing_img ./images/sunshine.png; set MPD3 playfile http://sunshinelive.hoerradar.de/sunshinelive-live-mp3-hq; setreading MPD3 now_playing_name sunshine live; set MPD3 play"
+								 class="">
+							</div>
+							<div class="">&nbsp;
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="inline">
+			<div data-type="switch"
+				 data-device="MPD3"
+				 data-set-states='["play","stop"]'
+				 data-states='["stop|play/pause|play/buffering|play/duck|play/disconnected|complete|error|PLAY|STOP","play"]'
+				 data-icons='["fa-play","fa-stop"]'
+				 data-colors='["#808080","#808080"]'
+				 data-background-icons='["fa-circle-thin","fa-circle-thin"]'
+				 data-background-colors='["#3D4C66","#3D4C66"]'
+				 class="">
+			</div>
+			<div class="">Play/Stop
+			</div>
+		</div>
+		<div class="inline">
+			<div data-type="symbol"
+				 data-device="MPD3"
+				 data-states='["play","stop","play/pause","play/buffering","play/duck","play/disconnected","complete","error","PLAY","STOP"]'
+				 data-icons='["fa-play","fa-stop","fa-pause","fa-play fa-blink","fa-play fa-blink","ma-signal_wifi_off","fa-stop","fa-exclamation-triangle","fa-play blink","fa-stop blink"]'
+				 data-colors='["green","#808080","#aa6900","#aa6900","#aa6900","firebrick","#808080","firebrick","green","#808080"]'
+				 class="">
+			</div>
+			<div class="">Status
+			</div>
+		</div>
+		<div class="inline left-space-2">
+			<div data-type="popup"
+				 data-width="235"
+				 data-height="100"
+				 data-draggable="false"
+				 class="">
+				<div data-type="image"
+					 data-device="MPD3"
+					 data-get="now_playing_img"
+					 data-size="64"
+					 class="">
+				 </div>
+				 <div class="dialog dialogTransparent">
+					<header class="dialogheaderTransparent">BAD - LAUTSTÄRKE</header>
+					<div class="top-space left-space">
+						<div data-type="spinner"
+							 data-device="MPD3"
+							 data-get="volume"
+							 data-set="volume"
+                                      data-icon-left="fa-volume-down"
+                                      data-icon-right="fa-volume-up"
+							 data-max="100"
+							 data-step="1"
+							 data-width="200"
+							 data-color="cornflowerblue"
+							 data-background-color="#3D4C66"
+							 class="horizontal tap">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="">&nbsp;
+			</div>
+		</div>
+	</div>
+</li>
+</li>
+<li class="halbTransparent border-left border-right" data-row="4" data-col="1" data-sizex="4" data-sizey="1">
+	<header class="headerTransparent">ARBEITSZIMMER</header>
+	<div class="top-space-mobile-2">
+		<div class="inline">		
+				<div data-type="popup"
+				 data-height="235px"
+				 data-width="325px"
+				 data-draggable="false"
+				 class="">
+				<div data-type="push"
+					 data-off-color="#808080"
+					 data-off-background-color="#3D4C66"
+					 data-icon="ma-queue_music"
+					 class="">
+				</div>
+				<div class="">Sender
+				</div>
+				<div class="dialog dialogTransparent">
+					<header class="dialogheaderTransparent">ARBEITSZIMMER - SENDER</header>
+					<div class="top-space">
+						<div class="inline">
+							<div onclick="$('.dialog-close').trigger('click');"
+								 data-type="image"
+								 data-url="./images/1live.png"
+								 data-size="76"
+								 data-opacity="1"
+								 data-fhem-cmd="setreading MPD1 now_playing_img ./images/1live.png; set MPD1 playfile http://wdr-1live-live.icecast.wdr.de/wdr/1live/live/mp3/128/stream.mp3; setreading MPD1 now_playing_name 1live; set MPD1 play"
+								 class="">
+							</div>
+							<div class="">&nbsp;
+							</div>
+						</div>
+						<div class="inline left-space">
+							<div onclick="$('.dialog-close').trigger('click');"
+								 data-type="image"
+								 data-url="./images/bochum.png"
+								 data-size="76"
+								 data-opacity="1"
+								 data-fhem-cmd="setreading MPD1 now_playing_img ./images/bochum.png; set MPD1 playfile http://radiobochum.cast.addradio.de/radiobochum/simulcast/high/stream.mp3; setreading MPD1 now_playing_name Radio Bochum; set MPD1 play"
+								 class="">
+							</div>
+							<div class="">&nbsp;
+							</div>
+						</div>
+						<div class="inline left-space">
+							<div onclick="$('.dialog-close').trigger('click');"
+								 data-type="image"
+								 data-url="./images/wdr2.png"
+								 data-size="76"
+								 data-opacity="1"
+								 data-fhem-cmd="setreading MPD1 now_playing_img ./images/wdr2.png; set MPD1 playfile http://wdr-wdr2-ruhrgebiet.icecast.wdr.de/wdr/wdr2/ruhrgebiet/mp3/128/stream.mp3; setreading MPD1 now_playing_name WDR2; set MPD1 play"
+								 class="">
+							</div>
+							<div class="">&nbsp;
+							</div>
+						</div>
+					</div>
+					<div class="">
+						<div class="inline">
+							<div onclick="$('.dialog-close').trigger('click');"
+								 data-type="image"
+								 data-url="./images/rautemusikhouse.png"
+								 data-size="76"
+								 data-opacity="1"
+								 data-fhem-cmd="setreading MPD1 now_playing_img ./images/rautemusikhouse.png; set MPD1 playfile http://de-hz-fal-stream03.rautemusik.fm/house; setreading MPD1 now_playing_name RauteMusik-House; set MPD1 play"
+								 class="">
+							</div>
+							<div class="">&nbsp;
+							</div>
+						</div>
+						<div class="inline left-space">
+							<div onclick="$('.dialog-close').trigger('click');"
+								 data-type="image"
+								 data-url="./images/90er.png"
+								 data-size="76"
+								 data-opacity="1"
+								 data-fhem-cmd="setreading MPD1 now_playing_img ./images/90er.png; set MPD1 playfile http://regiocast.hoerradar.de/sunshinelive-90er-mp3-hq
+; setreading MPD1 now_playing_name Sunshine Live Die 90er; set MPD1 play"
+								 class="">
+							</div>
+							<div class="">&nbsp;
+							</div>
+						</div>
+						<div class="inline left-space">
+							<div onclick="$('.dialog-close').trigger('click');"
+								 data-type="image"
+								 data-url="./images/sunshine.png"
+								 data-size="76"
+								 data-opacity="1"
+								 data-fhem-cmd="setreading MPD1 now_playing_img ./images/sunshine.png; set MPD1 playfile http://sunshinelive.hoerradar.de/sunshinelive-live-mp3-hq; setreading MPD1 now_playing_name sunshine live; set MPD1 play"
+								 class="">
+							</div>
+							<div class="">&nbsp;
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="inline">
+			<div data-type="switch"
+				 data-device="MPD1"
+				 data-set-states='["play","stop"]'
+				 data-states='["stop|play/pause|play/buffering|play/duck|play/disconnected|complete|error|PLAY|STOP","play"]'
+				 data-icons='["fa-play","fa-stop"]'
+				 data-colors='["#808080","#808080"]'
+				 data-background-icons='["fa-circle-thin","fa-circle-thin"]'
+				 data-background-colors='["#3D4C66","#3D4C66"]'
+				 class="">
+			</div>
+			<div class="">Play/Stop
+			</div>
+		</div>
+		<div class="inline">
+			<div data-type="symbol"
+				 data-device="MPD1"
+				 data-states='["play","stop","play/pause","play/buffering","play/duck","play/disconnected","complete","error","PLAY","STOP"]'
+				 data-icons='["fa-play","fa-stop","fa-pause","fa-play fa-blink","fa-play fa-blink","ma-signal_wifi_off","fa-stop","fa-exclamation-triangle","fa-play blink","fa-stop blink"]'
+				 data-colors='["green","#808080","#aa6900","#aa6900","#aa6900","firebrick","#808080","firebrick","green","#808080"]'
+				 class="">
+			</div>
+			<div class="">Status
+			</div>
+		</div>
+		<div class="inline left-space-2">
+			<div data-type="popup"
+				 data-width="235"
+				 data-height="100"
+				 data-draggable="false"
+				 class="">
+				<div data-type="image"
+					 data-device="MPD1"
+					 data-get="now_playing_img"
+					 data-size="64"
+					 class="">
+				 </div>
+				 <div class="dialog dialogTransparent">
+					<header class="dialogheaderTransparent">Buro - LAUTSTÄRKE</header>
+					<div class="top-space left-space">
+						<div data-type="spinner"
+							 data-device="MPD1"
+							 data-get="volume"
+							 data-set="volume"
+                                      data-icon-left="fa-volume-down"
+                                      data-icon-right="fa-volume-up"
+							 data-max="100"
+							 data-step="1"
+							 data-width="200"
+							 data-color="cornflowerblue"
+							 data-background-color="#3D4C66"
+							 class="horizontal tap">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="">&nbsp;
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+</ul>
+</div>
+</body>
+</html>
+
+
+

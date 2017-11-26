@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+	<div class="page" id="content_wohnen">	
+		<section>
+		<section id="sectionLicht">
+			<div class="big">Licht
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div data-type="switch"
+							 data-device="Fluter"
+							data-get-on="on"
+							data-get-off="off"							 class="">
+						</div>
+						<div class="">Fluter
+						</div>
+					</td>
+					<td>
+						<div data-type="switch"
+							 data-device="Baum"
+							data-get-on="on"
+							data-get-off="off"
+							 class="">
+						</div>
+						<div class="">Baum
+						</div>
+					</td>
+					<td>
+						<div data-type="switch"
+							data-device="Flur"
+							data-get-on="on"
+							data-get-off="off"
+							 class="">
+						</div>
+						<div class="">Flur
+						</div>
+					</td>
+				</tr>
+			</table>
+		</section>
+		<section>
+
+			<div onclick="if ($('#dropsonoswohnzimmer').is(':hidden')) { $('#dropsonoswohnzimmer').slideDown(250); $('#dropdownsonoswohnzimmer > i.fa').addClass('fa-rotate-180'); } else { $('#dropsonoswohnzimmer').slideUp(250); $('#dropdownsonoswohnzimmer > i.fa').removeClass('fa-rotate-180'); }"
+				 id="dropdownsonoswohnzimmer"
+				 class="big">SONOS&nbsp;
+				<i class="fa fa-angle-down large"></i>
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+					</td>
+				</tr>
+				<tr>
+						<div data-type="select"
+							 data-device="Sonos_Wohnzimmer"
+							 data-get="currentTrackURI"
+							 data-set="PlayURI"
+							 data-items='["http://wdr-1live-live.icecast.wdr.de/wdr/1live/live/mp3/128/stream.mp3","http://wdr-1live-diggi.icecast.wdr.de/wdr/1live/diggi/mp3/128/stream.mp3","http://onair-ha1.krone.at/kronehit-90sdance.mp3","http://wdr-wdr2-ruhrgebiet.icecast.wdr.de/wdr/wdr2/ruhrgebiet/mp3/128/stream.mp3","http://radiobochum.cast.addradio.de/radiobochum/simulcast/high/stream.mp3","http://stream.slam.nl/slam","http://regiocast.hoerradar.de/sunshinelive-90er-mp3-hq","http://sunshinelive.hoerradar.de/sunshinelive-live-mp3-hq"]'
+							 data-alias='["1Live",                                                                  "1LiveDiggi",
+"Kronehit",
+"WDR2",
+"Radio_Bochum",
+"SlamFM!",
+"sunshine-live_90er",
+"sunshine-live"]'
+							 class="top-space">
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-device="Sonos_Wohnzimmer"
+							 data-get="infoSummarize2"
+			 				     class="">
+						</div>
+					</td>
+					<td>
+						<div data-type="switch"
+							 data-device="Sonos_Wohnzimmer"
+							 data-get="transportState"
+							 data-set=""
+							 data-states='["PLAYING","PAUSED_PLAYBACK","STOPPED","ERROR"]'
+							 data-set-states='["Stop","Play","Play",""]'
+							 data-icons='["fa-stop","fa-pause fa-blink","fa-play","fa-exclamation-triangle"]'
+							 data-colors='["#eee","#eee","#eee","firebrick"]'
+							 data-background-icons='["fa-circle","fa-circle","fa-circle","fa-circle"]'
+							 data-background-colors='["#0088CC","#0088CC","#888","#888"]'
+							 class="">
+						</div>
+						<div class="">Play / Stop
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+		<div class="sheet top-space-2x">
+			<div class="row">
+				<div class="cell">
+					<div	data-type="volume"
+							data-device="Sonos_Wohnzimmer"
+							data-get="Volume"
+							data-set="Volume"
+							data-min="0"
+							data-max="40">
+					</div>
+					<div	data-type="push"
+							data-device="Sonos_Wohnzimmer"
+							data-get="mute"
+							data-set-on="mute"
+							data-icon="oa-audio_volume_mute"
+							class="top-narrow-2x">
+					</div>
+				</div>
+			</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+			<div id="dropsonoswohnzimmer">
+				<table>
+					<tr>
+						<td width="25%" style="border-top:1px dashed #aaa;">
+							<div class="top-space">Bass:
+							</div>
+						</td>
+						<td style="border-top:1px dashed #aaa;">
+							<div data-type="slider"
+								 data-device="Sonos_Wohnzimmer"
+								 data-get="Bass"
+								 data-set="Bass"
+								 data-min="-10"
+								 data-max="10"
+								 data-width="200"
+								 data-color="#0088CC"
+								 data-background-color="#333"
+								 class="horizontal tap top-space centered">
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="top-space">Treble:
+							</div>
+						</td>
+						<td>
+							<div data-type="slider"
+								 data-device="Sonos_Wohnzimmer"
+								 data-get="Treble"
+								 data-set="Treble"
+								 data-min="-10"
+								 data-max="10"
+								 data-width="200"
+								 data-color="#0088CC"
+								 data-background-color="#333"
+								 class="horizontal tap top-space centered"></div>
+						</td>
+					</tr>
+			</table>
+		</section>
+		<section id="sectionreceiver">
+			<div class="big">SKY Receiver
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+                 <div data-type="image"
+                          data-url="http://192.168.2.30/grab?format=jpg&r=1280&&filename=/tmp/screen1"
+                          data-size='350'
+                          data-refresh="600"
+                          class="row top-space nocache">
+                 </div>
+                 <div class="row top-space">
+                     <div data-type="label" data-device="SKYReceiver" data-get="eventstart_hr" data-substitution="s/(:00)$//g" class="inline middle"></div>
+                     <div data-type="level" data-device="SKYReceiver" data-get="eventcurrenttime" data-min="eventstart" data-max="eventstart_next" data-width="240"   class="horizontal inline middle"></div>
+                     <div data-type="label" data-device="SKYReceiver" data-get="eventstart_next_hr" data-substitution="s/(:00)$//g" class="inline middle"></div>
+                 </div>
+                 <div class="row large">
+                     <div data-type="label" data-device="SKYReceiver" data-get="currentTitle" class="bold"></div>
+                     <div data-type="label" data-device="SKYReceiver" data-get="channel" class=""></div>
+                 </div>
+                 <div class="row top-space">
+                     <div data-type="switch" data-device="SKYReceiver" data-get="power" data-set-on-off="power"
+                          data-icon="fa-power-off" data-background-icon="-"
+                          data-on-color="white" data-off-color="gray"
+                          data-on-background-color="white" data-off-background-color="gray"
+                          class="col">
+                     </div>
+                     <div data-type="push" data-device="SKYReceiver"
+                           data-icon="fa-step-backward" data-background-icon="-"
+                           data-off-color="#fff" data-on-color="#aa6900"
+                           data-set-on="channelDown" class="col-1-5 big">
+                     </div>
+                     <div data-type="push" data-device="SKYReceiver"
+                           data-icon="fa-step-forward" data-background-icon="-"
+                           data-off-color="#fff" data-on-color="#aa6900"
+                           data-set-on="channelUp" class="col-1-5 big">
+                     </div>
+                     <div data-type="switch" data-device="SKYReceiver" data-get="mute" data-set="mute"
+                           data-icon="fa-volume-off" data-background-icon="-"
+                           data-on-color="white" data-off-color="gray"
+                           class="col-1-5">
+                     </div>
+               </div>
+        </li>
+        <li data-row="1" data-col="5" data-sizex="4" data-sizey="5">
+             <header>CHANNELS</header>
+             <div class="row top-space-3x">
+		  <div data-type="select" data-device="SKYReceiver" data-delimiter="," data-list="inputList" data-get="input" data-set="input" class=""></div>
+
+             <div data-type="select" data-device="SKYReceiver" data-delimiter="," data-list="channelList" data-get="channel" data-set="channel" class=""></div>
+             <div data-type="label" data-device="SKYReceiver" data-get="eventdescription" class="large top-space-3x"></div>
+</div>
+</html>

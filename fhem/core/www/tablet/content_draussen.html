@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+	<div class="page" id="content_draussen">
+		<section>
+			<div class="big">Temperatur / Luftfeuchte
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td colspan="4">
+						<div data-type="label"
+							 data-device="dht_dummy"
+							 data-get="temperature"
+							 data-limits='[-70,20,25]'
+							 data-colors='["#0088CC","green","firebrick"]'
+							 data-unit="°C"
+							 data-fix="1"
+							 class="tall thin">
+						</div>
+					</td>
+					<td>
+						<div data-type="symbol"
+							 data-device="dht_dummy"
+							 data-get="sensor"
+							 data-states='["ost","west"]'
+							 data-icons='["mi-navigation fa-rotate-90","mi-navigation fa-rotate-270"]'
+							 class="">
+						</div>
+					</td>
+					<td colspan="4">
+						<div data-type="label"
+							 data-device="dht_dummy"
+							 data-get="humidity"
+							 data-limits='[0,40,71]'
+							 data-colors='["#0088CC","green","firebrick"]'
+							 data-unit="%"
+							 data-fix="1"
+							 class="tall thin">
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;
+					</td>
+					<td>
+						<div data-type="klimatrend"
+							 data-device="dht_dummy"
+							 data-get="statTemperatureTendency"
+							 data-refperiod="1"
+							 class="big">
+						</div>
+					</td>
+					<td>
+						<div data-type="klimatrend"
+							 data-device="dht_dummy"
+							 data-get="statTemperatureTendency"
+							 data-refperiod="2"
+							 class="big">
+						</div>
+					</td>
+					<td>&nbsp;
+					</td>
+					<td>Sensor<br />West/Ost
+					</td>
+					<td>&nbsp;
+					</td>
+					<td>
+						<div data-type="klimatrend"
+							 data-device="dht_dummy"
+							 data-get="statHumidityTendency"
+							 data-refperiod="1"
+							 class="big">
+						</div>
+					</td>
+					<td>
+						<div data-type="klimatrend"
+							 data-device="dht_dummy"
+							 data-get="statHumidityTendency"
+							 data-refperiod="2"
+							 class="big">
+						</div>
+					</td>
+					<td>&nbsp;
+					</td>
+				</tr>
+			</table>
+		</section>
+		<section>
+			<div class="big">Garage<br />Temperatur / Luftfeuchte
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div data-type="label"
+							 data-device="dht22_garage"
+							 data-get="temperature"
+							 data-limits='[-70,20,25]'
+							 data-colors='["#0088CC","green","firebrick"]'
+							 data-unit="°C"
+							 data-fix="1"
+							 class="tall thin">
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-device="dht22_garage"
+							 data-get="humidity"
+							 data-limits='[0,40,71]'
+							 data-colors='["#0088CC","green","firebrick"]'
+							 data-unit="%"
+							 data-fix="1"
+							 class="tall thin">
+						</div>
+					</td>
+				</tr>
+			</table>
+		</section>
+		<section>
+			<div class="big">Garagentor
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div data-type="symbol"
+							 data-device="ga_tor"
+							 data-states='["closed","open","open_car","semiopen","error","sabotage"]'
+							 data-icons='["oa-fts_garage_door_100","oa-fts_garage_door_10","oa-fts_garage","oa-fts_garage_door_50","fa-exclamation-triangle","fa-chain-broken fa-blink"]'
+							 data-colors='["#888","#aa6900","firebrick","#aa6900","firebrick","firebrick"]'
+							 class="">
+						</div>
+					</td>
+					<td>
+						<div data-type="switch"
+							 data-device="ga_tor"
+							 data-states='["open","semiopen","closed","sabotage"]'
+							 data-set-states='["act","act","act","",""]'
+							 data-cmd="trigger"
+							 data-icons='["oa-fts_garage_door_100","oa-fts_garage_door_50 fa-blink","oa-fts_garage_door_10","fa-chain-broken fa-blink"]'
+							 data-colors='["#888","#888","#888","firebrick"]'
+							 data-background-icons='["fa-circle-thin","fa-circle-thin","fa-circle-thin","none"]'
+							 data-background-colors='["#888","#888","#888","#888"]'
+							 class="">
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="">&nbsp;
+						</div>
+					</td>
+					<td>
+						<div class="">Auf/Zu
+						</div>
+					</td>
+				</tr>
+			</table>
+		</section>
+		<section>
+			<div class="big">Licht
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div data-type="switch"
+							 data-device="ga_licht"
+							 data-on-color="#eee"
+							 data-off-color="#eee"
+							 data-on-background-color="#0088CC"
+							 data-off-background-color="#888"
+							 class="">
+						</div>
+					</td>
+					<td>
+						<div data-type="switch"
+							 data-device="dr_licht_gang"
+							 data-on-color="#eee"
+							 data-off-color="#eee"
+							 data-on-background-color="#0088CC"
+							 data-off-background-color="#888"
+							 data-icon="oa-light_wall_2"
+							 class="">
+						</div>
+					</td>
+					<td>
+						<div data-type="switch"
+							 data-device="dr_licht_sitzecke"
+							 data-on-color="#eee"
+							 data-off-color="#eee"
+							 data-on-background-color="#0088CC"
+							 data-off-background-color="#888"
+							 data-icon="oa-light_wall_2"
+							 class="">
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="">Garage
+						</div>
+					</td>
+					<td>
+						<div class="">Gang
+						</div>
+					</td>
+					<td>
+						<div class="">Sitzecke
+						</div>
+					</td>
+				</tr>
+			</table>
+			<div class="big top-space">LED-Stripe
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div data-type="switch"
+							 data-device="gpio18_garage"
+							 data-states='["0","^((?!0).*)$"]'
+							 data-set-states='["0","0"]'
+							 data-icons='["mi-brightness_5","mi-brightness_5"]'
+							 data-colors='["#eee","#888"]'
+							 data-background-icons='["fa-circle","fa-circle-thin"]'
+							 data-background-colors='["#0088CC","#888"]'
+							 class="">
+						</div>
+						<div class="">Aus
+						</div>
+					</td>
+					<td>
+						<div data-type="switch"
+							 data-device="gpio18_garage"
+							 data-states='["50","^((?!50).*)$"]'
+							 data-set-states='["50","50"]'
+							 data-icons='["mi-brightness_4","mi-brightness_4"]'
+							 data-colors='["#eee","#888"]'
+							 data-background-icons='["fa-circle","fa-circle-thin"]'
+							 data-background-colors='["#0088CC","#888"]'
+							 class="">
+						</div>
+						<div class="">gedimmt
+						</div>
+					</td>
+					<td>
+						<div data-type="switch"
+							 data-device="gpio18_garage"
+							 data-states='["1024","^((?!1024).*)$"]'
+							 data-set-states='["1024","1024"]'
+							 data-icons='["mi-brightness_7","mi-brightness_7"]'
+							 data-colors='["#eee","#888"]'
+							 data-background-icons='["fa-circle","fa-circle-thin"]'
+							 data-background-colors='["#0088CC","#888"]'
+							 class="">
+						</div>
+						<div class="">An
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3">
+						<div data-type="slider"
+							 data-device="gpio18_garage"
+							 data-min="0"
+							 data-max="1024"
+							 data-step="1"
+							 data-on="1024"
+							 data-off="0"
+							 data-width="250"
+							 data-color="#0088CC"
+							 class="horizontal tap top-space-2 centered">
+						</div>
+					</td>
+				</tr>
+			</table>
+		</section>
+		<section>
+			<div class="big">Streckdosen
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div data-type="switch"
+							 data-device="dr_steckdose"
+							 data-on-color="#eee"
+							 data-off-color="#eee"
+							 data-on-background-color="#0088CC"
+							 data-off-background-color="#888"
+							 data-icon="fa-plug"
+							 class="">
+						</div>
+					</td>
+					<td>
+						<div data-type="switch"
+							 data-device="ga_repeater"
+							 data-on-color="#eee"
+							 data-off-color="#eee"
+							 data-on-background-color="#0088CC"
+							 data-off-background-color="#888"
+							 data-icon="oa-it_router"
+							 class="">
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="">Steckdosen
+						</div>
+					</td>
+					<td>
+						<div class="">Repeater
+						</div>
+					</td>
+				</tr>
+			</table>
+		</section>
+		<section>
+			<div class="big">Hauptschalter
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div data-type="push"
+							 data-device=""
+							 data-fhem-cmd="set ga_licht off;set ga_repeater off; set dr_licht_gang off;set dr_licht_sitzecke off;set dr_steckdose off"
+							 class="">
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="">Alles Aus
+						</div>
+					</td>
+				</tr>
+			</table>
+		</section>
+		<section>
+			<div class="big">Temperatur / Luftfeuchte
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div class="">West
+						</div>
+					</td>
+					<td>
+						<div class="">Ost
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div data-type="label"
+							 data-device="dht_esp_west"
+							 data-get="temperature"
+							 data-limits='[-70,20,25]'
+							 data-colors='["#0088CC","green","firebrick"]'
+							 data-unit="°C"
+							 data-fix="1"
+							 class="tall thin">
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-device="dht_esp_ost"
+							 data-get="temperature"
+							 data-limits='[-70,20,25]'
+							 data-colors='["#0088CC","green","firebrick"]'
+							 data-unit="°C"
+							 data-fix="1"
+							 class="tall thin">
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="25%">
+						<div data-type="label"
+							 data-device="dht_esp_west"
+							 data-get="humidity"
+							 data-limits='[0,40,71]'
+							 data-colors='["#0088CC","green","firebrick"]'
+							 data-unit="%"
+							 data-fix="1"
+							 class="tall thin">
+						</div>
+					</td>
+					<td width="25%">
+						<div data-type="label"
+							 data-device="dht_esp_ost"
+							 data-get="humidity"
+							 data-limits='[0,40,71]'
+							 data-colors='["#0088CC","green","firebrick"]'
+							 data-unit="%"
+							 data-fix="1"
+							 class="tall thin">
+						</div>
+					</td>
+				</tr>
+			</table>
+		</section>
+		<section>
+			<div class="big">Batteriestatus
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div data-type="symbol"
+							 data-device="dht_esp_west"
+							 data-get="battery_state"
+							 data-states='["ok","low"]'
+							 data-icons='["fa-battery-4","fa-battery-1 fa-blink"]'
+							 data-colors='["green","firebrick"]'
+							 class="">
+						</div>
+						<div class="narrow">Sensor<br/>West
+						</div>
+					</td>
+					<td>
+						<div data-type="symbol"
+							 data-device="dht_esp_ost"
+							 data-get="battery_state"
+							 data-states='["ok","low"]'
+							 data-icons='["fa-battery-4","fa-battery-1 fa-blink"]'
+							 data-colors='["green","firebrick"]'
+							 class="">
+						</div>
+						<div class="narrow">Sensor<br/>Ost
+						</div>
+					</td>
+				</tr>
+			</table>
+		</section>
+	</div>
+</body>
+</html>

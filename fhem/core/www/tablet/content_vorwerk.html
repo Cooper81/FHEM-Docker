@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+    <div class="page" id="content_vorwerk">
+		<section>
+			<div class="big">R2D2
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div data-type="push"
+							 data-device="R2D2"
+							 data-set="startCleaning"
+			 				 data-on-color="black"
+			 				 data-off-color="#808080"
+			 				 data-on-background-color="cornflowerblue"
+			 				 data-off-background-color="#3D4C66"
+			 				 data-icon="fa-play"
+				 				     class="">
+						</div>
+						<div class="">Start
+						</div>
+					</td>
+					<td>
+						<div data-type="push"
+							 data-device="R2D2"
+							 data-set="stop"	
+			 				 data-on-color="black"
+			 				 data-off-color="#808080"
+			 				 data-on-background-color="cornflowerblue"
+			 				 data-off-background-color="#3D4C66"
+			 				 data-icon="fa-stop"
+			 				     class="">
+						</div>
+						<div class="">Stop
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-device="R2D2"
+							 data-get="state"
+			 				     class="">
+						</div>
+					</td>
+					<td>												<div class="">Akku:
+						</div>
+
+						<div data-type="symbol"
+							 data-device="R2D2"
+							 data-get="charge"
+							 data-states='["0","25","50","80"]'					  							 	 data-icons='["oa-measure_battery_25 fa-rotate-90","oa-measure_battery_50 fa-rotate-90","oa-measure_battery_75 fa-rotate-90","oa-measure_battery_100 fa-rotate-90"]'
+							 data-colors='["red","firebrick","yellow","green"]'
+							 class="">
+						</div>
+						<div data-type="label" 								      data-device="R2D2" 
+							 data-get="charge"></div>%					</td>
+					<td>
+						<div class="">Laden:
+						</div>
+
+						<div data-type="symbol"
+							 data-device="R2D2"
+							 data-get="isCharging"
+							 data-states='["0","1"]'
+							 data-icon="oa-message_socket"
+							 data-colors='["red","green"]'
+			 				     class="">
+						</div>
+					</td>
+					<td>
+						<div data-type="push"
+							 data-device="R2D2"
+							 data-set-off="sendToBase"				 			
+			 				 data-on-color="black"
+			 				 data-off-color="#808080"
+			 				 data-on-background-color="cornflowerblue"
+			 				 data-off-background-color="#3D4C66"
+	     class="">
+						</div>
+						<div class="">Zur Basis
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

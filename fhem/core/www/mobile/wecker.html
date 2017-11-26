@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Wecker</title>
+</head>
+<body>
+
+<div class="gridster">
+<ul>
+<li class="halbTransparent border-left border-right" data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">HOME</header>
+	<div data-type="pagetab"
+		 data-device="st_alert"
+		 data-get-on='["off","[1-9]{1}|[0-9]{2}"]'
+		 data-url="index_home.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-home"
+		 data-icons='["fa-home","fa-home warn"]'
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent" data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">MENÜ</header>
+	<div data-type="pagetab"
+		 data-url="menu.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-bars"
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent border-left border-right" data-row="1" data-col="3" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">DWD</header>
+	<div data-type="pagetab"
+		 data-device="gds"
+		 data-get="a_count"
+		 data-get-on='["no","^[1-9][0-9]|[1-9]$"]'
+		 data-url="dwd.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-bolt"
+		 data-icons='["fa-bolt","fa-bolt warn"]'
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent border-right" data-row="1" data-col="4" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">WETTER</header>
+	<div data-type="pagetab"
+		 data-url="wetter.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-cloud"
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent border-left border-right" data-row="2" data-col="1" data-sizex="2" data-sizey="3">
+	<header class="headerTransparent">WECKZEITEN</header>
+	<div class="small top-space-mobile-2">
+   <tr><td>Montag:</td>
+   <td><div
+    data-type="datetimepicker"
+    data-device="di_Wecker"
+    data-get="W_Montag"
+    data-set="W_Montag"
+    data-format="H:i"
+    data-step="10"
+    data-datepicker="false" >
+   </div></td></tr>
+   <tr><td>Dienstag:</td>
+   <td><div
+    data-type="datetimepicker"
+    data-device="di_Wecker"
+    data-get="W_Dienstag"
+    data-set="W_Dienstag"
+    data-format="H:i"
+    data-step="10"
+    data-datepicker="false">
+   </div></td></tr>
+   <tr><td>Mittwoch:</td>
+   <td><div
+    data-type="datetimepicker"
+    data-device="di_Wecker"
+    data-get="W_Mittwoch"
+    data-set="W_Mittwoch"
+    data-format="H:i"
+    data-step="10"
+    data-datepicker="false">
+   </div></td></tr>
+   <tr><td>Donnerstag:</td>
+   <td><div
+    data-type="datetimepicker"
+    data-device="di_Wecker"
+    data-get="W_Donnerstag"
+    data-set="W_Donnerstag"
+    data-format="H:i"
+    data-step="10"
+    data-datepicker="false">
+   </div></td></tr>
+   <tr><td>Freitag:</td>
+   <td><div
+    data-type="datetimepicker"
+    data-device="di_Wecker"
+    data-get="W_Freitag"
+    data-set="W_Freitag"
+    data-format="H:i"
+    data-step="10"
+    data-datepicker="false">
+   </div></td></tr>
+   <tr><td>Samstag:</td>
+   <td><div
+    data-type="datetimepicker"
+    data-device="di_Wecker"
+    data-get="W_Samstag"
+    data-set="W_Samstag"
+    data-format="H:i"
+    data-step="10"
+    data-datepicker="false">
+   </div></td></tr>
+   <tr><td>Sonntag:</td>
+   <td><div
+    data-type="datetimepicker"
+    data-device="di_Wecker"
+    data-get="W_Sonntag"
+    data-set="W_Sonntag"
+    data-format="H:i"
+    data-step="10"
+    data-datepicker="false">
+   </div></td></tr>
+ </table>
+	 <div class="top-space-2x"> 
+ <div data-type="label" class="inline">Reset</div>
+ <div data-type="push" 
+    data-device="di_Wecker" 
+    data-set="W_Reset"
+    data-set-on="on" 
+    class="inline"></div>
+  
+ <div data-type="label" class="inline">Aktiv</div>
+ <div data-type="switch" 
+    data-device="di_Wecker" 
+    data-set="W_Aktiv"
+    data-get="W_Aktiv"
+    data-states='["on","off"]'
+    data-icons='["fa-toggle-on","fa-toggle-off"]'
+    data-colors='["green","red"]'
+    data-background-icons='["fa-blank","fa-blank"]'
+    data-background-colors='["#2A2A2A","#2A2A2A"]'
+    data-on-background-color="grey"
+    data-off-background-color="grey"
+    data-set-on="on"
+    data-set-off="off"
+    data-get-on="on"
+    data-get-off="off"
+    class="inline"></div>
+</li>	
+
+<li class="halbTransparent border-left border-right" data-row="2" data-col="3" data-sizex="2" data-sizey="3">
+	<header class="headerTransparent">AUSSCHALTZEITEN</header>
+	<div class="small top-space-mobile-2">
+   <tr><td>Montag:</td>
+   <td><div
+    data-type="datetimepicker"
+    data-device="di_Wecker2"
+    data-get="W_Montag"
+    data-set="W_Montag"
+    data-format="H:i"
+    data-step="10"
+    data-datepicker="false" >
+   </div></td></tr>
+   <tr><td>Dienstag:</td>
+   <td><div
+    data-type="datetimepicker"
+    data-device="di_Wecker2"
+    data-get="W_Dienstag"
+    data-set="W_Dienstag"
+    data-format="H:i"
+    data-step="10"
+    data-datepicker="false">
+   </div></td></tr>
+   <tr><td>Mittwoch:</td>
+   <td><div
+    data-type="datetimepicker"
+    data-device="di_Wecker2"
+    data-get="W_Mittwoch"
+    data-set="W_Mittwoch"
+    data-format="H:i"
+    data-step="10"
+    data-datepicker="false">
+   </div></td></tr>
+   <tr><td>Donnerstag:</td>
+   <td><div
+    data-type="datetimepicker"
+    data-device="di_Wecker2"
+    data-get="W_Donnerstag"
+    data-set="W_Donnerstag"
+    data-format="H:i"
+    data-step="10"
+    data-datepicker="false">
+   </div></td></tr>
+   <tr><td>Freitag:</td>
+   <td><div
+    data-type="datetimepicker"
+    data-device="di_Wecker2"
+    data-get="W_Freitag"
+    data-set="W_Freitag"
+    data-format="H:i"
+    data-step="10"
+    data-datepicker="false">
+   </div></td></tr>
+   <tr><td>Samstag:</td>
+   <td><div
+    data-type="datetimepicker"
+    data-device="di_Wecker2"
+    data-get="W_Samstag"
+    data-set="W_Samstag"
+    data-format="H:i"
+    data-step="10"
+    data-datepicker="false">
+   </div></td></tr>
+   <tr><td>Sonntag:</td>
+   <td><div
+    data-type="datetimepicker"
+    data-device="di_Wecker2"
+    data-get="W_Sonntag"
+    data-set="W_Sonntag"
+    data-format="H:i"
+    data-step="10"
+    data-datepicker="false">
+   </div></td></tr>
+ </table>
+  	 <div class="top-space-2x">
+ <div data-type="label" class="inline">Reset</div>
+ <div data-type="push" 
+    data-device="di_Wecker2" 
+    data-set="W_Reset"
+    data-set-on="on" 
+    class="inline"></div>
+  
+ <div data-type="label" class="inline">Aktiv</div>
+ <div data-type="switch" 
+    data-device="di_Wecker2" 
+    data-set="W_Aktiv"
+    data-get="W_Aktiv"
+    data-states='["on","off"]'
+    data-icons='["fa-toggle-on","fa-toggle-off"]'
+    data-colors='["green","red"]'
+    data-background-icons='["fa-blank","fa-blank"]'
+    data-background-colors='["#2A2A2A","#2A2A2A"]'
+    data-on-background-color="grey"
+    data-off-background-color="grey"
+    data-set-on="on"
+    data-set-off="off"
+    data-get-on="on"
+    data-get-off="off"
+    class="inline"></div>
+</li>	
+</ul>
+</div>
+</body>
+</html>

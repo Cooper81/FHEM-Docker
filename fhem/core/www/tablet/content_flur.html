@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+	<div class="page" id="content_flur">
+		<section>
+			<div class="big">T&uuml;r / Temperatur
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div data-type="symbol"
+							 data-device="KeyMatic"
+							 data-get="door"
+							 data-states='["closed","open","MISSING.*"]'
+							 data-icons='["ftui-door","ftui-door","ftui-door warn"]'
+							 data-colors='["#888","firebrick","#888"]'
+							 class="">
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-device="BMP180_flur"
+							 data-get="temperature"
+							 data-limits='[-70,20,25]'
+							 data-colors='["#0088CC","green","firebrick"]'
+							 data-unit="°C"
+							 class="tall thin">
+						</div>
+					</td>
+				</tr>
+			</table>
+		</section>
+        <section>
+			<div class="big">Wohnungst&uuml;r
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div data-type="switch"
+							 data-device="KeyMatic"
+							 data-states='["(locked)","(unlocked)","(locked.*)","(unlocked.*)"]'
+							 data-set-states='["unlock","lock","lock","lock"]'
+							 data-icons='["fa-lock","fa-unlock","fa-question fa-lg","fa-question fa-lg"]'
+							 data-background-icons='["fa-circle","fa-circle","fa-lock","fa-unlock"]'
+							 data-colors='["#eee","firebrick","firebrick","firebrick"]'
+							 data-background-colors='["#888","#0088CC","#333","#333"]'
+							 class="">
+						</div>
+						<div class="">Schloss<br />Wohnungst&uuml;r
+						</div>
+					</td>
+					<td>
+						<div data-type="push"
+							 data-device="KeyMatic"
+							 data-set-on="open"
+							 data-icon="ftui-door"
+							 class="">
+						</div>
+						<div class="">Wohnungst&uuml;r
+						</div>
+					</td>
+				</tr>
+			</table>
+        </section>
+		<section>
+			<div class="big">Licht
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div data-type="switch"
+							 data-device="fl_licht"
+							 data-on-color="#eee"
+							 data-off-color="#eee"
+							 data-on-background-color="#0088CC"
+							 data-off-background-color="#888"
+							 class="">
+						</div>
+						<div class="">Decke
+						</div>
+					</td>
+					<td>
+						<div data-type="push"
+							 data-device="fl_aktor_licht"
+							 data-set-on="on-for-timer 300"
+							 data-icon="fa-clock-o"
+							 class="">
+						</div>
+						<div class="">5 Min.
+						</div>
+					</td>
+					<td style="border-left:1px dashed #aaa;">
+						<div data-type="switch"
+							 data-device="fl_spot"
+							 data-on-color="#eee"
+							 data-off-color="#eee"
+							 data-on-background-color="#0088CC"
+							 data-off-background-color="#888"
+							 class="">
+						</div>
+						<div class="">Spot
+						</div>
+					</td>
+				</tr>
+			</table>
+			<div class="big top-space">indirektes Licht
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div data-type="switch"
+							 data-device="gpio18_flur"
+							 data-states='["0","^((?!0).*)$"]'
+							 data-set-states='["0","0"]'
+							 data-icons='["mi-brightness_5","mi-brightness_5"]'
+							 data-colors='["#eee","#888"]'
+							 data-background-icons='["fa-circle","fa-circle-thin"]'
+							 data-background-colors='["#0088CC","#888"]'
+							 class="">
+						</div>
+						<div class="">Aus
+						</div>
+					</td>
+					<td>
+						<div data-type="switch"
+							 data-device="gpio18_flur"
+							 data-states='["20","^((?!20).*)$"]'
+							 data-set-states='["20","20"]'
+							 data-icons='["mi-brightness_4","mi-brightness_4"]'
+							 data-colors='["#eee","#888"]'
+							 data-background-icons='["fa-circle","fa-circle-thin"]'
+							 data-background-colors='["#0088CC","#888"]'
+							 class="">
+						</div>
+						<div class="">Nacht
+						</div>
+					</td>
+					<td>
+						<div data-type="switch"
+							 data-device="gpio18_flur"
+							 data-states='["1024","^((?!1024).*)$"]'
+							 data-set-states='["1024","1024"]'
+							 data-icons='["mi-brightness_7","mi-brightness_7"]'
+							 data-colors='["#eee","#888"]'
+							 data-background-icons='["fa-circle","fa-circle-thin"]'
+							 data-background-colors='["#0088CC","#888"]'
+							 class="">
+						</div>
+						<div class="">An
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3">
+						<div data-type="slider"
+							 data-device="gpio18_flur"
+							 data-min="0"
+							 data-max="1024"
+							 data-step="32"
+							 data-on="1024"
+							 data-off="0"
+							 data-width="250"
+							 data-color="#0088CC"
+							 class="horizontal tap top-space-2 centered">
+						</div>
+					</td>
+				</tr>
+			</table>
+		</section>
+		<section>
+			<div class="big">Batteriestatus
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td colspan="2">
+						<div data-type="symbol"
+							 data-device="Roman_Schluessel"
+							 data-get="battery"
+							 data-states='["([0-9]|[1][0-9])",           "([2][0-5])",       "([2][6-9]|[3][0-9]|[4][0-9]|50)","([5][1-9]|[6][0-9]|[7][0-5])","([7][6-9]|[8][0-9]|[9][0-9]|100)"]'
+							 data-icons='["fa-battery-0 fa-blink warn","fa-battery-1 warn","fa-battery-2",                   "fa-battery-3",                "fa-battery-4"]'
+							 data-colors='["firebrick",                "firebrick",        "#aa6900",                        "green",                       "green"]'
+							 class="top-space">
+						</div>
+						<div class="narrow">Schl&uuml;ssel<br />Roman
+						</div>
+					</td>
+					<td colspan="2">
+						<div data-type="symbol"
+							 data-device="Sarah_Schluessel"
+							 data-get="battery"
+							 data-states='["([0-9]|[1][0-9])",           "([2][0-5])",       "([2][6-9]|[3][0-9]|[4][0-9]|50)","([5][1-9]|[6][0-9]|[7][0-5])","([7][6-9]|[8][0-9]|[9][0-9]|100)"]'
+							 data-icons='["fa-battery-0 fa-blink warn","fa-battery-1 warn","fa-battery-2",                   "fa-battery-3",                "fa-battery-4"]'
+							 data-colors='["firebrick",                "firebrick",        "#aa6900",                        "green",                       "green"]'
+							 class="top-space">
+						</div>
+						<div class="narrow">Schl&uuml;ssel<br />Sarah
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div data-type="symbol"
+							 data-device="eco_taster"
+							 data-get="battery"
+							 data-states='["ok","low"]'
+							 data-icons='["fa-battery-4","fa-battery-1 fa-blink"]'
+							 data-colors='["green","firebrick"]'
+							 class="">
+						</div>
+						<div class="narrow">Eco-Taster
+						</div>
+					</td>
+					<td>
+						<div data-type="symbol"
+							 data-device="fl_tuerkontakt"
+							 data-get="battery"
+							 data-states='["ok","low"]'
+							 data-icons='["fa-battery-4","fa-battery-1 fa-blink"]'
+							 data-colors='["green","firebrick"]'
+							 class="">
+						</div>
+						<div class="narrow">T&uuml;rkontakt
+						</div>
+					</td>
+					<td>
+						<div data-type="symbol"
+							 data-device="KeyMatic"
+							 data-get="battery"
+							 data-states='["ok","low"]'
+							 data-icons='["fa-battery-4","fa-battery-1 fa-blink"]'
+							 data-colors='["green","firebrick"]'
+							 class="">
+						</div>
+						<div class="narrow">T&uuml;rschloss
+						</div>
+					</td>
+					<td>
+						<div data-type="symbol"
+							 data-device="HM_2FB144"
+							 data-get="battery"
+							 data-states='["ok","low"]'
+							 data-icons='["fa-battery-4","fa-battery-1 fa-blink"]'
+							 data-colors='["green","firebrick"]'
+							 class="top-space">
+						</div>
+						<div class="narrow">T&uuml;rschloss<br />Fernbedienung
+						</div>
+					</td>
+				</tr>
+			</table>
+		</section>
+	</div>
+</body>
+</html>

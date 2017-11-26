@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+    <div class="page" id="config_befehl">
+        <section>
+			<div class="big">Befehl
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td width="20%">
+						<div class="right top-space">set&nbsp;
+						</div>
+					</td>
+					<td>
+						<div data-type="input"
+							 id="cmd"
+							 class="notransmit top-space"
+							 style="width:80%;">
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<div data-type="link"
+							 data-width="60"
+							 data-height="30"
+							 data-color="#eee"
+							 data-background-color="#333"
+							 data-border-color="#aa6900"
+							 data-device="#cmd"
+							 class="centered round top-space">senden
+						</div>
+					</td>
+				</tr>
+			</table>
+			<div class="big top-space">Befehl (vordefiniert)
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div data-type="select"
+							 data-items='["cul_433","cul_MAX"]'
+							 data-alias='["CUL 433 MHz","CUL 868 MHz (MAX)"]'
+							 id="dev"
+							 class="notransmit top-space">
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div data-type="select"
+							 data-items='["raw","reopen"]'
+							 id="param"
+							 class="notransmit top-space">
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div data-type="select"
+							 data-items='["it180",""]'
+							 data-alias='["ITclock 180ms",""]'
+							 id="val"
+							 class="notransmit top-space">
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div data-type="link"
+							 data-width="60"
+							 data-height="30"
+							 data-color="#eee"
+							 data-background-color="#333"
+							 data-border-color="#aa6900"
+							 data-device="#dev"
+							 data-set="#param"
+							 data-value="#val"
+							 class="centered round top-space">senden
+						</div>
+					</td>
+				</tr>
+			</table>
+        </section>
+    </div>
+</body>
+</html>

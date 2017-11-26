@@ -1,0 +1,2718 @@
+#Thu Nov 23 23:56:24 2017
+setstate 868CUL disconnected
+setstate 868CUL 2017-11-08 18:53:33 ccconf freq:868.300MHz bWidth:101KHz rAmpl:33dB sens:8dB
+setstate 868CUL 2017-11-19 09:17:33 cmds A B C E e F f G i K l M N R T t U V W X x Z
+setstate 868CUL 2017-11-19 09:17:33 state Initialized
+setstate A5 initialized
+setstate A5 2017-11-19 07:59:47 .deviceState online
+setstate A5 2017-10-28 12:37:27 airplanemode off
+setstate A5 2017-10-28 12:37:27 androidVersion 7.0 Nougat
+setstate A5 2017-10-28 12:37:27 batteryHealth 2
+setstate A5 2017-11-19 00:56:37 batteryTemperature 26.2
+setstate A5 2017-11-06 22:31:34 bluetooth on
+setstate A5 2017-10-28 12:37:29 checkActiveTask 0
+setstate A5 2017-11-04 08:22:16 connectedBTdevices none
+setstate A5 2017-11-04 08:22:16 connectedBTdevicesMAC none
+setstate A5 2017-11-18 20:45:35 currentMusicAlbum no player active
+setstate A5 2017-11-18 20:45:35 currentMusicApp no player active
+setstate A5 2017-11-18 20:45:35 currentMusicArtist no player active
+setstate A5 2017-11-18 20:45:35 currentMusicIcon no player active
+setstate A5 2017-11-18 20:45:35 currentMusicTrack no player active
+setstate A5 2017-11-23 23:46:17 deviceState offline
+setstate A5 2017-10-28 13:03:41 doNotDisturb always
+setstate A5 2017-10-28 13:03:41 dockingState undocked
+setstate A5 2017-10-28 12:37:29 flow_SetCommands aktiv
+setstate A5 2017-10-28 12:37:27 flow_informations aktiv
+setstate A5 2017-10-28 12:37:27 flowsetVersionAtDevice 4.0.11
+setstate A5 2017-10-31 11:35:19 incomingCallerName Michaela Klüner
+setstate A5 2017-10-31 11:35:19 incomingCallerNumber +491755632547
+setstate A5 2017-10-28 13:03:41 keyguardSet 1
+setstate A5 2017-11-17 19:44:55 lastSetCommandState setCmd_done
+setstate A5 2017-11-19 09:18:29 lastStatusRequestState statusRequest_error
+setstate A5 2017-11-18 15:27:03 mute off
+setstate A5 2017-11-18 07:28:50 nextAlarmDay Sa
+setstate A5 2017-11-18 07:28:50 nextAlarmTime 07:15
+setstate A5 2017-11-19 00:58:22 powerLevel 100
+setstate A5 2017-11-18 23:13:54 powerPlugged 1
+setstate A5 2017-11-19 00:58:42 screen on locked
+setstate A5 2017-11-18 22:52:08 screenBrightness 0
+setstate A5 2017-11-18 23:02:46 screenOrientation portrait
+setstate A5 2017-10-29 13:11:31 screenOrientationMode manual
+setstate A5 2017-11-19 09:17:27 state initialized
+setstate A5 2017-11-18 23:03:48 volume 2
+setstate A5 2017-10-28 12:37:27 volumeNotification 15
+setstate A5 2017-10-28 12:37:27 wiredHeadsetPlugged 0
+setstate AMADBridge opened
+setstate AMADBridge 2017-10-28 13:21:56 fhemServerIP 192.168.2.3
+setstate AMADBridge 2017-11-19 09:17:27 state opened
+setstate Abfall triggered
+setstate Abfall 2017-11-19 08:01:32 calname Abfall
+setstate Abfall 2017-11-19 08:01:32 lastUpdate 2017-11-19 08:01:32
+setstate Abfall 2017-09-27 21:52:05 modeAlarm 
+setstate Abfall 2017-11-09 00:00:00 modeAlarmOrStart 
+setstate Abfall 2017-09-27 21:52:05 modeAlarmed 
+setstate Abfall 2017-11-09 00:48:21 modeChanged 
+setstate Abfall 2017-11-19 09:18:23 modeEnd 
+setstate Abfall 2017-11-09 00:48:21 modeEnded 
+setstate Abfall 2017-11-09 00:00:00 modeStart 
+setstate Abfall 2017-11-08 00:48:21 modeStarted 
+setstate Abfall 2017-11-19 09:18:23 modeUpcoming 
+setstate Abfall 2017-11-19 08:01:32 nextUpdate 2017-11-19 09:01:32
+setstate Abfall 2017-11-23 23:56:24 nextWakeup 2017-11-24 00:55:41
+setstate Abfall 2017-11-23 23:56:24 state triggered
+setstate Abfallkalender next_text in next_days Tag(en)
+setstate Abfallkalender 2017-11-23 23:56:24 ftui_datum Error evaluating Abfallkalender userReading ftui_datum: Undefined subroutine &main::datumHeuteMorgen called at (eval 299) line 1.\
+
+setstate Abfallkalender 2017-11-23 23:56:24 ftui_next 
+setstate Abfallkalender 2017-11-23 23:56:24 state Keine Abholungen
+setstate Alles on
+setstate Alles 2017-11-23 23:55:39 LastDevice Fernsehschrank
+setstate Alles 2017-11-23 23:55:39 LastDevice_Abs Fernsehschrank
+setstate Alles 2017-11-23 23:55:39 state on
+setstate AllesAus awoken
+setstate AllesAus 2017-11-05 22:10:07 state awoken
+setstate Annabel triggered
+setstate Annabel 2017-11-23 23:46:41 calname aed200988@gmail.com
+setstate Annabel 2017-11-23 23:46:41 lastUpdate 2017-11-23 23:46:33
+setstate Annabel 2017-11-18 17:00:00 modeAlarm 
+setstate Annabel 2017-11-18 20:00:00 modeAlarmOrStart 
+setstate Annabel 2017-11-18 17:00:00 modeAlarmed 
+setstate Annabel 2017-11-18 20:01:36 modeChanged 
+setstate Annabel 2017-11-18 20:01:36 modeEnd 
+setstate Annabel 2017-11-18 20:01:36 modeEnded 
+setstate Annabel 2017-11-18 20:00:00 modeStart 
+setstate Annabel 2017-11-18 20:00:00 modeStarted 
+setstate Annabel 2017-11-19 09:18:17 modeUpcoming 
+setstate Annabel 2017-11-23 23:46:41 nextUpdate 2017-11-24 23:46:33
+setstate Annabel 2017-11-23 23:55:28 nextWakeup 2017-11-20 09:17:41
+setstate Annabel 2017-11-23 23:56:24 state triggered
+setstate Anwesenheit present
+setstate Anwesenheit 2017-11-23 23:52:30 LastDevice Handy_Dennis
+setstate Anwesenheit 2017-11-23 23:52:30 LastDevice_Abs Handy_Dennis
+setstate Anwesenheit 2017-11-23 23:52:30 state present
+setstate Bauch on
+setstate Bauch 2017-09-16 11:34:19 protocol V1
+setstate Bauch 2017-11-23 23:55:37 state on
+setstate Baum on
+setstate Baum 2017-09-16 11:34:19 protocol V1
+setstate Baum 2017-11-23 23:55:38 state on
+setstate Bewohner home
+setstate Bewohner 2017-11-17 13:46:26 durTimerAbsence 00:00:00
+setstate Bewohner 2017-11-17 13:46:26 durTimerAbsence_cr 0
+setstate Bewohner 2017-11-23 23:55:29 durTimerPresence 154:09:03
+setstate Bewohner 2017-11-23 23:55:29 durTimerPresence_cr 9249
+setstate Bewohner 2017-10-01 20:18:42 durTimerSleep 00:00:00
+setstate Bewohner 2017-10-01 20:18:42 durTimerSleep_cr 0
+setstate Bewohner 2017-11-19 07:58:40 lastActivity home
+setstate Bewohner 2017-11-19 07:58:40 lastActivityBy Home State
+setstate Bewohner 2017-11-19 07:58:40 lastActivityByDev rr_Dennis
+setstate Bewohner 2017-11-17 13:46:26 lastArrival 2017-11-17 13:46:26
+setstate Bewohner 2017-10-01 20:33:31 lastAwake 2017-10-01 20:33:31
+setstate Bewohner 2017-11-17 07:39:59 lastDeparture 2017-11-17 07:39:59
+setstate Bewohner 2017-11-17 13:46:26 lastDurAbsence 06:06:27
+setstate Bewohner 2017-11-17 13:46:26 lastDurAbsence_cr 366
+setstate Bewohner 2017-11-17 07:39:59 lastDurPresence 00:08:05
+setstate Bewohner 2017-11-17 07:39:59 lastDurPresence_cr 8
+setstate Bewohner 2017-10-01 20:33:31 lastDurSleep 00:00:31
+setstate Bewohner 2017-10-01 20:33:31 lastDurSleep_cr 1
+setstate Bewohner 2017-10-01 20:33:00 lastSleep 2017-10-01 20:33:00
+setstate Bewohner 2017-11-17 13:46:26 lastState absent
+setstate Bewohner 2017-11-17 13:46:26 presence present
+setstate Bewohner 2017-11-19 07:58:40 residentsAbsent 0
+setstate Bewohner 2017-11-19 07:58:40 residentsAbsentDevs -
+setstate Bewohner 2017-11-19 07:58:40 residentsAbsentNames -
+setstate Bewohner 2017-10-01 20:52:40 residentsAsleep 0
+setstate Bewohner 2017-10-01 20:52:40 residentsAsleepDevs -
+setstate Bewohner 2017-10-01 20:52:40 residentsAsleepNames -
+setstate Bewohner 2017-09-16 12:53:03 residentsAwoken 0
+setstate Bewohner 2017-09-16 12:53:03 residentsAwokenDevs -
+setstate Bewohner 2017-09-16 12:53:03 residentsAwokenNames -
+setstate Bewohner 2017-11-17 13:46:26 residentsGone 0
+setstate Bewohner 2017-11-17 13:46:26 residentsGoneDevs -
+setstate Bewohner 2017-11-17 13:46:26 residentsGoneNames -
+setstate Bewohner 2017-11-08 14:55:33 residentsGotosleep 0
+setstate Bewohner 2017-11-08 14:55:33 residentsGotosleepDevs -
+setstate Bewohner 2017-11-08 14:55:33 residentsGotosleepNames -
+setstate Bewohner 2017-11-19 07:58:40 residentsHome 3
+setstate Bewohner 2017-11-19 07:58:40 residentsHomeDevs rr_Annabel,rr_Dennis,rr_Emily
+setstate Bewohner 2017-11-19 07:58:40 residentsHomeNames Home State, Home State, Home State
+setstate Bewohner 2017-10-29 12:06:53 residentsTotal 3
+setstate Bewohner 2017-11-19 07:58:40 residentsTotalAbsent 0
+setstate Bewohner 2017-11-19 07:58:40 residentsTotalAbsentDevs -
+setstate Bewohner 2017-11-19 07:58:40 residentsTotalAbsentNames -
+setstate Bewohner 2017-09-16 12:53:03 residentsTotalGuests 0
+setstate Bewohner 2017-09-16 12:53:03 residentsTotalGuestsAbsent 0
+setstate Bewohner 2017-09-16 12:53:03 residentsTotalGuestsAbsentDevs -
+setstate Bewohner 2017-09-16 12:53:03 residentsTotalGuestsAbsentNames -
+setstate Bewohner 2017-09-16 12:53:03 residentsTotalGuestsPresent 0
+setstate Bewohner 2017-09-16 12:53:03 residentsTotalGuestsPresentDevs -
+setstate Bewohner 2017-09-16 12:53:03 residentsTotalGuestsPresentNames -
+setstate Bewohner 2017-11-19 07:58:40 residentsTotalPresent 3
+setstate Bewohner 2017-11-19 07:58:40 residentsTotalPresentDevs rr_Annabel,rr_Dennis,rr_Emily
+setstate Bewohner 2017-11-19 07:58:40 residentsTotalPresentNames Home State, Home State, Home State
+setstate Bewohner 2017-10-29 12:06:53 residentsTotalRoommates 3
+setstate Bewohner 2017-11-19 07:58:40 residentsTotalRoommatesAbsent 0
+setstate Bewohner 2017-11-19 07:58:40 residentsTotalRoommatesAbsentDevs -
+setstate Bewohner 2017-11-19 07:58:40 residentsTotalRoommatesAbsentNames -
+setstate Bewohner 2017-11-19 07:58:40 residentsTotalRoommatesPresent 3
+setstate Bewohner 2017-11-19 07:58:40 residentsTotalRoommatesPresentDevs rr_Annabel,rr_Dennis,rr_Emily
+setstate Bewohner 2017-11-19 07:58:40 residentsTotalRoommatesPresentNames Home State, Home State, Home State
+setstate Bewohner 2017-09-16 12:53:03 residentsTotalWakeup 0
+setstate Bewohner 2017-09-16 12:53:03 residentsTotalWakeupDevs -
+setstate Bewohner 2017-09-16 12:53:03 residentsTotalWakeupNames -
+setstate Bewohner 2017-09-16 12:53:03 residentsTotalWayhome 0
+setstate Bewohner 2017-09-16 12:53:03 residentsTotalWayhomeDelayed 0
+setstate Bewohner 2017-09-16 12:53:03 residentsTotalWayhomeDelayedDevs -
+setstate Bewohner 2017-09-16 12:53:03 residentsTotalWayhomeDelayedNames -
+setstate Bewohner 2017-09-16 12:53:03 residentsTotalWayhomeDevs -
+setstate Bewohner 2017-09-16 12:53:03 residentsTotalWayhomeNames -
+setstate Bewohner 2017-11-17 13:46:26 state home
+setstate CalAnnabel t: 0 td: 0 tm: 0
+setstate CalAnnabel 2017-11-23 23:56:24 c-term 0
+setstate CalAnnabel 2017-11-23 23:56:24 c-today 0
+setstate CalAnnabel 2017-11-23 23:56:24 c-tomorrow 0
+setstate CalAnnabel 2017-11-23 23:56:24 state t: 0 td: 0 tm: 0
+setstate CalDennis t: 0 td: 0 tm: 0
+setstate CalDennis 2017-11-23 23:55:28 c-term 0
+setstate CalDennis 2017-11-23 23:55:28 c-today 0
+setstate CalDennis 2017-11-23 23:55:28 c-tomorrow 0
+setstate CalDennis 2017-11-23 23:55:28 state t: 0 td: 0 tm: 0
+setstate Calllist 2017-11-18 13:42:22 1-duration 00:01:32
+setstate Calllist 2017-11-18 13:42:22 1-name Oma Michaela
+setstate Calllist 2017-11-18 13:42:22 1-number 01755632547
+setstate Calllist 2017-11-18 13:42:22 1-state =>
+setstate Calllist 2017-11-18 13:42:22 1-timestamp Sa, 18.11.17 13:40
+setstate Calllist 2017-11-18 13:42:22 2-duration 00:11:54
+setstate Calllist 2017-11-18 13:42:22 2-name Angelika & Helmut
+setstate Calllist 2017-11-18 13:42:22 2-number 76763
+setstate Calllist 2017-11-18 13:42:22 2-state <=
+setstate Calllist 2017-11-18 13:42:22 2-timestamp Fr, 17.11.17 20:04
+setstate Calllist 2017-11-18 13:42:22 3-duration 00:03:24
+setstate Calllist 2017-11-18 13:42:22 3-name Annabel
+setstate Calllist 2017-11-18 13:42:22 3-number 017630488859
+setstate Calllist 2017-11-18 13:42:22 3-state =>
+setstate Calllist 2017-11-18 13:42:22 3-timestamp Fr, 17.11.17 16:26
+setstate Calllist 2017-11-18 13:42:22 4-duration 00:02:10
+setstate Calllist 2017-11-18 13:42:22 4-name -
+setstate Calllist 2017-11-18 13:42:22 4-number 0232776763
+setstate Calllist 2017-11-18 13:42:22 4-state =>
+setstate Calllist 2017-11-18 13:42:22 4-timestamp So, 12.11.17 12:50
+setstate Calllist 2017-11-18 13:42:22 5-duration 00:00:01
+setstate Calllist 2017-11-18 13:42:22 5-name Dennis & Denise
+setstate Calllist 2017-11-18 13:42:22 5-number 02348595495
+setstate Calllist 2017-11-18 13:42:22 5-state =>
+setstate Calllist 2017-11-18 13:42:22 5-timestamp So, 12.11.17 07:25
+setstate Calllist 2017-11-18 13:42:22 numberOfCalls 5
+setstate DOIFtools initialized
+setstate DOIFtools 2017-11-19 09:17:24 .eM off
+setstate DOIFtools 2017-11-23 23:56:24 DOIF_version 98_DOIF.pm 14790 2017-07-26 10:27:41Z Damian
+setstate DOIFtools 2017-11-19 09:17:24 FHEM_revision 15414
+setstate DOIFtools 2017-11-18 00:01:00 doStatistics disabled
+setstate DOIFtools 2017-11-19 09:17:24 recording_target_duration 0
+setstate DOIFtools 2017-11-18 00:01:00 sourceAttribute readingList
+setstate DOIFtools 2017-11-18 00:01:00 statisticsDeviceFilterRegex .*
+setstate Dennis triggered
+setstate Dennis 2017-11-23 23:46:37 calname cooper8166@googlemail.com
+setstate Dennis 2017-11-23 23:46:37 lastUpdate 2017-11-23 23:46:33
+setstate Dennis 2017-10-28 00:00:00 modeAlarm 
+setstate Dennis 2017-11-11 13:00:00 modeAlarmOrStart 
+setstate Dennis 2017-10-27 19:45:40 modeAlarmed 
+setstate Dennis 2017-11-11 23:26:42 modeChanged 
+setstate Dennis 2017-11-19 09:18:17 modeEnd 
+setstate Dennis 2017-11-11 23:26:42 modeEnded 
+setstate Dennis 2017-11-11 13:00:00 modeStart 
+setstate Dennis 2017-11-11 13:00:00 modeStarted 
+setstate Dennis 2017-11-19 09:18:17 modeUpcoming 
+setstate Dennis 2017-11-23 23:46:37 nextUpdate 2017-11-24 23:46:33
+setstate Dennis 2017-11-23 23:55:29 nextWakeup 2017-11-20 09:17:41
+setstate Dennis 2017-11-23 23:55:28 state triggered
+setstate Eltern awoken
+setstate Eltern 2017-11-18 22:30:35 state awoken
+setstate FHEM.Backup off
+setstate FHEM.Backup 2017-11-18 00:03:28 backup 171118_000228_fhem_backup.tar.gz
+setstate FHEM.Backup 2017-11-18 00:03:29 backupFiles 3
+setstate FHEM.Backup 2017-11-18 00:03:29 backupFilesMax no limit
+setstate FHEM.Backup 2017-11-18 00:03:28 backupMB 39
+setstate FHEM.Backup 2017-11-18 00:03:29 info backup done
+setstate FHEM.Backup 2017-11-18 00:03:28 state off
+setstate FHEMBackupOn active
+setstate FHEMBackupOn 2017-11-19 09:17:30 state active
+setstate Fernseher on
+setstate Fernseher 2017-11-18 18:06:46 state on
+setstate Fernsehschrank on
+setstate Fernsehschrank 2017-09-16 11:34:19 group 0
+setstate Fernsehschrank 2017-09-16 11:34:19 protocol V3
+setstate Fernsehschrank 2017-11-23 23:55:39 state on
+setstate Fernsehschrank 2017-09-16 11:34:19 unit 0001
+setstate FileLog_A5 active
+setstate FileLog_A5 2017-11-23 23:46:17 linesInTheFile 7315
+setstate FileLog_Bauch active
+setstate FileLog_Bauch 2017-11-23 23:55:37 linesInTheFile 1343
+setstate FileLog_Baum active
+setstate FileLog_Baum 2017-11-23 23:55:38 linesInTheFile 1411
+setstate FileLog_Fernsehschrank active
+setstate FileLog_Fernsehschrank 2017-11-23 23:55:39 linesInTheFile 1261
+setstate FileLog_Flur active
+setstate FileLog_Flur 2017-11-23 23:55:35 linesInTheFile 1435
+setstate FileLog_Fluter active
+setstate FileLog_Fluter 2017-11-23 23:55:34 linesInTheFile 1456
+setstate FileLog_Kette active
+setstate FileLog_Kette 2017-11-23 23:55:36 linesInTheFile 1118
+setstate FileLog_Kueche active
+setstate FileLog_Kueche 2017-11-23 23:55:38 linesInTheFile 1440
+setstate FileLog_LGEmily active
+setstate FileLog_LGEmily 2017-11-23 23:52:30 linesInTheFile 68198
+setstate FileLog_Lampe active
+setstate FileLog_Lampe 2017-11-23 23:55:37 linesInTheFile 1248
+setstate FileLog_Regal active
+setstate FileLog_Regal 2017-11-23 23:55:36 linesInTheFile 1084
+setstate FileLog_S7Edge active
+setstate FileLog_S7Edge 2017-11-23 23:46:17 linesInTheFile 9052
+setstate FileLog_Tab3 active
+setstate FileLog_Tab3 2017-11-23 23:46:17 linesInTheFile 555
+setstate FileLog_dbox1 active
+setstate FileLog_dbox1 2017-11-18 08:09:00 linesInTheFile 97
+setstate Flur on
+setstate Flur 2017-09-16 11:34:19 protocol V1
+setstate Flur 2017-11-23 23:55:35 state on
+setstate Fluter on
+setstate Fluter 2017-09-16 11:34:19 protocol V1
+setstate Fluter 2017-11-23 23:55:34 state on
+setstate FritzBox Check APIs
+setstate FritzBox 2017-11-19 08:01:28 .box_TodayBytesReceivedHigh 0
+setstate FritzBox 2017-11-19 08:01:28 .box_TodayBytesReceivedLow 147085033
+setstate FritzBox 2017-11-19 08:01:28 .box_TodayBytesSentHigh 0
+setstate FritzBox 2017-11-19 08:01:28 .box_TodayBytesSentLow 66495570
+setstate FritzBox 2017-11-19 08:01:28 alarm1 Wecker 1
+setstate FritzBox 2017-11-19 08:01:28 alarm1_state off
+setstate FritzBox 2017-11-19 08:01:28 alarm1_target FON 1
+setstate FritzBox 2017-11-19 08:01:28 alarm1_time 00:00
+setstate FritzBox 2017-11-19 08:01:28 alarm1_wdays daily
+setstate FritzBox 2017-11-19 08:01:28 alarm2 Wecker 2
+setstate FritzBox 2017-11-19 08:01:28 alarm2_state off
+setstate FritzBox 2017-11-19 08:01:28 alarm2_target FON 1
+setstate FritzBox 2017-11-19 08:01:28 alarm2_time 00:00
+setstate FritzBox 2017-11-19 08:01:28 alarm2_wdays daily
+setstate FritzBox 2017-11-19 08:01:28 alarm3 Wecker 3
+setstate FritzBox 2017-11-19 08:01:28 alarm3_state off
+setstate FritzBox 2017-11-19 08:01:28 alarm3_target FON 1
+setstate FritzBox 2017-11-19 08:01:28 alarm3_time 00:00
+setstate FritzBox 2017-11-19 08:01:28 alarm3_wdays daily
+setstate FritzBox 2017-11-19 08:01:28 box_connect 5
+setstate FritzBox 2017-11-19 08:01:28 box_cpuTemp 52
+setstate FritzBox 2017-11-19 08:01:28 box_dect on
+setstate FritzBox 2017-11-19 08:01:28 box_fwVersion 141.06.50
+setstate FritzBox 2017-11-19 08:01:28 box_guestWlan off
+setstate FritzBox 2017-11-19 08:01:28 box_guestWlanCount 0
+setstate FritzBox 2017-11-19 08:01:28 box_guestWlanRemain 0
+setstate FritzBox 2017-11-19 08:01:28 box_ipExtern 192.0.0.2
+setstate FritzBox 2017-11-18 20:01:35 box_model FRITZ!Box 6490 Cable (lgi) [lgi]
+setstate FritzBox 2017-11-19 08:01:28 box_moh default
+setstate FritzBox 2017-11-19 08:01:28 box_powerRate 35
+setstate FritzBox 2017-11-19 08:01:28 box_rateDown 6.825
+setstate FritzBox 2017-11-19 08:01:28 box_rateUp 1.442
+setstate FritzBox 2017-11-19 08:01:28 box_stdDialPort allFons
+setstate FritzBox 2017-11-19 08:01:28 box_tr064 on
+setstate FritzBox 2017-11-19 08:01:28 box_tr069 on
+setstate FritzBox 2017-11-19 08:01:28 box_wlanCount 13
+setstate FritzBox 2017-11-19 08:01:28 box_wlan_2.4GHz on
+setstate FritzBox 2017-11-19 08:01:28 box_wlan_5GHz on
+setstate FritzBox 2017-11-19 08:01:28 dect1 Flur
+setstate FritzBox 2017-11-19 08:01:28 dect1_fwVersion 0.00
+setstate FritzBox 2017-11-19 08:01:28 dect1_intRingTone HandsetDefault
+setstate FritzBox 2017-11-19 08:01:28 dect1_intern 610
+setstate FritzBox 2017-11-19 08:01:28 dect1_manufacturer Siemens
+setstate FritzBox 2017-11-19 08:01:28 dect1_model 0x00
+setstate FritzBox 2017-11-19 08:01:28 dect1_radio Sunshine-Live
+setstate FritzBox 2017-11-04 11:44:56 dect2 Emily
+setstate FritzBox 2017-11-04 11:44:56 dect2_fwVersion 0.00
+setstate FritzBox 2017-11-04 11:44:56 dect2_intRingTone HandsetDefault
+setstate FritzBox 2017-11-04 11:44:56 dect2_intern 611
+setstate FritzBox 2017-11-04 11:44:56 dect2_manufacturer Siemens
+setstate FritzBox 2017-11-04 11:44:56 dect2_model 0x00
+setstate FritzBox 2017-11-04 11:44:56 dect2_radio Sunshine-Live
+setstate FritzBox 2017-11-23 23:55:29 lastReadout Error: Timeout when reading Fritz!Box data.
+setstate FritzBox 2017-11-19 08:01:28 mac_00_0E_58_99_DC_C0 Sub (LAN4, 100 Mbit/s)
+setstate FritzBox 2017-11-19 08:01:28 mac_00_0E_58_B5_4E_D1 SonosZP (LAN4, 100 Mbit/s)
+setstate FritzBox 2017-11-19 08:01:28 mac_00_0E_58_FA_DA_E0 Play3-Kueche (LAN4, 100 Mbit/s)
+setstate FritzBox 2017-11-19 08:01:28 mac_00_0E_58_FA_DB_54 Play3-Buero (LAN4, 100 Mbit/s)
+setstate FritzBox 2017-11-19 08:01:28 mac_00_1D_EC_0F_E3_D0 vuuno4k (LAN4, 100 Mbit/s)
+setstate FritzBox 2017-11-19 08:01:28 mac_0C_47_C9_55_DD_63 FireTV-SZ (LAN3, 1 Gbit/s)
+setstate FritzBox 2017-11-19 08:01:28 mac_34_D2_70_33_AC_08 amazon-66590406b (WLAN, 108 / 81 Mbit/s, 26)
+setstate FritzBox 2017-11-19 08:01:28 mac_34_D2_70_62_2A_8A Alexa (WLAN, 300 / 300 Mbit/s, 65)
+setstate FritzBox 2017-11-19 08:01:28 mac_40_B4_CD_4A_4B_39 EmilyFireTablet (WLAN, 72 / 23 Mbit/s, 65)
+setstate FritzBox 2017-11-19 08:01:28 mac_40_B4_CD_82_88_CD amazon-0f8042cbc (WLAN, 526 / 526 Mbit/s, 42)
+setstate FritzBox 2017-11-19 08:01:28 mac_4C_66_41_77_60_10 Dr-House (WLAN, 1 / 3 Mbit/s, 20)
+setstate FritzBox 2017-11-19 08:01:28 mac_78_F7_BE_FB_24_B8 FHEM-Tablet (WLAN, 150 / 150 Mbit/s, 59)
+setstate FritzBox 2017-11-19 08:01:28 mac_7C_38_66_18_A1_30 PC-192-168-2-8 (WLAN, 72 / 53 Mbit/s, 51)
+setstate FritzBox 2017-11-19 08:01:28 mac_80_1F_02_9B_B5_65 Wecker-Bad (WLAN, 17 / 13 Mbit/s, 49)
+setstate FritzBox 2017-11-19 08:01:28 mac_84_D6_D0_19_99_EA amazon-29038f292 (WLAN, 866 / 526 Mbit/s, 63)
+setstate FritzBox 2017-11-19 08:01:28 mac_94_B1_0A_78_F2_A7 Annabel (WLAN, 37 / 7 Mbit/s, 26)
+setstate FritzBox 2017-11-19 08:01:28 mac_A0_88_69_46_2B_34 laptop (WLAN, 121 / 97 Mbit/s, 51)
+setstate FritzBox 2017-11-19 08:01:28 mac_B8_27_EB_15_FD_32 FHEM (LAN1, 100 Mbit/s)
+setstate FritzBox 2017-11-19 08:01:28 mac_B8_27_EB_51_F8_91 fipbox (LAN2, 100 Mbit/s)
+setstate FritzBox 2017-11-19 08:01:28 mac_B8_E9_37_BB_4D_84 Play1-WohnzimmerLL (LAN4, 100 Mbit/s)
+setstate FritzBox 2017-11-19 08:01:28 mac_B8_E9_37_BB_4F_0A Play1-WohnzimmerRL (LAN4, 100 Mbit/s)
+setstate FritzBox 2017-11-19 08:01:28 mac_C8_BE_19_85_7D_96 Server (LAN4, 100 Mbit/s)
+setstate FritzBox 2017-11-19 08:01:28 mac_E0_28_6D_4E_3E_23 fritz.box
+setstate FritzBox 2017-11-19 08:01:28 mac_E0_28_6D_4E_3E_24 fritz.nas
+setstate FritzBox 2017-11-19 08:01:28 mac_E8_94_F6_1A_21_B0 raspberrypi (WLAN, 43 / 16 Mbit/s, 44)
+setstate FritzBox 2017-11-19 08:01:28 mac_F8_A9_D0_2D_97_8D Emily-Handy (WLAN, 71 / 14 Mbit/s, 64)
+setstate FritzBox 2017-11-19 08:01:28 radio00 Sunshine-Live
+setstate FritzBox 2017-11-23 23:55:29 state Error: Timeout when reading Fritz!Box data.
+setstate FritzBox 2017-11-19 08:01:28 tam1 Eltern
+setstate FritzBox 2017-11-19 08:01:28 tam1_newMsg 0
+setstate FritzBox 2017-11-19 08:01:28 tam1_oldMsg 0
+setstate FritzBox 2017-11-19 08:01:28 tam1_state on
+setstate FritzBox 2017-11-19 08:01:28 user01 (guest)
+setstate FritzBox 2017-11-19 08:01:28 user01_thisMonthTime 0:00
+setstate FritzBox 2017-11-19 08:01:28 user01_todaySeconds 0
+setstate FritzBox 2017-11-19 08:01:28 user01_todayTime 0:00
+setstate FritzBox 2017-11-19 08:01:28 user01_type Guest
+setstate FritzBox 2017-11-19 08:01:28 userTicket01 811193
+setstate GPIO18 off
+setstate GPIO18 2017-11-18 18:06:59 Dblclick off
+setstate GPIO18 2017-11-18 18:06:59 Longpress off
+setstate GPIO18 2017-11-18 18:06:59 Pinlevel low
+setstate GPIO18 2017-11-18 18:06:59 state off
+setstate GPIO23 off
+setstate GPIO23 2017-11-18 18:06:59 Dblclick off
+setstate GPIO23 2017-11-18 18:06:59 Longpress off
+setstate GPIO23 2017-11-18 18:06:59 Pinlevel low
+setstate GPIO23 2017-11-18 18:06:59 state off
+setstate Handy_Annabel timeout
+setstate Handy_Annabel 2017-11-23 23:52:20 .absenceThresholdCounter 0
+setstate Handy_Annabel 2017-11-23 23:52:20 .presenceThresholdCounter 0
+setstate Handy_Annabel 2017-11-19 08:01:28 device_name Prinzessin
+setstate Handy_Annabel 2017-11-19 09:17:27 model local-bluetooth
+setstate Handy_Annabel 2017-11-23 23:52:20 presence absent
+setstate Handy_Annabel 2017-11-23 23:55:29 state timeout
+setstate Handy_Annabel2 timeout
+setstate Handy_Annabel2 2017-11-23 23:52:15 .absenceThresholdCounter 0
+setstate Handy_Annabel2 2017-11-23 23:52:15 .presenceThresholdCounter 0
+setstate Handy_Annabel2 2017-11-19 09:17:27 model function
+setstate Handy_Annabel2 2017-11-23 23:52:15 presence present
+setstate Handy_Annabel2 2017-11-23 23:55:29 state timeout
+setstate Handy_Dennis timeout
+setstate Handy_Dennis 2017-11-23 23:52:30 .absenceThresholdCounter 0
+setstate Handy_Dennis 2017-11-23 23:52:30 .presenceThresholdCounter 0
+setstate Handy_Dennis 2017-11-18 23:34:19 device_name Dr House
+setstate Handy_Dennis 2017-11-19 09:17:18 model local-bluetooth
+setstate Handy_Dennis 2017-11-23 23:52:30 presence absent
+setstate Handy_Dennis 2017-11-23 23:55:29 state timeout
+setstate Handy_Dennis2 timeout
+setstate Handy_Dennis2 2017-11-23 23:52:15 .absenceThresholdCounter 0
+setstate Handy_Dennis2 2017-11-23 23:52:15 .presenceThresholdCounter 0
+setstate Handy_Dennis2 2017-11-19 09:17:30 model function
+setstate Handy_Dennis2 2017-11-23 23:52:15 presence present
+setstate Handy_Dennis2 2017-11-23 23:55:29 state timeout
+setstate Handy_Emily timeout
+setstate Handy_Emily 2017-11-23 23:52:35 .absenceThresholdCounter 0
+setstate Handy_Emily 2017-11-23 23:52:35 .presenceThresholdCounter 0
+setstate Handy_Emily 2017-11-19 08:01:37 device_name Emily
+setstate Handy_Emily 2017-11-19 09:17:24 model local-bluetooth
+setstate Handy_Emily 2017-11-23 23:52:35 presence absent
+setstate Handy_Emily 2017-11-23 23:55:29 state timeout
+setstate Handy_Emily2 timeout
+setstate Handy_Emily2 2017-11-23 23:52:15 .absenceThresholdCounter 0
+setstate Handy_Emily2 2017-11-23 23:52:15 .presenceThresholdCounter 0
+setstate Handy_Emily2 2017-11-19 09:17:27 model function
+setstate Handy_Emily2 2017-11-23 23:52:15 presence present
+setstate Handy_Emily2 2017-11-23 23:55:29 state timeout
+setstate Kette on
+setstate Kette 2017-09-16 11:34:19 group 0
+setstate Kette 2017-09-16 11:34:19 protocol V3
+setstate Kette 2017-11-23 23:55:36 state on
+setstate Kette 2017-09-16 11:34:19 unit 0001
+setstate Kinderzimmer on
+setstate Kinderzimmer 2017-11-23 23:55:36 LastDevice Regal
+setstate Kinderzimmer 2017-11-23 23:55:36 LastDevice_Abs Regal
+setstate Kinderzimmer 2017-11-23 23:55:36 state on
+setstate Kueche on
+setstate Kueche 2017-09-16 11:34:19 protocol V1
+setstate Kueche 2017-11-23 23:55:38 state on
+setstate LGEmily initialized
+setstate LGEmily 2017-10-30 21:44:00 .deviceState online
+setstate LGEmily 2017-10-28 13:22:00 airplanemode off
+setstate LGEmily 2017-10-28 13:22:00 androidVersion 4.4 KitKat
+setstate LGEmily 2017-10-28 13:22:02 automagicState Fehler  Trigger funktioniert nicht vor Android Version 5.0 (Lollipop, API 21)
+setstate LGEmily 2017-10-28 13:22:00 batteryHealth 2
+setstate LGEmily 2017-10-30 21:43:09 batteryTemperature 28.1
+setstate LGEmily 2017-10-28 13:24:31 bluetooth on
+setstate LGEmily 2017-10-28 13:21:56 checkActiveTask 0
+setstate LGEmily 2017-10-28 13:22:02 connectedBTdevices none
+setstate LGEmily 2017-10-28 13:22:02 connectedBTdevicesMAC none
+setstate LGEmily 2017-10-28 13:22:07 currentMusicAlbum no player active
+setstate LGEmily 2017-10-28 13:22:07 currentMusicApp no player active
+setstate LGEmily 2017-10-28 13:22:07 currentMusicArtist no player active
+setstate LGEmily 2017-10-28 13:22:07 currentMusicIcon no player active
+setstate LGEmily 2017-10-28 13:22:07 currentMusicTrack no player active
+setstate LGEmily 2017-11-23 23:46:17 deviceState offline
+setstate LGEmily 2017-10-28 13:22:02 dockingState undocked
+setstate LGEmily 2017-10-28 13:22:50 flow_SetCommands aktiv
+setstate LGEmily 2017-10-28 13:22:00 flow_informations aktiv
+setstate LGEmily 2017-10-28 13:21:56 flowsetVersionAtDevice 4.0.11
+setstate LGEmily 2017-10-30 21:41:21 incommingWhatsAppMessageFrom Oma Angelika  Dann Schlaf mal gut, 🌟.
+setstate LGEmily 2017-10-28 13:22:06 keyguardSet 1
+setstate LGEmily 2017-11-23 23:52:30 lastSetCommandState setCmd_error
+setstate LGEmily 2017-11-19 09:18:29 lastStatusRequestState statusRequest_error
+setstate LGEmily 2017-10-29 00:21:04 mute off
+setstate LGEmily 2017-10-28 13:22:02 nextAlarmDay off
+setstate LGEmily 2017-10-28 13:22:02 nextAlarmTime off
+setstate LGEmily 2017-10-30 21:43:09 powerLevel 77
+setstate LGEmily 2017-10-29 22:02:59 powerPlugged 0
+setstate LGEmily 2017-10-30 21:34:15 screen on unlocked
+setstate LGEmily 2017-10-28 13:22:16 screenBrightness 255
+setstate LGEmily 2017-10-29 11:22:44 screenOrientation portrait
+setstate LGEmily 2017-10-28 13:22:06 screenOrientationMode manual
+setstate LGEmily 2017-11-19 09:17:27 state initialized
+setstate LGEmily 2017-10-29 11:06:21 volume 11
+setstate LGEmily 2017-10-29 22:49:00 volumeNotification 4
+setstate LGEmily 2017-10-28 13:22:00 wiredHeadsetPlugged 0
+setstate Lampe on
+setstate Lampe 2017-09-16 11:34:19 protocol V1
+setstate Lampe 2017-11-23 23:55:37 state on
+setstate Logfile active
+setstate Logfile 2017-11-01 00:00:01 linesInTheFile 0
+setstate MPD2 error
+setstate MPD2 2017-11-19 09:17:41 Album 
+setstate MPD2 2017-11-19 09:17:41 Artist 
+setstate MPD2 2017-11-19 09:17:41 Cover 
+setstate MPD2 2017-11-19 09:17:41 Date 
+setstate MPD2 2017-11-19 09:17:41 Genre 
+setstate MPD2 2017-11-18 20:01:33 Id 8
+setstate MPD2 2017-11-19 09:17:41 Last-Modified 
+setstate MPD2 2017-11-19 09:17:41 Name 
+setstate MPD2 2017-11-18 20:01:33 Pos 0
+setstate MPD2 2017-11-19 09:17:41 Title 
+setstate MPD2 2017-11-19 09:17:41 Track 
+setstate MPD2 2017-11-17 07:45:53 album_image /fhem/icons/1px-spacer
+setstate MPD2 2017-11-17 07:45:53 album_image_html 
+setstate MPD2 2017-11-18 20:01:33 albums 0
+setstate MPD2 2017-11-17 07:45:53 artist_image /fhem/icons/1px-spacer
+setstate MPD2 2017-11-17 07:45:53 artist_image_html 
+setstate MPD2 2017-11-18 20:01:33 artists 0
+setstate MPD2 2017-11-17 07:45:53 audio 
+setstate MPD2 2017-11-17 07:45:53 bitrate 
+setstate MPD2 2017-11-18 20:01:33 consume 0
+setstate MPD2 2017-11-10 07:17:29 currentTrackProvider Radio
+setstate MPD2 2017-11-18 20:01:33 db_playtime 0
+setstate MPD2 2017-11-18 20:01:33 db_update 1505232510
+setstate MPD2 2017-11-17 07:45:53 elapsed 
+setstate MPD2 2017-09-27 21:59:38 error problems decoding "http://1live-diggi.akacast.akamaistream.net/7/965/119435/v1/gnl.akacast.akamaistream.net/1live-diggi"
+setstate MPD2 2017-11-19 09:17:41 file 
+setstate MPD2 2017-11-23 23:55:41 last_error IdleStart: Connection refused
+setstate MPD2 2017-11-18 20:01:33 mixrampdb 0.000000
+setstate MPD2 2017-11-18 20:01:33 mixrampdelay nan
+setstate MPD2 2017-11-17 07:23:43 mpd_event player
+setstate MPD2 2017-09-27 21:47:02 mute off
+setstate MPD2 2017-09-28 03:40:51 now_playing_img ./images/bochum.png
+setstate MPD2 2017-09-28 03:40:52 now_playing_name Radio Bochum
+setstate MPD2 2017-11-18 20:01:31 outputenabled0 1
+setstate MPD2 2017-11-18 20:01:31 outputname0 My ALSA Device
+setstate MPD2 2017-11-18 20:01:33 playlist 405
+setstate MPD2 2017-11-19 09:17:41 playlist_json 
+setstate MPD2 2017-11-19 09:17:41 playlist_num -1
+setstate MPD2 2017-11-19 09:17:41 playlistcollection 
+setstate MPD2 2017-11-19 09:17:41 playlistinfo 
+setstate MPD2 2017-11-18 20:01:33 playlistlength 1
+setstate MPD2 2017-11-19 09:17:41 playlistname 
+setstate MPD2 2017-11-18 20:01:33 playtime 42047
+setstate MPD2 2017-11-23 23:55:41 presence absent
+setstate MPD2 2017-11-18 20:01:33 random 0
+setstate MPD2 2017-11-18 20:01:33 rawTitle Radio Bochum Werbung
+setstate MPD2 2017-11-18 20:01:33 repeat 0
+setstate MPD2 2017-11-18 20:01:33 single 0
+setstate MPD2 2017-11-18 20:01:33 song 0
+setstate MPD2 2017-11-18 20:01:33 songid 8
+setstate MPD2 2017-11-18 20:01:33 songs 0
+setstate MPD2 2017-11-23 23:55:41 state error
+setstate MPD2 2017-11-17 07:23:23 time 4103:0
+setstate MPD2 2017-11-18 20:01:33 uptime 1086753
+setstate MPD2 2017-11-18 20:01:33 volume 80
+setstate MPD2 2017-11-18 20:01:33 xfade 0
+setstate MPD3 error
+setstate MPD3 2017-11-19 09:17:41 Album 
+setstate MPD3 2017-11-19 09:17:41 Artist 
+setstate MPD3 2017-11-19 09:17:41 Cover 
+setstate MPD3 2017-11-19 09:17:41 Date 
+setstate MPD3 2017-11-19 09:17:41 Genre 
+setstate MPD3 2017-11-18 20:01:33 Id 6
+setstate MPD3 2017-11-19 09:17:41 Last-Modified 
+setstate MPD3 2017-11-19 09:17:41 Name 
+setstate MPD3 2017-11-18 20:01:33 Pos 0
+setstate MPD3 2017-11-19 09:17:41 Title 
+setstate MPD3 2017-11-19 09:17:41 Track 
+setstate MPD3 2017-11-17 07:45:53 album_image /fhem/icons/1px-spacer
+setstate MPD3 2017-11-17 07:45:53 album_image_html 
+setstate MPD3 2017-11-18 20:01:33 albums 0
+setstate MPD3 2017-11-17 07:45:53 artist_image /fhem/icons/1px-spacer
+setstate MPD3 2017-11-17 07:45:53 artist_image_html 
+setstate MPD3 2017-11-18 20:01:33 artists 0
+setstate MPD3 2017-11-17 07:45:53 audio 
+setstate MPD3 2017-11-17 07:45:53 bitrate 
+setstate MPD3 2017-11-18 20:01:33 consume 0
+setstate MPD3 2017-11-17 07:30:03 currentTrackProvider Radio
+setstate MPD3 2017-11-18 20:01:33 db_playtime 0
+setstate MPD3 2017-11-18 20:01:33 db_update 1497287083
+setstate MPD3 2017-11-17 07:45:53 elapsed 
+setstate MPD3 2017-11-19 09:17:41 file 
+setstate MPD3 2017-11-23 23:55:40 last_error IdleStart: Connection refused
+setstate MPD3 2017-11-18 20:01:33 mixrampdb 0.000000
+setstate MPD3 2017-11-18 20:01:33 mixrampdelay nan
+setstate MPD3 2017-11-17 07:30:53 mpd_event player
+setstate MPD3 2017-09-27 21:51:59 mute off
+setstate MPD3 2017-09-27 22:06:03 now_playing_img ./images/sunshine.png
+setstate MPD3 2017-09-27 22:06:03 now_playing_name sunshine live
+setstate MPD3 2017-11-18 20:01:31 outputenabled0 1
+setstate MPD3 2017-11-18 20:01:31 outputname0 My ALSA Device
+setstate MPD3 2017-11-18 20:01:33 playlist 358
+setstate MPD3 2017-11-19 09:17:41 playlist_json 
+setstate MPD3 2017-11-19 09:17:41 playlist_num -1
+setstate MPD3 2017-11-19 09:17:41 playlistcollection 
+setstate MPD3 2017-11-19 09:17:41 playlistinfo 
+setstate MPD3 2017-11-18 20:01:33 playlistlength 1
+setstate MPD3 2017-11-19 09:17:41 playlistname 
+setstate MPD3 2017-11-18 20:01:33 playtime 45072
+setstate MPD3 2017-11-23 23:55:40 presence absent
+setstate MPD3 2017-11-18 20:01:33 random 0
+setstate MPD3 2017-11-18 20:01:33 rawTitle 1LIVE mit Olli Briesch und dem Imhof * Mit Olli Briesch, Michael  Imhof * Die tägliche, aktuelle Morgen-Show in 1LIVE
+setstate MPD3 2017-11-18 20:01:33 repeat 0
+setstate MPD3 2017-11-18 20:01:33 single 0
+setstate MPD3 2017-11-18 20:01:33 song 0
+setstate MPD3 2017-11-18 20:01:33 songid 6
+setstate MPD3 2017-11-18 20:01:33 songs 0
+setstate MPD3 2017-11-23 23:55:40 state error
+setstate MPD3 2017-11-17 07:30:20 time 17:0
+setstate MPD3 2017-11-18 20:01:33 uptime 1148780
+setstate MPD3 2017-11-18 20:01:33 volume 85
+setstate MPD3 2017-11-18 20:01:33 xfade 0
+setstate Morgens on
+setstate Morgens 2017-11-23 23:55:38 LastDevice Kueche
+setstate Morgens 2017-11-23 23:55:38 LastDevice_Abs Kueche
+setstate Morgens 2017-11-23 23:55:38 state on
+setstate MyTTS 2017-11-04 14:15:57 duration 5
+setstate MyTTS 2017-11-04 14:15:57 endTime 00:00:00
+setstate MyTTS 2017-11-04 14:16:03 lastFilename cache/189bc147d8057c9fb572f952a2901064_MP3WRAP.mp3
+setstate MyTTS 2017-11-04 14:16:03 playing 0
+setstate MyTTS 2017-10-24 15:09:09 volume 100
+setstate NOT_READ_Annabel 2017-11-23 23:55:28
+setstate NOT_READ_Annabel 2017-11-19 09:17:19 state active
+setstate NOT_READ_Dennis 2017-11-23 23:55:28
+setstate NOT_READ_Dennis 2017-11-19 09:17:24 state active
+setstate NOT_off_Eltern active
+setstate NOT_off_Eltern 2017-11-19 09:17:19 state active
+setstate NOT_off_GuteNacht active
+setstate NOT_off_GuteNacht 2017-11-19 09:17:19 state active
+setstate OnMpdNewTrack active
+setstate OnMpdNewTrack 2017-11-19 09:17:20 state active
+setstate OnMpdNewTrack2 2017-11-19 09:17:41
+setstate OnMpdNewTrack2 2017-11-19 09:17:20 state active
+setstate OnMpdNewTrack3 2017-11-19 09:17:41
+setstate OnMpdNewTrack3 2017-11-19 09:17:20 state active
+setstate OnMpdPlay active
+setstate OnMpdPlay 2017-11-19 09:17:20 state active
+setstate OnMpdPlay2 active
+setstate OnMpdPlay2 2017-11-19 09:17:20 state active
+setstate OnMpdPlay3 active
+setstate OnMpdPlay3 2017-11-19 09:17:20 state active
+setstate OnMpdPlaylistChanged active
+setstate OnMpdPlaylistChanged 2017-11-19 09:17:20 state active
+setstate OnMpdPlaylistChanged2 active
+setstate OnMpdPlaylistChanged2 2017-11-19 09:17:20 state active
+setstate OnMpdPlaylistChanged3 active
+setstate OnMpdPlaylistChanged3 2017-11-19 09:17:20 state active
+setstate Push disconnected
+setstate Push 2017-11-18 13:40:33 apiLimit 7500
+setstate Push 2017-11-18 13:40:33 apiRemaining 7470
+setstate Push 2017-11-18 13:40:33 apiReset 1512108000
+setstate Push 2017-11-19 09:18:14 available 0
+setstate Push 2017-09-27 21:52:02 devices Annabel,S7Edge,Tab3
+setstate Push 2017-09-27 21:52:02 group 0
+setstate Push 2017-11-18 13:40:33 lastAction -
+setstate Push 2017-11-18 13:40:33 lastDevice Annabel,S7Edge,Tab3
+setstate Push 2017-11-18 13:40:33 lastMessage Oma Michaela (01755632547)
+setstate Push 2017-11-18 13:40:33 lastRequest ffc68ce6-2dae-41af-b5b0-3d3244dd42fe
+setstate Push 2017-11-19 08:01:35 lastResult ok
+setstate Push 2017-11-18 13:40:33 lastTitle Anruf von
+setstate Push 2017-11-19 09:18:14 state disconnected
+setstate Push 2017-09-27 21:52:02 tokenState valid
+setstate Push 2017-09-27 21:52:02 userState valid
+setstate R2D2 Idle
+setstate R2D2 2017-10-14 10:05:45 .goToBase 0
+setstate R2D2 2017-11-18 13:16:42 .pause 0
+setstate R2D2 2017-11-09 20:02:14 .resume 0
+setstate R2D2 2017-11-18 13:16:42 .start 1
+setstate R2D2 2017-11-18 13:13:11 .stop 0
+setstate R2D2 2017-11-18 20:01:33 accessToken 7a78fd2b5443d17b5d1f1b1ea9836f70
+setstate R2D2 2017-11-18 13:16:42 action 0
+setstate R2D2 2017-11-23 23:55:42 charge 81
+setstate R2D2 2017-11-18 09:56:49 cleanCategorie 2
+setstate R2D2 2017-11-12 12:58:23 cleanMode 1
+setstate R2D2 2017-10-04 17:24:23 cleanModifier 1
+setstate R2D2 2017-11-18 09:56:49 cleanSpotHeight 0
+setstate R2D2 2017-11-18 09:56:49 cleanSpotWidth 0
+setstate R2D2 2017-11-18 13:16:42 dockHasBeenSeen 0
+setstate R2D2 2017-11-18 11:28:50 error ui_alert_invalid
+setstate R2D2 2017-10-31 09:16:11 firmware 2.1.4
+setstate R2D2 2017-11-23 23:55:42 isCharging 1
+setstate R2D2 2017-11-18 13:16:42 isDocked 1
+setstate R2D2 2017-10-04 20:09:48 isScheduleEnabled 0
+setstate R2D2 2017-10-04 17:24:22 macAddr 7c386618a130
+setstate R2D2 2017-10-04 17:24:23 model VR200
+setstate R2D2 2017-10-04 17:24:22 name R2D2
+setstate R2D2 2017-10-14 10:01:46 result ok
+setstate R2D2 2017-10-04 17:24:22 robot 0
+setstate R2D2 2017-10-04 20:09:48 scheduleEnabled 0
+setstate R2D2 2017-10-04 18:09:48 scheduleType 0
+setstate R2D2 2017-10-23 10:50:13 secretKey 3BF8452B18E65D9E330DE271C5E8254B
+setstate R2D2 2017-10-04 17:24:22 serial 4W7DC4R7-7C386618A130
+setstate R2D2 2017-10-04 17:24:23 srv_easyConnect basic-1
+setstate R2D2 2017-10-04 17:24:23 srv_houseCleaning basic-1
+setstate R2D2 2017-10-04 17:24:23 srv_manualCleaning basic-1
+setstate R2D2 2017-10-04 17:24:23 srv_schedule basic-1
+setstate R2D2 2017-10-04 17:24:23 srv_spotCleaning basic-1
+setstate R2D2 2017-11-23 23:55:42 state Idle
+setstate R2D2 2017-11-18 13:16:42 stateId 1
+setstate R2D2 2017-10-04 17:24:23 version 1
+setstate R2D2Wl initialized
+setstate Regal on
+setstate Regal 2017-09-16 11:34:19 protocol V1
+setstate Regal 2017-11-23 23:55:36 state on
+setstate ResetVerpassteAnrufe disabled
+setstate ResetVerpassteAnrufe 2017-11-23 23:55:38 state disabled
+setstate S7Edge initialized
+setstate S7Edge 2017-11-19 07:52:32 .deviceState online
+setstate S7Edge 2017-10-28 12:20:17 airplanemode off
+setstate S7Edge 2017-10-28 12:20:17 androidVersion 7.0 Nougat
+setstate S7Edge 2017-11-18 22:52:48 batteryHealth 2
+setstate S7Edge 2017-11-19 07:21:33 batteryTemperature 24.4
+setstate S7Edge 2017-11-09 07:16:34 bluetooth on
+setstate S7Edge 2017-10-28 12:21:32 checkActiveTask 0
+setstate S7Edge 2017-11-09 07:17:27 connectedBTdevices none
+setstate S7Edge 2017-11-09 07:17:27 connectedBTdevicesMAC none
+setstate S7Edge 2017-11-19 00:17:39 currentMusicAlbum no player active
+setstate S7Edge 2017-11-19 00:17:39 currentMusicApp no player active
+setstate S7Edge 2017-11-19 00:17:39 currentMusicArtist no player active
+setstate S7Edge 2017-11-19 00:17:39 currentMusicIcon no player active
+setstate S7Edge 2017-11-19 00:17:39 currentMusicTrack no player active
+setstate S7Edge 2017-11-23 23:46:17 deviceState offline
+setstate S7Edge 2017-10-28 12:55:40 doNotDisturb always
+setstate S7Edge 2017-10-28 12:55:40 dockingState undocked
+setstate S7Edge 2017-10-28 12:21:31 flow_SetCommands aktiv
+setstate S7Edge 2017-11-18 23:23:35 flow_informations aktiv
+setstate S7Edge 2017-10-28 12:20:17 flowsetVersionAtDevice 4.0.11
+setstate S7Edge 2017-11-17 07:13:27 incomingCallerName Peter Krieter
+setstate S7Edge 2017-11-17 07:13:27 incomingCallerNumber +4915237328850
+setstate S7Edge 2017-10-28 12:55:40 keyguardSet 1
+setstate S7Edge 2017-11-17 19:46:00 lastSetCommandState setCmd_done
+setstate S7Edge 2017-11-19 09:18:29 lastStatusRequestState statusRequest_error
+setstate S7Edge 2017-11-15 21:26:15 mute off
+setstate S7Edge 2017-11-15 21:53:39 nextAlarmDay off
+setstate S7Edge 2017-11-15 21:53:39 nextAlarmTime off
+setstate S7Edge 2017-11-15 22:07:46 nfc off
+setstate S7Edge 2017-11-19 04:41:34 powerLevel 100
+setstate S7Edge 2017-11-18 23:50:06 powerPlugged 4
+setstate S7Edge 2017-11-18 23:36:13 screen off locked
+setstate S7Edge 2017-11-18 22:47:34 screenBrightness 26
+setstate S7Edge 2017-11-16 19:22:14 screenOrientation portrait
+setstate S7Edge 2017-11-09 18:26:02 screenOrientationMode manual
+setstate S7Edge 2017-11-19 09:17:27 state initialized
+setstate S7Edge 2017-11-18 16:34:47 volume 8
+setstate S7Edge 2017-11-18 16:09:05 volumeNotification 10
+setstate S7Edge 2017-11-18 22:29:35 wiredHeadsetPlugged 1
+setstate SKYReceiver -, -
+setstate SKYReceiver 2017-11-18 20:37:44 acg 0
+setstate SKYReceiver 2017-11-18 20:37:44 apid -
+setstate SKYReceiver 2017-11-18 20:37:15 ber 0
+setstate SKYReceiver 2017-11-18 20:37:44 channel -
+setstate SKYReceiver 2017-11-19 09:18:15 channelList -,
+setstate SKYReceiver 2017-11-18 20:37:44 currentMedia -
+setstate SKYReceiver 2017-11-18 20:37:44 currentTitle -
+setstate SKYReceiver 2017-11-18 11:32:07 enigmaversion 2017-11-18
+setstate SKYReceiver 2017-11-18 20:37:44 eventcurrenttime -
+setstate SKYReceiver 2017-11-18 20:37:44 eventcurrenttime_hr -
+setstate SKYReceiver 2017-11-18 20:37:44 eventcurrenttime_next -
+setstate SKYReceiver 2017-11-18 20:37:44 eventcurrenttime_next_hr -
+setstate SKYReceiver 2017-11-18 20:37:44 eventdescription -
+setstate SKYReceiver 2017-11-18 20:37:44 eventdescription_next -
+setstate SKYReceiver 2017-11-18 20:37:44 eventdescriptionextended -
+setstate SKYReceiver 2017-11-18 20:37:44 eventdescriptionextended_next -
+setstate SKYReceiver 2017-11-18 20:37:44 eventduration -
+setstate SKYReceiver 2017-11-18 20:37:44 eventduration_hr -
+setstate SKYReceiver 2017-11-18 20:37:44 eventduration_next -
+setstate SKYReceiver 2017-11-18 20:37:44 eventduration_next_hr -
+setstate SKYReceiver 2017-11-18 20:37:44 eventname -
+setstate SKYReceiver 2017-11-18 20:37:44 eventname_next -
+setstate SKYReceiver 2017-11-18 20:37:44 eventremaining -
+setstate SKYReceiver 2017-11-18 20:37:44 eventremaining_hr -
+setstate SKYReceiver 2017-11-18 20:37:44 eventremaining_next -
+setstate SKYReceiver 2017-11-18 20:37:44 eventremaining_next_hr -
+setstate SKYReceiver 2017-11-18 20:37:44 eventstart -
+setstate SKYReceiver 2017-11-18 20:37:44 eventstart_hr -
+setstate SKYReceiver 2017-11-18 20:37:44 eventstart_next -
+setstate SKYReceiver 2017-11-18 20:37:44 eventstart_next_hr -
+setstate SKYReceiver 2017-11-18 20:37:44 eventtitle -
+setstate SKYReceiver 2017-11-18 20:37:44 eventtitle_next -
+setstate SKYReceiver 2017-10-29 19:44:18 fpversion 0
+setstate SKYReceiver 2017-10-29 19:44:18 hdd1_capacity 931.5
+setstate SKYReceiver 2017-11-18 11:32:07 hdd1_free 916.8
+setstate SKYReceiver 2017-10-29 19:44:18 hdd1_model WD(Elements 25A2)
+setstate SKYReceiver 2017-10-29 19:44:18 imageversion 6.1.0
+setstate SKYReceiver 2017-11-19 09:18:13 input -
+setstate SKYReceiver 2017-10-29 19:41:39 inputList tv,radio
+setstate SKYReceiver 2017-11-18 20:37:44 iswidescreen -
+setstate SKYReceiver 2017-10-29 19:44:18 lanmac 00:1d:ec:0f:e3:d0
+setstate SKYReceiver 2017-10-29 19:44:18 model Uno4K
+setstate SKYReceiver 2017-11-18 20:37:44 mute -
+setstate SKYReceiver 2017-11-18 20:37:44 nextTitle -
+setstate SKYReceiver 2017-11-18 20:37:44 onid -
+setstate SKYReceiver 2017-11-18 20:37:44 pcrpid -
+setstate SKYReceiver 2017-11-18 20:37:44 pmtpid -
+setstate SKYReceiver 2017-11-18 20:37:44 power off
+setstate SKYReceiver 2017-11-19 09:18:13 presence absent
+setstate SKYReceiver 2017-11-18 20:37:44 providername -
+setstate SKYReceiver 2017-11-01 18:01:39 recordings 0
+setstate SKYReceiver 2017-11-02 17:29:15 recordings_error 0
+setstate SKYReceiver 2017-10-29 19:44:18 recordings_finished 0
+setstate SKYReceiver 2017-11-04 11:35:14 recordings_next 0
+setstate SKYReceiver 2017-11-04 11:35:14 recordings_next_counter 0
+setstate SKYReceiver 2017-11-04 11:35:14 recordings_next_counter_hr -
+setstate SKYReceiver 2017-11-04 11:35:14 recordings_next_hr -
+setstate SKYReceiver 2017-11-04 11:35:14 recordings_next_name -
+setstate SKYReceiver 2017-11-04 11:35:14 recordings_next_servicename -
+setstate SKYReceiver 2017-11-18 20:37:44 servicename -
+setstate SKYReceiver 2017-11-18 20:37:44 servicereference -
+setstate SKYReceiver 2017-11-18 20:37:44 servicevideosize -
+setstate SKYReceiver 2017-11-18 20:37:44 sid -
+setstate SKYReceiver 2017-11-18 20:37:44 snr 0
+setstate SKYReceiver 2017-11-18 20:37:44 snrdb 0
+setstate SKYReceiver 2017-11-19 09:18:13 state absent
+setstate SKYReceiver 2017-11-19 09:18:13 stateAV absent
+setstate SKYReceiver 2017-11-18 20:37:44 tsid -
+setstate SKYReceiver 2017-10-29 19:44:18 tuner_a Vuplus DVB-C NIM(BCM3148) (DVB-C)
+setstate SKYReceiver 2017-10-29 19:44:18 tuner_b Vuplus DVB-C NIM(BCM3148) (DVB-C)
+setstate SKYReceiver 2017-10-29 19:44:18 tuner_c Vuplus DVB-C NIM(BCM3148) (DVB-C)
+setstate SKYReceiver 2017-10-29 19:44:18 tuner_d Vuplus DVB-C NIM(BCM3148) (DVB-C)
+setstate SKYReceiver 2017-10-29 19:44:18 tuner_e Vuplus DVB-C NIM(BCM3148) (DVB-C)
+setstate SKYReceiver 2017-10-29 19:44:18 tuner_f Vuplus DVB-C NIM(BCM3148) (DVB-C)
+setstate SKYReceiver 2017-10-29 19:44:18 tuner_g Vuplus DVB-C NIM(BCM3148) (DVB-C)
+setstate SKYReceiver 2017-10-29 19:44:18 tuner_h Vuplus DVB-C NIM(BCM3148) (DVB-C)
+setstate SKYReceiver 2017-11-18 20:37:44 txtpid -
+setstate SKYReceiver 2017-11-18 20:37:44 videoheight -
+setstate SKYReceiver 2017-11-18 20:37:44 videowidth -
+setstate SKYReceiver 2017-11-01 21:08:10 volume 100
+setstate SKYReceiver 2017-11-18 20:37:44 vpid -
+setstate SKYReceiver 2017-11-18 11:32:07 webifversion OWIF 1.2.8
+setstate Schalter1 active
+setstate Schalter1 2017-11-19 09:17:24 state active
+setstate Schalter2 active
+setstate Schalter2 2017-11-19 09:17:30 state active
+setstate Schlafzimmer on
+setstate Schlafzimmer 2017-11-23 23:55:39 LastDevice Fernsehschrank
+setstate Schlafzimmer 2017-11-23 23:55:39 LastDevice_Abs Fernsehschrank
+setstate Schlafzimmer 2017-11-23 23:55:39 state on
+setstate Sonos disconnected
+setstate Sonos 2017-11-17 16:51:15 AllPlayer ['Sonos_Kinderzimmer','Sonos_Kueche','Sonos_Wohnzimmer']
+setstate Sonos 2017-11-17 16:51:15 AllPlayerCount 3
+setstate Sonos 2017-11-17 16:51:16 AllPlayerNotBonded ['Sonos_Kinderzimmer','Sonos_Kueche','Sonos_Wohnzimmer']
+setstate Sonos 2017-11-17 16:51:16 AllPlayerNotBondedCount 3
+setstate Sonos 2017-09-29 15:17:39 LastActionResult RefreshShareIndex: Success!
+setstate Sonos 2017-11-19 09:18:17 LastProcessAnswer 2100-01-01 00:00:00
+setstate Sonos 2017-11-03 00:16:11 LastProcessRestart 2017-11-03 00:16:11
+setstate Sonos 2017-11-03 00:16:11 LastProcessRestartCount 60
+setstate Sonos 2017-09-16 12:32:26 LineInPlayer []
+setstate Sonos 2017-11-18 17:01:37 MasterPlayer ['Sonos_Kinderzimmer','Sonos_Kueche','Sonos_Wohnzimmer']
+setstate Sonos 2017-11-18 17:01:37 MasterPlayerCount 3
+setstate Sonos 2017-11-18 23:33:55 MasterPlayerNotPlaying ['Sonos_Kinderzimmer','Sonos_Kueche','Sonos_Wohnzimmer']
+setstate Sonos 2017-11-18 23:33:55 MasterPlayerNotPlayingCount 3
+setstate Sonos 2017-11-18 23:33:55 MasterPlayerPlaying []
+setstate Sonos 2017-11-18 23:33:55 MasterPlayerPlayingCount 0
+setstate Sonos 2017-11-18 14:30:52 MusicServicesList {'36' => {'Resolution' => '290','ResolutionSubstitution' => '_290.png','SMAPI' => 'https://sonos.hos.com/SOAP/Server1.2.php','Name' => 'Hearts of Space','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/9223/9223-400x400.png','ServiceType' => '9223','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/9223/9223-72x72.png','Capabilities' => '512'},'171' => {'Resolution' => '1500','ResolutionSubstitution' => '_1500.png','SMAPI' => 'https://sonos.mix.moodmedia.com/api','Name' => 'Mood Mix','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/43783/43783-400x400.png','ServiceType' => '43783','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/43783/43783-72x72.png','Capabilities' => '4609'},'230' => {'Resolution' => '1000','ResolutionSubstitution' => '/1000x1000/','SMAPI' => 'https://www.nts.live/smapi','Name' => 'NTS Radio','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/58887/58887-400x400.png','ServiceType' => '58887','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/58887/58887-72x72.png','Capabilities' => '512'},'217' => {'Resolution' => '1500','ResolutionSubstitution' => '_1500.jpg','SMAPI' => 'https://www.fitradio.com/apisonos/ws','Name' => 'FIT Radio Workout Music','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/55559/55559-400x400.png','ServiceType' => '55559','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/55559/55559-72x72.png','Capabilities' => '4610'},'7' => {'Resolution' => '569','ResolutionSubstitution' => '/569/','SMAPI' => 'https://www.concertvault.com/ws/MOAPI.asmx','Name' => 'Concert Vault','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/1799/1799-400x400.png','ServiceType' => '1799','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/1799/1799-72x72.png','Capabilities' => '513'},'31' => {'Resolution' => '600','ResolutionSubstitution' => '_600.jpg','SMAPI' => 'http://www.qobuz.com/api.xml/0.2/sonos','Name' => 'Qobuz','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/7943/7943-400x400.png','ServiceType' => '7943','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/7943/7943-72x72.png','Capabilities' => '2643'},'150' => {'Resolution' => undef,'ResolutionSubstitution' => undef,'SMAPI' => 'https://www.rusc.com/sonos.asmx','Name' => 'RUSC','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/38407/38407-400x400.png','ServiceType' => '38407','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/38407/38407-72x72.png','Capabilities' => '512'},'157' => {'Resolution' => undef,'ResolutionSubstitution' => undef,'SMAPI' => 'https://sns.bandcamp.com/api/sonos/2/sonos_api','Name' => 'Bandcamp','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/40199/40199-400x400.png','ServiceType' => '40199','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/40199/40199-72x72.png','Capabilities' => '513'},'218' => {'Resolution' => undef,'ResolutionSubstitution' => undef,'SMAPI' => 'https://soundsuit.fm/smapi','Name' => 'Soundsuit.fm','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/55815/55815-400x400.png','ServiceType' => '55815','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/55815/55815-72x72.png','Capabilities' => '512'},'2' => {'Resolution' => '1000','ResolutionSubstitution' => '1000x1000-000000-80-0-0.jpg','SMAPI' => 'https://api.deezer.com/sonos','Name' => 'Deezer','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/519/519-400x400.png','ServiceType' => '519','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/519/519-72x72.png','Capabilities' => '2643'},'212' => {'Resolution' => '1080','ResolutionSubstitution' => 'width=1080','SMAPI' => 'https://sonos.plex.tv/sonos/','Name' => 'Plex','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/54279/54279-400x400.png','ServiceType' => '54279','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/54279/54279-72x72.png','Capabilities' => '513'},'216' => {'Resolution' => '1500','ResolutionSubstitution' => '1500x1500.jpg','SMAPI' => 'https://sonosapi-aldimusic.rhapsody.com/smapi','Name' => 'Aldi life Musik','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/55303/55303-400x400.png','ServiceType' => '55303','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/55303/55303-72x72.png','Capabilities' => '4627'},'256' => {'Resolution' => '1500','ResolutionSubstitution' => 'w_1500,h_1500','SMAPI' => 'https://cbcmusic-sonos.azurewebsites.net/SonosService.svc','Name' => 'CBC Radio &amp;; Music','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/65543/65543-400x400.png','ServiceType' => '65543','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/65543/65543-72x72.png','Capabilities' => '594496'},'232' => {'Resolution' => '1500','ResolutionSubstitution' => '_1500.jpg','SMAPI' => 'https://sonosrp.radioapi.io/Service.svc','Name' => 'Radioplayer','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/59399/59399-400x400.png','ServiceType' => '59399','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/59399/59399-72x72.png','Capabilities' => '577'},'146' => {'Resolution' => undef,'ResolutionSubstitution' => undef,'SMAPI' => 'https://www.daytrotter.com/ws/MOAPI.asmx','Name' => 'Daytrotter','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/37383/37383-400x400.png','ServiceType' => '37383','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/37383/37383-72x72.png','Capabilities' => '513'},'164' => {'Resolution' => '500','ResolutionSubstitution' => '500x500.jpg','SMAPI' => 'https://www.saavn.com/apps/sonos/SonosAPI.php','Name' => 'Saavn','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/41991/41991-400x400.png','ServiceType' => '41991','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/41991/41991-72x72.png','Capabilities' => '12865'},'198' => {'Resolution' => undef,'ResolutionSubstitution' => undef,'SMAPI' => 'https://api.anghami.com/anghmob/SonosAPI.php','Name' => 'Anghami','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/50695/50695-400x400.png','ServiceType' => '50695','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/50695/50695-72x72.png','Capabilities' => '2627'},'154' => {'Resolution' => '999','ResolutionSubstitution' => '.s999','SMAPI' => 'https://sonos.radionomy.com/SonosService.svc','Name' => 'Radionomy','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/39431/39431-400x400.png','ServiceType' => '39431','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/39431/39431-72x72.png','Capabilities' => '513'},'38' => {'Resolution' => '800','ResolutionSubstitution' => '_800.jpg','SMAPI' => 'https://sonos-service.7digital.com/sonos.asmx','Name' => '7digital','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/9735/9735-400x400.png','ServiceType' => '9735','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/9735/9735-72x72.png','Capabilities' => '513'},'183' => {'Resolution' => undef,'ResolutionSubstitution' => undef,'SMAPI' => 'http://www.narando.com/sonos/service/action','Name' => 'narando','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/46855/46855-400x400.png','ServiceType' => '46855','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/46855/46855-72x72.png','Capabilities' => '37395'},'53' => {'Resolution' => '400','ResolutionSubstitution' => '/400x400/','SMAPI' => 'https://securea.mlb.com/ce/sonos/default.jsp','Name' => 'MLB.com Gameday Audio','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/13575/13575-400x400.png','ServiceType' => '13575','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/13575/13575-72x72.png','Capabilities' => '1536'},'20' => {'Resolution' => '640','ResolutionSubstitution' => '640x640.jpg','SMAPI' => 'https://sonos.tidalhifi.com/sonos-wimp','Name' => 'WiMP','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/5127/5127-400x400.png','ServiceType' => '5127','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/5127/5127-72x72.png','Capabilities' => '2579'},'189' => {'Resolution' => '1500','ResolutionSubstitution' => '_1500.png','SMAPI' => 'https://provider.sound-machine.com/sonosapi','Name' => 'SOUNDMACHINE','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/48391/48391-400x400.png','ServiceType' => '48391','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/48391/48391-72x72.png','Capabilities' => '513'},'203' => {'Resolution' => '1500','ResolutionSubstitution' => '1500x1500.jpg','SMAPI' => 'https://sonosapi-napster.rhapsody.com/smapi','Name' => 'Napster','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/51975/51975-400x400.png','ServiceType' => '51975','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/51975/51975-72x72.png','Capabilities' => '595'},'237' => {'Resolution' => '1500','ResolutionSubstitution' => 'artwork_1500','SMAPI' => 'https://api.storeplay.com.au/sonos/SonosService.asmx','Name' => 'storePlay','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/60679/60679-400x400.png','ServiceType' => '60679','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/60679/60679-72x72.png','Capabilities' => '328193'},'204' => {'Resolution' => '1200','ResolutionSubstitution' => '1200x1200','SMAPI' => 'https://sonos-music.apple.com/ws/SonosSoap','Name' => 'Apple Music','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/52231/52231-400x400.png','ServiceType' => '52231','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/52231/52231-72x72.png','Capabilities' => '3117633'},'192' => {'Resolution' => '1500','ResolutionSubstitution' => '-1500.png','SMAPI' => 'https://www.focusatwill.com/sonos/action','Name' => 'focus@will','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/49159/49159-400x400.png','ServiceType' => '49159','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/49159/49159-72x72.png','Capabilities' => '5632'},'233' => {'Resolution' => '960','ResolutionSubstitution' => '/960/','SMAPI' => 'https://integrations.pocketcasts.com/service/smapi','Name' => 'Pocket Casts','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/59655/59655-400x400.png','ServiceType' => '59655','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/59655/59655-72x72.png','Capabilities' => '1028672'},'162' => {'Resolution' => undef,'ResolutionSubstitution' => undef,'SMAPI' => 'https://sonos.townsquaremedia.com/index.php','Name' => 'radioPup','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/41479/41479-400x400.png','ServiceType' => '41479','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/41479/41479-72x72.png','Capabilities' => '513'},'235' => {'Resolution' => undef,'ResolutionSubstitution' => undef,'SMAPI' => 'https://sr-sonos.eu-west-1.elasticbeanstalk.com/ws','Name' => 'Sveriges Radio','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/60167/60167-400x400.png','ServiceType' => '60167','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/60167/60167-72x72.png','Capabilities' => '66049'},'167' => {'Resolution' => '480','ResolutionSubstitution' => '_480x480_','SMAPI' => 'http://sonosapi.gaana.com/SonosAPI.php','Name' => 'Gaana','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/42759/42759-400x400.png','ServiceType' => '42759','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/42759/42759-72x72.png','Capabilities' => '577'},'195' => {'Resolution' => '1500','ResolutionSubstitution' => '/1500x1500','SMAPI' => 'https://360-smapi.api.247e.com/musicopen.svc','Name' => 'JUKE','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/49927/49927-400x400.png','ServiceType' => '49927','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/49927/49927-72x72.png','Capabilities' => '2579'},'184' => {'Resolution' => undef,'ResolutionSubstitution' => undef,'SMAPI' => 'https://sonos.stingray.com/ws/Sonos','Name' => 'Stingray Music','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/47111/47111-400x400.png','ServiceType' => '47111','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/47111/47111-72x72.png','Capabilities' => '295427'},'201' => {'Resolution' => undef,'ResolutionSubstitution' => undef,'SMAPI' => 'https://sonos.amazonmusic.com/','Name' => 'Amazon Music','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/51463/51463-400x400.png','ServiceType' => '51463','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/51463/51463-72x72.png','Capabilities' => '45633'},'33' => {'Resolution' => '300','ResolutionSubstitution' => '-huge.jpg?size=300','SMAPI' => 'https://sonos.murfie.com/','Name' => 'Murfie','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/8455/8455-400x400.png','ServiceType' => '8455','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/8455/8455-72x72.png','Capabilities' => '513'},'163' => {'Resolution' => '200','ResolutionSubstitution' => '/large/','SMAPI' => 'https://sonos.spreaker.com/sonos/service/v1','Name' => 'Spreaker','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/41735/41735-400x400.png','ServiceType' => '41735','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/41735/41735-72x72.png','Capabilities' => '513'},'9' => {'Resolution' => undef,'ResolutionSubstitution' => undef,'SMAPI' => 'https://spotify-v4.ws.sonos.com/smapi','Name' => 'Spotify','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/2311/2311-400x400.png','ServiceType' => '2311','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/2311/2311-72x72.png','Capabilities' => '1116691'},'258' => {'Resolution' => undef,'ResolutionSubstitution' => undef,'SMAPI' => 'https://api.fm.qq.com/v1/sonos/sonos_cgi','Name' => '企鹅FM','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/66055/66055-400x400.png','ServiceType' => '66055','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/66055/66055-72x72.png','Capabilities' => '512'},'169' => {'Resolution' => '1500','ResolutionSubstitution' => '_1500.jpg','SMAPI' => 'https://sonos.tribeofnoise.com/server-v2.0.php','Name' => 'Tribe of Noise','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/43271/43271-400x400.png','ServiceType' => '43271','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/43271/43271-72x72.png','Capabilities' => '512'},'160' => {'Resolution' => '500','ResolutionSubstitution' => 't500x500','SMAPI' => 'https://soundcloud-go.ws.sonos.com/smapi','Name' => 'SoundCloud','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/40967/40967-400x400.png','ServiceType' => '40967','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/40967/40967-72x72.png','Capabilities' => '4611'},'221' => {'Resolution' => undef,'ResolutionSubstitution' => undef,'SMAPI' => 'https://sonos.nugs.net/soap/livephish','Name' => 'LivePhish+','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/56583/56583-400x400.png','ServiceType' => '56583','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/56583/56583-72x72.png','Capabilities' => '6675'},'151' => {'Resolution' => undef,'ResolutionSubstitution' => undef,'SMAPI' => 'https://mclients.googleapis.com/music/sonos/wsf/smapi','Name' => 'Google Play Music','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/38663/38663-400x400.png','ServiceType' => '38663','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/38663/38663-72x72.png','Capabilities' => '98899'},'222' => {'Resolution' => undef,'ResolutionSubstitution' => undef,'SMAPI' => 'https://sonos.nugs.net/soap/nugs','Name' => 'nugs.net','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/56839/56839-400x400.png','ServiceType' => '56839','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/56839/56839-72x72.png','Capabilities' => '6675'},'223' => {'Resolution' => undef,'ResolutionSubstitution' => undef,'SMAPI' => 'https://sonos-smapi.rautemusik.fm/smapi','Name' => 'RauteMusik.FM','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/57095/57095-400x400.png','ServiceType' => '57095','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/57095/57095-72x72.png','Capabilities' => '513'},'191' => {'Resolution' => undef,'ResolutionSubstitution' => undef,'SMAPI' => 'https://api.classicalarchives.com/smapi/endpoint','Name' => 'Classical Archives','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/48903/48903-400x400.png','ServiceType' => '48903','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/48903/48903-72x72.png','Capabilities' => '1030739'},'13' => {'Resolution' => '328','ResolutionSubstitution' => 'lain328','SMAPI' => 'https://www.stitcher.com/Service/Sonos/Sonos.php','Name' => 'Stitcher SmartRadio','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/3335/3335-400x400.png','ServiceType' => '3335','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/3335/3335-72x72.png','Capabilities' => '579'},'234' => {'Resolution' => undef,'ResolutionSubstitution' => undef,'SMAPI' => 'https://sonos.deliver.media/musicservice','Name' => 'deliver.media','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/59911/59911-400x400.png','ServiceType' => '59911','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/59911/59911-72x72.png','Capabilities' => '512'},'181' => {'Resolution' => '1500','ResolutionSubstitution' => 'w/1500/h/1500/','SMAPI' => 'https://www.mixcloud.com/sonos-app/','Name' => 'Mixcloud','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/46343/46343-400x400.png','ServiceType' => '46343','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/46343/46343-72x72.png','Capabilities' => '2627'},'211' => {'Resolution' => '119','ResolutionSubstitution' => '.l.jpg','SMAPI' => 'https://themusicmanager.eu/sonos/SonosAPI.php','Name' => 'The Music Manager','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/54023/54023-400x400.png','ServiceType' => '54023','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/54023/54023-72x72.png','Capabilities' => '515'},'231' => {'Resolution' => '640','ResolutionSubstitution' => '640','SMAPI' => 'https://moapi.wolfgangs.com/ws/wolfgangs.asmx','Name' => 'Wolfgang&apos;;s Music','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/59143/59143-400x400.png','ServiceType' => '59143','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/59143/59143-72x72.png','Capabilities' => '537153'},'174' => {'Resolution' => '640','ResolutionSubstitution' => '640x640.jpg','SMAPI' => 'https://sonos.tidal.com/v1/sonos','Name' => 'TIDAL','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/44551/44551-400x400.png','ServiceType' => '44551','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/44551/44551-72x72.png','Capabilities' => '1083923'},'159' => {'Resolution' => '1500','ResolutionSubstitution' => '/image?w=1500&amp;;h=1500&amp;;','SMAPI' => 'https://sonos.auth.music.microsoft.com/api','Name' => 'Groove','IconQuadraticURL' => 'http://sonos-logo.ws.sonos.com/40711/40711-400x400.png','ServiceType' => '40711','PromoText' => '','IconRoundURL' => 'http://sonos-logo.ws.sonos.com/40711/40711-72x72.png','Capabilities' => '35347'}}
+setstate Sonos 2017-11-18 14:30:52 MusicServicesListVersion RINCON_000E58B54ED101400:3447
+setstate Sonos 2017-11-19 04:01:06 ShareIndexInProgress 0
+setstate Sonos 2017-09-16 15:55:15 UserID_Spotify SA_RINCON2311_X_%23Svc2311-0-Token
+setstate Sonos 2017-11-19 07:43:51 ZoneGroupState <ZoneGroups><ZoneGroup Coordinator="RINCON_000E58FADAE001400" ID="RINCON_000E58FADAE001400:67"><ZoneGroupMember UUID="RINCON_000E58FADAE001400" Location="http://192.168.2.13:1400/xml/device_description.xml" ZoneName="Küche" Icon="x-rincon-roomicon:kitchen" Configuration="1" SoftwareVersion="39.2-47040c" MinCompatibleVersion="38.0-00000" LegacyCompatibleVersion="25.0-00000" BootSeq="77" WirelessMode="0" WirelessLeafOnly="0" HasConfiguredSSID="1" ChannelFreq="2412" BehindWifiExtender="0" WifiEnabled="1" Orientation="3" RoomCalibrationState="4" SecureRegState="3" VoiceState="0"/></ZoneGroup><ZoneGroup Coordinator="RINCON_000E58FADB5401400" ID="RINCON_000E58FADB5401400:6"><ZoneGroupMember UUID="RINCON_000E58FADB5401400" Location="http://192.168.2.4:1400/xml/device_description.xml" ZoneName="Kinderzimmer" Icon="x-rincon-roomicon:bedroom" Configuration="1" SoftwareVersion="39.2-47040c" MinCompatibleVersion="38.0-00000" LegacyCompatibleVersion="25.0-00000" BootSeq="65" WirelessMode="0" WirelessLeafOnly="0" HasConfiguredSSID="1" ChannelFreq="2412" BehindWifiExtender="0" WifiEnabled="1" Orientation="0" RoomCalibrationState="4" SecureRegState="3" VoiceState="0"/></ZoneGroup><ZoneGroup Coordinator="RINCON_000E58B54ED101400" ID="RINCON_000E58B54ED101400:159"><ZoneGroupMember UUID="RINCON_000E58B54ED101400" Location="http://192.168.2.103:1400/xml/device_description.xml" ZoneName="Wohnzimmer" Icon="x-rincon-roomicon:living" Configuration="1" SoftwareVersion="39.2-47040c" MinCompatibleVersion="38.0-00000" LegacyCompatibleVersion="25.0-00000" HTSatChanMapSet="RINCON_000E58B54ED101400:LF,RF;;RINCON_000E5899DCC001400:SW;;RINCON_B8E937BB4F0A01400:RR;;RINCON_B8E937BB4D8401400:LR" BootSeq="136" WirelessMode="0" WirelessLeafOnly="0" HasConfiguredSSID="1" ChannelFreq="2412" BehindWifiExtender="0" WifiEnabled="1" Orientation="2" RoomCalibrationState="4" SecureRegState="3" VoiceState="0"><Satellite UUID="RINCON_000E5899DCC001400" Location="http://192.168.2.113:1400/xml/device_description.xml" ZoneName="Wohnzimmer" Icon="x-rincon-roomicon:living" Configuration="1" Invisible="1" SoftwareVersion="39.2-47040c" MinCompatibleVersion="38.0-00000" LegacyCompatibleVersion="25.0-00000" HTSatChanMapSet="RINCON_000E58B54ED101400:LF,RF;;RINCON_000E5899DCC001400:SW" BootSeq="109" WirelessMode="0" WirelessLeafOnly="0" HasConfiguredSSID="1" ChannelFreq="5240" BehindWifiExtender="0" WifiEnabled="1" Orientation="0" RoomCalibrationState="5" SecureRegState="3" VoiceState="0"/><Satellite UUID="RINCON_B8E937BB4F0A01400" Location="http://192.168.2.112:1400/xml/device_description.xml" ZoneName="Wohnzimmer" Icon="x-rincon-roomicon:living" Configuration="1" Invisible="1" SoftwareVersion="39.2-47040c" MinCompatibleVersion="38.0-00000" LegacyCompatibleVersion="25.0-00000" HTSatChanMapSet="RINCON_000E58B54ED101400:LF,RF;;RINCON_B8E937BB4F0A01400:RR" BootSeq="76" WirelessMode="0" WirelessLeafOnly="0" HasConfiguredSSID="1" ChannelFreq="5240" BehindWifiExtender="0" WifiEnabled="1" Orientation="0" RoomCalibrationState="5" SecureRegState="3" VoiceState="0"/><Satellite UUID="RINCON_B8E937BB4D8401400" Location="http://192.168.2.111:1400/xml/device_description.xml" ZoneName="Wohnzimmer" Icon="x-rincon-roomicon:living" Configuration="1" Invisible="1" SoftwareVersion="39.2-47040c" MinCompatibleVersion="38.0-00000" LegacyCompatibleVersion="25.0-00000" HTSatChanMapSet="RINCON_000E58B54ED101400:LF,RF;;RINCON_B8E937BB4D8401400:LR" BootSeq="79" WirelessMode="0" WirelessLeafOnly="0" HasConfiguredSSID="1" ChannelFreq="5240" BehindWifiExtender="0" WifiEnabled="1" Orientation="0" RoomCalibrationState="5" SecureRegState="3" VoiceState="0"/></ZoneGroupMember></ZoneGroup></ZoneGroups>
+setstate Sonos 2017-11-23 23:55:28 state disconnected
+setstate Sonos_Kinderzimmer initialized
+setstate Sonos_Kinderzimmer 2017-11-19 09:17:34 AlarmList ~~NotLoadedMarker~~
+setstate Sonos_Kinderzimmer 2017-11-19 09:17:34 AlarmListIDs ~~NotLoadedMarker~~
+setstate Sonos_Kinderzimmer 2017-11-19 09:17:34 AlarmListVersion ~~NotLoadedMarker~~
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:30 AlarmRunning 0
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:30 AlarmRunningID 
+setstate Sonos_Kinderzimmer 2017-11-17 16:51:16 AvailablePlayer ['Sonos_Kueche','Sonos_Wohnzimmer']
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:27 Balance 0
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:51 Bass 4
+setstate Sonos_Kinderzimmer 2017-11-04 12:59:58 CrossfadeMode 0
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:50 DailyIndexRefreshTime 04:00:00
+setstate Sonos_Kinderzimmer 2017-11-06 17:18:03 DirectControlAccountID 
+setstate Sonos_Kinderzimmer 2017-11-06 17:18:03 DirectControlClientID 
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:30 DirectControlIsSuspended 0
+setstate Sonos_Kinderzimmer 2017-09-19 17:28:46 FavouritesVersion RINCON_000E58FADAE001400,82
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:32 GroupMute 0
+setstate Sonos_Kinderzimmer 2017-11-18 00:01:57 GroupVolume 7
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:30 HeadphoneConnected 0
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:27 IsBonded 0
+setstate Sonos_Kinderzimmer 2017-11-04 22:44:47 IsMaster 1
+setstate Sonos_Kinderzimmer 2017-11-19 09:17:34 LastActionResult ~~NotLoadedMarker~~
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:51 Loudness 1
+setstate Sonos_Kinderzimmer 2017-11-04 22:44:47 MasterPlayer Sonos_Kinderzimmer
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:30 Mute 0
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:51 OutputFixed 0
+setstate Sonos_Kinderzimmer 2017-11-18 00:01:57 PlaylistsVersion RINCON_000E58B54ED101400,39
+setstate Sonos_Kinderzimmer 2017-11-18 22:31:18 QueueHash 3c692a2cc085a146c3b8e50c4ccd1975
+setstate Sonos_Kinderzimmer 2017-11-18 22:31:18 QueueVersion 7
+setstate Sonos_Kinderzimmer 2017-09-19 17:28:46 RadiosVersion RINCON_000E58FADAE001400,82
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:30 Repeat 0
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:30 RepeatOne 0
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:30 Shuffle 0
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:27 SlavePlayer []
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:27 SlavePlayerNotBonded []
+setstate Sonos_Kinderzimmer 2017-11-04 13:45:21 SleepTimer off
+setstate Sonos_Kinderzimmer 2017-11-04 13:45:21 SleepTimerVersion 
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:51 SubEnable 1
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:51 SubGain 0
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:51 SubPolarity 0
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:51 Treble 9
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:51 TruePlay 0
+setstate Sonos_Kinderzimmer 2017-11-18 00:01:54 Volume 7
+setstate Sonos_Kinderzimmer 2017-11-04 22:44:47 ZoneGroupID RINCON_000E58FADB5401400:__
+setstate Sonos_Kinderzimmer 2017-09-23 12:08:49 ZoneGroupName Kinderzimmer
+setstate Sonos_Kinderzimmer 2017-11-04 22:44:47 ZoneGroupNameDetails 
+setstate Sonos_Kinderzimmer 2017-11-04 22:44:47 ZonePlayerUUIDsInGroup RINCON_000E58FADB5401400
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:50 currentAlbum 014/Spuk am See
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:55 currentAlbumArtURL http://192.168.2.4:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a08qk3rndEiCJJigpxotqVJ%3fsid%3d9%26flags%3d8224%26sn%3d13
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:50 currentAlbumArtist Die drei !!!
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:50 currentArtist Die drei !!!
+setstate Sonos_Kinderzimmer 2017-11-18 22:31:13 currentEnqueuedTransportHandle x-rincon-cpcontainer:1004206cspotify%3aalbum%3a5bEe20BiXHLJHxRO6fXpBa?sid=9&flags=8300&sn=13|<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"><item id="1004206cspotify%3aalbum%3a5bEe20BiXHLJHxRO6fXpBa" parentID="10052064spotify%3aartist%3a2Jc4AEeBTE47KwuKgYOtcL" restricted="true"><dc:title>014/Spuk am See</dc:title><upnp:class>object.container.album.musicAlbum</upnp:class><desc id="cdudn" nameSpace="urn:schemas-rinconnetworks-com:metadata-1-0/">SA_RINCON2311_X_#Svc2311-0-Token</desc></item></DIDL-Lite>
+setstate Sonos_Kinderzimmer 2017-11-18 22:31:13 currentEnqueuedTransportURI x-rincon-cpcontainer:1004206cspotify%3aalbum%3a5bEe20BiXHLJHxRO6fXpBa?sid=9&flags=8300&sn=13
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:30 currentFavouriteName 
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:50 currentNormalAudio 1
+setstate Sonos_Kinderzimmer 2017-11-02 22:28:09 currentOriginalTrackNumber 
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:30 currentPlaylistName 
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:30 currentRadioName 
+setstate Sonos_Kinderzimmer 2017-11-04 22:45:24 currentSender 
+setstate Sonos_Kinderzimmer 2017-11-04 22:45:24 currentSenderCurrent 
+setstate Sonos_Kinderzimmer 2017-10-07 11:16:38 currentSenderInfo 
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:50 currentSource 014/Spuk am See
+setstate Sonos_Kinderzimmer 2017-11-18 22:31:13 currentStreamAudio 0
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:55 currentTitle 014 - Spuk am See - Teil 01
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:55 currentTrack 1
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:55 currentTrackDuration 0:01:48
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:55 currentTrackDurationSec 108
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:55 currentTrackHandle x-sonos-spotify:spotify:track:08qk3rndEiCJJigpxotqVJ?sid=9&amp;;flags=8224&amp;;sn=13|<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"><item id="-1" parentID="-1" restricted="true"><res protocolInfo="sonos.com-spotify:*:audio/x-spotify:*" duration="0:01:48">x-sonos-spotify:spotify%3atrack%3a08qk3rndEiCJJigpxotqVJ?sid=9&amp;;flags=8224&amp;;sn=13</res><r:streamContent></r:streamContent><r:radioShowMd></r:radioShowMd><upnp:albumArtURI>/getaa?s=1&amp;;u=x-sonos-spotify%3aspotify%253atrack%253a08qk3rndEiCJJigpxotqVJ%3fsid%3d9%26flags%3d8224%26sn%3d13</upnp:albumArtURI><dc:title>014 - Spuk am See - Teil 01</dc:title><upnp:class>object.item.audioItem.musicTrack</upnp:class><dc:creator>Die drei !!!</dc:creator><upnp:album>014/Spuk am See</upnp:album></item></DIDL-Lite>
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:55 currentTrackPosition 0:00:00
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:55 currentTrackPositionSec 0
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:56 currentTrackPositionSimulated 0:00:00
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:55 currentTrackPositionSimulatedPercent 0.0
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:56 currentTrackPositionSimulatedSec 0
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:50 currentTrackProvider Spotify
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:50 currentTrackProviderIconQuadraticURL http://sonos-logo.ws.sonos.com/2311/2311-400x400.png
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:50 currentTrackProviderIconRoundURL http://sonos-logo.ws.sonos.com/2311/2311-72x72.png
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:55 currentTrackURI x-sonos-spotify:spotify:track:08qk3rndEiCJJigpxotqVJ?sid=9&amp;;flags=8224&amp;;sn=13
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:27 fieldType 
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:55 infoSummarize1 (Die drei !!!) '014 - Spuk am See - Teil 01' vom Album '014/Spuk am See'
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:55 infoSummarize2 STOPPED => (Die drei !!!) '014 - Spuk am See - Teil 01' vom Album '014/Spuk am See'
+setstate Sonos_Kinderzimmer 2017-11-18 00:01:56 infoSummarize3 Lautstärke: 7 ~ Ton An ~ Balance: Mitte ~ Kein Kopfhörer
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:30 infoSummarize4 
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:27 location http://192.168.2.4:1400/xml/device_description.xml
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:55 nextAlbum 014/Spuk am See
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:55 nextAlbumArtURL http://192.168.2.4:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a1Umyca8RMvAgp510zzwOyz%3fsid%3d9%26flags%3d8224%26sn%3d13
+setstate Sonos_Kinderzimmer 2017-10-23 17:38:45 nextAlbumArtist 
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:55 nextArtist Die drei !!!
+setstate Sonos_Kinderzimmer 2017-10-23 17:38:45 nextOriginalTrackNumber 
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:55 nextTitle 014 - Spuk am See - Teil 02
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:55 nextTrackDuration 0:01:48
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:55 nextTrackDurationSec 108
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:55 nextTrackHandle x-sonos-spotify:spotify:track:1Umyca8RMvAgp510zzwOyz?sid=9&amp;;flags=8224&amp;;sn=13|<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"><item id="-1" parentID="-1" restricted="true"><res protocolInfo="sonos.com-spotify:*:audio/x-spotify:*" duration="0:01:48">x-sonos-spotify:spotify%3atrack%3a1Umyca8RMvAgp510zzwOyz?sid=9&amp;;flags=8224&amp;;sn=13</res><upnp:albumArtURI>/getaa?s=1&amp;;u=x-sonos-spotify%3aspotify%253atrack%253a1Umyca8RMvAgp510zzwOyz%3fsid%3d9%26flags%3d8224%26sn%3d13</upnp:albumArtURI><dc:title>014 - Spuk am See - Teil 02</dc:title><upnp:class>object.item.audioItem.musicTrack</upnp:class><dc:creator>Die drei !!!</dc:creator><upnp:album>014/Spuk am See</upnp:album></item></DIDL-Lite>
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:55 nextTrackProvider Spotify
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:55 nextTrackProviderIconQuadraticURL http://sonos-logo.ws.sonos.com/2311/2311-400x400.png
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:55 nextTrackProviderIconRoundURL http://sonos-logo.ws.sonos.com/2311/2311-72x72.png
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:55 nextTrackURI x-sonos-spotify:spotify:track:1Umyca8RMvAgp510zzwOyz?sid=9&amp;;flags=8224&amp;;sn=13
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:50 numberOfTracks 40
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:27 playerType S3
+setstate Sonos_Kinderzimmer 2017-11-19 09:17:34 presence ~~NotLoadedMarker~~
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:51 roomIcon bedroom
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:27 roomName Kinderzimmer
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:27 roomNameAlias Kinderzimmer
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:27 saveRoomName Kinderzimmer
+setstate Sonos_Kinderzimmer 2017-09-16 12:32:27 serialNum 00-0E-58-FA-DB-54:C
+setstate Sonos_Kinderzimmer 2017-11-18 00:01:54 softwareRevision 8.2
+setstate Sonos_Kinderzimmer 2017-11-19 09:17:18 state initialized
+setstate Sonos_Kinderzimmer 2017-11-18 23:33:55 transportState STOPPED
+setstate Sonos_Kueche initialized
+setstate Sonos_Kueche 2017-11-19 09:17:34 AlarmList ~~NotLoadedMarker~~
+setstate Sonos_Kueche 2017-11-19 09:17:34 AlarmListIDs ~~NotLoadedMarker~~
+setstate Sonos_Kueche 2017-11-19 09:17:34 AlarmListVersion ~~NotLoadedMarker~~
+setstate Sonos_Kueche 2017-09-16 12:32:31 AlarmRunning 0
+setstate Sonos_Kueche 2017-09-16 12:32:31 AlarmRunningID 
+setstate Sonos_Kueche 2017-11-17 16:51:16 AvailablePlayer ['Sonos_Kinderzimmer','Sonos_Wohnzimmer']
+setstate Sonos_Kueche 2017-09-16 12:32:30 Balance 0
+setstate Sonos_Kueche 2017-10-09 20:21:11 Bass 2
+setstate Sonos_Kueche 2017-09-16 12:32:31 CrossfadeMode 0
+setstate Sonos_Kueche 2017-09-16 12:32:51 DailyIndexRefreshTime 04:00:00
+setstate Sonos_Kueche 2017-11-17 06:15:05 DirectControlAccountID 
+setstate Sonos_Kueche 2017-11-17 06:15:05 DirectControlClientID 
+setstate Sonos_Kueche 2017-11-17 06:15:05 DirectControlIsSuspended 0
+setstate Sonos_Kueche 2017-09-19 17:28:46 FavouritesVersion RINCON_000E58FADAE001400,82
+setstate Sonos_Kueche 2017-11-18 17:02:07 GroupMute 0
+setstate Sonos_Kueche 2017-11-18 17:02:19 GroupVolume 12
+setstate Sonos_Kueche 2017-09-16 12:32:31 HeadphoneConnected 0
+setstate Sonos_Kueche 2017-09-16 12:32:30 IsBonded 0
+setstate Sonos_Kueche 2017-11-18 17:01:38 IsMaster 1
+setstate Sonos_Kueche 2017-11-19 09:17:34 LastActionResult ~~NotLoadedMarker~~
+setstate Sonos_Kueche 2017-09-16 12:32:51 Loudness 1
+setstate Sonos_Kueche 2017-11-18 17:01:37 MasterPlayer Sonos_Kueche
+setstate Sonos_Kueche 2017-11-18 17:01:57 Mute 0
+setstate Sonos_Kueche 2017-09-16 12:32:51 OutputFixed 0
+setstate Sonos_Kueche 2017-09-19 22:16:43 Playlists {'SQ:8' => {'Cover' => '','Title' => 'Marteria','Ressource' => 'file:///jffs/settings/savedqueues.rsq#8'}}
+setstate Sonos_Kueche 2017-11-18 00:01:56 PlaylistsVersion RINCON_000E58B54ED101400,39
+setstate Sonos_Kueche 2017-11-07 17:28:09 QueueHash 23d3a9fa511ebce8af4f97be3c19828d
+setstate Sonos_Kueche 2017-11-07 17:28:09 QueueVersion 15
+setstate Sonos_Kueche 2017-09-19 17:28:46 RadiosVersion RINCON_000E58FADAE001400,82
+setstate Sonos_Kueche 2017-09-22 20:53:17 Repeat 0
+setstate Sonos_Kueche 2017-09-23 14:49:39 RepeatOne 0
+setstate Sonos_Kueche 2017-09-16 12:32:31 Shuffle 0
+setstate Sonos_Kueche 2017-11-12 13:42:12 SlavePlayer []
+setstate Sonos_Kueche 2017-11-12 13:42:12 SlavePlayerNotBonded []
+setstate Sonos_Kueche 2017-09-16 12:32:31 SleepTimer off
+setstate Sonos_Kueche 2017-09-16 12:32:31 SleepTimerVersion 
+setstate Sonos_Kueche 2017-09-16 12:32:51 SubEnable 1
+setstate Sonos_Kueche 2017-09-16 12:32:51 SubGain 0
+setstate Sonos_Kueche 2017-09-16 12:32:51 SubPolarity 0
+setstate Sonos_Kueche 2017-09-16 12:32:51 Treble 5
+setstate Sonos_Kueche 2017-09-16 12:32:51 TruePlay 0
+setstate Sonos_Kueche 2017-11-18 17:02:12 Volume 12
+setstate Sonos_Kueche 2017-11-18 17:01:38 ZoneGroupID RINCON_000E58FADAE001400:__
+setstate Sonos_Kueche 2017-11-12 13:42:13 ZoneGroupName Küche
+setstate Sonos_Kueche 2017-11-18 17:01:37 ZoneGroupNameDetails 
+setstate Sonos_Kueche 2017-11-18 17:01:38 ZonePlayerUUIDsInGroup RINCON_000E58FADAE001400
+setstate Sonos_Kueche 2017-11-18 17:01:37 currentAlbum 
+setstate Sonos_Kueche 2017-11-18 17:01:37 currentAlbumArtURL http://cdn-radiotime-logos.tunein.com/s192770g.png
+setstate Sonos_Kueche 2017-11-18 17:01:37 currentAlbumArtist 
+setstate Sonos_Kueche 2017-11-08 05:30:05 currentArtist 
+setstate Sonos_Kueche 2017-11-18 17:01:37 currentEnqueuedTransportHandle x-sonosapi-stream:s192770?sid=254&flags=8224&sn=0|<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"><item id="-1" parentID="-1" restricted="true"><dc:title>181.FM 90s Dance</dc:title><upnp:class>object.item.audioItem.audioBroadcast</upnp:class><desc id="cdudn" nameSpace="urn:schemas-rinconnetworks-com:metadata-1-0/">SA_RINCON65031_</desc></item></DIDL-Lite>
+setstate Sonos_Kueche 2017-11-18 17:01:37 currentEnqueuedTransportURI x-sonosapi-stream:s192770?sid=254&flags=8224&sn=0
+setstate Sonos_Kueche 2017-09-16 12:32:31 currentFavouriteName 
+setstate Sonos_Kueche 2017-11-18 20:01:41 currentNormalAudio 
+setstate Sonos_Kueche 2017-10-08 10:04:25 currentOriginalTrackNumber 
+setstate Sonos_Kueche 2017-09-22 20:52:46 currentPlaylistName 
+setstate Sonos_Kueche 2017-09-16 12:32:31 currentRadioName 
+setstate Sonos_Kueche 2017-11-18 17:01:37 currentSender 181.FM 90s Dance
+setstate Sonos_Kueche 2017-11-06 05:55:05 currentSenderCurrent 
+setstate Sonos_Kueche 2017-11-18 18:11:17 currentSenderInfo 
+setstate Sonos_Kueche 2017-11-18 17:01:37 currentSource 181.FM 90s Dance
+setstate Sonos_Kueche 2017-11-18 17:01:37 currentStreamAudio 1
+setstate Sonos_Kueche 2017-11-18 17:01:37 currentTitle 
+setstate Sonos_Kueche 2017-11-16 17:18:14 currentTrack 1
+setstate Sonos_Kueche 2017-11-18 17:01:37 currentTrackDuration 0:00:00
+setstate Sonos_Kueche 2017-11-16 17:18:14 currentTrackDurationSec 0
+setstate Sonos_Kueche 2017-11-18 18:11:17 currentTrackHandle aac://http://listen.181fm.com/181-90sdance_64k.aac?noPreRoll=true|<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"><item id="-1" parentID="-1" restricted="true"><res protocolInfo="sonos.com-http:*:application/octet-stream:*">x-sonosapi-stream:s192770?sid=254&amp;;flags=8224&amp;;sn=0</res><r:streamContent></r:streamContent><r:radioShowMd></r:radioShowMd><upnp:albumArtURI>/getaa?s=1&amp;;u=x-sonosapi-stream%3as192770%3fsid%3d254%26flags%3d8224%26sn%3d0</upnp:albumArtURI><dc:title>x-sonosapi-stream:s192770?sid=254&amp;;flags=8224&amp;;sn=0</dc:title><upnp:class>object.item</upnp:class></item></DIDL-Lite>
+setstate Sonos_Kueche 2017-11-18 18:11:17 currentTrackPosition 0:00:00
+setstate Sonos_Kueche 2017-11-18 18:11:17 currentTrackPositionSec 0
+setstate Sonos_Kueche 2017-11-18 18:11:18 currentTrackPositionSimulated 0:00:00
+setstate Sonos_Kueche 2017-11-08 05:30:05 currentTrackPositionSimulatedPercent 0.0
+setstate Sonos_Kueche 2017-11-18 18:11:18 currentTrackPositionSimulatedSec 0
+setstate Sonos_Kueche 2017-11-18 17:01:37 currentTrackProvider Radio
+setstate Sonos_Kueche 2017-11-18 17:01:37 currentTrackProviderIconQuadraticURL /fhem/sonos/cover/tunein_quadratic.jpg
+setstate Sonos_Kueche 2017-11-18 17:01:37 currentTrackProviderIconRoundURL /fhem/sonos/cover/tunein_round.png
+setstate Sonos_Kueche 2017-11-18 17:01:37 currentTrackURI aac://http://listen.181fm.com/181-90sdance_64k.aac?noPreRoll=true
+setstate Sonos_Kueche 2017-09-16 12:32:30 fieldType 
+setstate Sonos_Kueche 2017-11-18 18:11:17 infoSummarize1 181.FM 90s Dance:
+setstate Sonos_Kueche 2017-11-18 18:11:17 infoSummarize2 STOPPED => 181.FM 90s Dance:
+setstate Sonos_Kueche 2017-11-18 17:02:19 infoSummarize3 Lautstärke: 12 ~ Ton An ~ Balance: Mitte ~ Kein Kopfhörer
+setstate Sonos_Kueche 2017-09-16 12:32:31 infoSummarize4 
+setstate Sonos_Kueche 2017-09-16 12:32:30 location http://192.168.2.13:1400/xml/device_description.xml
+setstate Sonos_Kueche 2017-11-08 05:30:05 nextAlbum 
+setstate Sonos_Kueche 2017-11-16 17:18:14 nextAlbumArtURL /fhem/sonos/cover/empty.jpg
+setstate Sonos_Kueche 2017-10-08 10:04:25 nextAlbumArtist 
+setstate Sonos_Kueche 2017-11-08 05:30:05 nextArtist 
+setstate Sonos_Kueche 2017-10-08 10:04:25 nextOriginalTrackNumber 
+setstate Sonos_Kueche 2017-11-08 05:30:05 nextTitle 
+setstate Sonos_Kueche 2017-11-08 05:30:05 nextTrackDuration 
+setstate Sonos_Kueche 2017-11-08 05:30:05 nextTrackDurationSec 
+setstate Sonos_Kueche 2017-11-16 17:18:14 nextTrackHandle |
+setstate Sonos_Kueche 2017-11-08 05:30:05 nextTrackProvider 
+setstate Sonos_Kueche 2017-11-08 05:30:05 nextTrackProviderIconQuadraticURL 
+setstate Sonos_Kueche 2017-11-08 05:30:05 nextTrackProviderIconRoundURL 
+setstate Sonos_Kueche 2017-11-08 05:30:05 nextTrackURI 
+setstate Sonos_Kueche 2017-11-18 17:01:37 numberOfTracks 2
+setstate Sonos_Kueche 2017-09-16 12:32:30 playerType S3
+setstate Sonos_Kueche 2017-11-19 09:17:34 presence ~~NotLoadedMarker~~
+setstate Sonos_Kueche 2017-09-16 12:32:51 roomIcon kitchen
+setstate Sonos_Kueche 2017-09-16 12:32:30 roomName Küche
+setstate Sonos_Kueche 2017-09-16 12:32:30 roomNameAlias Küche
+setstate Sonos_Kueche 2017-09-16 12:32:30 saveRoomName Kueche
+setstate Sonos_Kueche 2017-09-16 12:32:30 serialNum 00-0E-58-FA-DA-E0:F
+setstate Sonos_Kueche 2017-11-18 00:01:51 softwareRevision 8.2
+setstate Sonos_Kueche 2017-11-19 09:17:18 state initialized
+setstate Sonos_Kueche 2017-11-18 18:11:17 transportState STOPPED
+setstate Sonos_Wohnzimmer initialized
+setstate Sonos_Wohnzimmer 2017-11-19 09:17:34 AlarmList ~~NotLoadedMarker~~
+setstate Sonos_Wohnzimmer 2017-11-19 09:17:34 AlarmListIDs ~~NotLoadedMarker~~
+setstate Sonos_Wohnzimmer 2017-11-19 09:17:34 AlarmListVersion ~~NotLoadedMarker~~
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:26 AlarmRunning 0
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:26 AlarmRunningID 
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:51 AudioDelay 0
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:51 AudioDelayLeftRear 0
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:51 AudioDelayRightRear 0
+setstate Sonos_Wohnzimmer 2017-11-18 17:01:37 AvailablePlayer ['Sonos_Kinderzimmer','Sonos_Kueche']
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:25 Balance 0
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:51 Bass 5
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:26 CrossfadeMode 0
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:31 DailyIndexRefreshTime 04:00:00
+setstate Sonos_Wohnzimmer 2017-10-25 17:24:37 DialogLevel 0
+setstate Sonos_Wohnzimmer 2017-11-10 17:43:58 DirectControlAccountID 
+setstate Sonos_Wohnzimmer 2017-11-10 17:43:58 DirectControlClientID 
+setstate Sonos_Wohnzimmer 2017-11-10 17:43:58 DirectControlIsSuspended 0
+setstate Sonos_Wohnzimmer 2017-09-19 17:28:45 FavouritesVersion RINCON_000E58FADAE001400,82
+setstate Sonos_Wohnzimmer 2017-11-18 21:14:49 GroupMute 0
+setstate Sonos_Wohnzimmer 2017-11-18 20:43:09 GroupVolume 7
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:26 HeadphoneConnected 0
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:25 IsBonded 0
+setstate Sonos_Wohnzimmer 2017-11-12 13:42:16 IsMaster 1
+setstate Sonos_Wohnzimmer 2017-11-19 09:17:34 LastActionResult ~~NotLoadedMarker~~
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:51 Loudness 1
+setstate Sonos_Wohnzimmer 2017-11-12 13:42:12 MasterPlayer Sonos_Wohnzimmer
+setstate Sonos_Wohnzimmer 2017-11-18 21:14:49 Mute 0
+setstate Sonos_Wohnzimmer 2017-10-25 17:24:32 NightMode 0
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:51 OutputFixed 0
+setstate Sonos_Wohnzimmer 2017-11-17 19:13:52 PlaylistsVersion RINCON_000E58B54ED101400,39
+setstate Sonos_Wohnzimmer 2017-11-17 16:50:47 QueueHash bdcddf027c101de261a0c5c738cf1abf
+setstate Sonos_Wohnzimmer 2017-11-17 16:50:47 QueueVersion 1
+setstate Sonos_Wohnzimmer 2017-09-19 17:28:45 RadiosVersion RINCON_000E58FADAE001400,82
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:26 Repeat 0
+setstate Sonos_Wohnzimmer 2017-09-23 14:49:39 RepeatOne 0
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:26 Shuffle 0
+setstate Sonos_Wohnzimmer 2017-11-18 17:01:37 SlavePlayer []
+setstate Sonos_Wohnzimmer 2017-11-18 17:01:37 SlavePlayerNotBonded []
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:26 SleepTimer off
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:26 SleepTimerVersion 
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:51 SubEnable 1
+setstate Sonos_Wohnzimmer 2017-10-29 22:27:49 SubGain -4
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:51 SubPolarity 0
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:51 SurroundEnable 1
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:51 SurroundLevel -8
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:51 Treble 8
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:51 TruePlay 0
+setstate Sonos_Wohnzimmer 2017-11-18 20:43:09 Volume 7
+setstate Sonos_Wohnzimmer 2017-11-12 13:42:16 ZoneGroupID RINCON_000E58B54ED101400:__
+setstate Sonos_Wohnzimmer 2017-11-18 17:01:38 ZoneGroupName Wohnzimmer
+setstate Sonos_Wohnzimmer 2017-11-18 17:01:37 ZoneGroupNameDetails 
+setstate Sonos_Wohnzimmer 2017-11-18 17:01:38 ZonePlayerUUIDsInGroup RINCON_000E58B54ED101400
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 currentAlbum For The Love
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 currentAlbumArtURL http://192.168.2.103:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a1Q1Lz8shbr2AXR8zKReTqd%3fsid%3d9%26flags%3d8224%26sn%3d13
+setstate Sonos_Wohnzimmer 2017-11-18 14:36:19 currentAlbumArtist Die drei !!!
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 currentArtist Hearts & Colors
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 currentEnqueuedTransportHandle file:///jffs/settings/trackqueue.rsq#0|
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 currentEnqueuedTransportURI file:///jffs/settings/trackqueue.rsq#0
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:26 currentFavouriteName 
+setstate Sonos_Wohnzimmer 2017-11-15 21:26:21 currentNormalAudio 1
+setstate Sonos_Wohnzimmer 2017-10-25 19:18:57 currentOriginalTrackNumber 
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:26 currentPlaylistName 
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:26 currentRadioName 
+setstate Sonos_Wohnzimmer 2017-11-16 06:50:31 currentSender 
+setstate Sonos_Wohnzimmer 2017-11-04 11:25:42 currentSenderCurrent 
+setstate Sonos_Wohnzimmer 2017-11-04 11:37:51 currentSenderInfo 
+setstate Sonos_Wohnzimmer 2017-11-17 16:50:47 currentSource 
+setstate Sonos_Wohnzimmer 2017-11-18 20:11:46 currentStreamAudio 0
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 currentTitle For The Love
+setstate Sonos_Wohnzimmer 2017-11-17 16:51:38 currentTrack 1
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 currentTrackDuration 0:03:40
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 currentTrackDurationSec 220
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 currentTrackHandle x-sonos-spotify:spotify:track:1Q1Lz8shbr2AXR8zKReTqd?sid=9&amp;;flags=8224&amp;;sn=13|<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"><item id="-1" parentID="-1" restricted="true"><res protocolInfo="sonos.com-spotify:*:audio/x-spotify:*" duration="0:03:40">x-sonos-spotify:spotify%3atrack%3a1Q1Lz8shbr2AXR8zKReTqd?sid=9&amp;;flags=8224&amp;;sn=13</res><r:streamContent></r:streamContent><r:radioShowMd></r:radioShowMd><upnp:albumArtURI>/getaa?s=1&amp;;u=x-sonos-spotify%3aspotify%253atrack%253a1Q1Lz8shbr2AXR8zKReTqd%3fsid%3d9%26flags%3d8224%26sn%3d13</upnp:albumArtURI><dc:title>For The Love</dc:title><upnp:class>object.item.audioItem.musicTrack</upnp:class><dc:creator>Hearts &amp;; Colors</dc:creator><upnp:album>For The Love</upnp:album></item></DIDL-Lite>
+setstate Sonos_Wohnzimmer 2017-11-18 22:43:30 currentTrackPosition 0:00:00
+setstate Sonos_Wohnzimmer 2017-11-18 22:43:30 currentTrackPositionSec 0
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:28 currentTrackPositionSimulated 0:00:00
+setstate Sonos_Wohnzimmer 2017-11-16 07:08:26 currentTrackPositionSimulatedPercent 0.0
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:28 currentTrackPositionSimulatedSec 0
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 currentTrackProvider Spotify
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 currentTrackProviderIconQuadraticURL http://sonos-logo.ws.sonos.com/2311/2311-400x400.png
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 currentTrackProviderIconRoundURL http://sonos-logo.ws.sonos.com/2311/2311-72x72.png
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 currentTrackURI x-sonos-spotify:spotify:track:1Q1Lz8shbr2AXR8zKReTqd?sid=9&amp;;flags=8224&amp;;sn=13
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:25 fieldType LF_RF
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 infoSummarize1 (Hearts & Colors) 'For The Love' vom Album 'For The Love'
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 infoSummarize2 STOPPED => (Hearts & Colors) 'For The Love' vom Album 'For The Love'
+setstate Sonos_Wohnzimmer 2017-11-18 22:23:30 infoSummarize3 Lautstärke: 7 ~ Ton An ~ Balance: Mitte ~ Kein Kopfhörer
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:26 infoSummarize4 
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:25 location http://192.168.2.103:1400/xml/device_description.xml
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 nextAlbum By Your Side
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 nextAlbumArtURL http://192.168.2.103:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a4vLfLdTPD80fab2DcnGm0s%3fsid%3d9%26flags%3d8224%26sn%3d13
+setstate Sonos_Wohnzimmer 2017-11-08 21:49:39 nextAlbumArtist 
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 nextArtist Max Owen
+setstate Sonos_Wohnzimmer 2017-10-25 19:18:57 nextOriginalTrackNumber 
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 nextTitle By Your Side
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 nextTrackDuration 0:03:30
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 nextTrackDurationSec 210
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 nextTrackHandle x-sonos-spotify:spotify:track:4vLfLdTPD80fab2DcnGm0s?sid=9&amp;;flags=8224&amp;;sn=13|<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"><item id="-1" parentID="-1" restricted="true"><res protocolInfo="sonos.com-spotify:*:audio/x-spotify:*" duration="0:03:30">x-sonos-spotify:spotify%3atrack%3a4vLfLdTPD80fab2DcnGm0s?sid=9&amp;;flags=8224&amp;;sn=13</res><upnp:albumArtURI>/getaa?s=1&amp;;u=x-sonos-spotify%3aspotify%253atrack%253a4vLfLdTPD80fab2DcnGm0s%3fsid%3d9%26flags%3d8224%26sn%3d13</upnp:albumArtURI><dc:title>By Your Side</dc:title><upnp:class>object.item.audioItem.musicTrack</upnp:class><dc:creator>Max Owen</dc:creator><upnp:album>By Your Side</upnp:album></item></DIDL-Lite>
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 nextTrackProvider Spotify
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 nextTrackProviderIconQuadraticURL http://sonos-logo.ws.sonos.com/2311/2311-400x400.png
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 nextTrackProviderIconRoundURL http://sonos-logo.ws.sonos.com/2311/2311-72x72.png
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 nextTrackURI x-sonos-spotify:spotify:track:4vLfLdTPD80fab2DcnGm0s?sid=9&amp;;flags=8224&amp;;sn=13
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 numberOfTracks 69
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:25 playerType S9
+setstate Sonos_Wohnzimmer 2017-11-19 09:17:34 presence ~~NotLoadedMarker~~
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:51 roomIcon living
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:25 roomName Wohnzimmer
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:25 roomNameAlias Wohnzimmer - Mitte
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:25 saveRoomName Wohnzimmer
+setstate Sonos_Wohnzimmer 2017-09-16 12:32:25 serialNum 00-0E-58-B5-4E-D1:C
+setstate Sonos_Wohnzimmer 2017-11-17 16:50:43 softwareRevision 8.2
+setstate Sonos_Wohnzimmer 2017-11-19 09:17:18 state initialized
+setstate Sonos_Wohnzimmer 2017-11-18 22:33:27 transportState STOPPED
+setstate Sonos_Wohnzimmer_LR initialized
+setstate Sonos_Wohnzimmer_LR 2017-11-19 09:17:34 AlarmList ~~NotLoadedMarker~~
+setstate Sonos_Wohnzimmer_LR 2017-11-19 09:17:34 AlarmListIDs ~~NotLoadedMarker~~
+setstate Sonos_Wohnzimmer_LR 2017-11-19 09:17:34 AlarmListVersion ~~NotLoadedMarker~~
+setstate Sonos_Wohnzimmer_LR 2017-11-17 16:51:16 AvailablePlayer ['Sonos_Kinderzimmer','Sonos_Kueche','Sonos_Wohnzimmer']
+setstate Sonos_Wohnzimmer_LR 2017-09-16 12:32:31 Balance 0
+setstate Sonos_Wohnzimmer_LR 2017-09-16 12:32:51 DailyIndexRefreshTime 04:00:00
+setstate Sonos_Wohnzimmer_LR 2017-09-16 12:32:31 IsBonded 1
+setstate Sonos_Wohnzimmer_LR 2017-11-18 00:01:51 IsMaster 0
+setstate Sonos_Wohnzimmer_LR 2017-11-19 09:17:34 LastActionResult ~~NotLoadedMarker~~
+setstate Sonos_Wohnzimmer_LR 2017-11-18 20:06:44 MasterPlayer Sonos_Wohnzimmer_LR
+setstate Sonos_Wohnzimmer_LR 2017-09-16 12:32:31 SlavePlayer []
+setstate Sonos_Wohnzimmer_LR 2017-09-16 12:32:31 SlavePlayerNotBonded []
+setstate Sonos_Wohnzimmer_LR 2017-11-18 20:01:44 Volume 13
+setstate Sonos_Wohnzimmer_LR 2017-11-18 00:01:55 ZoneGroupID RINCON_000E58B54ED101400:__
+setstate Sonos_Wohnzimmer_LR 2017-09-16 12:32:31 ZoneGroupNameDetails 
+setstate Sonos_Wohnzimmer_LR 2017-09-29 02:25:48 currentTrackPositionSimulated 0:00:00
+setstate Sonos_Wohnzimmer_LR 2017-09-29 02:25:48 currentTrackPositionSimulatedPercent 0.0
+setstate Sonos_Wohnzimmer_LR 2017-09-29 02:25:48 currentTrackPositionSimulatedSec 0
+setstate Sonos_Wohnzimmer_LR 2017-09-16 12:32:31 fieldType LR
+setstate Sonos_Wohnzimmer_LR 2017-09-16 12:32:31 location http://192.168.2.111:1400/xml/device_description.xml
+setstate Sonos_Wohnzimmer_LR 2017-09-16 12:32:31 playerType S1
+setstate Sonos_Wohnzimmer_LR 2017-11-19 09:17:34 presence ~~NotLoadedMarker~~
+setstate Sonos_Wohnzimmer_LR 2017-09-16 12:32:50 roomIcon living
+setstate Sonos_Wohnzimmer_LR 2017-09-16 12:32:31 roomName Wohnzimmer
+setstate Sonos_Wohnzimmer_LR 2017-09-16 12:32:31 roomNameAlias Wohnzimmer - Hinten Links
+setstate Sonos_Wohnzimmer_LR 2017-11-18 20:06:44 saveRoomName Wohnzimmer
+setstate Sonos_Wohnzimmer_LR 2017-09-16 12:32:31 serialNum B8-E9-37-BB-4D-84:9
+setstate Sonos_Wohnzimmer_LR 2017-11-18 00:01:51 softwareRevision 8.2
+setstate Sonos_Wohnzimmer_LR 2017-11-19 09:17:18 state initialized
+setstate Sonos_Wohnzimmer_LR 2017-09-29 02:25:47 transportState STOPPED
+setstate Sonos_Wohnzimmer_RR initialized
+setstate Sonos_Wohnzimmer_RR 2017-11-19 09:17:34 AlarmList ~~NotLoadedMarker~~
+setstate Sonos_Wohnzimmer_RR 2017-11-19 09:17:34 AlarmListIDs ~~NotLoadedMarker~~
+setstate Sonos_Wohnzimmer_RR 2017-11-19 09:17:34 AlarmListVersion ~~NotLoadedMarker~~
+setstate Sonos_Wohnzimmer_RR 2017-11-17 16:51:16 AvailablePlayer ['Sonos_Kinderzimmer','Sonos_Kueche','Sonos_Wohnzimmer']
+setstate Sonos_Wohnzimmer_RR 2017-09-16 12:32:28 Balance 0
+setstate Sonos_Wohnzimmer_RR 2017-09-16 12:32:31 DailyIndexRefreshTime 04:00:00
+setstate Sonos_Wohnzimmer_RR 2017-09-16 12:32:28 IsBonded 1
+setstate Sonos_Wohnzimmer_RR 2017-11-04 11:15:16 IsMaster 0
+setstate Sonos_Wohnzimmer_RR 2017-11-19 09:17:34 LastActionResult ~~NotLoadedMarker~~
+setstate Sonos_Wohnzimmer_RR 2017-11-18 20:06:38 MasterPlayer Sonos_Wohnzimmer_RR
+setstate Sonos_Wohnzimmer_RR 2017-09-16 12:32:28 SlavePlayer []
+setstate Sonos_Wohnzimmer_RR 2017-09-16 12:32:28 SlavePlayerNotBonded []
+setstate Sonos_Wohnzimmer_RR 2017-11-18 20:01:45 Volume 13
+setstate Sonos_Wohnzimmer_RR 2017-11-12 13:42:13 ZoneGroupID RINCON_000E58B54ED101400:__
+setstate Sonos_Wohnzimmer_RR 2017-09-16 12:32:30 ZoneGroupNameDetails 
+setstate Sonos_Wohnzimmer_RR 2017-09-29 02:25:48 currentTrackPositionSimulated 0:00:00
+setstate Sonos_Wohnzimmer_RR 2017-09-29 02:25:48 currentTrackPositionSimulatedPercent 0.0
+setstate Sonos_Wohnzimmer_RR 2017-09-29 02:25:48 currentTrackPositionSimulatedSec 0
+setstate Sonos_Wohnzimmer_RR 2017-09-16 12:32:28 fieldType RR
+setstate Sonos_Wohnzimmer_RR 2017-09-16 12:32:28 location http://192.168.2.112:1400/xml/device_description.xml
+setstate Sonos_Wohnzimmer_RR 2017-09-16 12:32:28 playerType S1
+setstate Sonos_Wohnzimmer_RR 2017-11-19 09:17:34 presence ~~NotLoadedMarker~~
+setstate Sonos_Wohnzimmer_RR 2017-09-16 12:32:50 roomIcon living
+setstate Sonos_Wohnzimmer_RR 2017-09-16 12:32:28 roomName Wohnzimmer
+setstate Sonos_Wohnzimmer_RR 2017-09-16 12:32:28 roomNameAlias Wohnzimmer - Hinten Rechts
+setstate Sonos_Wohnzimmer_RR 2017-11-18 20:06:38 saveRoomName Wohnzimmer
+setstate Sonos_Wohnzimmer_RR 2017-09-16 12:32:28 serialNum B8-E9-37-BB-4F-0A:8
+setstate Sonos_Wohnzimmer_RR 2017-11-18 00:01:51 softwareRevision 8.2
+setstate Sonos_Wohnzimmer_RR 2017-11-19 09:17:18 state initialized
+setstate Sonos_Wohnzimmer_RR 2017-09-29 02:25:47 transportState STOPPED
+setstate Sonos_Wohnzimmer_SW initialized
+setstate Sonos_Wohnzimmer_SW 2017-11-19 09:17:34 AlarmList ~~NotLoadedMarker~~
+setstate Sonos_Wohnzimmer_SW 2017-11-19 09:17:34 AlarmListIDs ~~NotLoadedMarker~~
+setstate Sonos_Wohnzimmer_SW 2017-11-19 09:17:34 AlarmListVersion ~~NotLoadedMarker~~
+setstate Sonos_Wohnzimmer_SW 2017-11-17 16:51:16 AvailablePlayer ['Sonos_Kinderzimmer','Sonos_Kueche','Sonos_Wohnzimmer']
+setstate Sonos_Wohnzimmer_SW 2017-09-16 12:32:26 Balance 0
+setstate Sonos_Wohnzimmer_SW 2017-09-16 12:32:28 DailyIndexRefreshTime 04:00:00
+setstate Sonos_Wohnzimmer_SW 2017-10-20 16:29:44 IsBonded 1
+setstate Sonos_Wohnzimmer_SW 2017-11-17 16:51:17 IsMaster 0
+setstate Sonos_Wohnzimmer_SW 2017-11-19 09:17:34 LastActionResult ~~NotLoadedMarker~~
+setstate Sonos_Wohnzimmer_SW 2017-11-18 20:06:35 MasterPlayer Sonos_Wohnzimmer_SW
+setstate Sonos_Wohnzimmer_SW 2017-09-16 12:32:26 SlavePlayer []
+setstate Sonos_Wohnzimmer_SW 2017-09-16 12:32:26 SlavePlayerNotBonded []
+setstate Sonos_Wohnzimmer_SW 2017-09-16 12:32:26 Volume 0
+setstate Sonos_Wohnzimmer_SW 2017-11-17 16:51:18 ZoneGroupID RINCON_000E58B54ED101400:__
+setstate Sonos_Wohnzimmer_SW 2017-09-16 12:32:26 ZoneGroupNameDetails 
+setstate Sonos_Wohnzimmer_SW 2017-09-29 02:25:48 currentTrackPositionSimulated 0:00:00
+setstate Sonos_Wohnzimmer_SW 2017-09-29 02:25:48 currentTrackPositionSimulatedPercent 0.0
+setstate Sonos_Wohnzimmer_SW 2017-09-29 02:25:48 currentTrackPositionSimulatedSec 0
+setstate Sonos_Wohnzimmer_SW 2017-10-20 16:29:44 fieldType SW
+setstate Sonos_Wohnzimmer_SW 2017-09-16 12:32:26 location http://192.168.2.113:1400/xml/device_description.xml
+setstate Sonos_Wohnzimmer_SW 2017-09-16 12:32:26 playerType Sub
+setstate Sonos_Wohnzimmer_SW 2017-11-19 09:17:34 presence ~~NotLoadedMarker~~
+setstate Sonos_Wohnzimmer_SW 2017-09-16 12:32:32 roomIcon living
+setstate Sonos_Wohnzimmer_SW 2017-09-16 12:32:26 roomName Wohnzimmer
+setstate Sonos_Wohnzimmer_SW 2017-10-20 16:29:44 roomNameAlias Wohnzimmer - Subwoofer
+setstate Sonos_Wohnzimmer_SW 2017-11-18 20:06:35 saveRoomName Wohnzimmer
+setstate Sonos_Wohnzimmer_SW 2017-09-16 12:32:26 serialNum 00-0E-58-99-DC-C0:7
+setstate Sonos_Wohnzimmer_SW 2017-11-17 16:51:17 softwareRevision 8.2
+setstate Sonos_Wohnzimmer_SW 2017-11-19 09:17:18 state initialized
+setstate Sonos_Wohnzimmer_SW 2017-09-29 02:25:47 transportState STOPPED
+setstate Spotify Point Whitmark - Die Bucht der 22 Schreie - Teil 1 (01: Die Bucht der 22 Schreie) | (00:00:00/00:06:16)
+setstate Spotify 2017-11-23 23:55:34 .access_token BQB3PzeOiKWm72vZ-NZzGSgchxn6pruQWG-KawzLAHeL083lPQPxPo3PDpfVG_F-OK6IdFfgf9mTWhXcFTM1GCexLHushSaLnHQaVl2uh3wAejInoZfKUkZpUwvSbl_V7fY-f8idS4eH4d0hvrtuuvraLFFrN91N4WakGQD7u96_5YjP5_Y8HFj3MRxdxg
+setstate Spotify 2017-11-23 23:55:34 .expires 1511481334.80823
+setstate Spotify 2017-11-23 23:55:34 .refresh_token AQAbCmHwqMYWU6tCKP3AEZLwKvU_MX_WzzxpdIyPuQGWcMxWIopGj0zLKRR9mxg3yRODDClwcEHvT1Oz_bAQ8Slv1B5J8YqOcO37tNa93Mcb1Azp26SlakSKfV8yOhZcmBo
+setstate Spotify 2017-11-23 23:55:41 device_1_id 9a6f0d1aa170b48d03f1762f31c001adeee0e7f1
+setstate Spotify 2017-11-23 23:55:41 device_1_name Alexa Schlafzimmer
+setstate Spotify 2017-11-23 23:55:41 device_1_type Speaker
+setstate Spotify 2017-11-23 23:55:41 device_1_volume 20
+setstate Spotify 2017-11-23 23:55:41 device_2_id 4b3fd33df2f4c434866fe59f862d4e0ba0b80c58
+setstate Spotify 2017-11-23 23:55:41 device_2_name Amazon FireTV
+setstate Spotify 2017-11-23 23:55:41 device_2_type TV
+setstate Spotify 2017-11-23 23:55:41 device_3_id 0a7d1b6f314f48f924e57e0fd74373487fe04511
+setstate Spotify 2017-11-23 23:55:41 device_3_name Alexa Wohnzimmer
+setstate Spotify 2017-11-23 23:55:41 device_3_type Speaker
+setstate Spotify 2017-11-23 23:55:41 device_3_volume 29
+setstate Spotify 2017-11-23 23:55:41 device_active_id none
+setstate Spotify 2017-11-23 23:55:41 device_active_name none
+setstate Spotify 2017-11-23 23:55:41 device_active_type none
+setstate Spotify 2017-11-23 23:55:41 device_active_volume -1
+setstate Spotify 2017-11-23 23:55:41 devices_cnt 3
+setstate Spotify 2017-11-06 04:52:44 error_code 502
+setstate Spotify 2017-11-06 04:52:44 error_description Bad gateway.
+setstate Spotify 2017-11-23 23:55:41 is_playing 0
+setstate Spotify 2017-11-23 23:55:42 progress 00:00:00
+setstate Spotify 2017-11-18 23:45:13 progress_ms 0
+setstate Spotify 2017-10-24 22:17:05 repeat off
+setstate Spotify 2017-10-24 22:17:04 search_artist_follower_cnt 43547
+setstate Spotify 2017-10-24 22:17:04 search_artist_name Schiller
+setstate Spotify 2017-10-24 22:17:04 search_artist_popularity 53
+setstate Spotify 2017-10-24 22:17:04 search_artist_profile_pic_url https://i.scdn.co/image/bc02729375465fd2c0a2ed708a525f24d8d15869
+setstate Spotify 2017-10-24 22:17:04 search_artist_uri spotify:artist:4tRSX1e4hJYjMNdl1TkINg
+setstate Spotify 2017-10-24 22:17:05 shuffle off
+setstate Spotify 2017-11-18 23:21:17 track_album_cover_large https://i.scdn.co/image/8921dd9d44d9e1524d81033f0d4eb6baff55569f
+setstate Spotify 2017-11-18 23:21:17 track_album_cover_medium https://i.scdn.co/image/df28267d3e77316aaa8d8d67f7310ed183e5e34c
+setstate Spotify 2017-11-18 23:21:17 track_album_cover_small https://i.scdn.co/image/072d794bceced49c2f7557f39650b8ab882b5209
+setstate Spotify 2017-11-18 23:21:17 track_album_name 01: Die Bucht der 22 Schreie
+setstate Spotify 2017-11-18 23:21:17 track_album_uri spotify:album:1k8taX0jOA43w1jf0iNCuo
+setstate Spotify 2017-11-18 23:21:17 track_artist_name Point Whitmark
+setstate Spotify 2017-11-18 23:21:17 track_artist_uri spotify:artist:39cu39Rn69BTbnblNDijGN
+setstate Spotify 2017-11-23 23:55:42 track_duration 00:06:16
+setstate Spotify 2017-11-19 00:51:17 track_duration_ms 376746
+setstate Spotify 2017-11-19 00:51:17 track_name Die Bucht der 22 Schreie - Teil 1
+setstate Spotify 2017-11-19 00:51:17 track_popularity 25
+setstate Spotify 2017-11-19 00:51:17 track_uri spotify:track:6WgumfQpLJlzqNkaNiPjic
+setstate Spotify 2017-10-24 22:16:19 user_country DE
+setstate Spotify 2017-10-24 22:16:19 user_follower_cnt 0
+setstate Spotify 2017-10-24 22:16:19 user_id toni_stark9881
+setstate Spotify 2017-11-17 23:52:06 volume 100
+setstate System initialized
+setstate TABLETUI TABLETUI
+setstate TL 12
+setstate TL 2017-11-23 23:52:24 aktEvent ss_astro
+setstate TL 2017-11-23 23:55:29 azimuth 349.46
+setstate TL 2017-11-23 23:55:29 compasspoint north-northwest
+setstate TL 2017-11-23 23:52:24 condition 26
+setstate TL 2017-11-23 23:52:24 condition_txt Cloudy
+setstate TL 2017-11-23 23:55:29 elevation -59.35
+setstate TL 2017-11-23 23:52:24 horizon -18
+setstate TL 2017-11-23 23:52:24 light 0
+setstate TL 2017-11-23 23:52:24 nextEvent sr_astro
+setstate TL 2017-11-23 23:52:24 nextEventTime 06:02:39
+setstate TL 2017-11-23 23:52:24 sr 08:07:40
+setstate TL 2017-11-23 23:52:24 sr_astro 06:02:39
+setstate TL 2017-11-23 23:52:24 sr_civil 07:23:32
+setstate TL 2017-11-23 23:52:24 sr_indoor 08:15:26
+setstate TL 2017-11-23 23:52:24 sr_naut 06:42:15
+setstate TL 2017-11-23 23:52:24 sr_weather 08:28:10
+setstate TL 2017-11-23 23:52:24 ss 16:27:33
+setstate TL 2017-11-23 23:52:24 ss_astro 18:32:31
+setstate TL 2017-11-23 23:52:24 ss_civil 17:11:41
+setstate TL 2017-11-23 23:52:24 ss_indoor 16:19:47
+setstate TL 2017-11-23 23:52:24 ss_naut 17:52:56
+setstate TL 2017-11-23 23:52:24 ss_weather 16:07:03
+setstate TL 2017-11-23 23:52:24 state 12
+setstate TL 2017-11-23 23:55:29 twilight 0
+setstate TL 2017-11-23 23:55:29 twilight_weather 0
+setstate Tab3 initialized
+setstate Tab3 2017-11-19 07:59:48 .deviceState online
+setstate Tab3 2017-10-28 12:59:22 airplanemode off
+setstate Tab3 2017-10-28 12:59:22 androidVersion 4.4 KitKat
+setstate Tab3 2017-11-18 20:01:40 automagicState Flow Informations mit Fehler beendet  Fehler: can not convert value '' to number  Last executed: Condition Host erreichbar: {global_fhemip}:{global_bridgeport}
+setstate Tab3 2017-11-18 00:01:22 batteryHealth 2
+setstate Tab3 2017-11-18 20:01:36 batteryTemperature 30.6
+setstate Tab3 2017-10-28 12:59:24 bluetooth off
+setstate Tab3 2017-10-28 12:59:29 checkActiveTask 0
+setstate Tab3 2017-10-28 12:59:24 connectedBTdevices none
+setstate Tab3 2017-10-28 12:59:24 connectedBTdevicesMAC none
+setstate Tab3 2017-10-28 12:59:27 currentMusicAlbum no player active
+setstate Tab3 2017-10-28 12:59:27 currentMusicApp no player active
+setstate Tab3 2017-10-28 12:59:27 currentMusicArtist no player active
+setstate Tab3 2017-10-28 12:59:27 currentMusicIcon no player active
+setstate Tab3 2017-10-28 12:59:27 currentMusicTrack no player active
+setstate Tab3 2017-11-23 23:46:17 deviceState offline
+setstate Tab3 2017-10-28 12:59:24 dockingState undocked
+setstate Tab3 2017-10-28 12:59:38 flow_SetCommands aktiv
+setstate Tab3 2017-10-28 12:59:18 flow_informations aktiv
+setstate Tab3 2017-10-28 12:59:17 flowsetVersionAtDevice 4.0.11
+setstate Tab3 2017-10-28 12:59:27 keyguardSet 0
+setstate Tab3 2017-10-28 13:19:59 lastSetCommandState setCmd_done
+setstate Tab3 2017-11-19 09:18:29 lastStatusRequestState statusRequest_error
+setstate Tab3 2017-10-28 12:59:17 mute off
+setstate Tab3 2017-10-28 12:59:24 nextAlarmDay off
+setstate Tab3 2017-10-28 12:59:24 nextAlarmTime off
+setstate Tab3 2017-11-16 08:07:26 powerLevel 100
+setstate Tab3 2017-11-15 22:02:58 powerPlugged 1
+setstate Tab3 2017-11-15 21:31:30 screen on unlocked
+setstate Tab3 2017-11-01 20:25:30 screenBrightness 139
+setstate Tab3 2017-11-15 22:02:45 screenOrientation landscape
+setstate Tab3 2017-10-28 12:59:27 screenOrientationMode auto
+setstate Tab3 2017-11-19 09:17:27 state initialized
+setstate Tab3 2017-10-28 13:19:31 volume 15
+setstate Tab3 2017-10-28 12:59:22 wiredHeadsetPlugged 0
+setstate UWZSprachausgabe active
+setstate UWZSprachausgabe 2017-11-19 09:17:27 state active
+setstate Unwetterzentrale Warnungen: 0
+setstate Unwetterzentrale 2017-11-19 09:18:18 WarnCount 0
+setstate Unwetterzentrale 2017-11-19 09:18:18 WarnUWZLevel 0
+setstate Unwetterzentrale 2017-11-19 09:18:18 WarnUWZLevel_Color gruen
+setstate Unwetterzentrale 2017-11-19 09:18:18 WarnUWZLevel_Str Stufe Grün (keine Warnung)
+setstate Unwetterzentrale 2017-11-23 23:55:34 Warn_0_End_de Donnerstag 01. Januar 01:00 Uhr
+setstate Unwetterzentrale 2017-11-23 23:55:34 Warn_0_Start_de Donnerstag 01. Januar 01:00 Uhr
+setstate Unwetterzentrale 2017-11-23 23:55:34 currentIntervalMode normal
+setstate Unwetterzentrale 2017-11-19 09:18:18 durationFetchReadings 0.00
+setstate Unwetterzentrale 2017-11-19 09:18:18 lastConnection 5 values captured in 0.00 s
+setstate Unwetterzentrale 2017-11-19 09:18:18 state Warnungen: 0
+setstate VCCU 868CUL:ok,
+setstate VCCU 2017-11-19 09:17:24 state 868CUL:ok,
+setstate VorschauProplanta initialized
+setstate WeckerAnnabel on
+setstate WeckerAnnabel 2017-11-17 22:23:42 state on
+setstate WeckerDennis off
+setstate WeckerDennis 2017-11-16 21:32:57 state off
+setstate Wecker_Annabel_alle disabled
+setstate Wecker_Annabel_alle 2017-11-17 07:15:03 cmd 1
+setstate Wecker_Annabel_alle 2017-11-17 07:15:03 cmd_event timer_1
+setstate Wecker_Annabel_alle 2017-11-17 07:15:03 cmd_nr 1
+setstate Wecker_Annabel_alle 2017-11-17 22:23:42 last_cmd cmd_1
+setstate Wecker_Annabel_alle 2017-11-17 22:23:42 mode disabled
+setstate Wecker_Annabel_alle 2017-11-17 22:23:42 state disabled
+setstate Wecker_Annabel_alle 2017-11-23 23:55:38 timer_01_c01 24.11.2017 07:15:00
+setstate Wecker_Annabel_einzeln cmd_1
+setstate Wecker_Annabel_einzeln 2017-11-23 23:55:39 cmd 1
+setstate Wecker_Annabel_einzeln 2017-11-23 23:55:39 cmd_event timer_1
+setstate Wecker_Annabel_einzeln 2017-11-23 23:55:39 cmd_nr 1
+setstate Wecker_Annabel_einzeln 2017-11-17 22:23:42 mode enable
+setstate Wecker_Annabel_einzeln 2017-11-23 23:55:39 state cmd_1
+setstate Wecker_Annabel_einzeln 2017-11-23 23:55:39 timer_01_c01 24.11.2017 07:15:00
+setstate Wecker_Dennis_alle initialized
+setstate Wecker_Dennis_alle 2017-11-16 06:01:22 cmd 0
+setstate Wecker_Dennis_alle 2017-11-16 21:32:57 mode enable
+setstate Wecker_Dennis_alle 2017-11-16 21:32:57 state initialized
+setstate Wecker_Dennis_alle 2017-11-19 09:17:24 timer_01_c01 error: Wrong timespec off: either HH:MM:SS or {perlcode}
+setstate Wecker_Dennis_einzeln disabled
+setstate Wecker_Dennis_einzeln 2017-11-11 11:55:40 cmd 0
+setstate Wecker_Dennis_einzeln 2017-11-16 21:32:57 last_cmd disabled
+setstate Wecker_Dennis_einzeln 2017-11-16 21:32:57 mode disabled
+setstate Wecker_Dennis_einzeln 2017-11-16 21:32:57 state disabled
+setstate Wecker_Dennis_einzeln 2017-11-19 09:17:24 timer_01_c01 error: Wrong timespec off: either HH:MM:SS or {perlcode}
+setstate Wecker_alle initialized
+setstate Wecker_alle 2017-10-22 13:46:09 W_Aktiv off
+setstate Wecker_alle 2017-10-16 15:28:49 W_Dienstag 07:30
+setstate Wecker_alle 2017-10-16 15:28:49 W_Donnerstag 07:30
+setstate Wecker_alle 2017-10-16 15:28:49 W_Freitag 07:30
+setstate Wecker_alle 2017-10-16 15:28:49 W_Mittwoch 07:30
+setstate Wecker_alle 2017-10-16 15:28:49 W_Montag 07:30
+setstate Wecker_alle 2017-10-16 15:28:49 W_Reset on
+setstate Wecker_alle 2017-10-16 15:28:49 W_Samstag 10:31
+setstate Wecker_alle 2017-10-16 15:28:49 W_Sonntag 10:31
+setstate Wecker_alle 2017-11-10 22:01:26 cmd 0
+setstate Wecker_alle 2017-11-10 22:01:26 state initialized
+setstate Wecker_alle 2017-11-23 23:55:39 timer_01_c01 24.11.2017 07:30:00|1
+setstate Wecker_alle 2017-11-23 23:55:39 timer_02_c01 24.11.2017 07:30:00|2
+setstate Wecker_alle 2017-11-23 23:55:39 timer_03_c01 24.11.2017 07:30:00|3
+setstate Wecker_alle 2017-11-23 23:55:39 timer_04_c01 24.11.2017 07:30:00|4
+setstate Wecker_alle 2017-11-23 23:55:39 timer_05_c01 24.11.2017 07:30:00|5
+setstate Wecker_alle 2017-11-23 23:55:34 timer_06_c01 24.11.2017 10:31:00|6
+setstate Wecker_alle 2017-11-23 23:55:34 timer_07_c01 24.11.2017 10:31:00|0
+setstate Wecker_einzeln cmd_1
+setstate Wecker_einzeln 2017-10-22 13:46:08 W_Aktiv off
+setstate Wecker_einzeln 2017-10-16 15:28:49 W_Dienstag 06:10
+setstate Wecker_einzeln 2017-10-16 15:28:49 W_Donnerstag 06:10
+setstate Wecker_einzeln 2017-10-16 15:28:49 W_Freitag 06:10
+setstate Wecker_einzeln 2017-10-16 15:28:49 W_Mittwoch 06:10
+setstate Wecker_einzeln 2017-10-16 15:28:49 W_Montag 06:10
+setstate Wecker_einzeln 2017-10-15 18:27:20 W_Reset on
+setstate Wecker_einzeln 2017-10-16 15:28:49 W_Samstag 10:30
+setstate Wecker_einzeln 2017-10-16 15:28:49 W_Sonntag 10:30
+setstate Wecker_einzeln 2017-11-11 07:25:01 cmd 1
+setstate Wecker_einzeln 2017-11-11 07:25:01 cmd_event set_cmd_1
+setstate Wecker_einzeln 2017-11-11 07:25:01 cmd_nr 1
+setstate Wecker_einzeln 2017-11-11 07:25:01 state cmd_1
+setstate Wecker_einzeln 2017-11-23 23:55:38 timer_01_c01 24.11.2017 06:10:00|1
+setstate Wecker_einzeln 2017-11-23 23:55:38 timer_02_c01 24.11.2017 06:10:00|2
+setstate Wecker_einzeln 2017-11-23 23:55:38 timer_03_c01 24.11.2017 06:10:00|3
+setstate Wecker_einzeln 2017-11-23 23:55:38 timer_04_c01 24.11.2017 06:10:00|4
+setstate Wecker_einzeln 2017-11-23 23:55:38 timer_05_c01 24.11.2017 06:10:00|5
+setstate Wecker_einzeln 2017-11-23 23:55:34 timer_06_c01 24.11.2017 10:30:00|6
+setstate Wecker_einzeln 2017-11-23 23:55:34 timer_07_c01 24.11.2017 10:30:00|0
+setstate Wetter 11 °C
+setstate Wetter 2017-11-23 23:55:42 city Bochum
+setstate Wetter 2017-11-23 23:55:42 code 26
+setstate Wetter 2017-11-23 23:55:42 condition wolkig
+setstate Wetter 2017-11-23 23:55:42 country Germany
+setstate Wetter 2017-11-23 23:55:42 current_date_time Thu, 23 Nov 2017 11:00 PM CET
+setstate Wetter 2017-11-23 23:55:42 day_of_week Do
+setstate Wetter 2017-11-23 23:55:42 description Yahoo! Weather for Bochum, NW, DE
+setstate Wetter 2017-11-23 23:55:42 fc10_code 12
+setstate Wetter 2017-11-23 23:55:42 fc10_condition Schauer
+setstate Wetter 2017-11-23 23:55:42 fc10_date 02 Dec 2017
+setstate Wetter 2017-11-23 23:55:42 fc10_day_of_week Sa
+setstate Wetter 2017-11-23 23:55:42 fc10_high_c 4
+setstate Wetter 2017-11-23 23:55:42 fc10_icon chance_of_rain
+setstate Wetter 2017-11-23 23:55:42 fc10_low_c 1
+setstate Wetter 2017-11-23 23:55:42 fc1_code 12
+setstate Wetter 2017-11-23 23:55:42 fc1_condition Schauer
+setstate Wetter 2017-11-23 23:55:42 fc1_date 23 Nov 2017
+setstate Wetter 2017-11-23 23:55:42 fc1_day_of_week Do
+setstate Wetter 2017-11-23 23:55:42 fc1_high_c 15
+setstate Wetter 2017-11-23 23:55:42 fc1_icon chance_of_rain
+setstate Wetter 2017-11-23 23:55:42 fc1_low_c 11
+setstate Wetter 2017-11-23 23:55:42 fc2_code 11
+setstate Wetter 2017-11-23 23:55:42 fc2_condition Schauer
+setstate Wetter 2017-11-23 23:55:42 fc2_date 24 Nov 2017
+setstate Wetter 2017-11-23 23:55:42 fc2_day_of_week Fr
+setstate Wetter 2017-11-23 23:55:42 fc2_high_c 10
+setstate Wetter 2017-11-23 23:55:42 fc2_icon chance_of_rain
+setstate Wetter 2017-11-23 23:55:42 fc2_low_c 5
+setstate Wetter 2017-11-23 23:55:42 fc3_code 12
+setstate Wetter 2017-11-23 23:55:42 fc3_condition Schauer
+setstate Wetter 2017-11-23 23:55:42 fc3_date 25 Nov 2017
+setstate Wetter 2017-11-23 23:55:42 fc3_day_of_week Sa
+setstate Wetter 2017-11-23 23:55:42 fc3_high_c 6
+setstate Wetter 2017-11-23 23:55:42 fc3_icon chance_of_rain
+setstate Wetter 2017-11-23 23:55:42 fc3_low_c 2
+setstate Wetter 2017-11-23 23:55:42 fc4_code 28
+setstate Wetter 2017-11-23 23:55:42 fc4_condition überwiegend wolkig
+setstate Wetter 2017-11-23 23:55:42 fc4_date 26 Nov 2017
+setstate Wetter 2017-11-23 23:55:42 fc4_day_of_week So
+setstate Wetter 2017-11-23 23:55:42 fc4_high_c 5
+setstate Wetter 2017-11-23 23:55:42 fc4_icon mostlycloudy
+setstate Wetter 2017-11-23 23:55:42 fc4_low_c 2
+setstate Wetter 2017-11-23 23:55:42 fc5_code 11
+setstate Wetter 2017-11-23 23:55:42 fc5_condition Schauer
+setstate Wetter 2017-11-23 23:55:42 fc5_date 27 Nov 2017
+setstate Wetter 2017-11-23 23:55:42 fc5_day_of_week Mo
+setstate Wetter 2017-11-23 23:55:42 fc5_high_c 6
+setstate Wetter 2017-11-23 23:55:42 fc5_icon chance_of_rain
+setstate Wetter 2017-11-23 23:55:42 fc5_low_c 2
+setstate Wetter 2017-11-23 23:55:42 fc6_code 39
+setstate Wetter 2017-11-23 23:55:42 fc6_condition vereinzelt Gewitter
+setstate Wetter 2017-11-23 23:55:42 fc6_date 28 Nov 2017
+setstate Wetter 2017-11-23 23:55:42 fc6_day_of_week Di
+setstate Wetter 2017-11-23 23:55:42 fc6_high_c 6
+setstate Wetter 2017-11-23 23:55:42 fc6_icon scatteredthunderstorms
+setstate Wetter 2017-11-23 23:55:42 fc6_low_c 3
+setstate Wetter 2017-11-23 23:55:42 fc7_code 12
+setstate Wetter 2017-11-23 23:55:42 fc7_condition Schauer
+setstate Wetter 2017-11-23 23:55:42 fc7_date 29 Nov 2017
+setstate Wetter 2017-11-23 23:55:42 fc7_day_of_week Mi
+setstate Wetter 2017-11-23 23:55:42 fc7_high_c 5
+setstate Wetter 2017-11-23 23:55:42 fc7_icon chance_of_rain
+setstate Wetter 2017-11-23 23:55:42 fc7_low_c 2
+setstate Wetter 2017-11-23 23:55:42 fc8_code 28
+setstate Wetter 2017-11-23 23:55:42 fc8_condition überwiegend wolkig
+setstate Wetter 2017-11-23 23:55:42 fc8_date 30 Nov 2017
+setstate Wetter 2017-11-23 23:55:42 fc8_day_of_week Do
+setstate Wetter 2017-11-23 23:55:42 fc8_high_c 3
+setstate Wetter 2017-11-23 23:55:42 fc8_icon mostlycloudy
+setstate Wetter 2017-11-23 23:55:42 fc8_low_c 1
+setstate Wetter 2017-11-23 23:55:42 fc9_code 28
+setstate Wetter 2017-11-23 23:55:42 fc9_condition überwiegend wolkig
+setstate Wetter 2017-11-23 23:55:42 fc9_date 01 Dec 2017
+setstate Wetter 2017-11-23 23:55:42 fc9_day_of_week Fr
+setstate Wetter 2017-11-23 23:55:42 fc9_high_c 4
+setstate Wetter 2017-11-23 23:55:42 fc9_icon mostlycloudy
+setstate Wetter 2017-11-23 23:55:42 fc9_low_c 1
+setstate Wetter 2017-11-23 23:55:42 humidity 71
+setstate Wetter 2017-11-23 23:55:42 icon cloudy
+setstate Wetter 2017-11-23 23:55:42 isConverted 0
+setstate Wetter 2017-11-23 23:55:42 lastError 
+setstate Wetter 2017-11-23 23:55:42 lat 51.486439
+setstate Wetter 2017-11-23 23:55:42 long 7.21079
+setstate Wetter 2017-11-23 23:55:42 pressure 997
+setstate Wetter 2017-11-23 23:55:42 pressure_trend 0
+setstate Wetter 2017-11-23 23:55:42 pressure_trend_sym =
+setstate Wetter 2017-11-23 23:55:42 pressure_trend_txt gleichbleibend
+setstate Wetter 2017-11-23 23:55:42 pubDate Thu, 23 Nov 2017 11:00 PM CET
+setstate Wetter 2017-11-23 23:55:42 pubDateComment okay
+setstate Wetter 2017-11-23 23:55:42 pubDateRemote Thu, 23 Nov 2017 11:00 PM CET
+setstate Wetter 2017-11-23 23:55:42 pubDateTs 1511474400
+setstate Wetter 2017-11-23 23:55:42 region  NW
+setstate Wetter 2017-11-23 23:55:42 state T: 11  H: 71  W: 14  P: 997
+setstate Wetter 2017-11-23 23:55:42 temp_c 11
+setstate Wetter 2017-11-23 23:55:42 temperature 11
+setstate Wetter 2017-11-23 23:55:42 validity up-to-date
+setstate Wetter 2017-11-23 23:55:42 visibility 16
+setstate Wetter 2017-11-23 23:55:42 wind 14
+setstate Wetter 2017-11-23 23:55:42 wind_chill 10
+setstate Wetter 2017-11-23 23:55:42 wind_condition Wind: SW 14 km/h
+setstate Wetter 2017-11-23 23:55:42 wind_direction 230
+setstate Wetter 2017-11-23 23:55:42 wind_speed 14
+setstate Wetter_Pro Initializing
+setstate Wetter_Pro 2017-11-19 09:18:47 cloudBaseMax 2000
+setstate Wetter_Pro 2017-11-19 09:18:47 cloudBaseMin 1500
+setstate Wetter_Pro 2017-11-19 09:18:47 dewPoint 7.2
+setstate Wetter_Pro 2017-11-19 09:18:47 durationFetchReadings 32.00
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_chOfRain00 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_chOfRain03 5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_chOfRain06 20
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_chOfRain09 15
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_chOfRain12 20
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_chOfRain15 15
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_chOfRain18 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_chOfRain21 15
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_chOfRainDay 15
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_chOfRainNight 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_cloud00 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_cloud03 25
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_cloud06 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_cloud09 75
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_cloud12 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_cloud15 87.5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_cloud18 87.5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_cloud21 75
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_date 23.11.2017
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_dew 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_evapor 2
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_frost 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_moonRise 11:53
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_moonSet 20:44
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_rad 0.4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_rain 3.8
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_rain00 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_rain03 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_rain06 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_rain09 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_rain12 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_rain15 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_rain18 3.8
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_rain21 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_sun 25
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_temp00 10
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_temp03 11
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_temp06 11
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_temp09 12
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_temp12 14
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_temp15 14
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_temp18 11
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_temp21 11
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_tempMax 15
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_tempMin 9
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_uv 1
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_weatherDay stark bewoelkt
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_weatherDayIcon https://www.proplanta.de/wetterdaten/images/symbole/t4.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_weatherEvening Regen
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_weatherEveningIcon https://www.proplanta.de/wetterdaten/images/symbole/n7.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_weatherMorning bedeckt
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_weatherMorningIcon https://www.proplanta.de/wetterdaten/images/symbole/t5.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_weatherNight Regen
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_weatherNightIcon https://www.proplanta.de/wetterdaten/images/symbole/n7.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_wind00 18
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_wind03 21.6
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_wind06 28.8
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_wind09 28.8
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_wind12 28.8
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_wind15 28.8
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_wind18 21.6
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_wind21 14.4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_windDir00 184
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_windDir03 170
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_windDir06 170
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_windDir09 170
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_windDir12 218
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_windDir15 229
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_windDir18 248
+setstate Wetter_Pro 2017-11-19 09:18:47 fc0_windDir21 232
+setstate Wetter_Pro 2017-11-19 07:01:55 fc10_date 29.11.2017
+setstate Wetter_Pro 2017-11-19 07:01:55 fc10_moonRise 14:43
+setstate Wetter_Pro 2017-11-19 07:01:55 fc10_moonSet 02:14
+setstate Wetter_Pro 2017-11-19 07:01:55 fc10_tempMax 11
+setstate Wetter_Pro 2017-11-19 07:01:55 fc10_tempMin 3
+setstate Wetter_Pro 2017-11-19 07:01:55 fc10_weather Regenschauer
+setstate Wetter_Pro 2017-11-19 07:01:55 fc10_weatherIcon https://www.proplanta.de/wetterdaten/images/symbole/t6.gif
+setstate Wetter_Pro 2017-11-19 07:01:55 fc11_date 30.11.2017
+setstate Wetter_Pro 2017-11-19 07:01:55 fc11_moonRise 15:08
+setstate Wetter_Pro 2017-11-19 07:01:55 fc11_moonSet 03:29
+setstate Wetter_Pro 2017-11-19 07:01:55 fc11_tempMax 5
+setstate Wetter_Pro 2017-11-19 07:01:55 fc11_tempMin 0
+setstate Wetter_Pro 2017-11-19 07:01:55 fc11_weather heiter
+setstate Wetter_Pro 2017-11-19 07:01:55 fc11_weatherIcon https://www.proplanta.de/wetterdaten/images/symbole/t2.gif
+setstate Wetter_Pro 2017-11-19 07:01:55 fc12_date 01.12.2017
+setstate Wetter_Pro 2017-11-19 07:01:55 fc12_moonRise 15:37
+setstate Wetter_Pro 2017-11-19 07:01:55 fc12_moonSet 04:47
+setstate Wetter_Pro 2017-11-19 07:01:55 fc12_tempMax 8
+setstate Wetter_Pro 2017-11-19 07:01:55 fc12_tempMin 1
+setstate Wetter_Pro 2017-11-19 07:01:55 fc12_weather Regen
+setstate Wetter_Pro 2017-11-19 07:01:55 fc12_weatherIcon https://www.proplanta.de/wetterdaten/images/symbole/t7.gif
+setstate Wetter_Pro 2017-11-19 07:01:55 fc13_date 02.12.2017
+setstate Wetter_Pro 2017-11-19 07:01:55 fc13_moonRise 16:10
+setstate Wetter_Pro 2017-11-19 07:01:55 fc13_moonSet 06:07
+setstate Wetter_Pro 2017-11-19 07:01:55 fc13_tempMax 5
+setstate Wetter_Pro 2017-11-19 07:01:55 fc13_tempMin 1
+setstate Wetter_Pro 2017-11-19 07:01:55 fc13_weather Regenschauer
+setstate Wetter_Pro 2017-11-19 07:01:55 fc13_weatherIcon https://www.proplanta.de/wetterdaten/images/symbole/t6.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_chOfRain00 10
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_chOfRain03 20
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_chOfRain06 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_chOfRain09 40
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_chOfRain12 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_chOfRain15 20
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_chOfRain18 15
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_chOfRain21 15
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_chOfRainDay 40
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_chOfRainNight 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_cloud00 50
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_cloud03 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_cloud06 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_cloud09 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_cloud12 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_cloud15 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_cloud18 75
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_cloud21 87.5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_date 24.11.2017
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_dew 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_evapor 1
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_frost 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_moonRise 12:30
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_moonSet 21:44
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_rad 0.4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_rain 4.7
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_rain00 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_rain03 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_rain06 1.5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_rain09 2.9
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_rain12 0.3
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_rain15 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_rain18 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_rain21 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_sun 30
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_temp00 9
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_temp03 9
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_temp06 12
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_temp09 11
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_temp12 8
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_temp15 8
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_temp18 7
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_temp21 7
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_tempMax 12
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_tempMin 5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_uv 1
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_weatherDay Regenschauer
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_weatherDayIcon https://www.proplanta.de/wetterdaten/images/symbole/t6.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_weatherEvening stark bewoelkt
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_weatherEveningIcon https://www.proplanta.de/wetterdaten/images/symbole/n4.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_weatherMorning Regen
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_weatherMorningIcon https://www.proplanta.de/wetterdaten/images/symbole/t7.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_weatherNight Regen
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_weatherNightIcon https://www.proplanta.de/wetterdaten/images/symbole/n7.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_wind00 14.4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_wind03 7.2
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_wind06 28.8
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_wind09 21.6
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_wind12 10.8
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_wind15 7.2
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_wind18 3.6
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_wind21 3.6
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_windDir00 213
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_windDir03 147
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_windDir06 216
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_windDir09 254
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_windDir12 316
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_windDir15 298
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_windDir18 251
+setstate Wetter_Pro 2017-11-19 09:18:47 fc1_windDir21 140
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_chOfRain00 50
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_chOfRain03 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_chOfRain06 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_chOfRain09 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_chOfRain12 20
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_chOfRain15 5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_chOfRain18 5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_chOfRain21 20
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_chOfRainDay 15
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_chOfRainNight 10
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_cloud00 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_cloud03 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_cloud06 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_cloud09 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_cloud12 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_cloud15 25
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_cloud18 25
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_cloud21 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_date 25.11.2017
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_dew 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_evapor 1
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_frost 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_moonRise 13:02
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_moonSet 22:47
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_rad 1.1
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_rain 6.2
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_rain00 0.1
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_rain03 1.4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_rain06 4.3
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_rain09 0.4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_rain12 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_rain15 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_rain18 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_rain21 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_sun 25
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_temp00 6
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_temp03 6
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_temp06 5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_temp09 5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_temp12 6
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_temp15 6
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_temp18 5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_temp21 5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_tempMax 6
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_tempMin 4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_uv 1
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_weatherDay stark bewoelkt
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_weatherDayIcon https://www.proplanta.de/wetterdaten/images/symbole/t4.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_weatherEvening heiter
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_weatherEveningIcon https://www.proplanta.de/wetterdaten/images/symbole/n2.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_weatherMorning Regen
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_weatherMorningIcon https://www.proplanta.de/wetterdaten/images/symbole/t7.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_weatherNight wolkig
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_weatherNightIcon https://www.proplanta.de/wetterdaten/images/symbole/n3.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_wind00 3.6
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_wind03 10.8
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_wind06 14.4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_wind09 10.8
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_wind12 10.8
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_wind15 10.8
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_wind18 14.4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_wind21 14.4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_windDir00 50
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_windDir03 21
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_windDir06 14
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_windDir09 325
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_windDir12 300
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_windDir15 280
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_windDir18 273
+setstate Wetter_Pro 2017-11-19 09:18:47 fc2_windDir21 264
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_chOfRain00 20
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_chOfRain03 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_chOfRain06 5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_chOfRain09 10
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_chOfRain12 10
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_chOfRain15 20
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_chOfRain18 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_chOfRain21 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_chOfRainDay 10
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_chOfRainNight 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_cloud00 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_cloud03 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_cloud06 12.5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_cloud09 62.5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_cloud12 37.5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_cloud15 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_cloud18 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_cloud21 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_date 26.11.2017
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_dew 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_evapor 1
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_frost 1
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_moonRise 13:30
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_moonSet 23:53
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_rad 0.9
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_rain 1
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_rain00 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_rain03 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_rain06 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_rain09 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_rain12 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_rain15 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_rain18 0.4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_rain21 0.6
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_sun 50
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_temp00 3
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_temp03 2
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_temp06 3
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_temp09 3
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_temp12 4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_temp15 4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_temp18 4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_temp21 4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_tempMax 4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_tempMin 1
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_uv 1
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_weatherDay wolkig
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_weatherDayIcon https://www.proplanta.de/wetterdaten/images/symbole/t3.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_weatherEvening Regen
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_weatherEveningIcon https://www.proplanta.de/wetterdaten/images/symbole/n7.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_weatherMorning heiter
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_weatherMorningIcon https://www.proplanta.de/wetterdaten/images/symbole/t2.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_weatherNight Regen
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_weatherNightIcon https://www.proplanta.de/wetterdaten/images/symbole/n7.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_wind00 14.4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_wind03 14.4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_wind06 18
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_wind09 18
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_wind12 21.6
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_wind15 18
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_wind18 18
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_wind21 18
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_windDir00 242
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_windDir03 236
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_windDir06 237
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_windDir09 236
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_windDir12 244
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_windDir15 242
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_windDir18 246
+setstate Wetter_Pro 2017-11-19 09:18:47 fc3_windDir21 240
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_chOfRain00 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_chOfRain03 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_chOfRain06 20
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_chOfRain09 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_chOfRain12 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_chOfRain15 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_chOfRain18 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_chOfRain21 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_chOfRainDay 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_chOfRainNight 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_cloud00 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_cloud03 87.5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_cloud06 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_cloud09 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_cloud12 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_cloud15 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_cloud18 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_cloud21 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_date 27.11.2017
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_dew 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_evapor 1
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_frost 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_moonRise 13:55
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_moonSet --:--
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_rad 0.2
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_rain 11
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_rain00 0.4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_rain03 0.3
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_rain06 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_rain09 0.2
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_rain12 2
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_rain15 3.6
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_rain18 4.1
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_rain21 0.4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_sun 5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_temp00 4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_temp03 3
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_temp06 3
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_temp09 4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_temp12 5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_temp15 5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_temp18 5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_temp21 5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_tempMax 5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_tempMin 2
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_uv 1
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_weatherDay Regen
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_weatherDayIcon https://www.proplanta.de/wetterdaten/images/symbole/t7.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_weatherEvening Regen
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_weatherEveningIcon https://www.proplanta.de/wetterdaten/images/symbole/n7.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_weatherMorning bedeckt
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_weatherMorningIcon https://www.proplanta.de/wetterdaten/images/symbole/t5.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_weatherNight Regen
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_weatherNightIcon https://www.proplanta.de/wetterdaten/images/symbole/n7.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_wind00 18
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_wind03 18
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_wind06 18
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_wind09 14.4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_wind12 18
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_wind15 18
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_wind18 21.6
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_wind21 21.6
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_windDir00 234
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_windDir03 235
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_windDir06 227
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_windDir09 204
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_windDir12 208
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_windDir15 219
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_windDir18 228
+setstate Wetter_Pro 2017-11-19 09:18:47 fc4_windDir21 229
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_chOfRain00 20
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_chOfRain03 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_chOfRain06 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_chOfRain09 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_chOfRain12 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_chOfRain15 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_chOfRain18 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_chOfRain21 5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_chOfRainDay 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_chOfRainNight 40
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_cloud00 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_cloud03 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_cloud06 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_cloud09 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_cloud12 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_cloud15 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_cloud18 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_cloud21 12.5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_date 28.11.2017
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_dew 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_evapor 1
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_frost 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_moonRise 14:19
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_moonSet 01:02
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_rad 0.2
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_rain 6.8
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_rain00 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_rain03 0.4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_rain06 1.1
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_rain09 2.1
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_rain12 1
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_rain15 1.2
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_rain18 1
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_rain21 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_sun 5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_temp00 6
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_temp03 6
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_temp06 6
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_temp09 5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_temp12 6
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_temp15 6
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_temp18 6
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_temp21 5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_tempMax 6
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_tempMin 4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_uv 1
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_weatherDay Regen
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_weatherDayIcon https://www.proplanta.de/wetterdaten/images/symbole/t7.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_weatherEvening Regen
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_weatherEveningIcon https://www.proplanta.de/wetterdaten/images/symbole/n7.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_weatherMorning Regen
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_weatherMorningIcon https://www.proplanta.de/wetterdaten/images/symbole/t7.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_weatherNight Regenschauer
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_weatherNightIcon https://www.proplanta.de/wetterdaten/images/symbole/n6.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_wind00 21.6
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_wind03 21.6
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_wind06 18
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_wind09 21.6
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_wind12 21.6
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_wind15 14.4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_wind18 14.4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_wind21 18
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_windDir00 219
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_windDir03 223
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_windDir06 225
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_windDir09 208
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_windDir12 216
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_windDir15 213
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_windDir18 208
+setstate Wetter_Pro 2017-11-19 09:18:47 fc5_windDir21 198
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_chOfRain00 15
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_chOfRain03 10
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_chOfRain06 15
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_chOfRain09 15
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_chOfRain12 15
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_chOfRain15 20
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_chOfRain18 20
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_chOfRain21 10
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_chOfRainDay 15
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_chOfRainNight 80
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_cloud00 75
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_cloud03 37.5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_cloud06 75
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_cloud09 75
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_cloud12 87.5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_cloud15 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_cloud18 100
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_cloud21 62.5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_date 29.11.2017
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_dew 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_evapor 1
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_frost 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_moonRise 14:43
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_moonSet 02:14
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_rad 0.9
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_rain 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_rain00 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_rain03 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_rain06 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_rain09 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_rain12 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_rain15 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_rain18 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_rain21 0
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_sun 25
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_temp00 4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_temp03 4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_temp06 4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_temp09 5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_temp12 5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_temp15 5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_temp18 5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_temp21 4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_tempMax 5
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_tempMin 3
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_uv 1
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_weatherDay stark bewoelkt
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_weatherDayIcon https://www.proplanta.de/wetterdaten/images/symbole/t4.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_weatherEvening bedeckt
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_weatherEveningIcon https://www.proplanta.de/wetterdaten/images/symbole/n5.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_weatherMorning stark bewoelkt
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_weatherMorningIcon https://www.proplanta.de/wetterdaten/images/symbole/t4.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_weatherNight Schneeregen
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_weatherNightIcon https://www.proplanta.de/wetterdaten/images/symbole/n11.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_wind00 18
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_wind03 18
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_wind06 18
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_wind09 18
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_wind12 14.4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_wind15 14.4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_wind18 14.4
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_wind21 18
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_windDir00 217
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_windDir03 211
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_windDir06 213
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_windDir09 216
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_windDir12 221
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_windDir15 226
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_windDir18 225
+setstate Wetter_Pro 2017-11-19 09:18:47 fc6_windDir21 218
+setstate Wetter_Pro 2017-11-19 07:01:55 fc7_date 26.11.2017
+setstate Wetter_Pro 2017-11-19 07:01:55 fc7_moonRise 13:30
+setstate Wetter_Pro 2017-11-19 07:01:55 fc7_moonSet 23:53
+setstate Wetter_Pro 2017-11-19 07:01:55 fc7_tempMax 12
+setstate Wetter_Pro 2017-11-19 07:01:55 fc7_tempMin 11
+setstate Wetter_Pro 2017-11-19 07:01:55 fc7_weather Regen
+setstate Wetter_Pro 2017-11-19 07:01:55 fc7_weatherIcon https://www.proplanta.de/wetterdaten/images/symbole/t7.gif
+setstate Wetter_Pro 2017-11-19 07:01:55 fc8_date 27.11.2017
+setstate Wetter_Pro 2017-11-19 07:01:55 fc8_moonRise 13:55
+setstate Wetter_Pro 2017-11-19 07:01:55 fc8_moonSet --:--
+setstate Wetter_Pro 2017-11-19 07:01:55 fc8_tempMax 11
+setstate Wetter_Pro 2017-11-19 07:01:55 fc8_tempMin 10
+setstate Wetter_Pro 2017-11-19 07:01:55 fc8_weather Regen
+setstate Wetter_Pro 2017-11-19 07:01:55 fc8_weatherIcon https://www.proplanta.de/wetterdaten/images/symbole/t7.gif
+setstate Wetter_Pro 2017-11-19 07:01:55 fc9_date 28.11.2017
+setstate Wetter_Pro 2017-11-19 07:01:55 fc9_moonRise 14:19
+setstate Wetter_Pro 2017-11-19 07:01:55 fc9_moonSet 01:02
+setstate Wetter_Pro 2017-11-19 07:01:55 fc9_tempMax 12
+setstate Wetter_Pro 2017-11-19 07:01:55 fc9_tempMin 8
+setstate Wetter_Pro 2017-11-19 07:01:55 fc9_weather Regen
+setstate Wetter_Pro 2017-11-19 07:01:55 fc9_weatherIcon https://www.proplanta.de/wetterdaten/images/symbole/t7.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 humidity 76.1
+setstate Wetter_Pro 2017-11-19 09:18:47 lastConnection 504 values captured in 32.00 s
+setstate Wetter_Pro 2017-11-19 09:18:47 obsTime 22:00
+setstate Wetter_Pro 2017-11-19 09:18:47 pressure 1010
+setstate Wetter_Pro 2017-11-19 09:18:47 state Tmin: 9 Tmax: 15 T: 10.7 H: 76.1 W: 14.4 P: 1010
+setstate Wetter_Pro 2017-11-19 09:18:47 temperature 10.7
+setstate Wetter_Pro 2017-11-19 09:18:47 visibility 40
+setstate Wetter_Pro 2017-11-19 09:18:47 weather stark bewoelkt
+setstate Wetter_Pro 2017-11-19 09:18:47 weatherIcon https://www.proplanta.de/wetterdaten/images/symbole/n4.gif
+setstate Wetter_Pro 2017-11-19 09:18:47 wind 14.4
+setstate Wetter_Pro 2017-11-19 09:18:47 windDir 225
+setstate Wetter_Pro 2017-11-19 09:18:47 windDirIcon https://www.proplanta.de/wetterdaten/images/symbole/w28.gif
+setstate Wetter_netatmo Connected
+setstate Wetter_netatmo 2017-11-23 23:55:28 active timeout
+setstate Wohnung 2017-11-01 13:39:51 lockstate lock
+setstate Wohnung 2017-11-19 09:17:19 state Initialized
+setstate Wohnzimmer on
+setstate Wohnzimmer 2017-11-23 23:55:38 LastDevice Kueche
+setstate Wohnzimmer 2017-11-23 23:55:38 LastDevice_Abs Kueche
+setstate Wohnzimmer 2017-11-23 23:55:38 state on
+setstate abends_an Next: 16:07:02
+setstate abends_an 2017-11-23 23:55:38 state Next: 16:07:02
+setstate abends_aus Next: 22:30:00
+setstate abends_aus 2017-11-23 23:55:38 state Next: 22:30:00
+setstate abends_aus_we Next: 23:30:00
+setstate abends_aus_we 2017-11-23 23:55:38 state Next: 23:30:00
+setstate alexa active
+setstate alexa 2017-10-26 21:06:59 echoId amzn1.ask.device.AFMXMEVBLEXYBB6F2DBHRKX3RCI3L4PSYOCMC23EVTSWZYTOF7EA2VSVKJ5U6C5WN4VBXKLAHGOIOLO7MQGS3B3HXNXET74IDXW6ZKWAT4M4TFK2HDKWPMUZKEM577HYZBMZXVTYSPZP2A6KNS73M5EWGJ6A
+setstate alexa 2017-10-26 21:06:59 echoRoom unknown
+setstate alexa 2017-10-27 22:40:32 fhemIntent guteNacht
+setstate alexa 2017-11-18 22:22:23 intent IntentRequest OnIntent
+setstate allowed_WEB validFor:WEB
+setstate allowed_WEB 2017-11-23 23:56:24 lastAuthExpires 1514501784
+setstate allowed_WEB 2017-11-23 23:56:24 lastAuthExpiresFmt Thu, 28 Dec 2017 22:56:24 GMT
+setstate allowed_WEB 2017-11-23 23:56:24 lastAuthUser dennis
+setstate allowed_WEB 2017-11-19 09:17:16 state validFor:WEB
+setstate allowed_telnetPort validFor:telnetPort
+setstate allowed_telnetPort 2017-11-19 09:17:16 state validFor:telnetPort
+setstate androidTablet powerLevel=98, powerPlugged=false
+setstate androidTablet 2017-11-15 21:33:10 powerLevel 98
+setstate androidTablet 2017-11-15 21:33:10 powerPlugged false
+setstate androidTablet 2017-11-15 21:33:10 state powerLevel=98, powerPlugged=false
+setstate ann_anw initialized
+setstate ann_anw 2017-11-23 23:56:24 Device Annabel
+setstate ann_anw 2017-11-17 19:45:34 cmd 0
+setstate ann_anw 2017-11-23 23:56:24 e_Annabel_events error (no or empty data)
+setstate ann_anw 2017-11-17 19:45:34 state initialized
+setstate autocreate active
+setstate dAbfallheute cmd_2
+setstate dAbfallheute 2017-11-23 23:56:24 Device Abfallkalender
+setstate dAbfallheute 2017-11-08 06:48:21 cmd 2
+setstate dAbfallheute 2017-11-08 06:48:21 cmd_event Abfallkalender
+setstate dAbfallheute 2017-11-08 06:48:21 cmd_nr 2
+setstate dAbfallheute 2017-11-08 23:48:21 e_Abfallkalender_now_text USB Abfuhr Gelb - kombinierte Wertstofftonne
+setstate dAbfallheute 2017-11-08 06:48:21 state cmd_2
+setstate dAbfallheute 2017-11-23 23:55:38 timer_01_c01 24.11.2017 06:10:00
+setstate dAbfallmorgen cmd_1
+setstate dAbfallmorgen 2017-11-23 23:56:24 Device Abfallkalender
+setstate dAbfallmorgen 2017-11-07 18:00:00 cmd 1
+setstate dAbfallmorgen 2017-11-07 18:00:00 cmd_event timer_1
+setstate dAbfallmorgen 2017-11-07 18:00:00 cmd_nr 1
+setstate dAbfallmorgen 2017-11-19 08:01:32 e_Abfallkalender_next_days 2
+setstate dAbfallmorgen 2017-11-07 18:00:00 state cmd_1
+setstate dAbfallmorgen 2017-11-23 23:55:38 timer_01_c01 24.11.2017 18:00:00
+setstate dAbfallmorgen 2017-11-23 23:55:38 warning condition c01: Argument "" isn't numeric in numeric eq (==)\
+
+setstate dbox1 on
+setstate dbox1 2017-09-16 11:34:19 protocol V1
+setstate dbox1 2017-11-18 08:09:00 state on
+setstate den_anw cmd_1
+setstate den_anw 2017-11-23 23:55:29 Device Dennis
+setstate den_anw 2017-11-17 19:45:55 cmd 1
+setstate den_anw 2017-11-17 19:45:55 cmd_event set_cmd_1
+setstate den_anw 2017-11-17 19:45:55 cmd_nr 1
+setstate den_anw 2017-11-23 23:55:29 e_Dennis_events nextWakeup: 2017-11-20 09:17:41
+setstate den_anw 2017-11-17 19:45:55 state cmd_1
+setstate di_PowerAll cmd_1
+setstate di_PowerAll 2017-11-17 13:46:38 Device Anwesenheit
+setstate di_PowerAll 2017-11-17 07:39:59 cmd 1
+setstate di_PowerAll 2017-11-17 07:39:59 cmd_event Anwesenheit
+setstate di_PowerAll 2017-11-17 07:39:59 cmd_nr 1
+setstate di_PowerAll 2017-11-17 13:46:38 e_Anwesenheit_STATE present
+setstate di_PowerAll 2017-11-17 07:39:59 state cmd_1
+setstate di_PowerAll 2017-10-31 12:45:12 wait_timer no timer
+setstate di_PowerOn cmd_1
+setstate di_PowerOn 2017-11-17 13:46:38 Device Anwesenheit
+setstate di_PowerOn 2017-11-17 13:46:38 cmd 1
+setstate di_PowerOn 2017-11-17 13:46:38 cmd_event Anwesenheit
+setstate di_PowerOn 2017-11-17 13:46:38 cmd_nr 1
+setstate di_PowerOn 2017-11-17 13:46:38 e_Anwesenheit_STATE present
+setstate di_PowerOn 2017-11-17 13:46:38 state cmd_1
+setstate emi_anw cmd_1
+setstate emi_anw 2017-11-23 23:55:29 Device Handy_Emily2
+setstate emi_anw 2017-11-23 23:52:15 cmd 1
+setstate emi_anw 2017-11-23 23:52:15 cmd_event Handy_Emily2
+setstate emi_anw 2017-11-23 23:52:15 cmd_nr 1
+setstate emi_anw 2017-11-23 23:55:29 e_Handy_Emily2_events timeout
+setstate emi_anw 2017-11-23 23:52:15 state cmd_1
+setstate eventTypes active
+setstate fbCallMonitor disconnected
+setstate fbCallMonitor 2017-11-18 13:42:22 call_duration 92
+setstate fbCallMonitor 2017-11-18 13:42:22 call_id 0
+setstate fbCallMonitor 2017-11-18 13:42:22 direction incoming
+setstate fbCallMonitor 2017-11-18 13:42:22 event disconnect
+setstate fbCallMonitor 2017-11-18 13:42:22 external_connection SIP2
+setstate fbCallMonitor 2017-11-18 13:42:22 external_name Oma Michaela
+setstate fbCallMonitor 2017-11-18 13:42:22 external_number 01755632547
+setstate fbCallMonitor 2017-11-18 13:42:22 internal_connection DECT_1
+setstate fbCallMonitor 2017-11-18 13:42:22 internal_number 023276047062
+setstate fbCallMonitor 2017-11-06 20:05:51 missed_call 01743401416 (Dennis)
+setstate fbCallMonitor 2017-11-23 23:55:39 state disconnected
+setstate global no definition
+setstate initialUsbCheck 2017-11-19 09:17:23
+setstate initialUsbCheck 2017-11-19 09:17:16 state active
+setstate mqtt opened
+setstate mqtt 2017-11-23 23:55:40 connection active
+setstate mqtt 2017-11-19 09:17:30 state opened
+setstate n_Alexa.Fernsehen active
+setstate n_Alexa.Fernsehen 2017-11-19 09:17:27 state active
+setstate n_Alle2 active
+setstate n_Alle2 2017-11-19 09:17:27 state active
+setstate n_Fernseher_an active
+setstate n_Fernseher_an 2017-11-19 09:17:30 state active
+setstate n_Fernseher_aus active
+setstate n_Fernseher_aus 2017-11-19 09:17:30 state active
+setstate n_WeckerAnnabel active
+setstate n_WeckerAnnabel 2017-11-19 09:17:34 state active
+setstate n_WeckerAnnabel2 active
+setstate n_WeckerAnnabel2 2017-11-19 09:17:34 state active
+setstate n_WeckerDennis active
+setstate n_WeckerDennis 2017-11-19 09:17:34 state active
+setstate n_WeckerDennis2 active
+setstate n_WeckerDennis2 2017-11-19 09:17:34 state active
+setstate nanoCUL 2017-10-31 09:21:39 ccconf freq:433.000MHz bWidth:464KHz rAmpl:42dB sens:12dB
+setstate nanoCUL 2017-11-19 09:17:27 cmds A B C e F f G i K L l M N R T t U V W X x
+setstate nanoCUL 2017-11-23 23:55:39 raw is00001001010111110000000000010001
+setstate nanoCUL 2017-11-19 09:17:27 state Initialized
+setstate netatmo_aussen T: 4 H: 94
+setstate netatmo_aussen 2017-11-19 09:19:22 .lastupdate 1511073548
+setstate netatmo_aussen 2017-11-23 23:55:29 active delayed update
+setstate netatmo_aussen 2017-11-19 07:33:22 humidity 94
+setstate netatmo_aussen 2017-11-19 07:33:57 pressure 1013.7
+setstate netatmo_aussen 2017-11-19 07:33:22 temperature 4
+setstate notSonosPlaylistAbspielen active
+setstate notSonosPlaylistAbspielen 2017-11-19 09:17:22 state active
+setstate notifyPushAnruf active
+setstate notifyPushAnruf 2017-11-19 09:17:22 state active
+setstate notify_savestate 2017-11-23 23:56:24
+setstate notify_savestate 2017-11-23 23:56:24 color #eee
+setstate notify_savestate 2017-11-23 23:56:24 savestate 0
+setstate notify_savestate 2017-11-19 09:17:20 state active
+setstate notify_savestate 2017-11-23 23:56:24 text Config<br/>gespeichert!
+setstate pollen 1
+setstate pollen 2017-11-23 23:55:42 city Bochum
+setstate pollen 2017-11-23 23:55:42 fc1_Ambrosia 1
+setstate pollen 2017-11-23 23:55:42 fc1_Ampfer 1
+setstate pollen 2017-11-23 23:55:42 fc1_Beifuss 1
+setstate pollen 2017-11-23 23:55:42 fc1_Birke 1
+setstate pollen 2017-11-23 23:55:42 fc1_Buche 1
+setstate pollen 2017-11-23 23:55:42 fc1_Eiche 1
+setstate pollen 2017-11-23 23:55:42 fc1_Erle 1
+setstate pollen 2017-11-23 23:55:42 fc1_Esche 1
+setstate pollen 2017-11-23 23:55:42 fc1_Graeser 1
+setstate pollen 2017-11-23 23:55:42 fc1_Hasel 1
+setstate pollen 2017-11-23 23:55:42 fc1_Pappel 1
+setstate pollen 2017-11-23 23:55:42 fc1_Roggen 1
+setstate pollen 2017-11-23 23:55:42 fc1_Ulme 1
+setstate pollen 2017-11-23 23:55:42 fc1_Wegerich 1
+setstate pollen 2017-11-23 23:55:42 fc1_Weide 1
+setstate pollen 2017-11-23 23:55:42 fc1_day_of_week Thu
+setstate pollen 2017-11-23 23:55:42 fc1_maximum 1
+setstate pollen 2017-11-23 23:55:42 fc2_Ambrosia 1
+setstate pollen 2017-11-23 23:55:42 fc2_Ampfer 1
+setstate pollen 2017-11-23 23:55:42 fc2_Beifuss 1
+setstate pollen 2017-11-23 23:55:42 fc2_Birke 1
+setstate pollen 2017-11-23 23:55:42 fc2_Buche 1
+setstate pollen 2017-11-23 23:55:42 fc2_Eiche 1
+setstate pollen 2017-11-23 23:55:42 fc2_Erle 1
+setstate pollen 2017-11-23 23:55:42 fc2_Esche 1
+setstate pollen 2017-11-23 23:55:42 fc2_Graeser 1
+setstate pollen 2017-11-23 23:55:42 fc2_Hasel 1
+setstate pollen 2017-11-23 23:55:42 fc2_Pappel 1
+setstate pollen 2017-11-23 23:55:42 fc2_Roggen 1
+setstate pollen 2017-11-23 23:55:42 fc2_Ulme 1
+setstate pollen 2017-11-23 23:55:42 fc2_Wegerich 1
+setstate pollen 2017-11-23 23:55:42 fc2_Weide 1
+setstate pollen 2017-11-23 23:55:42 fc2_day_of_week Fri
+setstate pollen 2017-11-23 23:55:42 fc2_maximum 1
+setstate pollen 2017-11-23 23:55:42 fc3_Ambrosia 1
+setstate pollen 2017-11-23 23:55:42 fc3_Ampfer 1
+setstate pollen 2017-11-23 23:55:42 fc3_Beifuss 1
+setstate pollen 2017-11-23 23:55:42 fc3_Birke 1
+setstate pollen 2017-11-23 23:55:42 fc3_Buche 1
+setstate pollen 2017-11-23 23:55:42 fc3_Eiche 1
+setstate pollen 2017-11-23 23:55:42 fc3_Erle 1
+setstate pollen 2017-11-23 23:55:42 fc3_Esche 1
+setstate pollen 2017-11-23 23:55:42 fc3_Graeser 1
+setstate pollen 2017-11-23 23:55:42 fc3_Hasel 1
+setstate pollen 2017-11-23 23:55:42 fc3_Pappel 1
+setstate pollen 2017-11-23 23:55:42 fc3_Roggen 1
+setstate pollen 2017-11-23 23:55:42 fc3_Ulme 1
+setstate pollen 2017-11-23 23:55:42 fc3_Wegerich 1
+setstate pollen 2017-11-23 23:55:42 fc3_Weide 1
+setstate pollen 2017-11-23 23:55:42 fc3_day_of_week Sat
+setstate pollen 2017-11-23 23:55:42 fc3_maximum 1
+setstate pollen 2017-11-23 23:55:42 fc4_Ambrosia 1
+setstate pollen 2017-11-23 23:55:42 fc4_Ampfer 1
+setstate pollen 2017-11-23 23:55:42 fc4_Beifuss 1
+setstate pollen 2017-11-23 23:55:42 fc4_Birke 1
+setstate pollen 2017-11-23 23:55:42 fc4_Buche 1
+setstate pollen 2017-11-23 23:55:42 fc4_Eiche 1
+setstate pollen 2017-11-23 23:55:42 fc4_Erle 1
+setstate pollen 2017-11-23 23:55:42 fc4_Esche 1
+setstate pollen 2017-11-23 23:55:42 fc4_Graeser 1
+setstate pollen 2017-11-23 23:55:42 fc4_Hasel 1
+setstate pollen 2017-11-23 23:55:42 fc4_Pappel 1
+setstate pollen 2017-11-23 23:55:42 fc4_Roggen 1
+setstate pollen 2017-11-23 23:55:42 fc4_Ulme 1
+setstate pollen 2017-11-23 23:55:42 fc4_Wegerich 1
+setstate pollen 2017-11-23 23:55:42 fc4_Weide 1
+setstate pollen 2017-11-23 23:55:42 fc4_day_of_week Sun
+setstate pollen 2017-11-23 23:55:42 fc4_maximum 1
+setstate pollen 2017-11-23 23:55:42 fc5_Ambrosia 1
+setstate pollen 2017-11-23 23:55:42 fc5_Ampfer 1
+setstate pollen 2017-11-23 23:55:42 fc5_Beifuss 1
+setstate pollen 2017-11-23 23:55:42 fc5_Birke 1
+setstate pollen 2017-11-23 23:55:42 fc5_Buche 1
+setstate pollen 2017-11-23 23:55:42 fc5_Eiche 1
+setstate pollen 2017-11-23 23:55:42 fc5_Erle 1
+setstate pollen 2017-11-23 23:55:42 fc5_Esche 1
+setstate pollen 2017-11-23 23:55:42 fc5_Graeser 1
+setstate pollen 2017-11-23 23:55:42 fc5_Hasel 1
+setstate pollen 2017-11-23 23:55:42 fc5_Pappel 1
+setstate pollen 2017-11-23 23:55:42 fc5_Roggen 1
+setstate pollen 2017-11-23 23:55:42 fc5_Ulme 1
+setstate pollen 2017-11-23 23:55:42 fc5_Wegerich 1
+setstate pollen 2017-11-23 23:55:42 fc5_Weide 1
+setstate pollen 2017-11-23 23:55:42 fc5_day_of_week Mon
+setstate pollen 2017-11-23 23:55:42 fc5_maximum 1
+setstate pollen 2017-11-23 23:55:42 fc6_Ambrosia 1
+setstate pollen 2017-11-23 23:55:42 fc6_Ampfer 1
+setstate pollen 2017-11-23 23:55:42 fc6_Beifuss 1
+setstate pollen 2017-11-23 23:55:42 fc6_Birke 1
+setstate pollen 2017-11-23 23:55:42 fc6_Buche 1
+setstate pollen 2017-11-23 23:55:42 fc6_Eiche 1
+setstate pollen 2017-11-23 23:55:42 fc6_Erle 1
+setstate pollen 2017-11-23 23:55:42 fc6_Esche 1
+setstate pollen 2017-11-23 23:55:42 fc6_Graeser 1
+setstate pollen 2017-11-23 23:55:42 fc6_Hasel 1
+setstate pollen 2017-11-23 23:55:42 fc6_Pappel 1
+setstate pollen 2017-11-23 23:55:42 fc6_Roggen 1
+setstate pollen 2017-11-23 23:55:42 fc6_Ulme 1
+setstate pollen 2017-11-23 23:55:42 fc6_Wegerich 1
+setstate pollen 2017-11-23 23:55:42 fc6_Weide 1
+setstate pollen 2017-11-23 23:55:42 fc6_day_of_week Tue
+setstate pollen 2017-11-23 23:55:42 fc6_maximum 1
+setstate pollen 2017-11-23 23:55:42 fc7_Ambrosia 1
+setstate pollen 2017-11-23 23:55:42 fc7_Ampfer 1
+setstate pollen 2017-11-23 23:55:42 fc7_Beifuss 1
+setstate pollen 2017-11-23 23:55:42 fc7_Birke 1
+setstate pollen 2017-11-23 23:55:42 fc7_Buche 1
+setstate pollen 2017-11-23 23:55:42 fc7_Eiche 1
+setstate pollen 2017-11-23 23:55:42 fc7_Erle 1
+setstate pollen 2017-11-23 23:55:42 fc7_Esche 1
+setstate pollen 2017-11-23 23:55:42 fc7_Graeser 1
+setstate pollen 2017-11-23 23:55:42 fc7_Hasel 1
+setstate pollen 2017-11-23 23:55:42 fc7_Pappel 1
+setstate pollen 2017-11-23 23:55:42 fc7_Roggen 1
+setstate pollen 2017-11-23 23:55:42 fc7_Ulme 1
+setstate pollen 2017-11-23 23:55:42 fc7_Wegerich 1
+setstate pollen 2017-11-23 23:55:42 fc7_Weide 1
+setstate pollen 2017-11-23 23:55:42 fc7_day_of_week Wed
+setstate pollen 2017-11-23 23:55:42 fc7_maximum 1
+setstate pollen0 2017-11-23 23:55:42 Beifuss 0
+setstate pollen0 2017-11-23 23:55:42 Birke 0
+setstate pollen0 2017-11-23 23:55:42 Buche 0
+setstate pollen0 2017-11-23 23:55:42 Erle 0
+setstate pollen0 2017-11-23 23:55:42 Esche 0
+setstate pollen0 2017-11-23 23:55:42 Flieder 0
+setstate pollen0 2017-11-23 23:55:42 Gerste 0
+setstate pollen0 2017-11-23 23:55:42 Graeser 0
+setstate pollen0 2017-11-23 23:55:42 Hasel 0
+setstate pollen0 2017-11-23 23:55:42 Max 0
+setstate pollen0 2017-11-23 23:55:42 Pappel 0
+setstate pollen0 2017-11-23 23:55:42 Platane 0
+setstate pollen0 2017-11-23 23:55:42 Raps 0
+setstate pollen0 2017-11-23 23:55:42 Roggen 0
+setstate pollen0 2017-11-23 23:55:42 Weide 0
+setstate pollen0 2017-11-23 23:55:42 Weizen 0
+setstate pollen1 2017-10-12 20:38:13 Beifuss 0
+setstate pollen1 2017-10-12 20:38:13 Birke 0
+setstate pollen1 2017-10-12 20:38:13 Buche 0
+setstate pollen1 2017-10-12 20:38:13 Erle 0
+setstate pollen1 2017-10-12 20:38:13 Esche 0
+setstate pollen1 2017-10-12 20:38:13 Flieder 0
+setstate pollen1 2017-10-12 20:38:13 Gerste 0
+setstate pollen1 2017-10-12 20:38:13 Graeser 0
+setstate pollen1 2017-10-12 20:38:13 Hasel 0
+setstate pollen1 2017-10-12 20:38:13 Max 0
+setstate pollen1 2017-10-12 20:38:13 Pappel 0
+setstate pollen1 2017-10-12 20:38:13 Platane 0
+setstate pollen1 2017-10-12 20:38:13 Raps 0
+setstate pollen1 2017-10-12 20:38:13 Roggen 0
+setstate pollen1 2017-10-12 20:38:13 Weide 0
+setstate pollen1 2017-10-12 20:38:13 Weizen 0
+setstate pollen2 2017-10-12 20:38:23 Beifuss 0
+setstate pollen2 2017-10-12 20:38:23 Birke 0
+setstate pollen2 2017-10-12 20:38:23 Buche 0
+setstate pollen2 2017-10-12 20:38:23 Erle 0
+setstate pollen2 2017-10-12 20:38:23 Esche 0
+setstate pollen2 2017-10-12 20:38:23 Flieder 0
+setstate pollen2 2017-10-12 20:38:23 Gerste 0
+setstate pollen2 2017-10-12 20:38:23 Graeser 0
+setstate pollen2 2017-10-12 20:38:23 Hasel 0
+setstate pollen2 2017-10-12 20:38:23 Max 0
+setstate pollen2 2017-10-12 20:38:23 Pappel 0
+setstate pollen2 2017-10-12 20:38:23 Platane 0
+setstate pollen2 2017-10-12 20:38:23 Raps 0
+setstate pollen2 2017-10-12 20:38:23 Roggen 0
+setstate pollen2 2017-10-12 20:38:23 Weide 0
+setstate pollen2 2017-10-12 20:38:23 Weizen 0
+setstate rpi_bad 2017-11-23 23:55:29 cpu0_freq 1200
+setstate rpi_bad 2017-11-23 23:55:29 cpu0_freq_stat 600.00 1200.00 1199.99
+setstate rpi_bad 2017-11-23 23:52:16 cpu0_idle_stat 1.82 104.48 86.84
+setstate rpi_bad 2017-11-23 23:55:29 cpu1_freq 1200
+setstate rpi_bad 2017-11-23 23:55:29 cpu1_freq_stat 600.00 1200.00 1199.99
+setstate rpi_bad 2017-11-23 23:52:16 cpu1_idle_stat 0.02 125.96 91.26
+setstate rpi_bad 2017-11-23 23:55:29 cpu2_freq 1200
+setstate rpi_bad 2017-11-23 23:55:29 cpu2_freq_stat 600.00 1200.00 1199.99
+setstate rpi_bad 2017-11-23 23:52:16 cpu2_idle_stat 0.03 102.90 89.22
+setstate rpi_bad 2017-11-23 23:55:29 cpu3_freq 1200
+setstate rpi_bad 2017-11-23 23:55:29 cpu3_freq_stat 600.00 1200.00 1199.99
+setstate rpi_bad 2017-11-23 23:52:16 cpu3_idle_stat 10.82 118.14 93.29
+setstate rpi_bad 2017-11-19 09:18:18 cpu_bogomips 38.40
+setstate rpi_bad 2017-11-23 23:52:16 cpu_core_count 4
+setstate rpi_bad 2017-11-23 23:55:29 cpu_freq 1200
+setstate rpi_bad 2017-11-23 23:55:29 cpu_freq_stat 600.00 1200.00 1199.99
+setstate rpi_bad 2017-11-23 23:52:16 cpu_idle_stat 43.24 99.57 90.18
+setstate rpi_bad 2017-11-19 09:18:18 cpu_model_name ARMv7 Processor rev 4 (v7l)
+setstate rpi_bad 2017-11-23 23:52:16 cpu_temp 49.92
+setstate rpi_bad 2017-11-23 23:52:16 cpu_temp_avg 48.8
+setstate rpi_bad 2017-11-23 23:52:16 cpu_temp_stat 0.00 71.98 48.73
+setstate rpi_bad 2017-11-23 23:52:16 eth0 RX: 0.59 MB, TX: 0.05 MB, Total: 0.64 MB
+setstate rpi_bad 2017-11-23 23:52:16 eth0_diff RX: 0.51 MB, TX: 0.02 MB, Total: 0.53 MB
+setstate rpi_bad 2017-11-23 23:52:16 eth0_ip 192.168.2.9
+setstate rpi_bad 2017-10-31 08:49:54 eth0_ip6 fe80::ba27:ebff:fe15:fd32
+setstate rpi_bad 2017-11-23 23:52:16 eth0_rx 620269
+setstate rpi_bad 2017-11-23 23:52:16 eth0_speed 100
+setstate rpi_bad 2017-11-23 23:52:16 eth0_tx 52969
+setstate rpi_bad 2017-11-23 23:52:16 fhemstarttime 1511079444
+setstate rpi_bad 2017-11-23 23:52:16 fhemstarttime_text 19.11.2017 09:17:24
+setstate rpi_bad 2017-11-23 23:52:16 fhemuptime 398091
+setstate rpi_bad 2017-11-23 23:52:16 fhemuptime_text 4 days, 14 hours, 34 minutes
+setstate rpi_bad 2017-11-23 23:52:16 idletime 84 81.10 %
+setstate rpi_bad 2017-11-23 23:52:16 idletime_text 0 days, 00 hours, 01 minutes (81.10 %)
+setstate rpi_bad 2017-11-23 23:52:16 loadavg 0.36 0.21 0.08
+setstate rpi_bad 2017-11-19 09:18:18 perl_version v5.24.1
+setstate rpi_bad 2017-11-23 23:52:16 ram Total: 923.35 MB, Used: -328.23 MB, -35.55 %, Free: 1053.72 MB
+setstate rpi_bad 2017-11-23 23:52:16 ram_used_stat -1064.83 373.81 -449.41
+setstate rpi_bad 2017-11-23 23:52:16 root Total: 7365 MB, Used: 2825 MB, 41 %, Available: 4211 MB at /
+setstate rpi_bad 2017-11-23 23:52:16 starttime 1511477430
+setstate rpi_bad 2017-11-23 23:52:16 starttime_text 23.11.2017 23:50:30
+setstate rpi_bad 2017-11-23 23:52:16 stat_cpu 2947 1191 1418 33862 2086 0 42
+setstate rpi_bad 2017-11-23 23:52:16 stat_cpu0 818 808 422 7700 465 0 39
+setstate rpi_bad 2017-11-23 23:52:16 stat_cpu0_diff 160 29 77 1657 1 0 3
+setstate rpi_bad 2017-11-23 23:52:16 stat_cpu0_percent 8.30 1.50 4.00 85.99 0.05 0.00 0.16
+setstate rpi_bad 2017-11-23 23:52:16 stat_cpu0_text user: 8.30 %, nice: 1.50 %, sys: 4.00 %, idle: 85.99 %, io: 0.05 %, irq: 0.00 %, sirq: 0.16 %
+setstate rpi_bad 2017-11-23 23:52:16 stat_cpu1 554 152 303 8671 756 0 2
+setstate rpi_bad 2017-11-23 23:52:16 stat_cpu1_diff 34 4 94 1853 0 0 0
+setstate rpi_bad 2017-11-23 23:52:16 stat_cpu1_percent 1.71 0.20 4.74 93.35 0.00 0.00 0.00
+setstate rpi_bad 2017-11-23 23:52:16 stat_cpu1_text user: 1.71 %, nice: 0.20 %, sys: 4.74 %, idle: 93.35 %, io: 0.00 %, irq: 0.00 %, sirq: 0.00 %
+setstate rpi_bad 2017-11-23 23:52:16 stat_cpu2 1146 86 391 8317 483 0 0
+setstate rpi_bad 2017-11-23 23:52:16 stat_cpu2_diff 54 23 37 1811 46 0 0
+setstate rpi_bad 2017-11-23 23:52:16 stat_cpu2_percent 2.74 1.17 1.88 91.88 2.33 0.00 0.00
+setstate rpi_bad 2017-11-23 23:52:16 stat_cpu2_text user: 2.74 %, nice: 1.17 %, sys: 1.88 %, idle: 91.88 %, io: 2.33 %, irq: 0.00 %, sirq: 0.00 %
+setstate rpi_bad 2017-11-23 23:52:16 stat_cpu3 429 145 302 9174 382 0 1
+setstate rpi_bad 2017-11-23 23:52:16 stat_cpu3_diff 54 1 39 1891 0 0 0
+setstate rpi_bad 2017-11-23 23:52:16 stat_cpu3_percent 2.72 0.05 1.96 95.26 0.00 0.00 0.00
+setstate rpi_bad 2017-11-23 23:52:16 stat_cpu3_text user: 2.72 %, nice: 0.05 %, sys: 1.96 %, idle: 95.26 %, io: 0.00 %, irq: 0.00 %, sirq: 0.00 %
+setstate rpi_bad 2017-11-23 23:52:16 stat_cpu_diff 302 57 247 7212 47 0 3
+setstate rpi_bad 2017-11-23 23:52:16 stat_cpu_percent 3.84 0.72 3.14 91.66 0.60 0.00 0.04
+setstate rpi_bad 2017-11-23 23:52:16 stat_cpu_text user: 3.84 %, nice: 0.72 %, sys: 3.14 %, idle: 91.66 %, io: 0.60 %, irq: 0.00 %, sirq: 0.04 %
+setstate rpi_bad 2017-11-23 23:52:16 swap Total: 100.00 MB, Used: 0.00 MB,  0.00 %, Free: 100.00 MB
+setstate rpi_bad 2017-11-23 23:52:16 swap_used_stat 0.00 29.90 0.01
+setstate rpi_bad 2017-11-23 23:52:16 uptime 104
+setstate rpi_bad 2017-11-23 23:52:16 uptime_text 0 days, 00 hours, 01 minutes
+setstate rpi_bad 2017-11-23 23:52:16 wlan0 RX: 0.00 MB, TX: 0.00 MB, Total: 0 MB
+setstate rpi_bad 2017-11-23 23:52:16 wlan0_diff RX: 0.00 MB, TX: 0.00 MB, Total: 0.00 MB
+setstate rpi_bad 2017-11-23 23:52:16 wlan0_ip6 fe80::ba27:ebff:fe40:a867
+setstate rpi_bad 2017-11-23 23:52:16 wlan0_rx 0
+setstate rpi_bad 2017-11-23 23:52:16 wlan0_tx 0
+setstate rpi_sys 2017-09-30 19:08:25 cpu0_freq 1200
+setstate rpi_sys 2017-09-30 19:08:25 cpu0_freq_stat 600.00 1200.00 1124.84
+setstate rpi_sys 2017-11-23 23:52:16 cpu0_idle_stat -28.23 313.04 87.18
+setstate rpi_sys 2017-09-30 19:08:25 cpu1_freq 1200
+setstate rpi_sys 2017-09-30 19:08:25 cpu1_freq_stat 600.00 1200.00 1124.84
+setstate rpi_sys 2017-11-23 23:52:16 cpu1_idle_stat 0.02 590.59 90.85
+setstate rpi_sys 2017-09-30 19:08:25 cpu2_freq 1200
+setstate rpi_sys 2017-09-30 19:08:25 cpu2_freq_stat 600.00 1200.00 1124.84
+setstate rpi_sys 2017-11-23 23:52:16 cpu2_idle_stat -4762.50 102.61 88.43
+setstate rpi_sys 2017-09-30 19:08:25 cpu3_freq 1200
+setstate rpi_sys 2017-09-30 19:08:25 cpu3_freq_stat 600.00 1200.00 1124.84
+setstate rpi_sys 2017-11-23 23:52:16 cpu3_idle_stat -6071.43 611.39 92.89
+setstate rpi_sys 2017-09-28 19:33:55 cpu_bogomips 38.40
+setstate rpi_sys 2017-09-30 19:08:26 cpu_core_count 4
+setstate rpi_sys 2017-09-30 19:08:25 cpu_freq 1200
+setstate rpi_sys 2017-09-30 19:08:25 cpu_freq_stat 600.00 1200.00 1124.84
+setstate rpi_sys 2017-11-23 23:52:16 cpu_idle_stat -830.77 100.90 89.85
+setstate rpi_sys 2017-09-28 19:33:55 cpu_model_name ARMv7 Processor rev 4 (v7l)
+setstate rpi_sys 2017-11-23 23:52:16 cpu_temp 49.39
+setstate rpi_sys 2017-11-23 23:52:16 cpu_temp_avg 47.8
+setstate rpi_sys 2017-11-23 23:52:16 cpu_temp_stat 0.00 72.52 47.84
+setstate rpi_sys 2017-11-23 23:52:16 eth0 RX: 0.59 MB, TX: 0.05 MB, Total: 0.64 MB
+setstate rpi_sys 2017-11-23 23:52:16 eth0_diff RX: 0.51 MB, TX: 0.02 MB, Total: 0.53 MB
+setstate rpi_sys 2017-11-23 23:52:16 eth0_ip 192.168.2.9
+setstate rpi_sys 2017-10-31 08:49:34 eth0_ip6 fe80::ba27:ebff:fe15:fd32
+setstate rpi_sys 2017-11-23 23:52:16 eth0_rx 619978
+setstate rpi_sys 2017-11-23 23:52:16 eth0_speed 100
+setstate rpi_sys 2017-11-23 23:52:16 eth0_tx 52883
+setstate rpi_sys 2017-11-23 23:52:16 fhemstarttime 1511079444
+setstate rpi_sys 2017-11-23 23:52:16 fhemstarttime_text 19.11.2017 09:17:24
+setstate rpi_sys 2017-11-23 23:52:16 fhemuptime 398091
+setstate rpi_sys 2017-11-23 23:52:16 fhemuptime_text 4 days, 14 hours, 34 minutes
+setstate rpi_sys 2017-11-23 23:52:16 idletime 84 81.10 %
+setstate rpi_sys 2017-11-23 23:52:16 idletime_text 0 days, 00 hours, 01 minutes (81.10 %)
+setstate rpi_sys 2017-10-24 08:06:40 loadavg 0.11 0.11 0.09
+setstate rpi_sys 2017-11-19 09:18:18 perl_version v5.24.1
+setstate rpi_sys 2017-11-23 23:52:16 ram Total: 923.35 MB, Used: -333.18 MB, -36.08 %, Free: 1058.68 MB
+setstate rpi_sys 2017-11-23 23:52:16 ram_used_stat -1236.99 374.85 -446.06
+setstate rpi_sys 2017-09-30 19:00:25 root Total: 7388 MB, Used: 1400 MB, 20 %, Available: 5657 MB at /
+setstate rpi_sys 2017-11-23 23:52:16 starttime 1511477430
+setstate rpi_sys 2017-11-23 23:52:16 starttime_text 23.11.2017 23:50:30
+setstate rpi_sys 2017-11-23 23:52:16 stat_cpu 2940 1190 1411 33862 2085 0 42
+setstate rpi_sys 2017-11-23 23:52:16 stat_cpu0 818 808 419 7700 464 0 39
+setstate rpi_sys 2017-11-23 23:52:16 stat_cpu0_diff 163 30 81 1665 0 0 3
+setstate rpi_sys 2017-11-23 23:52:16 stat_cpu0_percent 8.39 1.54 4.17 85.74 0.00 0.00 0.15
+setstate rpi_sys 2017-11-23 23:52:16 stat_cpu0_text user: 8.39 %, nice: 1.54 %, sys: 4.17 %, idle: 85.74 %, io: 0.00 %, irq: 0.00 %, sirq: 0.15 %
+setstate rpi_sys 2017-11-23 23:52:16 stat_cpu1 554 152 299 8671 756 0 2
+setstate rpi_sys 2017-11-23 23:52:16 stat_cpu1_diff 39 5 101 1855 1 0 0
+setstate rpi_sys 2017-11-23 23:52:16 stat_cpu1_percent 1.95 0.25 5.05 92.70 0.05 0.00 0.00
+setstate rpi_sys 2017-11-23 23:52:16 stat_cpu1_text user: 1.95 %, nice: 0.25 %, sys: 5.05 %, idle: 92.70 %, io: 0.05 %, irq: 0.00 %, sirq: 0.00 %
+setstate rpi_sys 2017-11-23 23:52:16 stat_cpu2 1142 86 391 8317 483 0 0
+setstate rpi_sys 2017-11-23 23:52:16 stat_cpu2_diff 51 23 50 1814 46 0 0
+setstate rpi_sys 2017-11-23 23:52:16 stat_cpu2_percent 2.57 1.16 2.52 91.43 2.32 0.00 0.00
+setstate rpi_sys 2017-11-23 23:52:16 stat_cpu2_text user: 2.57 %, nice: 1.16 %, sys: 2.52 %, idle: 91.43 %, io: 2.32 %, irq: 0.00 %, sirq: 0.00 %
+setstate rpi_sys 2017-11-23 23:52:16 stat_cpu3 426 144 302 9174 382 0 1
+setstate rpi_sys 2017-11-23 23:52:16 stat_cpu3_diff 54 0 51 1896 0 0 0
+setstate rpi_sys 2017-11-23 23:52:16 stat_cpu3_percent 2.70 0.00 2.55 94.75 0.00 0.00 0.00
+setstate rpi_sys 2017-11-23 23:52:16 stat_cpu3_text user: 2.70 %, nice: 0.00 %, sys: 2.55 %, idle: 94.75 %, io: 0.00 %, irq: 0.00 %, sirq: 0.00 %
+setstate rpi_sys 2017-11-23 23:52:16 stat_cpu_diff 307 58 283 7230 47 0 3
+setstate rpi_sys 2017-11-23 23:52:16 stat_cpu_percent 3.87 0.73 3.57 91.20 0.59 0.00 0.04
+setstate rpi_sys 2017-11-23 23:52:16 stat_cpu_text user: 3.87 %, nice: 0.73 %, sys: 3.57 %, idle: 91.20 %, io: 0.59 %, irq: 0.00 %, sirq: 0.04 %
+setstate rpi_sys 2017-11-23 23:52:16 swap Total: 100.00 MB, Used: 0.00 MB,  0.00 %, Free: 100.00 MB
+setstate rpi_sys 2017-11-23 23:52:16 swap_used_stat 0.00 29.90 0.01
+setstate rpi_sys 2017-11-23 23:52:16 uptime 104
+setstate rpi_sys 2017-11-23 23:52:16 uptime_text 0 days, 00 hours, 01 minutes
+setstate rpi_sys 2017-11-23 23:52:16 wlan0 RX: 0.00 MB, TX: 0.00 MB, Total: 0 MB
+setstate rpi_sys 2017-11-23 23:52:16 wlan0_diff RX: 0.00 MB, TX: 0.00 MB, Total: 0.00 MB
+setstate rpi_sys 2017-11-23 23:52:16 wlan0_ip6 fe80::ba27:ebff:fe40:a867
+setstate rpi_sys 2017-11-23 23:52:16 wlan0_rx 0
+setstate rpi_sys 2017-11-23 23:52:16 wlan0_tx 0
+setstate rpi_sz 2017-11-23 23:55:29 cpu0_freq 1200
+setstate rpi_sz 2017-11-23 23:55:29 cpu0_freq_stat 600.00 1200.00 1110.64
+setstate rpi_sz 2017-11-23 23:52:16 cpu0_idle_stat 1.82 104.45 87.42
+setstate rpi_sz 2017-11-23 23:55:29 cpu1_freq 1200
+setstate rpi_sz 2017-11-23 23:55:29 cpu1_freq_stat 600.00 1200.00 1111.77
+setstate rpi_sz 2017-11-23 23:52:16 cpu1_idle_stat 0.02 129.84 90.99
+setstate rpi_sz 2017-11-23 23:55:29 cpu2_freq 1200
+setstate rpi_sz 2017-11-23 23:55:29 cpu2_freq_stat 600.00 1200.00 1111.77
+setstate rpi_sz 2017-11-23 23:52:16 cpu2_idle_stat 0.05 102.87 88.48
+setstate rpi_sz 2017-11-23 23:55:29 cpu3_freq 1200
+setstate rpi_sz 2017-11-23 23:55:29 cpu3_freq_stat 600.00 1200.00 1111.77
+setstate rpi_sz 2017-11-23 23:52:16 cpu3_idle_stat 10.84 122.61 92.95
+setstate rpi_sz 2017-11-19 09:18:18 cpu_bogomips 38.40
+setstate rpi_sz 2017-11-23 23:52:16 cpu_core_count 4
+setstate rpi_sz 2017-11-23 23:55:29 cpu_freq 1200
+setstate rpi_sz 2017-11-23 23:55:29 cpu_freq_stat 600.00 1200.00 1110.64
+setstate rpi_sz 2017-11-23 23:52:16 cpu_idle_stat 43.24 99.56 89.97
+setstate rpi_sz 2017-11-19 09:18:18 cpu_model_name ARMv7 Processor rev 4 (v7l)
+setstate rpi_sz 2017-11-23 23:52:16 cpu_temp 49.92
+setstate rpi_sz 2017-11-23 23:52:16 cpu_temp_avg 48.3
+setstate rpi_sz 2017-11-23 23:52:16 cpu_temp_stat 0.00 72.52 48.28
+setstate rpi_sz 2017-11-23 23:52:16 eth0 RX: 0.59 MB, TX: 0.05 MB, Total: 0.64 MB
+setstate rpi_sz 2017-11-23 23:52:16 eth0_diff RX: 0.51 MB, TX: 0.02 MB, Total: 0.53 MB
+setstate rpi_sz 2017-11-23 23:52:16 eth0_ip 192.168.2.9
+setstate rpi_sz 2017-10-31 08:49:54 eth0_ip6 fe80::ba27:ebff:fe15:fd32
+setstate rpi_sz 2017-11-23 23:52:16 eth0_rx 619687
+setstate rpi_sz 2017-11-23 23:52:16 eth0_speed 100
+setstate rpi_sz 2017-11-23 23:52:16 eth0_tx 52675
+setstate rpi_sz 2017-11-23 23:52:16 fhemstarttime 1511079444
+setstate rpi_sz 2017-11-23 23:52:16 fhemstarttime_text 19.11.2017 09:17:24
+setstate rpi_sz 2017-11-23 23:52:16 fhemuptime 398091
+setstate rpi_sz 2017-11-23 23:52:16 fhemuptime_text 4 days, 14 hours, 34 minutes
+setstate rpi_sz 2017-11-23 23:52:16 idletime 84 81.16 %
+setstate rpi_sz 2017-11-23 23:52:16 idletime_text 0 days, 00 hours, 01 minutes (81.16 %)
+setstate rpi_sz 2017-11-23 23:52:16 loadavg 0.36 0.21 0.08
+setstate rpi_sz 2017-11-19 09:18:18 perl_version v5.24.1
+setstate rpi_sz 2017-11-23 23:52:16 ram Total: 923.35 MB, Used: -339.06 MB, -36.72 %, Free: 1064.84 MB
+setstate rpi_sz 2017-11-23 23:52:16 ram_used_stat -1069.27 362.90 -442.62
+setstate rpi_sz 2017-11-23 23:52:16 root Total: 7365 MB, Used: 2825 MB, 41 %, Available: 4211 MB at /
+setstate rpi_sz 2017-11-23 23:52:16 starttime 1511477430
+setstate rpi_sz 2017-11-23 23:52:16 starttime_text 23.11.2017 23:50:30
+setstate rpi_sz 2017-11-23 23:52:16 stat_cpu 2929 1189 1405 33862 2085 0 42
+setstate rpi_sz 2017-11-23 23:52:16 stat_cpu0 815 808 419 7700 464 0 39
+setstate rpi_sz 2017-11-23 23:52:16 stat_cpu0_diff 157 29 75 1663 0 0 3
+setstate rpi_sz 2017-11-23 23:52:16 stat_cpu0_percent 8.15 1.50 3.89 86.30 0.00 0.00 0.16
+setstate rpi_sz 2017-11-23 23:52:16 stat_cpu0_text user: 8.15 %, nice: 1.50 %, sys: 3.89 %, idle: 86.30 %, io: 0.00 %, irq: 0.00 %, sirq: 0.16 %
+setstate rpi_sz 2017-11-23 23:52:16 stat_cpu1 552 151 297 8671 756 0 2
+setstate rpi_sz 2017-11-23 23:52:16 stat_cpu1_diff 34 3 94 1854 0 0 0
+setstate rpi_sz 2017-11-23 23:52:16 stat_cpu1_percent 1.71 0.15 4.74 93.40 0.00 0.00 0.00
+setstate rpi_sz 2017-11-23 23:52:16 stat_cpu1_text user: 1.71 %, nice: 0.15 %, sys: 4.74 %, idle: 93.40 %, io: 0.00 %, irq: 0.00 %, sirq: 0.00 %
+setstate rpi_sz 2017-11-23 23:52:16 stat_cpu2 1141 86 387 8317 483 0 0
+setstate rpi_sz 2017-11-23 23:52:16 stat_cpu2_diff 49 23 40 1812 46 0 0
+setstate rpi_sz 2017-11-23 23:52:16 stat_cpu2_percent 2.49 1.17 2.03 91.98 2.34 0.00 0.00
+setstate rpi_sz 2017-11-23 23:52:16 stat_cpu2_text user: 2.49 %, nice: 1.17 %, sys: 2.03 %, idle: 91.98 %, io: 2.34 %, irq: 0.00 %, sirq: 0.00 %
+setstate rpi_sz 2017-11-23 23:52:16 stat_cpu3 421 144 302 9174 382 0 1
+setstate rpi_sz 2017-11-23 23:52:16 stat_cpu3_diff 47 0 46 1892 0 0 0
+setstate rpi_sz 2017-11-23 23:52:16 stat_cpu3_percent 2.37 0.00 2.32 95.31 0.00 0.00 0.00
+setstate rpi_sz 2017-11-23 23:52:16 stat_cpu3_text user: 2.37 %, nice: 0.00 %, sys: 2.32 %, idle: 95.31 %, io: 0.00 %, irq: 0.00 %, sirq: 0.00 %
+setstate rpi_sz 2017-11-23 23:52:16 stat_cpu_diff 287 55 255 7221 46 0 3
+setstate rpi_sz 2017-11-23 23:52:16 stat_cpu_percent 3.65 0.70 3.24 91.79 0.58 0.00 0.04
+setstate rpi_sz 2017-11-23 23:52:16 stat_cpu_text user: 3.65 %, nice: 0.70 %, sys: 3.24 %, idle: 91.79 %, io: 0.58 %, irq: 0.00 %, sirq: 0.04 %
+setstate rpi_sz 2017-11-23 23:52:16 swap Total: 100.00 MB, Used: 0.00 MB,  0.00 %, Free: 100.00 MB
+setstate rpi_sz 2017-11-23 23:52:16 swap_used_stat 0.00 19.94 0.01
+setstate rpi_sz 2017-11-23 23:52:16 uptime 104
+setstate rpi_sz 2017-11-23 23:52:16 uptime_text 0 days, 00 hours, 01 minutes
+setstate rpi_sz 2017-11-23 23:52:16 wlan0 RX: 0.00 MB, TX: 0.00 MB, Total: 0 MB
+setstate rpi_sz 2017-11-23 23:52:16 wlan0_diff RX: 0.00 MB, TX: 0.00 MB, Total: 0.00 MB
+setstate rpi_sz 2017-11-23 23:52:16 wlan0_ip6 fe80::ba27:ebff:fe40:a867
+setstate rpi_sz 2017-11-23 23:52:16 wlan0_rx 0
+setstate rpi_sz 2017-11-23 23:52:16 wlan0_tx 0
+setstate rr_Annabel home
+setstate rr_Annabel 2017-11-19 00:29:19 durTimerAbsence 00:00:00
+setstate rr_Annabel 2017-11-19 00:29:19 durTimerAbsence_cr 0
+setstate rr_Annabel 2017-11-23 23:55:29 durTimerPresence 119:26:10
+setstate rr_Annabel 2017-11-23 23:55:29 durTimerPresence_cr 7166
+setstate rr_Annabel 2017-09-16 12:53:03 durTimerSleep 00:00:00
+setstate rr_Annabel 2017-09-16 12:53:03 durTimerSleep_cr 0
+setstate rr_Annabel 2017-11-19 00:29:19 lastArrival 2017-11-19 00:29:19
+setstate rr_Annabel 2017-11-19 00:28:19 lastDeparture 2017-11-19 00:28:19
+setstate rr_Annabel 2017-11-19 00:29:19 lastDurAbsence 00:01:00
+setstate rr_Annabel 2017-11-19 00:29:19 lastDurAbsence_cr 1
+setstate rr_Annabel 2017-11-19 00:28:19 lastDurPresence 00:29:03
+setstate rr_Annabel 2017-11-19 00:28:19 lastDurPresence_cr 29
+setstate rr_Annabel 2017-11-19 00:28:19 lastLocation home
+setstate rr_Annabel 2017-11-19 00:28:19 lastMood calm
+setstate rr_Annabel 2017-11-19 00:29:19 lastState absent
+setstate rr_Annabel 2017-11-19 00:29:19 location home
+setstate rr_Annabel 2017-11-19 00:29:19 mood calm
+setstate rr_Annabel 2017-11-19 00:29:19 presence present
+setstate rr_Annabel 2017-11-19 00:29:19 state home
+setstate rr_Annabel 2017-09-16 12:53:03 wayhome 0
+setstate rr_Dennis home
+setstate rr_Dennis 2017-11-19 07:58:40 durTimerAbsence 00:00:00
+setstate rr_Dennis 2017-11-19 07:58:40 durTimerAbsence_cr 0
+setstate rr_Dennis 2017-11-23 23:55:29 durTimerPresence 111:56:49
+setstate rr_Dennis 2017-11-23 23:55:29 durTimerPresence_cr 6717
+setstate rr_Dennis 2017-10-01 20:52:40 durTimerSleep 00:00:00
+setstate rr_Dennis 2017-10-01 20:52:40 durTimerSleep_cr 0
+setstate rr_Dennis 2017-11-19 07:58:40 lastArrival 2017-11-19 07:58:40
+setstate rr_Dennis 2017-10-01 20:52:40 lastAwake 2017-10-01 20:52:40
+setstate rr_Dennis 2017-11-19 07:57:40 lastDeparture 2017-11-19 07:57:40
+setstate rr_Dennis 2017-11-19 07:58:40 lastDurAbsence 00:01:00
+setstate rr_Dennis 2017-11-19 07:58:40 lastDurAbsence_cr 1
+setstate rr_Dennis 2017-11-19 07:57:40 lastDurPresence 03:45:06
+setstate rr_Dennis 2017-11-19 07:57:40 lastDurPresence_cr 225
+setstate rr_Dennis 2017-10-01 20:52:40 lastDurSleep 00:37:56
+setstate rr_Dennis 2017-10-01 20:52:40 lastDurSleep_cr 38
+setstate rr_Dennis 2017-11-19 07:57:40 lastLocation home
+setstate rr_Dennis 2017-11-19 07:57:40 lastMood calm
+setstate rr_Dennis 2017-10-01 20:14:44 lastSleep 2017-10-01 20:14:44
+setstate rr_Dennis 2017-11-19 07:58:40 lastState absent
+setstate rr_Dennis 2017-11-19 07:58:40 location home
+setstate rr_Dennis 2017-11-19 07:58:40 mood calm
+setstate rr_Dennis 2017-11-19 07:58:40 presence present
+setstate rr_Dennis 2017-11-19 07:58:40 state home
+setstate rr_Dennis 2017-09-16 12:54:40 wayhome 0
+setstate rr_Emily home
+setstate rr_Emily 2017-11-17 13:46:26 durTimerAbsence 00:00:00
+setstate rr_Emily 2017-11-17 13:46:26 durTimerAbsence_cr 0
+setstate rr_Emily 2017-11-23 23:55:29 durTimerPresence 153:48:11
+setstate rr_Emily 2017-11-23 23:55:29 durTimerPresence_cr 9228
+setstate rr_Emily 2017-10-29 12:06:53 durTimerSleep 00:00:00
+setstate rr_Emily 2017-10-29 12:06:53 durTimerSleep_cr 0
+setstate rr_Emily 2017-11-17 14:07:18 lastArrival 2017-11-17 14:07:18
+setstate rr_Emily 2017-11-17 14:06:47 lastDeparture 2017-11-17 14:06:47
+setstate rr_Emily 2017-11-17 14:07:18 lastDurAbsence 00:00:31
+setstate rr_Emily 2017-11-17 14:07:18 lastDurAbsence_cr 1
+setstate rr_Emily 2017-11-17 14:06:47 lastDurPresence 00:20:21
+setstate rr_Emily 2017-11-17 14:06:47 lastDurPresence_cr 20
+setstate rr_Emily 2017-11-17 14:06:47 lastLocation home
+setstate rr_Emily 2017-11-17 14:06:47 lastMood calm
+setstate rr_Emily 2017-11-17 14:07:18 lastState absent
+setstate rr_Emily 2017-11-17 14:07:18 location home
+setstate rr_Emily 2017-11-17 14:07:18 mood calm
+setstate rr_Emily 2017-11-17 14:07:18 presence present
+setstate rr_Emily 2017-11-17 14:07:18 state home
+setstate rr_Emily 2017-10-29 12:06:53 wayhome 0
+setstate spritpreise Aral-Diesel: 1.32 <br>\
+SB-Diesel: 1.20 <br>\
+Star-Diesel: 1.20 <br>\
+Aral-Super: 1.54 <br>\
+SB-Super: 1.42 <br>\
+Star-Super: 1.41
+setstate spritpreise 2017-09-28 18:58:47 AraLDiesel 1.14
+setstate spritpreise 2017-11-10 06:21:06 AralDiesel 1.32
+setstate spritpreise 2017-11-10 06:21:05 AralSuper 1.54
+setstate spritpreise 2017-11-10 06:21:05 SBDiesel 1.20
+setstate spritpreise 2017-11-10 06:21:05 SBSuper 1.42
+setstate spritpreise 2017-11-10 06:21:06 StarDiesel 1.20
+setstate spritpreise 2017-11-10 06:21:06 StarSuper 1.41
+setstate starteBackup initialized
+setstate starteBackup 2017-11-06 19:34:53 cmd 0
+setstate starteBackup 2017-11-06 19:34:53 state initialized
+setstate starteBackup 2017-11-23 23:55:38 timer_01_c01 23.11.2017 23:59:30|So
+setstate watchdog_Anwesenheit defined
+setstate watchdog_Anwesenheit 2017-11-17 07:30:53 Activated activated
+setstate watchdog_Anwesenheit 2017-11-17 07:45:53 Triggered triggered

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+     /* FHEM tablet ui */
+     /*
+     * UI builder framework for FHEM
+     *
+     * Version: 2.5.0
+     * URL: https://github.com/knowthelist/fhem-tablet-ui
+     *
+     * Copyright (c) 2015-2016 Mario Stephan <mstephan@shared-files.de>
+     * Under MIT License (http://www.opensource.org/licenses/mit-license.php)
+     *
+     * !!!! Evaluation version - run only in a staging enviroment !!!!
+     *
+     * - create a new folder named 'tablet_eval' in /<fhem-path>/www
+     * - copy all files incl. sub folders into /<fhem-path>/www/tablet_eval
+     * - add 'define TABLETUIEVAL HTTPSRV ftui_eval ./www/tablet_eval Tablet-EVAL' in fhem.cfg
+     * - Tadaaa! A new fhem ui in http://<fhem-url>:8083/fhem/tablet_eval/
+     */
+    -->
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+<!-- define your personal style here, it wont be overwritten  -->
+<!-- link rel="stylesheet" href="css/fhem-tablet-ui-user.css" / -->
+<link rel="stylesheet" href="css/fhem-tablet-ui-user.css" />
+
+<script src="js/fhem-tablet-ui.js" defer></script>
+
+<!--
+<meta name="gridster_cols" content="10">
+<meta name="gridster_rows" content="5">
+
+<meta name="widget_base_width" content="116">
+<meta name="widget_base_height" content="131">
+-->
+<title>FHEM-Tablet-UI</title>
+
+</head>
+
+<body>
+<div class="gridster">
+	<ul>
+		<li data-row="1" data-col="1" data-sizex="1" data-sizey="5">
+			<div class="">
+				<div data-type="pagebutton" data-url="#page_content_home.html" data-load="#content_home"
+				data-off-background-color="transparent" data-off-color="#606060"
+				data-on-background-color="#606060" data-on-color="#222222"
+				data-active-pattern="(.*/||.*index.html||.*#page_content_home.html)"
+				data-icon="fa-home"
+				class="default top-space"></div>
+				
+				<div data-type="pagebutton" data-url="#page_content_wohnzimmer.html" data-load="#content_wohnzimmer"
+				data-off-background-color="transparent" data-off-color="#606060"
+				data-on-background-color="#606060" data-on-color="#222222"
+				data-active-pattern=".*#page_content_wohnzimmer.html"
+				data-icon="oa-scene_livingroom"
+				class="prefetch top-space"></div>
+				
+				<div data-type="pagebutton" data-url="#page_content_kueche.html" data-load="#content_kueche"
+				data-off-background-color="transparent" data-off-color="#606060"
+				data-on-background-color="#606060" data-on-color="#222222"
+				data-active-pattern=".*#page_content_kueche.html"
+				data-icon="oa-scene_cooking"
+				class="prefetch top-space"></div>
+				
+				<div data-type="pagebutton" data-url="#page_content_child.html" data-load="#content_child"
+				data-off-background-color="transparent" data-off-color="#606060"
+				data-on-background-color="#606060" data-on-color="#222222"
+				data-active-pattern=".*#page_content_child.html"
+				data-icon="oa-scene_childs_room"
+				class="prefetch top-space"></div>
+				
+				<div data-type="pagebutton" data-url="#page_content_sleeping.html" data-load="#content_sleeping"
+				data-off-background-color="transparent" data-off-color="#606060"
+				data-on-background-color="#606060" data-on-color="#222222"
+				data-active-pattern=".*#page_content_sleeping.html"
+				data-icon="oa-scene_sleeping" class="top-space"></div>
+				
+				<div data-type="pagebutton" data-url="#page_content_work.html" data-load="#content_work"
+				data-off-background-color="transparent" data-off-color="#606060"
+				data-on-background-color="#606060" data-on-color="#222222"
+				data-active-pattern=".*#page_content_work.html"
+				data-icon="oa-scene_office"
+				class="top-space"></div>
+
+
+				<div data-type="pagebutton" data-url="#page_content_bad.html" data-load="#content_bad"
+				data-off-background-color="transparent" data-off-color="#606060"
+				data-on-background-color="#606060" data-on-color="#222222"
+				data-active-pattern=".*#page_content_bad.html"
+				data-icon="oa-scene_bath"
+				class="top-space"></div>
+
+
+				<div data-type="pagebutton" data-url="#page_content_kalender.html" data-load="#content_kalender"
+				data-off-background-color="transparent" data-off-color="#606060"
+				data-on-background-color="#606060" data-on-color="#222222"
+				data-active-pattern=".*#page_content_kalender.html"
+				data-icon="oa-time_calendar"
+				class="top-space"></div>
+
+
+				<div data-type="pagebutton" data-url="#page_content_wetter.html" data-load="#content_wetter"
+				data-off-background-color="transparent" data-off-color="#606060"
+				data-on-background-color="#606060" data-on-color="#222222"
+				data-active-pattern=".*#page_content_wetter.html"
+				data-icon="fa-sun-o"
+				class="top-space"></div>
+				
+			</div>
+		</li>
+
+		<li data-row="1" data-col="2" data-sizex="9" data-sizey="5">
+			<div class="page" id="content_home"></div>
+			<div class="page" id="content_wohnzimmer"></div>
+			<div class="page" id="content_kueche"></div>
+			<div class="page" id="content_child"></div>
+ 			<div class="page" id="content_sleeping"></div>
+                <div class="page" id="content_work"></div>
+			<div class="page" id="content_bad"></div>
+			<div class="page" id="content_kalender"></div>
+			<div class="page" id="content_wetter"></div>
+		</li>
+	</ul>
+</div>
+</body>
+</html>

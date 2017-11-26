@@ -1,0 +1,164 @@
+@font-face {
+  font-family: 'roman';
+  src:  url('fonts/roman.eot');
+  src:  url('fonts/roman.eot') format('embedded-opentype'),
+    url('fonts/roman.ttf') format('truetype'),
+    url('fonts/roman.woff') format('woff'),
+    url('fonts/roman.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="ro-"], [class*=" ro-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'roman' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ro-fully:before {
+  content: "\46";
+}
+.ro-raspi:before {
+  content: "\e921";
+}
+.ro-clip:before {
+  content: "\e913";
+}
+.ro-pc:before {
+  content: "\e91d";
+}
+.ro-beamer:before {
+  content: "\e91e";
+}
+.ro-bluray:before {
+  content: "\e91f";
+}
+.ro-hanger:before {
+  content: "\e91c";
+}
+.ro-sofa:before {
+  content: "\e605";
+}
+.ro-volume-high:before {
+  content: "\e919";
+}
+.ro-radio-tower:before {
+  content: "\e60a";
+}
+.ro-ordered:before {
+  content: "\e608";
+}
+.ro-tv2:before {
+  content: "\e95b";
+}
+.ro-fire:before {
+  content: "\e9a9";
+}
+.ro-books:before {
+  content: "\e920";
+}
+.ro-map:before {
+  content: "\e94b";
+}
+.ro-enter:before {
+  content: "\ea13";
+}
+.ro-exit:before {
+  content: "\ea14";
+}
+.ro-film:before {
+  content: "\e908";
+}
+.ro-feed:before {
+  content: "\e909";
+}
+.ro-cart:before {
+  content: "\e90a";
+}
+.ro-display:before {
+  content: "\e90b";
+}
+.ro-user-plus:before {
+  content: "\e90c";
+}
+.ro-user-minus:before {
+  content: "\e90d";
+}
+.ro-user-check:before {
+  content: "\e90e";
+}
+.ro-lock:before {
+  content: "\e90f";
+}
+.ro-unlocked:before {
+  content: "\e910";
+}
+.ro-mug:before {
+  content: "\e911";
+}
+.ro-bin:before {
+  content: "\e912";
+}
+.ro-cross:before {
+  content: "\e914";
+}
+.ro-checkmark:before {
+  content: "\e915";
+}
+.ro-volume-mute2:before {
+  content: "\e916";
+}
+.ro-volume-increase:before {
+  content: "\e917";
+}
+.ro-volume-decrease:before {
+  content: "\e918";
+}
+.ro-disk:before {
+  content: "\e91b";
+}
+.ro-kodi:before {
+  content: "\e604";
+}
+.ro-alarmclock:before {
+  content: "\e601";
+}
+.ro-calendar:before {
+  content: "\e900";
+}
+.ro-gamepad:before {
+  content: "\e901";
+}
+.ro-alarm:before {
+  content: "\e902";
+}
+.ro-alarm-off:before {
+  content: "\e903";
+}
+.ro-microwave:before {
+  content: "\e904";
+}
+.ro-refrigerator:before {
+  content: "\e905";
+}
+.ro-oven:before {
+  content: "\e906";
+}
+.ro-washingmachine:before {
+  content: "\e907";
+}
+.ro-radio:before {
+  content: "\e60b";
+}
+.ro-sun:before {
+  content: "\e91a";
+}
+

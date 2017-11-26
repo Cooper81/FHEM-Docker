@@ -1,0 +1,612 @@
+attr global userattr cmdIcon devStateIcon devStateStyle fp_Uebersicht icon sortby webCmd widgetOverride
+attr global autoload_undefined_devices 1
+attr global latitude 51.492412
+attr global logfile ./log/fhem-%Y-%m.log
+attr global longitude 7.1440354
+attr global modpath .
+attr global statefile ./log/fhem.save
+attr global updateInBackground 1
+attr global verbose 3
+
+define telnetPort telnet 7072 global
+define allowed_telnetPort allowed
+attr allowed_telnetPort globalpassword fhem
+attr allowed_telnetPort validFor telnetPort
+
+define WEB FHEMWEB 8083 global
+attr WEB HTTPS 1
+attr WEB editConfig 1
+attr WEB hiddenroom FBDECT,Plots,Unsorted
+attr WEB longpoll 1
+attr WEB stylesheetPrefix dark
+define allowed_WEB allowed
+attr allowed_WEB basicAuth ZGVubmlzOmZoZW0=
+attr allowed_WEB validFor WEB
+
+define WEBphone FHEMWEB 8084 global
+attr WEBphone HTTPS 1
+attr WEBphone hiddenroom FBDECT,Plots,Unsorted
+attr WEBphone stylesheetPrefix dark
+define allowed_WEBphone allowed
+attr allowed_WEBphone basicAuth ZGVubmlzOmZoZW0=
+attr allowed_WEBphone validFor WEBphone
+
+define WEBtablet FHEMWEB 8085 global
+attr WEBtablet HTTPS 1
+attr WEBtablet hiddenroom FBDECT,Plots,Unsorted
+attr WEBtablet stylesheetPrefix darktouchpad
+define allowed_WEBtablet allowed
+attr allowed_WEBtablet basicAuth ZGVubmlzOmZoZW0=
+attr allowed_WEBtablet validFor WEBtablet
+
+# Fake FileLog entry, to access the fhem log from FHEMWEB 
+define Logfile FileLog ./log/fhem-%Y-%m.log fakelog
+
+define autocreate autocreate
+attr autocreate filelog ./log/%NAME-%Y.log
+
+define eventTypes eventTypes ./log/eventTypes.txt
+
+# Disable this to avoid looking for new USB devices on startup
+define initialUsbCheck notify global:INITIALIZED usb create
+
+define System weblink cmdList system_fhem_reboot:Neustart:shutdown+restart RPi:Shutdown:shutdown system_fhem_update:UpdateCheck:update+check system_fhem_update:Update:update
+attr System userattr presence presence_map structexclude
+attr System devStateIcon .*:system_backup
+attr System group Systembefehle
+attr System icon ge_blk_handy
+attr System room System
+
+define nanoCUL CUL /dev/serial/by-id/usb-FTDI_FT232R_USB_UART_A9M9DV3R-if00-port0@38400 1234
+attr nanoCUL icon cul_cul
+attr nanoCUL rfmode SlowRF
+
+define Kette IT 0FFF00FFFF 0F F0
+attr Kette userattr room_map structexclude
+attr Kette IODev nanoCUL
+attr Kette fp_Uebersicht 284,612,1,Kette,
+attr Kette group Kinderzimmer
+attr Kette icon light_fairy_lights
+attr Kette room Kinderzimmer
+define FileLog_Kette FileLog ./log/Kette-%Y.log Kette
+attr FileLog_Kette logtype text
+attr FileLog_Kette room IT
+define Regal IT 0FFF0F0FFF 0F F0
+attr Regal userattr room_map structexclude
+attr Regal IODev nanoCUL
+attr Regal fp_Uebersicht 176,781,1,Regal,
+attr Regal group Kinderzimmer
+attr Regal icon light_cabinet
+attr Regal room Kinderzimmer
+define FileLog_Regal FileLog ./log/Regal-%Y.log Regal
+attr FileLog_Regal logtype text
+attr FileLog_Regal room IT
+define dbox IT 0FFF0FF0FF 0F F0
+attr dbox IODev nanoCUL
+attr dbox fp_Uebersicht 340,625,1,dbox,
+attr dbox group Kinderzimmer
+attr dbox icon it_router
+attr dbox room Kinderzimmer
+define FileLog_dbox FileLog ./log/dbox-%Y.log dbox
+attr FileLog_dbox logtype text
+attr FileLog_dbox room IT
+define Lampe IT 000000FFFF 0F F0
+attr Lampe userattr room_map structexclude
+attr Lampe IODev nanoCUL
+attr Lampe fp_Uebersicht 288,1185,1,Lampe,
+attr Lampe group Arbeitszimmer
+attr Lampe icon light_pendant_light
+attr Lampe room Arbeitszimmer
+define FileLog_Lampe FileLog ./log/Lampe-%Y.log Lampe
+attr FileLog_Lampe logtype text
+attr FileLog_Lampe room IT
+define Bauch IT 0F0000FFFF 0F F0
+attr Bauch userattr room_map structexclude
+attr Bauch IODev nanoCUL
+attr Bauch fp_Uebersicht 488,1056,1,Bauch,
+attr Bauch group Schlafzimmer
+attr Bauch icon scene_making_love
+attr Bauch room Schlafzimmer
+define FileLog_Bauch FileLog ./log/Bauch-%Y.log Bauch
+attr FileLog_Bauch logtype text
+attr FileLog_Bauch room IT
+define Fernseher IT 0F000F0FFF 0F F0
+attr Fernseher userattr room_map structexclude
+attr Fernseher IODev nanoCUL
+attr Fernseher fp_Uebersicht 575,1180,1,Fernseher,
+attr Fernseher group Schlafzimmer
+attr Fernseher icon it_television
+attr Fernseher room Schlafzimmer
+define FileLog_Fernseher FileLog ./log/Fernseher-%Y.log Fernseher
+attr FileLog_Fernseher logtype text
+attr FileLog_Fernseher room IT
+define Fluter IT 0FF000FFFF 0F F0
+attr Fluter userattr room_map structexclude
+attr Fluter IODev nanoCUL
+attr Fluter fp_Uebersicht 184,413,1,Fluter,
+attr Fluter group Wohnzimmer_Licht
+attr Fluter icon light_floor_lamp
+attr Fluter room Wohnzimmer
+define FileLog_Fluter FileLog ./log/Fluter-%Y.log Fluter
+attr FileLog_Fluter logtype text
+attr FileLog_Fluter room IT
+define Baum IT 0FF00F0FFF 0F F0
+attr Baum userattr room_map structexclude
+attr Baum IODev nanoCUL
+attr Baum fp_Uebersicht 423,418,1,Baum,
+attr Baum group Wohnzimmer_Licht
+attr Baum icon icoBaum
+attr Baum room Wohnzimmer
+define FileLog_Baum FileLog ./log/Baum-%Y.log Baum
+attr FileLog_Baum logtype text
+attr FileLog_Baum room IT
+define Kueche IT 0FF00FF0FF 0F F0
+attr Kueche userattr room_map structexclude
+attr Kueche IODev nanoCUL
+attr Kueche fp_Uebersicht 505,619,1,Kueche,
+attr Kueche group Wohnzimmer_Licht
+attr Kueche icon scene_dinner
+attr Kueche room Wohnzimmer
+define FileLog_Kueche FileLog ./log/Kueche-%Y.log Kueche
+attr FileLog_Kueche logtype text
+attr FileLog_Kueche room IT
+define Flur IT 0FF00FFF0F 0F F0
+attr Flur userattr room_map structexclude
+attr Flur IODev nanoCUL
+attr Flur fp_Uebersicht 407,685,1,Flur,
+attr Flur group Wohnzimmer_Licht
+attr Flur icon it_telephone
+attr Flur room Wohnzimmer
+define FileLog_Flur FileLog ./log/Flur-%Y.log Flur
+attr FileLog_Flur logtype text
+attr FileLog_Flur room IT
+define Morgens structure room Bauch Flur Kette Regal Baum Kueche Lampe
+attr Morgens clientstate_behavior relative
+attr Morgens clientstate_priority on off
+attr Morgens group Alle Lampen
+attr Morgens icon status_comfort
+attr Morgens room Alle Lampen
+define Alles structure room Flur Fluter Baum Kueche Kette Regal Lampe Bauch Fernseher
+attr Alles userattr room_map structexclude
+attr Alles clientstate_behavior relative
+attr Alles clientstate_priority on off
+attr Alles group Alle Lampen
+attr Alles icon light_light_dim_100
+attr Alles room Alle Lampen
+define morgens_an at *06:10:00 { fhem("set Morgens on") if (!$we) }
+attr morgens_an disable 0
+define morgens_aus at *07:30:00 { fhem("set Morgens off") if (!$we) }
+attr morgens_aus disable 0
+define abends_aus_we at *23:15:00 { fhem("set Alles off") if ($we) }
+attr abends_aus_we disable 0
+
+define WetterHtml weblink htmlCode {WeatherAsHtml("Wetter",7)}
+attr WetterHtml group Draussen
+attr WetterHtml room Wetter
+define Wetter Weather 639679 600 de
+attr Wetter room Wetter
+attr Wetter stateFormat temp_c °C
+define READ_Abfall readingsGroup Abfallkalender:<%dustbin>,<Art>,next_text Abfallkalender:<%time_calendar>,<Abholung>,next_tage
+attr READ_Abfall alias Abfallabholung
+attr READ_Abfall group Muelltonnen
+attr READ_Abfall room Abfall
+attr READ_Abfall valueFormat { next_tage => '%i Tage' }
+attr READ_Abfall valueStyle style="text-align:right"
+define Push2Abfall DOIF ([19:30] and [Abfallkalender:next_tage] == 1) (set Push msg 'Abfallerinnerung' '[Abfallkalender:next_text]')
+attr Push2Abfall do always
+attr Push2Abfall room Abfall
+define PowerAll structure room Alles
+attr PowerAll room System
+define PowerFlur structure room Flur
+attr PowerFlur room System
+define AllesAus dummy
+attr AllesAus devStateIcon Aus:HOME_Status.4
+attr AllesAus group Nachtlicht
+attr AllesAus icon scene_sleeping
+attr AllesAus room Alle Lampen
+attr AllesAus webCmd Aus
+define NOT_off_GuteNacht notify AllesAus:Aus Schlafen gehen:Aus set Fluter on;; set Flur on;; set Bauch on;; set Baum off;; set Kueche off;; set Kette off;; set Regal off;; set dbox off;; set Lampe off;; set Fernseher off;; sleep 300;; set Flur off;; set Bauch off;; set Fluter off
+attr NOT_off_GuteNacht room Alle Lampen
+define Wohnung Dashboard
+attr Wohnung userattr dashboard_tab2backgroundimage dashboard_tab2colcount dashboard_tab2devices dashboard_tab2groups dashboard_tab2icon dashboard_tab2name dashboard_tab2rowcentercolwidth dashboard_tab2sorting dashboard_tab3backgroundimage dashboard_tab3colcount dashboard_tab3devices dashboard_tab3groups dashboard_tab3icon dashboard_tab3name dashboard_tab3rowcentercolwidth dashboard_tab3sorting dashboard_tab4backgroundimage dashboard_tab4colcount dashboard_tab4devices dashboard_tab4groups dashboard_tab4icon dashboard_tab4name dashboard_tab4rowcentercolwidth dashboard_tab4sorting dashboard_tab5backgroundimage dashboard_tab5colcount dashboard_tab5devices dashboard_tab5groups dashboard_tab5icon dashboard_tab5name dashboard_tab5rowcentercolwidth dashboard_tab5sorting dashboard_tab6backgroundimage dashboard_tab6colcount dashboard_tab6devices dashboard_tab6groups dashboard_tab6icon dashboard_tab6name dashboard_tab6rowcentercolwidth dashboard_tab6sorting dashboard_tab7backgroundimage dashboard_tab7colcount dashboard_tab7devices dashboard_tab7groups dashboard_tab7icon dashboard_tab7name dashboard_tab7rowcentercolwidth dashboard_tab7sorting
+attr Wohnung dashboard_activetab 1
+attr Wohnung dashboard_tab1groups Alle Lampen, Nachtlicht, Arbeitszimmer, Kinderzimmer, Schlafzimmer, Wohnzimmer_Licht
+attr Wohnung dashboard_tab1icon HOME_Status_1@#eeece1
+attr Wohnung dashboard_tab1name Licht
+attr Wohnung dashboard_tab1sorting t0c0,Wohnzimmer_Licht,true,237,0,1,1:t0c0,Kinderzimmer,true,251,0,238,1:t0c0,Schlafzimmer,true,251,0,489,1:t0c0,Arbeitszimmer,true,253,0,740,1:t0c0,Nachtlicht,true,291,132,993,1:t0c0,Alle Lampen,true,278,139,740,133:
+attr Wohnung dashboard_tab2groups Draussen, Muelltonnen, Spritpreise, Anwesenheit
+attr Wohnung dashboard_tab2name Umwelt
+attr Wohnung dashboard_tab2sorting t1c0,Draussen,true,0,0:t1c0,Muelltonnen,true,0,0:t1c0,Spritpreise,true,0,0:
+attr Wohnung dashboard_tab3groups Kalender
+attr Wohnung dashboard_tab3name Kalender
+attr Wohnung dashboard_tab4groups Sonos, Fernsehen, Musikplayer
+attr Wohnung dashboard_tab4name Multimedia
+attr Wohnung dashboard_tab4sorting t3c0,Sonos,true,712,0,1,1:t3c0,Fernsehen,true,571,0,713,1:t3c0,mpd,true,1024,0,1,247:
+attr Wohnung dashboard_tab5groups Systembefehle
+attr Wohnung dashboard_tab5name System
+attr Wohnung dashboard_tab[0-9]+groups Terrasse
+attr Wohnung dashboard_width 80%
+
+
+
+
+
+#attr Spritpreise style style="font-size:16px"     # f�hrt ggf. zu einem PERL WARNING
+#attr Spritpreise valueStyle {Werte($READING,$VALUE)}     # f�hrt ggf. zu einem PERL WARNING
+
+define SVG_FileLog_Spritpreise_1 SVG FileLog_Spritpreise:SVG_FileLog_Spritpreise_1:CURRENT
+attr SVG_FileLog_Spritpreise_1 group Spritpreisverlauf
+attr SVG_FileLog_Spritpreise_1 room Spritpreise
+define Dennis Calendar ical url https://calendar.google.com/calendar/ical/cooper8166%40googlemail.com/private-dfe802e35f244835578c5465405f93cb/basic.ics
+attr Dennis hideOlderThan 2d
+attr Dennis room Kalender
+define CalDennis CALVIEW Dennis 1 21600
+attr CalDennis maxreadings 5
+attr CalDennis modes next
+define READ_Dennis readingsGroup <Datum>,<Beginn>,<Ende>,<Termin>,<Ort> CalDennis:t_001_bdate,t_001_btime,t_001_etime,t_001_summary,t_001_location CalDennis:t_002_bdate,t_002_btime,t_002_etime,t_002_summary,t_002_location CalDennis:t_003_bdate,t_003_btime,t_003_etime,t_003_summary,t_003_location CalDennis:t_004_bdate,t_004_btime,t_004_etime,t_004_summary,t_004_location CalDennis:t_005_bdate,t_005_btime,t_005_etime,t_005_summary,t_005_location
+attr READ_Dennis alias Termine Dennis
+attr READ_Dennis group Kalender
+attr READ_Dennis nonames 1
+attr READ_Dennis room Kalender
+define NOT_READ_Dennis notify CalDennis:t:.* { my $i;; my $ix = 1;; my $modtext = "<Datum>,<Beginn>,<Ende>,<Termin>,<Ort> ";;  for($i= 1;;$i<= ReadingsVal("CalDennis","c-today", 0);;$i++){ $modtext .= "CalDennis:<Heute>,today_".sprintf('%03d',$i)."_btime,today_".sprintf('%03d',$i)."_etime,today_".sprintf('%03d',$i)."_summary,today_".sprintf('%03d',$i)."_location ";;$ix++}  for($i= 1;;$i<= ReadingsVal("CalDennis","c-tomorrow", 0);;$i++){ $modtext .= "CalDennis:<Morgen>,tomorrow_".sprintf('%03d',$i)."_btime,tomorrow_".sprintf('%03d',$i)."_etime,tomorrow_".sprintf('%03d',$i)."_summary,tomorrow_".sprintf('%03d',$i)."_location ";;$ix++}  for($i= $ix;;$i<= ReadingsVal("CalDennis","c-term", 0);;$i++){ $modtext .= "CalDennis:t_".sprintf('%03d',$i)."_bdate,t_".sprintf('%03d',$i)."_btime,t_".sprintf('%03d',$i)."_etime,t_".sprintf('%03d',$i)."_summary,t_".sprintf('%03d',$i)."_location ";;}  fhem("modify READ_Dennis $modtext");; fhem("SAVE");; }
+attr NOT_READ_Dennis room System
+define Fussball Calendar ical url https://calendar.google.com/calendar/ical/434glc0ljqbg5mfp8dotkujuj8%40group.calendar.google.com/private-4b5a218faa20d2f96d917f4e680941ef/basic.ics 86400
+define CalFussball CALVIEW Fussball 2
+attr CalFussball maxreadings 5
+attr CalFussball modes next
+attr CalFussball oldStyledReadings 0
+define READ_Fussball readingsGroup <Datum>,<Anstoss>,<Begegnung>,<Stadion>
+attr READ_Fussball alias Fussball
+attr READ_Fussball group Kalender
+attr READ_Fussball nonames 1
+attr READ_Fussball room Kalender
+define NOT_READ_Fussball notify CalFussball:t:.* {my $i;; my $ix = 1;; my $modtext = "<Datum>,<Anstoss>,<Begegnung>,<Stadion> ";;  for($i= 1;;$i<= ReadingsVal("CalFussball","c-today", 0);;$i++){ $modtext .= "CalFussball:<Heute>,today_".sprintf('%03d',$i)."_btime,today_".sprintf('%03d',$i)."_summary,today_".sprintf('%03d',$i)."_location,today_ ";;$ix++}  for($i= 1;;$i<= ReadingsVal("CalFussball","c-tomorrow", 0);;$i++){ $modtext .= "CalFussball:<Morgen>,tomorrow_".sprintf('%03d',$i)."_btime,tomorrow_".sprintf('%03d',$i)."_summary,tomorrow_".sprintf('%03d',$i)."_location,tomorrow_ ";;$ix++}  for($i= $ix;;$i<= ReadingsVal("CalFussball","c-term", 0);;$i++){ $modtext .= "CalFussball:t_".sprintf('%03d',$i)."_bdate,t_".sprintf('%03d',$i)."_btime,t_".sprintf('%03d',$i)."_summary,t_".sprintf('%03d',$i)."_location,t_ ";;}  fhem("modify READ_Fussball $modtext");; fhem("SAVE");; }
+attr NOT_READ_Fussball room System
+define dbox_an at *08:00:00 { fhem("set dbox on") }
+attr dbox_an disable 0
+define dbox_aus at *10:00:00 { fhem("set dbox off") }
+attr dbox_aus disable 0
+define SKYReceiver ENIGMA2 192.168.2.14 80
+attr SKYReceiver bouquet-radio 1:7:2:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.dbe01.radio" ORDER BY bouquet
+attr SKYReceiver bouquet-tv 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.dbe01.tv" ORDER BY bouquet
+attr SKYReceiver devStateIcon on:rc_GREEN:off off:rc_YELLOW:on absent:rc_STOP:on
+attr SKYReceiver group Fernsehen
+attr SKYReceiver http-method GET
+attr SKYReceiver icon dreambox
+attr SKYReceiver model TRIPLEX
+attr SKYReceiver room Wohnzimmer
+attr SKYReceiver webCmd channel:input
+define Annabel Calendar ical url https://calendar.google.com/calendar/ical/aed200988%40gmail.com/private-42e1f746f57a32ffe49ca69f4f8f746c/basic.ics 86400
+attr Annabel room Kalender
+define CalAnnabel CALVIEW Annabel 2
+attr CalAnnabel maxreadings 5
+attr CalAnnabel modes undefined
+define READ_Annabel readingsGroup <Datum>,<Beginn>,<Ende>,<Termin>,<Ort> CalAnnabel:<Heute>,today_001_btime,today_001_etime,today_001_summary,today_001_location CalAnnabel:<Morgen>,tomorrow_001_btime,tomorrow_001_etime,tomorrow_001_summary,tomorrow_001_location CalAnnabel:<Morgen>,tomorrow_002_btime,tomorrow_002_etime,tomorrow_002_summary,tomorrow_002_location CalAnnabel:<Morgen>,tomorrow_003_btime,tomorrow_003_etime,tomorrow_003_summary,tomorrow_003_location CalAnnabel:t_005_bdate,t_005_btime,t_005_etime,t_005_summary,t_005_location
+attr READ_Annabel alias Termine Annabel
+attr READ_Annabel group Kalender
+attr READ_Annabel nonames 1
+attr READ_Annabel room Kalender
+define NOT_READ_Annabel notify CalAnnabel:t:.* { my $i;; my $ix = 1;; my $modtext = "<Datum>,<Beginn>,<Ende>,<Termin>,<Ort> ";;  for($i= 1;;$i<= ReadingsVal("CalAnnabel","c-today", 0);;$i++){ $modtext .= "CalAnnabel:<Heute>,today_".sprintf('%03d',$i)."_btime,today_".sprintf('%03d',$i)."_etime,today_".sprintf('%03d',$i)."_summary,today_".sprintf('%03d',$i)."_location ";;$ix++}  for($i= 1;;$i<= ReadingsVal("CalAnnabel","c-tomorrow", 0);;$i++){ $modtext .= "CalAnnabel:<Morgen>,tomorrow_".sprintf('%03d',$i)."_btime,tomorrow_".sprintf('%03d',$i)."_etime,tomorrow_".sprintf('%03d',$i)."_summary,tomorrow_".sprintf('%03d',$i)."_location ";;$ix++}  for($i= $ix;;$i<= ReadingsVal("CalAnnabel","c-term", 0);;$i++){ $modtext .= "CalAnnabel:t_".sprintf('%03d',$i)."_bdate,t_".sprintf('%03d',$i)."_btime,t_".sprintf('%03d',$i)."_etime,t_".sprintf('%03d',$i)."_summary,t_".sprintf('%03d',$i)."_location ";;}  fhem("modify READ_Annabel $modtext");; fhem("SAVE");; }
+attr NOT_READ_Annabel room System
+define Eltern dummy
+attr Eltern devStateIcon Aus:HOME_Status.4
+attr Eltern group Nachtlicht
+attr Eltern icon scene_baby
+attr Eltern room Alle Lampen
+attr Eltern webCmd Aus
+define NOT_off_Eltern notify Eltern:Aus set Fluter on;; set Baum on;; set Kueche on;; set Flur off;; set Kette off;; set Regal off;; set dbox off;; set Lampe on;; set Bauch on
+attr NOT_off_Eltern room Alle Lampen
+define Uebersicht FLOORPLAN
+attr Uebersicht fp_arrange 0
+define Push Pushover a4tt76kv6trdtgpi5ag5sehgnzdctz uudf1cw9eiik8gmjf5m5g3sh41arak
+attr Push room System
+define abends_an at *17:30:00 { fhem("set Alles on") }
+attr abends_an disable 0
+define abends_aus at *22:30:00 { fhem("set Alles off") if (!$we) }
+attr abends_aus disable 0
+define TABLETUI HTTPSRV ftui/ ./www/tablet Tablet-UI
+attr TABLETUI room System
+define fbCallMonitor FB_CALLMONITOR 192.168.2.1
+attr fbCallMonitor room Telefon
+define notAnrufe notify fbCallMonitor:event:.*disconnect { CheckAnrufe($EVENT) }
+attr notAnrufe room Telefon
+define duVerpassteAnrufe dummy
+attr duVerpassteAnrufe room Telefon
+define notSonosPlaylistAbspielen notify duSonosPlaylists {SonosPlaylistStarten($EVENT)}
+attr notSonosPlaylistAbspielen room Sonos
+# MPD Events
+define OnMpdPlay notify MPD1:play {OnMpdPlayPressed()}
+attr OnMpdPlay room MPD
+define OnMpdPlaylistChanged notify MPD1:playlist:.* {call_mpd1_playlistinfo()}
+attr OnMpdPlaylistChanged room MPD
+define OnMpdNewTrack notify MPD1:file:.* {call_mpd1_getcover()}
+attr OnMpdNewTrack room MPD
+define ResetVerpassteAnrufe at *23:59:59 set duVerpassteAnrufe 0
+attr ResetVerpassteAnrufe room Telefon
+define MPD2 MPD 192.168.2.32 6600
+attr MPD2 alias Terrasse
+attr MPD2 devStateIcon play:rc_PLAY:stop stop:rc_STOP:play pause:rc_PAUSE:pause
+attr MPD2 event-on-update-reading state,Title,Track,playlistinfo,Album,Artist,playlistcollection,file,cover,playlist,Pos,Time,elapsed
+attr MPD2 group Musikplayer
+attr MPD2 icon it_radio
+attr MPD2 loadPlaylists 1
+attr MPD2 player mpd
+attr MPD2 room MPD
+attr MPD2 titleSplit 1
+attr MPD2 unknown_artist_image /fhem/icons/1px-spacer
+attr MPD2 webCmd previous:stop:play:pause:next
+define OnMpdPlay2 notify MPD2:play {OnMpdPlayPressed()}
+attr OnMpdPlay2 room MPD
+define OnMpdPlaylistChanged2 notify MPD2:playlist:.* {call_mpd2_playlistinfo()}
+attr OnMpdPlaylistChanged2 room MPD
+define OnMpdNewTrack2 notify MPD2:file:.* {call_mpd2_getcover()}
+attr OnMpdNewTrack2 room MPD
+define OnMpdPlay3 notify MPD3:play {OnMpdPlayPressed()}
+attr OnMpdPlay3 room MPD
+define OnMpdPlaylistChanged3 notify MPD3:playlist:.* {call_mpd3_playlistinfo()}
+attr OnMpdPlaylistChanged3 room MPD
+define OnMpdNewTrack3 notify MPD3:file:.* {call_mpd3_getcover()}
+attr OnMpdNewTrack3 room MPD
+define SVG_CUL_WS_2 SVG FileLog_CUL_WS_2:SVG_CUL_WS_2:CURRENT
+attr SVG_CUL_WS_2 label "CUL_WS_2 Min $data{min1}, Max $data{max1}, Last $data{currval1}"
+attr SVG_CUL_WS_2 room Plots
+define SVG_CUL_WS_3 SVG FileLog_CUL_WS_3:SVG_CUL_WS_3:CURRENT
+attr SVG_CUL_WS_3 label "CUL_WS_3 Min $data{min1}, Max $data{max1}, Last $data{currval1}"
+attr SVG_CUL_WS_3 room Plots
+define SVG_CUL_WS_7 SVG FileLog_CUL_WS_7:SVG_CUL_WS_7:CURRENT
+attr SVG_CUL_WS_7 label "CUL_WS_7 Min $data{min1}, Max $data{max1}, Last $data{currval1}"
+attr SVG_CUL_WS_7 room Plots
+define SVG_CUL_TX_64 SVG FileLog_CUL_TX_64:SVG_CUL_TX_64:CURRENT
+attr SVG_CUL_TX_64 label "CUL_TX_64 Min $data{min1}, Max $data{max1}, Last $data{currval1}"
+attr SVG_CUL_TX_64 room Plots
+define MPD3 MPD 192.168.2.19 6600
+attr MPD3 alias Badezimmer
+attr MPD3 devStateIcon play:rc_PLAY:stop stop:rc_STOP:play pause:rc_PAUSE:pause
+attr MPD3 event-on-update-reading state,Title,Track,playlistinfo,Album,Artist,playlistcollection,file,cover,playlist,Pos,Time,elapsed
+attr MPD3 group Musikplayer
+attr MPD3 icon it_radio
+attr MPD3 loadPlaylists 1
+attr MPD3 player mpd
+attr MPD3 room MPD
+attr MPD3 titleSplit 1
+attr MPD3 unknown_artist_image /fhem/icons/1px-spacer
+attr MPD3 webCmd previous:stop:play:pause:next
+define SVG_HMS100TF_0000 SVG FileLog_HMS100TF_0000:SVG_HMS100TF_0000:CURRENT
+attr SVG_HMS100TF_0000 label "HMS100TF_0000 Min $data{min1}, Max $data{max1}, Last $data{currval1}"
+attr SVG_HMS100TF_0000 room Plots
+define MPD1 MPD 192.168.2.8 6600
+attr MPD1 alias Arbeitszimmer
+attr MPD1 devStateIcon play:rc_PLAY:stop stop:rc_STOP:play pause:rc_PAUSE:pause
+attr MPD1 event-on-update-reading state,Title,Track,playlistinfo,Album,Artist,playlistcollection,file,cover,playlist,Pos,Time,elapsed
+attr MPD1 group Musikplayer
+attr MPD1 icon it_radio
+attr MPD1 loadPlaylists 1
+attr MPD1 player mpd
+attr MPD1 room MPD
+attr MPD1 titleSplit 1
+attr MPD1 unknown_artist_image /fhem/icons/1px-spacer
+attr MPD1 webCmd previous:stop:play:pause:next
+define FritzBox FRITZBOX 192.168.2.1
+attr FritzBox room Telefon
+define notAbfalltermine notify Abfall:triggered { Abfalltermine() }
+attr notAbfalltermine room Abfall
+define Abfall Calendar ical url https://calendar.google.com/calendar/ical/0fm5lc0uumq0tsnsk8j9d1rnuo%40group.calendar.google.com/private-ff3ae9357c516b276fbc7c6c7dc36f1d/basic.ics 3600
+attr Abfall room Abfall
+define Telegram TelegramBot
+attr Telegram alias Telegram Dennis
+attr Telegram cmdFavorites /cmd
+attr Telegram cmdKeyword FHEM
+attr Telegram favorites [Alles]=set Alles toggle;; [Morgens]=set Morgens toggle
+attr Telegram pollingTimeout 120
+attr Telegram room System
+define Telegram2 TelegramBot
+attr Telegram2 alias Telegram Annabel
+attr Telegram2 cmdFavorites /cmd
+attr Telegram2 cmdKeyword FHEM
+attr Telegram2 favorites [Alles]=set Alles toggle;; [Morgens]=set Morgens toggle
+attr Telegram2 pollingTimeout 120
+attr Telegram2 room System
+define Aral HTTPMOD http://www.clever-tanken.de/tankstelle_details/10665
+attr Aral userattr reading01Expr reading01Name reading01Regex stateFormat timeout
+attr Aral enableControlSet 1
+attr Aral reading01Name Diesel
+attr Aral reading01Regex (?s)SpritsortenController.*([0-9],[0-9]+).*<span>Diesel<.span>
+attr Aral room Spritpreise
+attr Aral stateFormat Liter_Diesel:Diesel
+attr Aral timeout 5
+define SB HTTPMOD http://www.clever-tanken.de/tankstelle_details/11384
+attr SB userattr reading01Expr reading01Name reading01Regex stateFormat timeout
+attr SB enableControlSet 1
+attr SB reading01Name Diesel
+attr SB reading01Regex (?s)SpritsortenController.*([0-9],[0-9]+).*<span>Diesel<.span>
+attr SB room Spritpreise
+attr SB stateFormat Liter_Diesel:Diesel
+attr SB timeout 5
+define Star HTTPMOD http://www.clever-tanken.de/tankstelle_details/10943
+attr Star userattr reading01Expr reading01Name reading01Regex stateFormat timeout
+attr Star enableControlSet 1
+attr Star reading01Name Diesel
+attr Star reading01Regex (?s)SpritsortenController.*([0-9],[0-9]+).*<span>Diesel<.span>
+attr Star room Spritpreise
+attr Star stateFormat Liter_Diesel:Diesel
+attr Star timeout 5
+define Abfallkalender ABFALL Abfall 3600
+attr Abfallkalender calendarname_praefix 0
+attr Abfallkalender room Abfall
+define MuellterminDummy dummy
+attr MuellterminDummy room Abfall
+define Wetter_Proplanta PROPLANTA Bochum
+attr Wetter_Proplanta room Wetter
+define TL Twilight 51.290 7.140 1 672500
+attr TL event-on-change-reading twilight,twilight_weather,state,light
+attr TL room Wetter
+define Pollenflug HTTPMOD http://www.wetteronline.de/pollen/bochum 3600
+attr Pollenflug userattr reading01Name reading01RegOpt reading01Regex reading02Name reading02RegOpt reading02Regex reading03Name reading03RegOpt reading03Regex reading04Name reading04RegOpt reading04Regex reading05Name reading05RegOpt reading05Regex requestHeader1 timeout
+attr Pollenflug enableControlSet 1
+attr Pollenflug reading01Name Erle
+attr Pollenflug reading01RegOpt s
+attr Pollenflug reading01Regex Erle.*burden">....(\w+)[\r\n].*Has"
+attr Pollenflug reading02Name Hasel
+attr Pollenflug reading02RegOpt s
+attr Pollenflug reading02Regex Hasel.*burden">[\r\n]...(\w+)[\r\n].*Pap"
+attr Pollenflug reading03Name Birke
+attr Pollenflug reading03RegOpt s
+attr Pollenflug reading03Regex Birke.*burden">[\r\n]...(\w+)[\r\n].*Buc"
+attr Pollenflug reading04Name Graeser
+attr Pollenflug reading04RegOpt s
+attr Pollenflug reading04Regex Gräser.*burden">[\r\n]...(\w+)[\r\n].*Eic"
+attr Pollenflug reading05Name Ambrosia
+attr Pollenflug reading05RegOpt s
+attr Pollenflug reading05Regex (?s)Ambrosia.*?poll([\d])
+attr Pollenflug requestHeader1 User-Agent: Mozilla/5.0 (Windows NT 6.0)
+attr Pollenflug room Wetter
+attr Pollenflug timeout 5
+define duWeckzeit dummy
+attr duWeckzeit room Wecker
+define gr_Bewohner RESIDENTS
+attr gr_Bewohner alias Residents
+attr gr_Bewohner devStateIcon .*home:user_available:absent .*absent:user_away:home .*gone:user_ext_away:home .*gotosleep:scene_toilet:asleep .*asleep:scene_sleeping:awoken .*awoken:scene_sleeping_alternat:home .*:user_unknown:home
+attr gr_Bewohner group Home State
+attr gr_Bewohner icon control_building_filled
+attr gr_Bewohner room Residents
+attr gr_Bewohner webCmd state
+define Aufstehen WeekdayTimer gr_Bewohner 0|12:27|awoken 1|06:10|awoken 2|06:10|awoken 3|06:10|awoken 4|06:10|awoken 5|06:10|awoken 6|09:00|awoken (ReadingsVal("duUrlaub","state","ja") eq "nein")
+attr Aufstehen commandTemplate set $NAME  $EVENT
+attr Aufstehen disable 0
+attr Aufstehen room Wecker
+define duWeckerTabUI dummy
+attr duWeckerTabUI room Wecker
+define notAufstehen notify gr_Bewohner:awoken {Aufstehen($we)}
+attr notAufstehen room Wecker
+define notWeckerStellen notify duWeckerTabUI:stellen {WeckerStellen()}
+attr notWeckerStellen room Wecker
+define rr_Dennis ROOMMATE gr_Bewohner
+attr rr_Dennis alias Status
+attr rr_Dennis comment Auto-created by gr_Bewohner
+attr rr_Dennis devStateIcon .*home:user_available:absent .*absent:user_away:home .*gone:user_ext_away:home .*gotosleep:scene_toilet:asleep .*asleep:scene_sleeping:awoken .*awoken:scene_sleeping_alternat:home .*:user_unknown:home
+attr rr_Dennis group Dennis
+attr rr_Dennis icon people_sensor
+attr rr_Dennis room Residents
+attr rr_Dennis rr_realname group
+attr rr_Dennis sortby 1
+attr rr_Dennis webCmd state
+define Sonos SONOS localhost:4711 30
+attr Sonos room Sonos
+define Sonos_Wohnzimmer_SW SONOSPLAYER RINCON_000E5899DCC001400_MR
+attr Sonos_Wohnzimmer_SW alias Wohnzimmer - Subwoofer
+attr Sonos_Wohnzimmer_SW generateInfoSummarize1 <NormalAudio><Artist prefix="(" suffix=")"/><Title prefix=" '" suffix="'" ifempty="[Keine Musikdatei]"/><Album prefix=" vom Album '" suffix="'"/></NormalAudio> <StreamAudio><Sender suffix=":"/><SenderCurrent prefix=" '" suffix="' -"/><SenderInfo prefix=" "/></StreamAudio>
+attr Sonos_Wohnzimmer_SW generateInfoSummarize2 <TransportState/><InfoSummarize1 prefix=" => "/>
+attr Sonos_Wohnzimmer_SW generateInfoSummarize3 <Volume prefix="Lautstärke: "/><Mute instead=" ~ Kein Ton" ifempty=" ~ Ton An" emptyval="0"/> ~ Balance: <Balance ifempty="Mitte" emptyval="0"/><HeadphoneConnected instead=" ~ Kopfhörer aktiv" ifempty=" ~ Kein Kopfhörer" emptyval="0"/>
+attr Sonos_Wohnzimmer_SW generateVolumeSlider 1
+attr Sonos_Wohnzimmer_SW getAlarms 1
+attr Sonos_Wohnzimmer_SW getTitleInfoFromMaster 1
+attr Sonos_Wohnzimmer_SW group Wohnzimmer
+attr Sonos_Wohnzimmer_SW icon icoSONOSPLAYER_icon-Sub.png
+attr Sonos_Wohnzimmer_SW minVolume 0
+attr Sonos_Wohnzimmer_SW model Sonos_Sub
+attr Sonos_Wohnzimmer_SW room Sonos
+attr Sonos_Wohnzimmer_SW simulateCurrentTrackPosition 1
+attr Sonos_Wohnzimmer_SW sortby 1
+attr Sonos_Wohnzimmer_SW stateFormat presence ~ currentTrackPositionSimulated / currentTrackDuration
+attr Sonos_Wohnzimmer_SW userReadings Favourites:LastActionResult.*?GetFavouritesWithCovers.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }, Radios:LastActionResult.*?GetRadiosWithCovers.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }, Playlists:LastActionResult.*?GetPlaylistsWithCovers.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }, Queue:LastActionResult.*?GetQueueWithCovers.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }, currentTrackPosition:LastActionResult.*?GetCurrentTrackPosition.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }
+attr Sonos_Wohnzimmer_SW webCmd Volume
+define Sonos_Wohnzimmer_RR SONOSPLAYER RINCON_B8E937BB4F0A01400_MR
+attr Sonos_Wohnzimmer_RR alias Wohnzimmer - Hinten Rechts
+attr Sonos_Wohnzimmer_RR generateInfoSummarize1 <NormalAudio><Artist prefix="(" suffix=")"/><Title prefix=" '" suffix="'" ifempty="[Keine Musikdatei]"/><Album prefix=" vom Album '" suffix="'"/></NormalAudio> <StreamAudio><Sender suffix=":"/><SenderCurrent prefix=" '" suffix="' -"/><SenderInfo prefix=" "/></StreamAudio>
+attr Sonos_Wohnzimmer_RR generateInfoSummarize2 <TransportState/><InfoSummarize1 prefix=" => "/>
+attr Sonos_Wohnzimmer_RR generateInfoSummarize3 <Volume prefix="Lautstärke: "/><Mute instead=" ~ Kein Ton" ifempty=" ~ Ton An" emptyval="0"/> ~ Balance: <Balance ifempty="Mitte" emptyval="0"/><HeadphoneConnected instead=" ~ Kopfhörer aktiv" ifempty=" ~ Kein Kopfhörer" emptyval="0"/>
+attr Sonos_Wohnzimmer_RR generateVolumeSlider 1
+attr Sonos_Wohnzimmer_RR getAlarms 1
+attr Sonos_Wohnzimmer_RR getTitleInfoFromMaster 1
+attr Sonos_Wohnzimmer_RR group Wohnzimmer
+attr Sonos_Wohnzimmer_RR icon icoSONOSPLAYER_icon-S1.png
+attr Sonos_Wohnzimmer_RR minVolume 0
+attr Sonos_Wohnzimmer_RR model Sonos_S1
+attr Sonos_Wohnzimmer_RR room Sonos
+attr Sonos_Wohnzimmer_RR simulateCurrentTrackPosition 1
+attr Sonos_Wohnzimmer_RR sortby 1
+attr Sonos_Wohnzimmer_RR stateFormat presence ~ currentTrackPositionSimulated / currentTrackDuration
+attr Sonos_Wohnzimmer_RR userReadings Favourites:LastActionResult.*?GetFavouritesWithCovers.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }, Radios:LastActionResult.*?GetRadiosWithCovers.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }, Playlists:LastActionResult.*?GetPlaylistsWithCovers.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }, Queue:LastActionResult.*?GetQueueWithCovers.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }, currentTrackPosition:LastActionResult.*?GetCurrentTrackPosition.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }
+attr Sonos_Wohnzimmer_RR webCmd Volume
+define Sonos_Wohnzimmer_LR SONOSPLAYER RINCON_B8E937BB4D8401400_MR
+attr Sonos_Wohnzimmer_LR alias Wohnzimmer - Hinten Links
+attr Sonos_Wohnzimmer_LR generateInfoSummarize1 <NormalAudio><Artist prefix="(" suffix=")"/><Title prefix=" '" suffix="'" ifempty="[Keine Musikdatei]"/><Album prefix=" vom Album '" suffix="'"/></NormalAudio> <StreamAudio><Sender suffix=":"/><SenderCurrent prefix=" '" suffix="' -"/><SenderInfo prefix=" "/></StreamAudio>
+attr Sonos_Wohnzimmer_LR generateInfoSummarize2 <TransportState/><InfoSummarize1 prefix=" => "/>
+attr Sonos_Wohnzimmer_LR generateInfoSummarize3 <Volume prefix="Lautstärke: "/><Mute instead=" ~ Kein Ton" ifempty=" ~ Ton An" emptyval="0"/> ~ Balance: <Balance ifempty="Mitte" emptyval="0"/><HeadphoneConnected instead=" ~ Kopfhörer aktiv" ifempty=" ~ Kein Kopfhörer" emptyval="0"/>
+attr Sonos_Wohnzimmer_LR generateVolumeSlider 1
+attr Sonos_Wohnzimmer_LR getAlarms 1
+attr Sonos_Wohnzimmer_LR getTitleInfoFromMaster 1
+attr Sonos_Wohnzimmer_LR group Wohnzimmer
+attr Sonos_Wohnzimmer_LR icon icoSONOSPLAYER_icon-S1.png
+attr Sonos_Wohnzimmer_LR minVolume 0
+attr Sonos_Wohnzimmer_LR model Sonos_S1
+attr Sonos_Wohnzimmer_LR room Sonos
+attr Sonos_Wohnzimmer_LR simulateCurrentTrackPosition 1
+attr Sonos_Wohnzimmer_LR sortby 1
+attr Sonos_Wohnzimmer_LR stateFormat presence ~ currentTrackPositionSimulated / currentTrackDuration
+attr Sonos_Wohnzimmer_LR userReadings Favourites:LastActionResult.*?GetFavouritesWithCovers.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }, Radios:LastActionResult.*?GetRadiosWithCovers.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }, Playlists:LastActionResult.*?GetPlaylistsWithCovers.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }, Queue:LastActionResult.*?GetQueueWithCovers.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }, currentTrackPosition:LastActionResult.*?GetCurrentTrackPosition.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }
+attr Sonos_Wohnzimmer_LR webCmd Volume
+define Sonos_Wohnzimmer SONOSPLAYER RINCON_000E58B54ED101400_MR
+attr Sonos_Wohnzimmer alias Wohnzimmer - Mitte
+attr Sonos_Wohnzimmer generateInfoSummarize1 <NormalAudio><Artist prefix="(" suffix=")"/><Title prefix=" '" suffix="'" ifempty="[Keine Musikdatei]"/><Album prefix=" vom Album '" suffix="'"/></NormalAudio> <StreamAudio><Sender suffix=":"/><SenderCurrent prefix=" '" suffix="' -"/><SenderInfo prefix=" "/></StreamAudio>
+attr Sonos_Wohnzimmer generateInfoSummarize2 <TransportState/><InfoSummarize1 prefix=" => "/>
+attr Sonos_Wohnzimmer generateInfoSummarize3 <Volume prefix="Lautstärke: "/><Mute instead=" ~ Kein Ton" ifempty=" ~ Ton An" emptyval="0"/> ~ Balance: <Balance ifempty="Mitte" emptyval="0"/><HeadphoneConnected instead=" ~ Kopfhörer aktiv" ifempty=" ~ Kein Kopfhörer" emptyval="0"/>
+attr Sonos_Wohnzimmer generateVolumeSlider 1
+attr Sonos_Wohnzimmer getAlarms 1
+attr Sonos_Wohnzimmer getTitleInfoFromMaster 1
+attr Sonos_Wohnzimmer group Wohnzimmer
+attr Sonos_Wohnzimmer icon icoSONOSPLAYER_icon-S9.png
+attr Sonos_Wohnzimmer minVolume 0
+attr Sonos_Wohnzimmer model Sonos_S9
+attr Sonos_Wohnzimmer room Sonos
+attr Sonos_Wohnzimmer simulateCurrentTrackPosition 1
+attr Sonos_Wohnzimmer sortby 1
+attr Sonos_Wohnzimmer stateFormat presence ~ currentTrackPositionSimulated / currentTrackDuration
+attr Sonos_Wohnzimmer userReadings Favourites:LastActionResult.*?GetFavouritesWithCovers.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }, Radios:LastActionResult.*?GetRadiosWithCovers.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }, Playlists:LastActionResult.*?GetPlaylistsWithCovers.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }, Queue:LastActionResult.*?GetQueueWithCovers.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }, currentTrackPosition:LastActionResult.*?GetCurrentTrackPosition.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }
+attr Sonos_Wohnzimmer webCmd Volume
+define Sonos_WohnzimmerRG_Favourites readingsGroup Sonos_Wohnzimmer:<{SONOS_getListRG($DEVICE,"Favourites",1)}@Favourites>
+define Sonos_WohnzimmerRG_Radios readingsGroup Sonos_Wohnzimmer:<{SONOS_getListRG($DEVICE,"Radios",1)}@Radios>
+define Sonos_WohnzimmerRG_Playlists readingsGroup Sonos_Wohnzimmer:<{SONOS_getListRG($DEVICE,"Playlists")}@Playlists>
+define Sonos_Kinderzimmer SONOSPLAYER RINCON_000E58FADB5401400_MR
+attr Sonos_Kinderzimmer alias Kinderzimmer
+attr Sonos_Kinderzimmer generateInfoSummarize1 <NormalAudio><Artist prefix="(" suffix=")"/><Title prefix=" '" suffix="'" ifempty="[Keine Musikdatei]"/><Album prefix=" vom Album '" suffix="'"/></NormalAudio> <StreamAudio><Sender suffix=":"/><SenderCurrent prefix=" '" suffix="' -"/><SenderInfo prefix=" "/></StreamAudio>
+attr Sonos_Kinderzimmer generateInfoSummarize2 <TransportState/><InfoSummarize1 prefix=" => "/>
+attr Sonos_Kinderzimmer generateInfoSummarize3 <Volume prefix="Lautstärke: "/><Mute instead=" ~ Kein Ton" ifempty=" ~ Ton An" emptyval="0"/> ~ Balance: <Balance ifempty="Mitte" emptyval="0"/><HeadphoneConnected instead=" ~ Kopfhörer aktiv" ifempty=" ~ Kein Kopfhörer" emptyval="0"/>
+attr Sonos_Kinderzimmer generateVolumeSlider 1
+attr Sonos_Kinderzimmer getAlarms 1
+attr Sonos_Kinderzimmer getTitleInfoFromMaster 1
+attr Sonos_Kinderzimmer group Kinderzimmer
+attr Sonos_Kinderzimmer icon icoSONOSPLAYER_icon-S3.png
+attr Sonos_Kinderzimmer minVolume 0
+attr Sonos_Kinderzimmer model Sonos_S3
+attr Sonos_Kinderzimmer room Sonos
+attr Sonos_Kinderzimmer simulateCurrentTrackPosition 1
+attr Sonos_Kinderzimmer sortby 1
+attr Sonos_Kinderzimmer stateFormat presence ~ currentTrackPositionSimulated / currentTrackDuration
+attr Sonos_Kinderzimmer userReadings Favourites:LastActionResult.*?GetFavouritesWithCovers.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }, Radios:LastActionResult.*?GetRadiosWithCovers.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }, Playlists:LastActionResult.*?GetPlaylistsWithCovers.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }, Queue:LastActionResult.*?GetQueueWithCovers.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }, currentTrackPosition:LastActionResult.*?GetCurrentTrackPosition.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }
+attr Sonos_Kinderzimmer webCmd Volume
+define Sonos_KinderzimmerRG_Favourites readingsGroup Sonos_Kinderzimmer:<{SONOS_getListRG($DEVICE,"Favourites",1)}@Favourites>
+define Sonos_KinderzimmerRG_Radios readingsGroup Sonos_Kinderzimmer:<{SONOS_getListRG($DEVICE,"Radios",1)}@Radios>
+define Sonos_KinderzimmerRG_Playlists readingsGroup Sonos_Kinderzimmer:<{SONOS_getListRG($DEVICE,"Playlists")}@Playlists>
+define Sonos_KinderzimmerRG_Queue readingsGroup Sonos_Kinderzimmer:<{SONOS_getListRG($DEVICE,"Queue")}@Queue>
+define Sonos_Kueche SONOSPLAYER RINCON_000E58FADAE001400_MR
+attr Sonos_Kueche alias Küche
+attr Sonos_Kueche generateInfoSummarize1 <NormalAudio><Artist prefix="(" suffix=")"/><Title prefix=" '" suffix="'" ifempty="[Keine Musikdatei]"/><Album prefix=" vom Album '" suffix="'"/></NormalAudio> <StreamAudio><Sender suffix=":"/><SenderCurrent prefix=" '" suffix="' -"/><SenderInfo prefix=" "/></StreamAudio>
+attr Sonos_Kueche generateInfoSummarize2 <TransportState/><InfoSummarize1 prefix=" => "/>
+attr Sonos_Kueche generateInfoSummarize3 <Volume prefix="Lautstärke: "/><Mute instead=" ~ Kein Ton" ifempty=" ~ Ton An" emptyval="0"/> ~ Balance: <Balance ifempty="Mitte" emptyval="0"/><HeadphoneConnected instead=" ~ Kopfhörer aktiv" ifempty=" ~ Kein Kopfhörer" emptyval="0"/>
+attr Sonos_Kueche generateVolumeSlider 1
+attr Sonos_Kueche getAlarms 1
+attr Sonos_Kueche getTitleInfoFromMaster 1
+attr Sonos_Kueche group Kueche
+attr Sonos_Kueche icon icoSONOSPLAYER_icon-S3.png
+attr Sonos_Kueche minVolume 0
+attr Sonos_Kueche model Sonos_S3
+attr Sonos_Kueche room Sonos
+attr Sonos_Kueche simulateCurrentTrackPosition 1
+attr Sonos_Kueche sortby 1
+attr Sonos_Kueche stateFormat presence ~ currentTrackPositionSimulated / currentTrackDuration
+attr Sonos_Kueche userReadings Favourites:LastActionResult.*?GetFavouritesWithCovers.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }, Radios:LastActionResult.*?GetRadiosWithCovers.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }, Playlists:LastActionResult.*?GetPlaylistsWithCovers.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }, Queue:LastActionResult.*?GetQueueWithCovers.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }, currentTrackPosition:LastActionResult.*?GetCurrentTrackPosition.* { if (ReadingsVal($name, "LastActionResult", "") =~ m/.*?: (.*)/) { return $1;; } }
+attr Sonos_Kueche webCmd Volume
+define Sonos_KuecheRG_Favourites readingsGroup Sonos_Kueche:<{SONOS_getListRG($DEVICE,"Favourites",1)}@Favourites>
+define Sonos_KuecheRG_Radios readingsGroup Sonos_Kueche:<{SONOS_getListRG($DEVICE,"Radios",1)}@Radios>
+define Sonos_KuecheRG_Playlists readingsGroup Sonos_Kueche:<{SONOS_getListRG($DEVICE,"Playlists")}@Playlists>

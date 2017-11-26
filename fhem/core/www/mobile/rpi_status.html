@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>RPI STATUS</title>
+</head>
+<body>
+
+<div class="gridster">
+<ul>
+<li class="halbTransparent border-left border-right" data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">HOME</header>
+	<div data-type="pagetab"
+		 data-device="st_alert"
+		 data-get-on='["off","[1-9]{1}|[0-9]{2}"]'
+		 data-url="index_home.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-home"
+		 data-icons='["fa-home","fa-home warn"]'
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent" data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">MENÜ</header>
+	<div data-type="pagetab"
+		 data-url="menu.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-bars"
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent border-left border-right" data-row="1" data-col="3" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">DWD</header>
+	<div data-type="pagetab"
+		 data-device="gds"
+		 data-get="a_count"
+		 data-get-on='["no","^[1-9][0-9]|[1-9]$"]'
+		 data-url="dwd.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-bolt"
+		 data-icons='["fa-bolt","fa-bolt warn"]'
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent border-right" data-row="1" data-col="4" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">WETTER</header>
+	<div data-type="pagetab"
+		 data-url="wetter.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-cloud"
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent border-left" data-row="2" data-col="1" data-sizex="2" data-sizey="1">
+	<header class="headerTransparent">TEMP / LAST</header>
+	<div class="top-space-mobile">
+		<div data-type="label"
+			 data-device="rpi_sys"
+			 data-get="cpu_temp"
+			 data-unit="°C"
+			 data-substitution="s/(\d$)//g"
+			 data-limits='[0,40]'
+			 data-colors='["green","firebrick"]'
+			 class="big inline">
+		</div>
+		<div data-type="label"
+			 data-device="rpi_sys"
+			 data-get="stat_cpu_text"
+			 data-part="2"
+			 data-unit="%"
+			 data-substitution="s/(\d$)//g"
+			 data-limits='[0,40]'
+			 data-colors='["green","firebrick"]'
+			 class="big inline">
+		</div>
+	</div>
+	<hr width="85%" class="">
+	<div class="big narrow orange">RPi-Status
+	</div>
+</li>
+
+<li class="halbTransparent border-left border-right" data-row="2" data-col="3" data-sizex="2" data-sizey="1">
+	<header class="headerTransparent">RPI MENÜ</header>
+	<div class="cell">
+		<div data-type="popup" data-height="170px" data-width="170px" class="inline">
+			<div data-type="push"
+				 data-background-icon=""
+				 data-off-color="#808080"
+				 data-icon="fa-refresh">
+			</div>
+			<div class="dialog dialogTransparent">
+				<header class="dialogheaderTransparent">REBOOT</header>
+				<div onclick="$('.dialog-close').trigger('click');"
+					 data-type="link"
+					 data-width="150"
+					 data-height="50"
+					 data-color="white"
+					 data-background-color="firebrick"
+					 data-icon="fs-system_fhem_reboot"
+					 data-fhem-cmd="shutdown restart"
+					 class="round big top-space">FHEM
+				</div>
+				<div onclick="$('.dialog-close').trigger('click');"
+					 data-type="link"
+					 data-width="150"
+					 data-height="50"
+					 data-color="white"
+					 data-background-color="firebrick"
+					 data-icon="fa-refresh"
+					 data-fhem-cmd="{system('sudo reboot &')}"
+					 class="round big top-space">RPi
+				</div>
+			</div>
+		</div>
+		<div data-type="push"
+			 data-background-icon="none"
+			 data-icon="fs-system_fhem"
+			 data-url="http://192.168.2.23:8088/fhem"
+			 data-on-color="#808080"
+			 data-off-color="#808080"
+			 class="inline">
+		</div>
+	</div>
+</li>
+
+<li class="halbTransparent border-left" data-row="3" data-col="1" data-sizex="2" data-sizey="1">
+	<header class="headerTransparent">TEMPERATUR</header>
+	<div class="">
+		<div class="cell">Aktuell:
+		</div>
+		<div data-type="label"
+			 data-device="rpi_sys"
+			 data-get="cpu_temp"
+			 data-unit="%B0C%0A"
+			 data-limits='[0,40]'
+			 data-colors='["green","firebrick"]'
+			 class="cell big ">
+		</div>
+	</div>
+</li>
+
+<li class="halbTransparent border-left border-right" data-row="3" data-col="3" data-sizex="2" data-sizey="1">
+	<header class="headerTransparent">TEMPERATUR</header>
+	<div class="">
+		<div class="cell">Durchschnitt:
+		</div>
+		<div data-type="label"
+			 data-device="rpi_sys"
+			 data-get="cpu_temp_avg"
+			 data-unit="%B0C%0A"
+			 data-limits='[0,40]'
+			 data-colors='["green","firebrick"]'
+			 class="cell big">
+		</div>
+	</div>
+</li>
+
+<li class="halbTransparent border-left" data-row="4" data-col="1" data-sizex="2" data-sizey="1">
+	<header class="headerTransparent">AUSLASTUNG</header>
+	<div class="">
+		<div class="cell">Aktuell:
+		</div>
+		<div data-type="label"
+			 data-device="rpi_sys"
+			 data-get="stat_cpu_text"
+			 data-part="2"
+			 data-unit="%"
+			 data-limits='[0,40]'
+			 data-colors='["green","firebrick"]'
+			 class="cell big">
+		</div>
+	</div>
+</li>
+
+<li class="halbTransparent border-left border-right" data-row="4" data-col="3" data-sizex="2" data-sizey="1">
+	<header class="headerTransparent">AUSLASTUNG</header>
+	<div class="">
+		<div class="cell">RAM:
+		</div>
+		<div data-type="label"
+			 data-device="rpi_sys"
+			 data-get="ram"
+			 data-part="5"
+			 data-unit="MB"
+			 data-limits='[0,500,800]'
+			 data-colors='["green","#aa6900","firebrick"]'
+			 class="cell big">
+		</div>
+	</div>
+</li>
+
+<li class="halbTransparent border-left" data-row="5" data-col="1" data-sizex="2" data-sizey="1">
+	<header class="headerTransparent">NETZWERK</header>
+	<div class="">
+		<div class="cell">Upload:
+		</div>
+		<div data-type="label"
+			 data-device="rpi_sys"
+			 data-get="eth0"
+			 data-part="5"
+			 data-unit="MB"
+			 class="cell big"
+			 style="color:#aa6900;">
+		</div>
+	</div>
+</li>
+
+<li class="halbTransparent border-left border-right" data-row="5" data-col="3" data-sizex="2" data-sizey="1">
+	<header class="headerTransparent">NETZWERK</header>
+	<div class="">
+		<div class="cell">Download:
+		</div>
+		<div data-type="label"
+			 data-device="rpi_sys"
+			 data-get="eth0"
+			 data-part="2"
+			 data-unit="MB"
+			 class="cell big orange">
+		</div>
+	</div>
+</li>
+
+<li class="halbTransparent border-left border-right" data-row="6" data-col="1" data-sizex="4" data-sizey="1">
+	<header class="headerTransparent">RASPBERRY PI 2</header>
+	<div class="">
+		<div class="cell">Uptime:
+		</div>
+		<div data-type="label"
+			 data-device="rpi_sys"
+			 data-get="uptime_text"
+			 class="cell orange">
+		</div>
+	</div>
+</li>
+
+</ul>
+</div>
+</body>
+</html>

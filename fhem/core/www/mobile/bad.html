@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>BAD</title>
+</head>
+<body>
+
+<div class="gridster">
+<ul>
+<li class="halbTransparent border-left border-right" data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">HOME</header>
+	<div data-type="pagetab"
+		 data-device="st_alert"
+		 data-get-on='["off","[1-9]{1}|[0-9]{2}"]'
+		 data-url="index_home.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-home"
+		 data-icons='["fa-home","fa-home warn"]'
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent" data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">MENÜ</header>
+	<div data-type="pagetab"
+		 data-url="menu.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-bars"
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent border-left border-right" data-row="1" data-col="3" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">DWD</header>
+	<div data-type="pagetab"
+		 data-device="gds"
+		 data-get="a_count"
+		 data-get-on='["no","^[1-9][0-9]|[1-9]$"]'
+		 data-url="dwd.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-bolt"
+		 data-icons='["fa-bolt","fa-bolt warn"]'
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent border-right" data-row="1" data-col="4" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">WETTER</header>
+	<div data-type="pagetab"
+		 data-url="wetter.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-cloud"
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent border-left" data-row="2" data-col="1" data-sizex="2" data-sizey="1">
+	<header class="headerTransparent">TEMP / HUM</header>
+	<div class="top-space-mobile">
+		<div data-type="label"
+			 data-device="bad_WT"
+			 data-get="temperature"
+			 data-unit="%B0C%0A"
+			 data-limits='[-70,20,25]'
+			 data-colors='["cornflowerblue","green","firebrick"]'
+			 class="big inline">
+		</div>
+		<div data-type="label"
+			 data-device=""
+			 data-get=""
+			 data-unit="%"
+			 data-limits='[0,40,61]'
+			 data-colors='["cornflowerblue","green","firebrick"]'
+			 class="big inline">XX%
+		</div>
+		<hr width="85%" class="">
+		<div class="big narrow orange">Bad
+		</div>
+	</div>
+</li>
+
+<li class="halbTransparent border-left" data-row="2" data-col="3" data-sizex="2" data-sizey="1">
+</li>
+
+<li class="halbTransparent border-left border-right" data-row="3" data-col="1" data-sizex="4" data-sizey="1">
+	<header class="headerTransparent">HEIZUNG</header>
+	<div class="top-space-mobile">
+		<div class="inline">
+			<div data-type="symbol"
+				 data-device="bad_SC"
+				 data-get-on="opened.*"
+				 data-get-off="closed.*"
+				 data-on-color="firebrick"
+				 data-off-color="#3D4C66"
+				 class="">
+			</div>
+			<div class="narrow">&nbsp;
+			</div>
+		</div>
+		<div class="inline">
+			<div data-type="switch"
+				 data-device="bad_WT"
+				 data-get="desiredTemperature"
+				 data-get-on="15.0"
+				 data-get-off="^(?!15.0).*$"
+				 data-set="desiredTemperature"
+				 data-set-on="eco"
+				 data-set-off=""
+				 data-icon="ma-brightness_3"
+				 data-background-icon="fa-circle-thin"
+				 data-on-color="cornflowerblue"
+				 data-off-color="#808080"
+				 data-on-background-color="#aa6900"
+				 data-off-background-color="#3D4C66"
+				 class="">
+			</div>
+			<div class="narrow">15°C
+			</div>
+		</div>
+		<div class="inline">
+            <div data-type="spinner"
+                 data-device="bad_WT"
+				 data-get="desiredTemperature"
+				 data-set="desiredTemperature"
+                 data-icon-left-color="blue"
+                 data-icon-right-color="red"
+                 data-min="4.5"
+                 data-max="25.0"
+				 data-step="0.5"
+				 data-width="130"
+				 data-height="47"
+				 data-unit="°"
+				 data-longdelay="2500"
+				 data-background-color="none"
+                 class="valueonly">
+            </div>
+			<div class="narrow">Temperatur
+			</div>
+		</div>
+		<div class="inline">
+			<div data-type="switch"
+				 data-device="bad_WT"
+				 data-get="desiredTemperature"
+				 data-get-on="22.0"
+				 data-get-off="^(?!22.0).*$"
+				 data-set="desiredTemperature"
+				 data-set-on="comfort"
+				 data-set-off=""
+				 data-icon="ro-sun"
+				 data-background-icon="fa-circle-thin"
+				 data-on-color="green"
+				 data-off-color="#808080"
+				 data-on-background-color="#aa6900"
+				 data-off-background-color="#3D4C66"
+				 class="">
+			</div>
+			<div class="narrow">22°C
+			</div>
+		</div>
+	</div>
+</li>
+
+<li class="halbTransparent border-left border-right" data-row="4" data-col="1" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">LICHT</header>
+	<div class="">
+		<div data-type="switch"
+			 data-device="bad_aktor_licht"
+			 data-on-color="black"
+			 data-off-color="#808080"
+			 data-on-background-color="cornflowerblue"
+			 data-off-background-color="#3D4C66"
+			 data-icon="fa-lightbulb-o"
+			 class="cell">
+		</div>
+	</div>
+</li>
+
+<li class="halbTransparent" data-row="4" data-col="2" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">SPIEGEL</header>
+	<div class="">
+		<div data-type="switch"
+			 data-device="bad_aktor_spiegelschrank"
+			 data-on-color="black"
+			 data-off-color="#808080"
+			 data-on-background-color="cornflowerblue"
+			 data-off-background-color="#3D4C66"
+			 data-icon="fa-lightbulb-o"
+			 class="cell">
+		</div>
+	</div>
+</li>
+
+<li class="halbTransparent border-left" data-row="4" data-col="3" data-sizex="1" data-sizey="1">
+</li>
+
+<li class="halbTransparent" data-row="4" data-col="4" data-sizex="1" data-sizey="1">
+</li>
+
+<li class="halbTransparent" data-row="5" data-col="1" data-sizex="4" data-sizey="1">
+</li>
+
+<li class="halbTransparent border-left border-right" data-row="6" data-col="1" data-sizex="4" data-sizey="1">
+    <header class="headerTransparent">BATTERIEN</header>
+	<div class="">
+		<div class="inline">
+			<div data-type="symbol"
+				 data-device="bad_WT"
+				 data-get="battery"
+				 data-states='["ok","low"]'
+				 data-icons='["fa-battery-4","fa-battery-1 fa-blink"]'
+				 data-colors='["green","firebrick"]'
+				 class="">
+			</div>
+			<div class="narrow">Therm.
+			</div>
+		</div>
+		<div class="inline">
+			<div data-type="symbol"
+				 data-device="bad_HT"
+				 data-get="battery"
+				 data-states='["ok","low"]'
+				 data-icons='["fa-battery-4","fa-battery-1 fa-blink"]'
+				 data-colors='["green","firebrick"]'
+				 class="">
+			</div>
+			<div class="narrow">Heizung
+			</div>
+		</div>
+		<div class="inline">
+			<div data-type="symbol"
+				 data-device="bad_SC"
+				 data-get="battery"
+				 data-states='["ok","low"]'
+				 data-icons='["fa-battery-4","fa-battery-1 fa-blink"]'
+				 data-colors='["green","firebrick"]'
+				 class="">
+			</div>
+			<div class="narrow">Fenster
+			</div>
+		</div>
+	</div>
+</li>
+
+</ul>
+</div>
+</body>
+</html>

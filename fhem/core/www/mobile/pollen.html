@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>POLLEN</title>
+</head>
+<body>
+
+<div class="gridster">
+<ul>
+<li class="halbTransparent border-left border-right" data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">HOME</header>
+	<div data-type="pagetab"
+		 data-device="st_alert"
+		 data-get-on='["off","[1-9]{1}|[0-9]{2}"]'
+		 data-url="index_home.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-home"
+		 data-icons='["fa-home","fa-home warn"]'
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent" data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">MENÜ</header>
+	<div data-type="pagetab"
+		 data-url="menu.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-bars"
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent border-left border-right" data-row="1" data-col="3" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">DWD</header>
+	<div data-type="pagetab"
+		 data-device="gds"
+		 data-get="a_count"
+		 data-get-on='["no","^[1-9][0-9]|[1-9]$"]'
+		 data-url="dwd.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-bolt"
+		 data-icons='["fa-bolt","fa-bolt warn"]'
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent border-right" data-row="1" data-col="4" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">WETTER</header>
+	<div data-type="pagetab"
+		 data-url="wetter.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-cloud"
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent border-left border-right" data-row="2" data-col="1" data-sizex="4" data-sizey="5">
+	<header class="headerTransparent">POLLENFLUG</header>
+	<div class="top-space">
+		<div class="inline">
+			<div data-type="symbol"
+				 data-device="pollen"
+				 data-get="fc1_Ambrosia"
+				 data-icons='["fa-forumbee","fa-forumbee","fa-forumbee"]'
+				 data-get-on='["1","2","3"]'
+				 data-on-colors='["green","yellow","firebrick"]'
+				 data-off-color="#808080"
+				 class="big">
+			</div>
+			<div class="cell narrow medium">Ambros.
+			</div>
+		</div>
+		<div class="inline left-space">
+			<div data-type="symbol"
+				 data-device="pollen"
+				 data-get="fc1_Ampfer"
+				 data-icons='["fa-forumbee","fa-forumbee","fa-forumbee"]'
+				 data-get-on='["1","2","3"]'
+				 data-on-colors='["green","yellow","firebrick"]'
+				 data-off-color="#808080"
+				 class="big">
+			</div>
+			<div class="cell narrow medium">Ampfer
+			</div>
+		</div>
+		<div class="inline left-space">
+			<div data-type="symbol"
+				 data-device="pollen"
+				 data-get="fc1_Beifuss"
+				 data-icons='["fa-forumbee","fa-forumbee","fa-forumbee"]'
+				 data-get-on='["1","2","3"]'
+				 data-on-colors='["green","yellow","firebrick"]'
+				 data-off-color="#808080"
+				 class="big">
+			</div>
+			<div class="cell narrow medium">Beifuß
+			</div>
+		</div>
+	</div>
+	<div class="top-space-mobile">
+		<div class="inline">
+			<div data-type="symbol"
+				 data-device="pollen"
+				 data-get="fc1_Birke"
+				 data-icons='["fa-forumbee","fa-forumbee","fa-forumbee"]'
+				 data-get-on='["1","2","3"]'
+				 data-on-colors='["green","yellow","firebrick"]'
+				 data-off-color="#808080"
+				 class="big">
+			</div>
+			<div class="cell narrow medium">Birke
+			</div>
+		</div>
+		<div class="inline left-space">
+			<div data-type="symbol"
+				 data-device="pollen"
+				 data-get="fc1_Buche"
+				 data-icons='["fa-forumbee","fa-forumbee","fa-forumbee"]'
+				 data-get-on='["1","2","3"]'
+				 data-on-colors='["green","yellow","firebrick"]'
+				 data-off-color="#808080"
+				 class="big">
+			</div>
+			<div class="cell narrow medium">Buche
+			</div>
+		</div>
+		<div class="inline left-space">
+			<div data-type="symbol"
+				 data-device="pollen"
+				 data-get="fc1_Eiche"
+				 data-icons='["fa-forumbee","fa-forumbee","fa-forumbee"]'
+				 data-get-on='["1","2","3"]'
+				 data-on-colors='["green","yellow","firebrick"]'
+				 data-off-color="#808080"
+				 class="big">
+			</div>
+			<div class="cell narrow medium">Eiche
+			</div>
+		</div>
+	</div>
+	<div class="top-space-mobile">
+		<div class="inline">
+			<div data-type="symbol"
+				 data-device="pollen"
+				 data-get="fc1_Erle"
+				 data-icons='["fa-forumbee","fa-forumbee","fa-forumbee"]'
+				 data-get-on='["1","2","3"]'
+				 data-on-colors='["green","yellow","firebrick"]'
+				 data-off-color="#808080"
+				 class="big">
+			</div>
+			<div class="cell narrow medium">Erle
+			</div>
+		</div>
+		<div class="inline left-space">
+			<div data-type="symbol"
+				 data-device="pollen"
+				 data-get="fc1_Esche"
+				 data-icons='["fa-forumbee","fa-forumbee","fa-forumbee"]'
+				 data-get-on='["1","2","3"]'
+				 data-on-colors='["green","yellow","firebrick"]'
+				 data-off-color="#808080"
+				 class="big">
+			</div>
+			<div class="cell narrow medium">Esche
+			</div>
+		</div>
+		<div class="inline left-space">
+			<div data-type="symbol"
+				 data-device="pollen"
+				 data-get="fc1_Graeser"
+				 data-icons='["fa-forumbee","fa-forumbee","fa-forumbee"]'
+				 data-get-on='["1","2","3"]'
+				 data-on-colors='["green","yellow","firebrick"]'
+				 data-off-color="#808080"
+				 class="big">
+			</div>
+			<div class="cell narrow medium">Gr&auml;ser
+			</div>
+		</div>
+	</div>
+	<div class="top-space-mobile">
+		<div class="inline">
+			<div data-type="symbol"
+				 data-device="pollen"
+				 data-get="fc1_Hasel"
+				 data-icons='["fa-forumbee","fa-forumbee","fa-forumbee"]'
+				 data-get-on='["1","2","3"]'
+				 data-on-colors='["green","yellow","firebrick"]'
+				 data-off-color="#808080"
+				 class="big">
+			</div>
+			<div class="cell narrow medium">Hasel
+			</div>
+		</div>
+		<div class="inline left-space">
+			<div data-type="symbol"
+				 data-device="pollen"
+				 data-get="fc1_Pappel"
+				 data-icons='["fa-forumbee","fa-forumbee","fa-forumbee"]'
+				 data-get-on='["1","2","3"]'
+				 data-on-colors='["green","yellow","firebrick"]'
+				 data-off-color="#808080"
+				 class="big">
+			</div>
+			<div class="cell narrow medium">Pappel
+			</div>
+		</div>
+		<div class="inline left-space">
+			<div data-type="symbol"
+				 data-device="pollen"
+				 data-get="fc1_Roggen"
+				 data-icons='["fa-forumbee","fa-forumbee","fa-forumbee"]'
+				 data-get-on='["1","2","3"]'
+				 data-on-colors='["green","yellow","firebrick"]'
+				 data-off-color="#808080"
+				 class="big">
+			</div>
+			<div class="cell narrow medium">Roggen
+			</div>
+		</div>
+	</div>
+	<div class="top-space-mobile">
+		<div class="inline">
+			<div data-type="symbol"
+				 data-device="pollen"
+				 data-get="fc1_Ulme"
+				 data-icons='["fa-forumbee","fa-forumbee","fa-forumbee"]'
+				 data-get-on='["1","2","3"]'
+				 data-on-colors='["green","yellow","firebrick"]'
+				 data-off-color="#808080"
+				 class="big">
+			</div>
+			<div class="cell narrow medium">Ulme
+			</div>
+		</div>
+		<div class="inline left-space">
+			<div data-type="symbol"
+				 data-device="pollen"
+				 data-get="fc1_Wegerich"
+				 data-icons='["fa-forumbee","fa-forumbee","fa-forumbee"]'
+				 data-get-on='["1","2","3"]'
+				 data-on-colors='["green","yellow","firebrick"]'
+				 data-off-color="#808080"
+				 class="big">
+			</div>
+			<div class="cell narrow medium">Spitzw.
+			</div>
+		</div>
+		<div class="inline left-space">
+			<div data-type="symbol"
+				 data-device="pollen"
+				 data-get="fc1_Weide"
+				 data-icons='["fa-forumbee","fa-forumbee","fa-forumbee"]'
+				 data-get-on='["1","2","3"]'
+				 data-on-colors='["green","yellow","firebrick"]'
+				 data-off-color="#808080"
+				 class="big">
+			</div>
+			<div class="cell narrow medium">Weide
+			</div>
+		</div>
+	</div>
+</li>
+
+</ul>
+</div>
+</body>
+</html>

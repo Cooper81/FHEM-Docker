@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+    <div class="page" id="content_home">
+        </section>
+        <section id="sectionAnruf">
+			<div onclick="if ($('#dropanruf').is(':hidden')) {$('html, body').animate({scrollTop: $('#sectionAnruf').offset().top -55}, 500); $('#dropanruf').slideDown(500); $('#dropdownanruf > i.fa').addClass('fa-rotate-180'); } else { $('#dropanruf').slideUp(500); $('#dropdownanruf > i.fa').removeClass('fa-rotate-180'); }"
+				 id="dropdownanruf"
+				 class="big">Anrufe&nbsp;
+				<i class="fa fa-angle-down big"></i>
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div data-type="symbol"
+							 data-background-icon="none"
+							 data-device="FritzBox"
+							 data-get="tam1_newMsg"
+							 data-states='["0","[1-9]{1}|[0-9]{2}"]'
+							 data-icons='["mi-voicemail","mi-voicemail warn"]'
+							 data-on-colors='["#888","#0088CC"]'
+							 class="">
+							 <!--data-hide="tam1_newMsg"
+							 data-hide-on="0"-->
+						</div>
+					</td>
+					<td>
+						 <div data-type="switch"
+							 data-device="FritzBox"
+							 data-get="tam1_state"
+							 data-set="tam 1"
+							 data-icon="mi-voicemail"
+							 class="">
+						</div>
+				</tr>
+				<tr>
+					<td>
+						<div data-type="label"
+							 data-device="FritzBox"
+							 data-get="tam1_newMsg"
+							 data-post-text="&nbsp;neue<br />Nachrichten"
+							 class="">
+							 <!--data-hide="tam1_newMsg"
+							 data-hide-on="0"-->
+						</div>
+					</td>
+					<td>An/Aus
+					</td>
+				</tr>
+			</table>
+			<div id="dropanruf" class="top-space">
+				<table>
+					<tr>
+						<td style="border-top:1px dashed #aaa;">
+							<div data-type="symbol"
+								 data-device="Calllist"
+								 data-get="1-state"
+								 data-states='["=>","=> X","=>  ((o))","=>  [=]","=> O_O"]'
+								 data-icons='["mi-call_end","mi-phone_missed","mi-ring_volume fa-blink","mi-phone_in_talk fa-blink","mi-voicemail"]'
+								 data-colors='["green","firebrick","firebrick","green","#aa6900"]'
+								 class="narrow">
+							</div>
+						</td>
+						<td style="border-top:1px dashed #aaa;">
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="1-timestamp"
+								 data-part="1"
+								 class="inline">
+							</div>
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="1-timestamp"
+								 data-part="2"
+								 class="inline">
+							</div>
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="1-timestamp"
+								 data-part="3"
+								 class="">
+							</div>
+						</td>
+						<td style="border-top:1px dashed #aaa;">
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="1-number"
+								 class="">
+							</div>
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="1-name"
+								 class="">
+							</div>
+						</td>
+						<td style="border-top:1px dashed #aaa;">
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="1-duration"
+								 class="">
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div data-type="symbol"
+								 data-device="Calllist"
+								 data-get="2-state"
+								 data-states='["=>","=> X","=>  ((o))","=>  [=]","=> O_O"]'
+								 data-icons='["mi-call_end","mi-phone_missed","mi-ring_volume fa-blink","mi-phone_in_talk fa-blink","mi-voicemail"]'
+								 data-colors='["green","firebrick","firebrick","green","#aa6900"]'
+								 class="narrow">
+							</div>
+						</td>
+						<td>
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="2-timestamp"
+								 data-part="1"
+								 class="inline">
+							</div>
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="2-timestamp"
+								 data-part="2"
+								 class="inline">
+							</div>
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="2-timestamp"
+								 data-part="3"
+								 class="">
+							</div>
+						</td>
+						<td>
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="2-number"
+								 class="">
+							</div>
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="2-name"
+								 class="">
+							</div>
+						</td>
+						<td>
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="2-duration"
+								 class="">
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div data-type="symbol"
+								 data-device="Calllist"
+								 data-get="3-state"
+								 data-states='["=>","=> X","=>  ((o))","=>  [=]","=> O_O"]'
+								 data-icons='["mi-call_end","mi-phone_missed","mi-ring_volume fa-blink","mi-phone_in_talk fa-blink","mi-voicemail"]'
+								 data-colors='["green","firebrick","firebrick","green","#aa6900"]'
+								 class="narrow">
+							</div>
+						</td>
+						<td>
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="3-timestamp"
+								 data-part="1"
+								 class="inline">
+							</div>
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="3-timestamp"
+								 data-part="2"
+								 class="inline">
+							</div>
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="3-timestamp"
+								 data-part="3"
+								 class="">
+							</div>
+						</td>
+						<td>
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="3-number"
+								 class="">
+							</div>
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="3-name"
+								 class="">
+							</div>
+						</td>
+						<td>
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="3-duration"
+								 class="">
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div data-type="symbol"
+								 data-device="Calllist"
+								 data-get="4-state"
+								 data-states='["=>","=> X","=>  ((o))","=>  [=]","=> O_O"]'
+								 data-icons='["mi-call_end","mi-phone_missed","mi-ring_volume fa-blink","mi-phone_in_talk fa-blink","mi-voicemail"]'
+								 data-colors='["green","firebrick","firebrick","green","#aa6900"]'
+								 class="narrow">
+							</div>
+						</td>
+						<td>
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="4-timestamp"
+								 data-part="1"
+								 class="inline">
+							</div>
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="4-timestamp"
+								 data-part="2"
+								 class="inline">
+							</div>
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="4-timestamp"
+								 data-part="3"
+								 class="">
+							</div>
+						</td>
+						<td>
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="4-number"
+								 class="">
+							</div>
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="4-name"
+								 class="">
+							</div>
+						</td>
+						<td>
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="4-duration"
+								 class="">
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div data-type="symbol"
+								 data-device="Calllist"
+								 data-get="5-state"
+								 data-states='["=>","=> X","=>  ((o))","=>  [=]","=> O_O"]'
+								 data-icons='["mi-call_end","mi-phone_missed","mi-ring_volume fa-blink","mi-phone_in_talk fa-blink","mi-voicemail"]'
+								 data-colors='["green","firebrick","firebrick","green","#aa6900"]'
+								 class="narrow">
+							</div>
+						</td>
+						<td>
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="5-timestamp"
+								 data-part="1"
+								 class="inline">
+							</div>
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="5-timestamp"
+								 data-part="2"
+								 class="inline">
+							</div>
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="5-timestamp"
+								 data-part="3"
+								 class="">
+							</div>
+						</td>
+						<td>
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="5-number"
+								 class="">
+							</div>
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="5-name"
+								 class="">
+							</div>
+						</td>
+						<td>
+							<div data-type="label"
+								 data-device="Calllist"
+								 data-get="5-duration"
+								 class="">
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</section>
+		<section>
+			<div class="big">Anwesenheit
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div data-type="symbol"
+							 data-device="rr_Annabel"
+							 data-states='["home","absent","asleep","gone"]'
+							 data-set-states='["home","home","home","home"]'
+							 data-icons='["fa-home","fa-car","fa-bed","fa-suitcase"]'
+							 data-colors='["green","#0088CC","#aa6900","firebrick"]'
+							 class="">
+						</div>
+						<div class="large">Annabel
+						</div>
+					</td>
+					<td>
+						<div data-type="symbol"
+							 data-device="rr_Emily"
+							 data-states='["home","absent","asleep","gone"]'
+							 data-set-states='["home","home","home","home"]'
+							 data-icons='["fa-home","fa-car","fa-bed","fa-suitcase"]'
+							 data-colors='["green","#0088CC","#aa6900","firebrick"]'
+							 class="">
+						</div>
+						<div class="large">Emily
+						</div>
+					</td>
+					<td>
+						<div data-type="symbol"
+							 data-device="rr_Dennis"
+							 data-states='["home","absent","asleep","gone"]'
+							 data-set-states='["home","home","home","home"]'
+							 data-icons='["fa-home","fa-car","fa-bed","fa-suitcase"]'
+							 data-colors='["green","#0088CC","#aa6900","firebrick"]'
+							 class="">
+						</div>
+						<div class="large">Dennis
+						</div>
+					</td>
+				</tr>
+				<tr>
+			</table>
+		</section>
+        <section>
+			<div class="big">Müllabfuhr
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div data-type="symbol"
+							 data-background-icon="none"
+							 data-device="Abfallkalender"
+							 data-get="USBAbfuhrGrau-Restmuell_days"
+							 data-off-color="#808080"
+							 data-fhem-cmd="setreading Abfallkalender Restmuell_tage off"
+							 data-get-on='["off","0","1","[2-9]{1}|[0-9]{2}"]'
+							 data-icons='["ro-bin warn","ro-bin warn fa-spin","ro-bin warn blink","ro-bin warn"]'
+							 data-on-colors='["#888","#888","#888","#888"]'
+							 class="">
+						</div>
+						<div class="">Restm&uuml;ll
+						</div>
+					</td>
+					<td>
+						<div data-type="symbol"
+							 data-background-icon="none"
+							 data-device="Abfallkalender"
+							 data-get="USBAbfuhrBlau-Altpapier_days"
+							 data-off-color="#0088CC"
+							 data-fhem-cmd="setreading Abfallkalender Papier_tage off"
+							 data-get-on='["off","0","1","[2-9]{1}|[0-9]{2}"]'
+							 data-icons='["fs-bag warn","fs-bag warn fa-spin","fs-bag warn blink","fs-bag warn"]'
+							 data-on-colors='["#0088CC","#0088CC","#0088CC","#0088CC"]'
+							 class="">
+						</div>
+						<div class="">Papier
+						</div>
+					</td>
+					<td>
+						<div data-type="symbol"
+							 data-background-icon="none"
+							 data-device="Abfallkalender"
+							 data-get="USBAbfuhrGelb-kombinierteWertstofftonne_days"
+							 data-off-color="yellow"
+							 data-fhem-cmd="setreading Abfallkalender Plastik_tage off"
+							 data-get-on='["off","0","1","[2-9]{1}|[0-9]{2}"]'
+							 data-icons='["fs-bag warn","fs-bag warn fa-spin","fs-bag warn blink","fs-bag warn"]'
+							 data-on-colors='["gold","gold","gold","gold"]'
+							 class="">
+						</div>
+						<div class="">Plastik
+						</div>
+					</td>
+				</tr>
+			</table>
+        </section>
+		<section>
+			<div class="big">RÄUME
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div data-type="switch"
+							 data-device="Wohnzimmer"
+							data-get-on="on"
+							data-get-off="off"							 class="">
+						</div>
+						<div class="">Wohnz.
+						</div>
+					</td>
+					<td>
+						<div data-type="switch"
+							 data-device="Kinderzimmer"
+							data-get-on="on"
+							data-get-off="off"
+							 class="">
+						</div>
+						<div class="">Kinderz.
+						</div>
+					</td>
+					<td>	
+						<div data-type="switch"
+							data-device="Schlafzimmer"
+							data-get-on="on"
+							data-get-off="off"
+							 class="">
+						</div>
+						<div class="">Schlafz.
+						</div>
+					</td>
+					<td>
+						<div data-type="switch"
+							data-device="Lampe"
+							data-get-on="on"
+							data-get-off="off"
+							 class="">
+						</div>
+						<div class="">Arbeitsz.
+						</div>
+					</td>
+					<td>
+						<div data-type="switch"
+							data-device="Weihnachten"
+							data-get-on="on"
+							data-get-off="off"
+							 class="">
+						</div>
+						<div class="">Weihn.
+						</div>
+					</td>
+				</tr>
+			</table>
+		</section>
+		<section>
+			<div class="big">ALLE LAMPEN
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div data-type="push"
+							 data-device="Alles"
+							 data-set-on="on"
+						class="">
+						</div>
+						<div class="">Alles An
+						</div>
+					</td>
+					<td>
+						<div data-type="push"
+							 data-device="Alles"
+							 data-set-on="off"
+						class="">
+						</div>
+						<div class="">Alles Aus
+						</div>
+					</td>
+					<td>
+						<div data-type="push"
+							 data-device="Morgens"
+							 data-set-on="on"
+			 				     class="">
+						</div>
+						<div class="">Morgens
+						</div>
+					</td>
+					<td>
+						<div	data-type="push"
+							data-device="AllesAus"
+							data-get-on="Aus"
+							data-get-off="!Aus"
+							data-set-on="Aus"
+							data-set-off="awoken"
+						class="">
+						</div>
+						<div class="">Schlafen
+						</div>
+					</td>
+					<td>
+						<div	data-type="push"
+							data-device="Eltern"
+							data-get-on="Aus"
+							data-get-off="!Aus"
+							data-set-on="Aus"
+							data-set-off="awoken"
+						class="">
+						</div>
+						<div class="">Emily Bett
+						</div>
+					</td>
+				</tr>
+			</table>
+		</section>
+		<section>
+			<div class="big">ALLE LAMPEN
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div class="bold">R2D2:
+						</div>
+
+						<div data-type="symbol"
+							 data-device="R2D2"
+							 data-get="state"
+							 data-states='["idle","House.Cleaning","Suspended.Cleaning","Docking"]'
+							 data-icons='["oa-scene_sleeping","oa-scene_cleaning","fa-pause","oa-control_building_empty"]'
+							 data-color="blue"
+			 				     class="big">
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

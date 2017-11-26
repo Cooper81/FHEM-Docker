@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+	<div class="page" id="content_bad">
+		<section>
+			<div onclick="if ($('#dropradiokueche').is(':hidden')) { $('#dropradiokueche').slideDown(250); $('#dropdownradiokueche > i.fa').addClass('fa-rotate-180'); } else { $('#dropradiokueche').slideUp(250); $('#dropdownradiokueche > i.fa').removeClass('fa-rotate-180'); }"
+				 id="dropdownradiobad"
+				 class="big">MEDIAPLAYER&nbsp;
+				<i class="fa fa-angle-down large"></i>
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+					</td>
+				</tr>
+				<tr>
+						<div data-type="select"
+							 data-device="MPD3"
+							 data-get="currentTrackURI"
+							 data-set="playfile"
+							 data-items='["http://wdr-1live-live.icecast.wdr.de/wdr/1live/live/mp3/128/stream.mp3","http://wdr-1live-diggi.icecast.wdr.de/wdr/1live/diggi/mp3/128/stream.mp3","http://onair-ha1.krone.at/kronehit-90sdance.mp3","http://wdr-wdr2-ruhrgebiet.icecast.wdr.de/wdr/wdr2/ruhrgebiet/mp3/128/stream.mp3","http://radiobochum.cast.addradio.de/radiobochum/simulcast/high/stream.mp3","http://stream.slam.nl/slam","http://regiocast.hoerradar.de/sunshinelive-90er-mp3-hq","http://sunshinelive.hoerradar.de/sunshinelive-live-mp3-hq"]'
+							 data-alias='["1Live",                                                                  "1LiveDiggi",
+"Kronehit",
+"WDR2",
+"Radio_Bochum",
+"SlamFM!",
+"sunshine-live_90er",
+"sunshine-live"]'
+							 class="top-space">
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-device="MPD3"
+							 data-get="rawTitle"
+			 				     class="">
+						</div>
+					</td>
+					<td>
+						<div data-type="switch"
+							 data-device="MPD3"
+							 data-states='["stop|play/pause|play/buffering|play/duck|play/disconnected|complete|error|PLAY|STOP","play"]'
+				 data-set-states='["play","stop"]'
+							 data-icons='["fa-stop","fa-pause fa-blink","fa-play","fa-exclamation-triangle"]'
+							 data-colors='["#eee","#eee","#eee","firebrick"]'
+							 data-background-icons='["fa-circle","fa-circle","fa-circle","fa-circle"]'
+							 data-background-colors='["#0088CC","#0088CC","#888","#888"]'
+							 class="">
+						</div>
+						<div class="">Play / Stop
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<div class="top-space">
+							<div class="inline">Volume:
+							</div>
+							<div data-type="label"
+								 data-device="MPD3"
+								 data-get="volume"
+								 class="inline">
+							</div>
+						</div>
+						<div class="top-space bottom-space">
+							<div data-type="push"
+								 data-device="MPD3"
+								 data-set-on="volumeDown"
+								 data-icon="ro-volume-decrease"
+								 class="inline">
+							</div>
+							<div data-type="slider"
+								 data-device="MPD3"
+								 data-get="volume"
+								 data-set="volume"
+								 data-min="0"
+								 data-max="100"
+								 data-width="150"
+								 data-color="#0088CC"
+								 data-background-color="#333"
+								 class="horizontal tap left-space right-space inline">
+							</div>	 
+							<div data-type="push"
+								 data-device="MPD3"
+								 data-set-on="volumeUp"
+								 data-icon="ro-volume-increase"
+								 class="inline">
+							</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

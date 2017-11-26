@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>WETTER</title>
+</head>
+<body>
+
+<div class="gridster">
+<ul>
+<li class="halbTransparent border-left border-right" data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">HOME</header>
+	<div data-type="pagetab"
+		 data-device="st_alert"
+		 data-get-on='["off","[1-9]{1}|[0-9]{2}"]'
+		 data-url="index_home.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-home"
+		 data-icons='["fa-home","fa-home warn"]'
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent" data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">MENÜ</header>
+	<div data-type="pagetab"
+		 data-url="menu.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-bars"
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent border-left border-right" data-row="1" data-col="3" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">DWD</header>
+	<div data-type="pagetab"
+		 data-device="gds"
+		 data-get="a_count"
+		 data-get-on='["no","^[1-9][0-9]|[1-9]$"]'
+		 data-url="dwd.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-bolt"
+		 data-icons='["fa-bolt","fa-bolt warn"]'
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent border-right" data-row="1" data-col="4" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">WETTER</header>
+	<div data-type="pagetab"
+		 data-url="wetter.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-cloud"
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent border-left" data-row="2" data-col="1" data-sizex="2" data-sizey="1" style="overflow:auto;">
+	<header class="headerTransparent">AUßENTEMPERATUR</header>	
+	<div class="top-space-mobile">
+		<div class="inline" style="width:28.5%;">
+			<div data-type="label" 
+				 data-device="Wetter"
+				 data-limits='[-73,18,28]' 
+				 data-colors='["cornflowerblue","green","firebrick"]' 
+		 	      data-get="temp_c" 
+				 data-unit="%B0C%0A" 
+				 class="large">
+			</div>
+			<div class="">
+				<div data-type="klimatrend"
+					 data-device="Wetter"
+					 data-get="statTemperatureTendency"
+					 data-refperiod="1"
+					 class="inline medium" >
+				</div>
+				<div data-type="klimatrend"
+					 data-device="Wetter"
+					 data-get="statTemperatureTendency"
+					 data-refperiod="2"
+					 class="inline medium" >
+				</div>
+			</div>
+			<div class="">Temp
+			</div>
+		</div>
+		<div class="inline" style="width:28.5%;">
+			<div data-type="label" 
+				 data-device="Wetter_Pro"
+				 data-get="humidity"
+				 data-limits='[0,40,71]' 
+				 data-colors='["cornflowerblue","green","firebrick"]' 
+				 data-unit="%" 
+				 class="large">
+			</div>
+			<div class="">
+				<div data-type="klimatrend"
+					 data-device="Wetter_Pro"
+					 data-get="statHumidityTendency"
+					 data-refperiod="1"
+					 class="inline medium" >
+				</div>
+				<div data-type="klimatrend"
+					 data-device="Wetter_Pro"
+					 data-get="statHumidityTendency"
+					 data-refperiod="2"
+					 class="inline medium" >
+				</div>
+			</div>
+			<div class="">Luftf
+			</div>
+		</div>
+		<div class="inline" style="width:28.5%;">
+			<div data-type="label" 
+				 data-device="Wetter_Pro"
+				 data-get="dewPoint"
+				 data-limits='[-73,18,28]' 
+				 data-colors='["cornflowerblue","green","firebrick"]'  
+				 data-unit="%B0C%0A" 
+				 class="large">
+			</div>
+			<div class="">
+				<div data-type="klimatrend"
+					 data-device="Wetter_Pro"
+					 data-get="statDewPointTendency"
+					 data-refperiod="1"
+					 class="inline medium" >
+				</div>
+				<div data-type="klimatrend"
+					 data-device="Wetter_Pro"
+					 data-get="statDewPointTendency"
+					 data-refperiod="2"
+					 class="inline medium" >
+				</div>
+			</div>
+			<div class="">Taup
+			</div>
+		</div>
+	</div>
+</li>
+
+
+</li>
+
+<li class="halbTransparent border-left border-right" data-row="2" data-col="3" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">WINDRICHT.</header>
+	<div data-type="wind_direction" 
+		 data-device="Wetter_Pro"
+		 data-direction="windDir"
+		 data-speed="wind"
+		 data-calm="-"
+		 data-size="80"
+		 data-tickstep="45"
+		 data-angleoffset="0"
+		 data-fgcolor="#808080"
+		 class="">
+	</div>
+</li>
+
+<li class="halbTransparent border-right" data-row="2" data-col="4" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">POLLEN</header>
+	<div data-type="pagetab"
+		 data-url="pollen.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-forumbee"
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent border-left border-right" data-row="3" data-col="1" data-sizex="4" data-sizey="2">
+	<header class="headerTransparent">WETTERDATEN FÜR BOCHUM</header>
+	<div class="container weather">
+		<table width="90%" class="top-space">
+			<tr>
+				<td rowspan="5" style="text-align:center;vertical-align:top">
+					<div data-type="weather"
+						 data-device="Wetter_Pro"
+						 data-get="fc0_weatherDay"
+						 data-imageset="kleinklima"
+						 style="width:125px"
+						 class="centered">
+					</div>
+					<div data-type="label"
+						 data-device="Wetter_Pro"
+						 data-get="fc0_weatherDay"
+						 class="large narrow newline">
+					</div>
+				</td>
+				<td>Wind:</td>
+				<td>
+					<div data-type="label"
+						 data-device="Wetter_Pro"
+						 data-get="wind"
+						 data-unit="km/h"
+						 data-limits="[0, 20, 29, 39, 50, 62, 75, 89, 103, 117]"
+						 data-colors='["green","green","#aa6900","#aa6900","firebrick","firebrick","firebrick","red","red","red"]'
+						 style="display:inline"
+						 class="right big" >
+					</div>
+				</td>
+			<tr>
+				<td>Druck:
+				</td>
+				<td>
+					<div data-type="label"
+						 data-device="Wetter_Pro"
+						 data-get="pressure"
+						 data-unit="hPa"
+						 data-limits="[0,1005,1015]"
+						 data-colors='["cornflowerblue","green","#aa6900"]'
+						 class="right big" >
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>gemessen:
+				</td>
+				<td>
+					<div data-type="label"
+						 data-device="BMP180"
+						 data-get="pressure"
+						 data-unit="hPa"
+						 data-limits="[0,1005,1015]"
+						 data-colors='["cornflowerblue","green","#aa6900"]'
+						 class="right large" >
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>Sicht:
+				</td>
+				<td>
+					<div data-type="label"
+						 data-device="Wetter_Pro"
+						 data-get="visibility"
+						 data-unit="km"
+						 class="right big orange" >
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+</li>
+
+<li class="halbTransparent border-left border-right" data-row="5" data-col="1" data-sizex="4" data-sizey="2">
+    <header class="headerTransparent">7-TAGE VORHERSAGE</header>
+	<div data-type="swiper" data-height="180px" data-width="330px" class="">
+		<ul>
+			<li class="Transparent">
+				<div class="inline">
+					<div data-type="label" data-device="Wetter_Pro" data-get="fc0_tempMax" data-unit="°C" class="bigger thin"></div>
+					<div data-type="label" class="inline medium">min:&nbsp;</div>
+					<div data-type="label" data-device="Wetter_Pro" data-get="fc0_tempMin" data-unit="%B0C%0A" class="inline large"></div>
+				</div>
+				<div class="inline">
+				<div data-type="label" data-device="Wetter_Pro" data-get="fc0_weatherDay" class=""></div>
+				<div data-type="weather" data-device="Wetter_Pro" data-get="fc0_weatherDay" data-imageset="kleinklima" class="top-space" style="width:90px;"></div>
+				</div>
+				<div class="inline">
+					<div class="">
+						<div data-type="label" class="inline">Regen:</div>
+						<div data-type="label" data-device="Wetter_Pro" data-get="fc0_chOfRainDay" data-unit="%" data-limits='[0,40,80]' data-colors='["green","#aa6900","firebrick"]' class="large inline"></div>
+					</div>
+					<div class="cell">
+						<div data-type="label" class="inline">Sonne:</div>
+						<div data-type="label" data-device="Wetter_Pro" data-get="fc0_sun" data-limits='[0,40,80]' data-colors='["firebrick","#aa6900","green"]' data-unit="%" class="large inline"></div>
+					</div>
+					<div class="cell">
+						<div data-type="label" class="inline">UV:</div>
+						<div data-type="label" data-device="Wetter_Pro" data-get="fc0_uv" data-unit="" data-limits="[0,4,8,11]" data-colors='["green","#aa6900","firebrick","red"]' class="large inline"></div>
+					</div>
+				</div>
+				<div class="">
+                   <div data-type="label" class="large darker">Heute</div>
+				</div>
+			</li>
+			<li class="Transparent">
+				<div class="inline">
+					<div data-type="label" data-device="Wetter_Pro" data-get="fc1_tempMax" data-unit="°C" class="bigger thin"></div>
+					<div data-type="label" class="inline medium">min:&nbsp;</div>
+					<div data-type="label" data-device="Wetter_Pro" data-get="fc1_tempMin" data-unit="%B0C%0A" class="inline large"></div>
+				</div>
+				<div class="inline">
+				<div data-type="label" data-device="Wetter_Pro" data-get="fc1_weatherDay" class=""></div>
+				<div data-type="weather" data-device="Wetter_Pro" data-get="fc1_weatherDay" data-imageset="kleinklima" class="top-space" style="width:90px;"></div>
+				</div>
+				<div class="inline">
+					<div class="">
+						<div data-type="label" class="inline">Regen:</div>
+						<div data-type="label" data-device="Wetter_Pro" data-get="fc1_chOfRainDay" data-unit="%" data-limits='[0,40,80]' data-colors='["green","#aa6900","firebrick"]' class="large inline"></div>
+					</div>
+					<div class="cell">
+						<div data-type="label" class="inline">Sonne:</div>
+						<div data-type="label" data-device="Wetter_Pro" data-get="fc1_sun" data-limits='[0,40,80]' data-colors='["firebrick","#aa6900","green"]' data-unit="%" class="large inline"></div>
+					</div>
+					<div class="cell">
+						<div data-type="label" class="inline">UV:</div>
+						<div data-type="label" data-device="Wetter_Pro" data-get="fc1_uv" data-unit="" data-limits="[0,4,8,11]" data-colors='["green","#aa6900","firebrick","red"]' class="large inline"></div>
+					</div>
+				</div>
+				<div class="">
+					<div data-type="label" data-device="Wetter_Pro" data-get="fc1_date" data-substitution="toDate().eeee()+','" class="inline large darker"></div>
+					<div data-type="label" data-device="Wetter_Pro" data-get="fc1_date" data-substitution="toDate().ddmm()" class="inline large darker"></div>
+				</div>
+			</li>
+			<li class="Transparent">
+				<div class="inline">
+					<div data-type="label" data-device="Wetter_Pro" data-get="fc2_tempMax" data-unit="°C" class="bigger thin"></div>
+					<div data-type="label" class="inline medium">min:&nbsp;</div>
+					<div data-type="label" data-device="Wetter_Pro" data-get="fc2_tempMin" data-unit="%B0C%0A" class="inline large"></div>
+				</div>
+				<div class="inline">
+				<div data-type="label" data-device="Wetter_Pro" data-get="fc2_weatherDay" class=""></div>
+				<div data-type="weather" data-device="Wetter_Pro" data-get="fc2_weatherDay" data-imageset="kleinklima" class="top-space" style="width:90px;"></div>
+				</div>
+				<div class="inline">
+					<div class="">
+						<div data-type="label" class="inline">Regen:</div>
+						<div data-type="label" data-device="Wetter_Pro" data-get="fc2_chOfRainDay" data-unit="%" data-limits='[0,40,80]' data-colors='["green","#aa6900","firebrick"]' class="large inline"></div>
+					</div>
+					<div class="cell">
+						<div data-type="label" class="inline">Sonne:</div>
+						<div data-type="label" data-device="Wetter_Pro" data-get="fc2_sun" data-limits='[0,40,80]' data-colors='["firebrick","#aa6900","green"]' data-unit="%" class="large inline"></div>
+					</div>
+					<div class="cell">
+						<div data-type="label" class="inline">UV:</div>
+						<div data-type="label" data-device="Wetter_Pro" data-get="fc2_uv" data-unit="" data-limits="[0,4,8,11]" data-colors='["green","#aa6900","firebrick","red"]' class="large inline"></div>
+					</div>
+				</div>
+				<div class="">
+					<div data-type="label" data-device="Wetter_Pro" data-get="fc2_date" data-substitution="toDate().eeee()+','" class="inline large darker"></div>
+					<div data-type="label" data-device="Wetter_Pro" data-get="fc2_date" data-substitution="toDate().ddmm()" class="inline large darker"></div>
+				</div>
+			</li>
+			<li class="Transparent">
+				<div class="inline">
+					<div data-type="label" data-device="Wetter_Pro" data-get="fc3_tempMax" data-unit="°C" class="bigger thin"></div>
+					<div data-type="label" class="inline medium">min:&nbsp;</div>
+					<div data-type="label" data-device="Wetter_Pro" data-get="fc3_tempMin" data-unit="%B0C%0A" class="inline large"></div>
+				</div>
+				<div class="inline">
+				<div data-type="label" data-device="Wetter_Pro" data-get="fc3_weatherDay" class=""></div>
+				<div data-type="weather" data-device="Wetter_Pro" data-get="fc3_weatherDay" data-imageset="kleinklima" class="top-space" style="width:90px;"></div>
+				</div>
+				<div class="inline">
+					<div class="">
+						<div data-type="label" class="inline">Regen:</div>
+						<div data-type="label" data-device="Wetter_Pro" data-get="fc3_chOfRainDay" data-unit="%" data-limits='[0,40,80]' data-colors='["green","#aa6900","firebrick"]' class="large inline"></div>
+					</div>
+					<div class="cell">
+						<div data-type="label" class="inline">Sonne:</div>
+						<div data-type="label" data-device="Wetter_Pro" data-get="fc3_sun" data-limits='[0,40,80]' data-colors='["firebrick","#aa6900","green"]' data-unit="%" class="large inline"></div>
+					</div>
+					<div class="cell">
+						<div data-type="label" class="inline">UV:</div>
+						<div data-type="label" data-device="Wetter_Pro" data-get="fc3_uv" data-unit="" data-limits="[0,4,8,11]" data-colors='["green","#aa6900","firebrick","red"]' class="large inline"></div>
+					</div>
+				</div>
+				<div class="">
+					<div data-type="label" data-device="Wetter_Pro" data-get="fc3_date" data-substitution="toDate().eeee()+','" class="inline large darker"></div>
+					<div data-type="label" data-device="Wetter_Pro" data-get="fc3_date" data-substitution="toDate().ddmm()" class="inline large darker"></div>
+				</div>
+			</li>
+			<li class="Transparent">
+				<div class="inline">
+					<div data-type="label" data-device="Wetter_Pro" data-get="fc4_tempMax" data-unit="°C" class="bigger thin"></div>
+					<div data-type="label" class="inline medium">min:&nbsp;</div>
+					<div data-type="label" data-device="Wetter_Pro" data-get="fc4_tempMin" data-unit="%B0C%0A" class="inline large"></div>
+				</div>
+				<div class="inline">
+				<div data-type="label" data-device="Wetter_Pro" data-get="fc4_weatherDay" class=""></div>
+				<div data-type="weather" data-device="Wetter_Pro" data-get="fc4_weatherDay" data-imageset="kleinklima" class="top-space" style="width:90px;"></div>
+				</div>
+				<div class="inline">
+					<div class="">
+						<div data-type="label" class="inline">Regen:</div>
+						<div data-type="label" data-device="Wetter_Pro" data-get="fc4_chOfRainDay" data-unit="%" data-limits='[0,40,80]' data-colors='["green","#aa6900","firebrick"]' class="large inline"></div>
+					</div>
+					<div class="cell">
+						<div data-type="label" class="inline">Sonne:</div>
+						<div data-type="label" data-device="Wetter_Pro" data-get="fc4_sun" data-limits='[0,40,80]' data-colors='["firebrick","#aa6900","green"]' data-unit="%" class="large inline"></div>
+					</div>
+					<div class="cell">
+						<div data-type="label" class="inline">UV:</div>
+						<div data-type="label" data-device="Wetter_Pro" data-get="fc4_uv" data-unit="" data-limits="[0,4,8,11]" data-colors='["green","#aa6900","firebrick","red"]' class="large inline"></div>
+					</div>
+				</div>
+				<div class="">
+					<div data-type="label" data-device="Wetter_Pro" data-get="fc4_date" data-substitution="toDate().eeee()+','" class="inline large darker"></div>
+					<div data-type="label" data-device="Wetter_Pro" data-get="fc4_date" data-substitution="toDate().ddmm()" class="inline large darker"></div>
+				</div>
+			</li>
+			<li class="Transparent">
+				<div class="inline">
+					<div data-type="label" data-device="Wetter_Pro" data-get="fc5_tempMax" data-unit="°C" class="bigger thin"></div>
+					<div data-type="label" class="inline medium">min:&nbsp;</div>
+					<div data-type="label" data-device="Wetter_Pro" data-get="fc5_tempMin" data-unit="%B0C%0A" class="inline large"></div>
+				</div>
+				<div class="inline">
+				<div data-type="label" data-device="Wetter_Pro" data-get="fc5_weatherDay" class=""></div>
+				<div data-type="weather" data-device="Wetter_Pro" data-get="fc5_weatherDay" data-imageset="kleinklima" class="top-space" style="width:90px;"></div>
+				</div>
+				<div class="inline">
+					<div class="">
+						<div data-type="label" class="inline">Regen:</div>
+						<div data-type="label" data-device="Wetter_Pro" data-get="fc5_chOfRainDay" data-unit="%" data-limits='[0,40,80]' data-colors='["green","#aa6900","firebrick"]' class="large inline"></div>
+					</div>
+					<div class="cell">
+						<div data-type="label" class="inline">Sonne:</div>
+						<div data-type="label" data-device="Wetter_Pro" data-get="fc5_sun" data-limits='[0,40,80]' data-colors='["firebrick","#aa6900","green"]' data-unit="%" class="large inline"></div>
+					</div>
+					<div class="cell">
+						<div data-type="label" class="inline">UV:</div>
+						<div data-type="label" data-device="Wetter_Pro" data-get="fc5_uv" data-unit="" data-limits="[0,4,8,11]" data-colors='["green","#aa6900","firebrick","red"]' class="large inline"></div>
+					</div>
+				</div>
+				<div class="">
+					<div data-type="label" data-device="Wetter_Pro" data-get="fc5_date" data-substitution="toDate().eeee()+','" class="inline large darker"></div>
+					<div data-type="label" data-device="Wetter_Pro" data-get="fc5_date" data-substitution="toDate().ddmm()" class="inline large darker"></div>
+				</div>
+			</li>
+			<li class="Transparent">
+				<div class="inline">
+					<div data-type="label" data-device="Wetter_Pro" data-get="fc6_tempMax" data-unit="°C" class="bigger thin"></div>
+					<div data-type="label" class="inline medium">min:&nbsp;</div>
+					<div data-type="label" data-device="Wetter_Pro" data-get="fc6_tempMin" data-unit="%B0C%0A" class="inline large"></div>
+				</div>
+				<div class="inline">
+				<div data-type="label" data-device="Wetter_Pro" data-get="fc6_weatherDay" class=""></div>
+				<div data-type="weather" data-device="Wetter_Pro" data-get="fc6_weatherDay" data-imageset="kleinklima" class="top-space" style="width:90px;"></div>
+				</div>
+				<div class="inline">
+					<div class="">
+						<div data-type="label" class="inline">Regen:</div>
+						<div data-type="label" data-device="Wetter_Pro" data-get="fc6_chOfRainDay" data-unit="%" data-limits='[0,40,80]' data-colors='["green","#aa6900","firebrick"]' class="large inline"></div>
+					</div>
+					<div class="cell">
+						<div data-type="label" class="inline">Sonne:</div>
+						<div data-type="label" data-device="Wetter_Pro" data-get="fc6_sun" data-limits='[0,40,80]' data-colors='["firebrick","#aa6900","green"]' data-unit="%" class="large inline"></div>
+					</div>
+					<div class="cell">
+						<div data-type="label" class="inline">UV:</div>
+						<div data-type="label" data-device="Wetter_Pro" data-get="fc6_uv" data-unit="" data-limits="[0,4,8,11]" data-colors='["green","#aa6900","firebrick","red"]' class="large inline"></div>
+					</div>
+				</div>
+				<div class="">
+					<div data-type="label" data-device="Wetter_Pro" data-get="fc6_date" data-substitution="toDate().eeee()+','" class="inline large darker"></div>
+					<div data-type="label" data-device="Wetter_Pro" data-get="fc6_date" data-substitution="toDate().ddmm()" class="inline large darker"></div>
+				</div>
+			</li>
+        </ul>
+    </div>
+</li>
+
+</ul>
+</div>
+</body>
+</html>

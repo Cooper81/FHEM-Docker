@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>MENU</title>
+</head>
+<body>
+
+<div class="gridster">
+<ul>
+<li class="halbTransparent border-left border-right" data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">HOME</header>
+	<div data-type="pagetab"
+		 data-device="st_alert"
+		 data-get-on='["off","[1-9]{1}|[0-9]{2}"]'
+		 data-url="index_home.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-home"
+		 data-icons='["fa-home","fa-home warn"]'
+		 class="cell">
+	</div>
+</li>
+
+<li class="halbTransparent" data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">MENÜ</header>
+	<div data-type="pagetab"
+		 data-url="menu.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-bars"
+		 class="cell">
+	</div>
+</li>
+
+<li class="halbTransparent border-left border-right" data-row="1" data-col="3" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">DWD</header>
+	<div data-type="pagetab"
+		 data-device="gds"
+		 data-get="a_count"
+		 data-get-on='["no","^[1-9][0-9]|[1-9]$"]'
+		 data-url="dwd.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-bolt"
+		 data-icons='["fa-bolt","fa-bolt warn"]'
+		 class="cell">
+	</div>
+</li>
+
+<li class="halbTransparent border-right" data-row="1" data-col="4" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">WETTER</header>
+	<div data-type="pagetab"
+		 data-url="wetter.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-cloud"
+		 class="cell">
+	</div>
+</li>
+
+<li class="halbTransparent border-left border-right" data-row="2" data-col="1" data-sizex="4" data-sizey="2">
+	<header class="headerTransparent">RÄUME</header>
+	<div class="top-space">
+		<div data-type="pagetab"
+			 data-device="wz_alert"
+			 data-icon="ro-sofa"
+			 data-get-on='["low","ok"]'
+			 data-url="wohnzimmer.html"
+			 data-background-icon="fa-circle-thin"
+			 data-on-background-color="#aa6900"
+			 data-on-color="#808080"
+			 data-off-color="#808080"
+			 data-icons='["ro-sofa warn","ro-sofa"]'
+			 data-text="Wohnen"
+			 class="cell inline">
+		</div>
+
+		<div data-type="pagetab"
+			 data-device="ku_alert"
+			 data-icon="fa-cutlery"
+			 data-get-on='["low","ok"]'
+			 data-url="kuche.html"
+			 data-background-icon="fa-circle-thin"
+			 data-on-background-color="#aa6900"
+			 data-on-color="#808080"
+			 data-off-color="#808080"
+			 data-icons='["fa-cutlery warn","fa-cutlery"]'
+			 data-text="Küche"
+			 class="cell inline">
+		</div>
+
+		<div data-type="pagetab"
+			 data-device="bad_alert"
+			 data-icon="oa-scene_childs_room"
+			 data-get-on='["low","ok"]'
+			 data-url="kind.html"
+			 data-background-icon="fa-circle-thin"
+			 data-on-background-color="#aa6900"
+			 data-on-color="#808080"
+			 data-off-color="#808080"
+			 data-icons='["fa-tint warn","fa-tint"]'
+			 data-text="Emily"
+			 class="cell inline">
+		</div>
+
+		<div class="top-space">
+		<div data-type="pagetab"
+			 data-device="bu_alert"
+			 data-icon="ro-pc"
+			 data-get-on='["low","ok"]'
+			 data-url="buro.html"
+			 data-background-icon="fa-circle-thin"
+			 data-on-background-color="#aa6900"
+			 data-on-color="#808080"
+			 data-off-color="#808080"
+			 data-icons='["ro-pc warn","ro-pc"]'
+			 data-text="Büro"
+			 class="cell inline">
+		</div>
+
+		<div data-type="pagetab"
+			 data-device="sz_alert"
+			 data-icon="fa-bed"
+			 data-get-on='["low","ok"]'
+			 data-url="schlafzimmer.html"
+			 data-background-icon="fa-circle-thin"
+			 data-on-background-color="#aa6900"
+			 data-on-color="#808080"
+			 data-off-color="#808080"
+			 data-icons='["fa-bed warn","fa-bed"]'
+			 data-text="Schlafen"
+			 class="cell inline">
+		</div>
+
+		<div data-type="pagetab"
+			 data-device="sz_alert"
+			 data-icon="oa-time_timer"
+			 data-states='["off","on"]'
+			 data-url="wecker.html"
+			 data-background-icon="fa-circle-thin"
+			 data-on-background-color="#aa6900"
+			 data-on-color="#808080"
+			 data-off-color="#808080"
+			 data-icons='["fa-bed","fa-bed warn"]'
+			 data-text="Wecker"
+			 class="cell inline">
+		</div>
+
+		<div data-type="pagetab"
+			 data-device="sz_alert"
+			 data-icon="oa-audio_sound"
+			 data-states='["off","on"]'
+			 data-url="sonos.html"
+			 data-background-icon="fa-circle-thin"
+			 data-on-background-color="#aa6900"
+			 data-on-color="#808080"
+			 data-off-color="#808080"
+			 data-icons='["fa-bed","fa-bed warn"]'
+			 data-text="Musik"
+			 class="cell inline">
+
+		</div>
+
+
+	</div>
+</li>
+
+<li class="halbTransparent border-left border-right" data-row="4" data-col="1" data-sizex="4" data-sizey="1">
+	<header class="headerTransparent">SYSTEM</header>
+	<div class="inline top-space-mobile">
+		<div data-type="pagetab"
+			 data-icon="fa-server"
+			 data-url="rpi_status.html"
+			 data-background-icon="fa-circle-thin"
+			 data-on-background-color="#aa6900"
+			 data-on-color="#808080"
+			 data-off-color="#808080"
+			 data-text="RasPi"
+			 class="">
+</div>
+		<div class="">&nbsp;
+		</div>
+	</div>
+	<div class="inline left-space-3">
+		<div data-type="symbol"
+			data-device="notify_savestate"
+			data-get="savestate"
+			data-states='["0","1"]'
+			data-icons='["fa-edit","fa-edit fa-lg"]'
+			data-colors='["#808080","firebrick"]'
+			data-icon="fa-edit"
+			class="">
+		</div>
+		<div data-type="label"
+			 data-color="notify_savestate:color"
+			 class="narrow">Config
+		</div>
+	</div>
+	<div class="inline">
+		<div data-type="push"
+			 data-fhem-cmd="save"
+			 data-off-color="#808080"
+			 data-off-background-color="#3D4C66"
+			 data-icon="fa-floppy-o"
+			 class="">
+		</div>
+		<div class="">speichern
+		</div>
+	</div>
+</li>
+
+<li class="halbTransparent" data-row="5" data-col="1" data-sizex="4" data-sizey="2"></li>
+
+</ul>
+</div>
+</body>
+</html>

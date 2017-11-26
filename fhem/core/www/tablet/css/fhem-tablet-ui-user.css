@@ -1,0 +1,224 @@
+body {
+    background-color: #1D1F20 !important;
+    color: #eeeeee !important;
+	overflow: visible !important;
+}
+
+main {
+	overflow: visible !important;
+}
+
+table {
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+div[data-type="switch"], div[data-type="push"], div[data-type="button"] {
+	display: initial !important;
+}
+
+div[data-type="select"] > div > select, div[data-type="input"] > input {
+	background-color: #333 !important;
+	border: 0px !important;
+	color: #eee !important;
+}
+
+.large.thin  {
+	letter-spacing: 1.1px;
+	font-size: 200% !important;
+	font-family: robotothin,sans-serif;
+	font-weight: normal !important;
+}
+
+#header-nav {
+  /*height: 50px !important;*/
+  background-color: #0088CC !important;
+}
+
+nav {
+    background-color: #1D1F20;
+    background-image: linear-gradient(90deg, #1D1F20,#404348);
+	border-left: 1px dashed darkorange;
+    color: #eeeeee;
+}
+
+.dialog {
+  background-color:#1D1F20 !important;
+}
+
+.dialog > header {
+    background: #333;
+    color: #eee;
+    display: block;
+    font-size: 0.85em;
+    font-weight: bold;
+    line-height: 2em;
+    text-align: center;
+    width: 100%;
+}
+
+section{
+    border-bottom: 1px solid darkorange !important;
+	background-color: #1D1F20 !important;
+}
+
+i#warn {
+    color: #eeeeee;
+}
+i#warn-back {
+    color: firebrick;
+}
+
+#dropvsx {
+	display: none;
+}
+
+#droplicht {
+	display: none;
+}
+
+#dropnacht {
+	display: none;
+}
+
+#dropsofa {
+	display: none;
+}
+
+#dropgardine {
+	display: none;
+}
+
+#dropsteh {
+	display: none;
+}
+
+#dropglas {
+	display: none;
+}
+
+#dropwetter {
+	display: none;
+}
+
+#droppollen0 {
+	display: none;
+}
+
+#droppollen1 {
+	display: none;
+}
+
+#droppollen2 {
+	display: none;
+}
+
+#droppollen0roman {
+	display: none;
+}
+
+#droppollen1roman {
+	display: none;
+}
+
+#droppollen2roman {
+	display: none;
+}
+
+#dropvorher1 {
+	display: none;
+}
+
+#dropvorher2 {
+	display: none;
+}
+
+#dropvorher3 {
+	display: none;
+}
+
+#dropvorher4 {
+	display: none;
+}
+
+#dropanruf {
+	display: none;
+}
+
+#dropalarm {
+	display: none;
+}
+
+#dropstumm {
+	display: none;
+}
+
+#dropradiokueche {
+	display: none;
+}
+
+#dropradiokuechesarah {
+	display: none;
+}
+
+#nav_config {
+	display: none;
+}
+
+input {
+	color: #eee !important;
+}
+
+.top-space-mobile {
+	margin-top: 10px;
+}
+
+.top-space-mobile-2x, .top-space-mobile-2 {
+	margin-top: 20px;
+}
+
+#keypad {
+	display: inline-block;
+}
+
+.invalid {
+	-webkit-animation: shake .5s linear;
+	animation: shake .5s linear; 
+}
+
+@-webkit-keyframes shake {
+	8%, 41% {
+		-webkit-transform: translateX(-10px);
+	}
+	25%, 58% {
+		-webkit-transform: translateX(10px);
+	}
+	75% {
+		-webkit-transform: translateX(-5px);
+	}
+	92% {
+		-webkit-transform: translateX(5px);
+	}
+	0%, 100% {
+		-webkit-transform: translateX(0);
+	}
+}
+
+@keyframes shake {
+	8%, 41% {
+		transform: translateX(-10px);
+	}
+	25%, 58% {
+		transform: translateX(10px);
+	}
+	75% {
+		transform: translateX(-5px);
+	}
+	92% {
+		transform: translateX(5px);
+	}
+	0%, 100% {
+		transform: translateX(0);
+	}
+}

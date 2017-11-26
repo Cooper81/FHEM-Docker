@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>WOHNZIMMER - MULTIMEDIA</title>
+</head>
+<body>
+
+<div class="gridster">
+<ul>
+<li class="halbTransparent border-left border-right" data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">HOME</header>
+	<div data-type="pagetab"
+		 data-device="st_alert"
+		 data-get-on='["off","[1-9]{1}|[0-9]{2}"]'
+		 data-url="index_home.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-home"
+		 data-icons='["fa-home","fa-home warn"]'
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent" data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">MENÜ</header>
+	<div data-type="pagetab"
+		 data-url="menu.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-bars"
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent border-left border-right" data-row="1" data-col="3" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">DWD</header>
+	<div data-type="pagetab"
+		 data-device="gds"
+		 data-get="a_count"
+		 data-get-on='["no","^[1-9][0-9]|[1-9]$"]'
+		 data-url="dwd.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-bolt"
+		 data-icons='["fa-bolt","fa-bolt warn"]'
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent border-right" data-row="1" data-col="4" data-sizex="1" data-sizey="1">
+	<header class="headerTransparent">WETTER</header>
+	<div data-type="pagetab"
+		 data-url="wetter.html"
+		 data-background-icon="fa-circle-thin"
+		 data-on-background-color="#aa6900"
+		 data-on-color="#808080"
+		 data-off-color="#808080"
+		 data-icon="fa-cloud"
+		 class="big cell">
+	</div>
+</li>
+
+<li class="halbTransparent border-left" data-row="2" data-col="1" data-sizex="2" data-sizey="1">
+	<header class="headerTransparent">TEMP / HUM</header>
+	<div class="top-space-mobile">
+		<div data-type="label"
+			 data-device="wz_WT"
+			 data-get="temperature"
+			 data-unit="%B0C%0A"
+			 data-limits='[-70,20,25]'
+			 data-colors='["#6699FF","green","firebrick"]'
+			 class="big inline">
+		</div>
+		<div data-type="label"
+			 data-device=""
+			 data-get=""
+			 data-unit="%"
+			 data-limits='[-70,20,25]'
+			 data-colors='["#6699FF","green","firebrick"]'
+			 class="big inline">XX%
+		</div>
+		<hr width="85%" class="">
+		<div data-type="label"
+			 class="big narrow orange">Wohnzimmer
+		</div>
+	</div>
+</li>
+
+<li class="halbTransparent border-left border-right" data-row="2" data-col="3" data-sizex="2" data-sizey="1">
+	<header class="headerTransparent">WOHNEN-MEDIA MENÜ</header>
+	<div class="cell">
+		<div data-type="pagetab"
+			 data-url="wohnzimmer_licht.html"
+			 data-background-icon="fa-circle-thin"
+			 data-on-background-color="#aa6900"
+			 data-on-color="#606060"
+			 data-icon="fa-lightbulb-o"
+			 class="inline">
+		</div>
+		<div data-type="pagetab"
+			 data-url="wohnzimmer.html"
+			 data-background-icon="fa-circle-thin"
+			 data-on-background-color="#aa6900"
+			 data-on-color="#606060"
+			 data-icon="ro-sofa"
+			 class="inline">
+		</div>
+	</div>
+</li>
+
+<li class="halbTransparent border-left border-right" data-row="3" data-col="1" data-sizex="4" data-sizey="4">
+    <header class="headerTransparent">PIONEER VSX-S510</header>
+	<div class="top-space">
+		<div class="inline">
+			<div data-type="switch"
+				 data-device="vsx_510"
+				 data-get="power"
+				 data-on-color="black"
+				 data-off-color="#808080"
+				 data-on-background-color="cornflowerblue"
+				 data-off-background-color="#3D4C66"
+				 data-icon="fa-power-off"
+				 class="">
+			</div>
+			<div class="">Power
+			</div>
+		</div>
+		<div class="inline left-space-2 right-space-2">
+			<div data-type="push"
+				 data-device="vsx_510"
+				 data-set-on="volumeDown"
+				 data-off-color="#808080"
+				 data-off-background-color="#3D4C66"
+				 data-icon="ro-volume-decrease"
+				 class="">
+			</div>
+			<div data-type="push"
+				 data-device="vsx_510"
+				 data-set-on="volumeUp"
+				 data-off-color="#808080"
+				 data-off-background-color="#3D4C66"
+				 data-icon="ro-volume-increase"
+				 class="">
+			</div>
+			<div class="">Volume
+			</div>
+		</div>
+		<div class="inline">
+			<div data-type="switch"
+				 data-device="vsx_510"
+				 data-get="mute"
+				 data-set="mute"
+				 data-states='["on","off"]'
+				 data-icons='["ro-volume-mute2","ro-volume-high"]'
+				 data-colors='["black","#808080"]'
+				 data-background-colors='["cornflowerblue","#3D4C66"]'
+				 class="">
+			</div>
+			<div class="">Mute
+			</div>
+		</div>
+	</div>
+	<div class="top-space">
+		<div class="inline">
+			<div data-type="switch"
+				 data-device="vsx_510"
+				 data-get="input"
+				 data-get-on="cblSat"
+				 data-get-off="^(?!cblSat).*"
+				 data-set="input"
+				 data-set-on="cblSat"
+				 data-set-off=""
+				 data-on-color="black"
+				 data-off-color="#808080"
+				 data-on-background-color="cornflowerblue"
+				 data-off-background-color="#3D4C66"
+				 data-icon="ro-tv2"
+				 class="">
+			</div>
+			<div class="">TV
+			</div>
+		</div>
+		<div class="inline">
+			<div data-type="switch"
+				 data-device="vsx_510"
+				 data-get="input"
+				 data-get-on="dvd"
+				 data-get-off="^(?!dvd).*"
+				 data-set="input"
+				 data-set-on="dvd"
+				 data-set-off=""
+				 data-on-color="black"
+				 data-off-color="#808080"
+				 data-on-background-color="cornflowerblue"
+				 data-off-background-color="#3D4C66"
+				 data-icon="fa-amazon"
+				 class="">
+			</div>
+			<div class="">FireTV
+			</div>
+		</div>
+		<div class="inline">
+			<div data-type="switch"
+				 data-device="vsx_510"
+				 data-get="input"
+				 data-get-on="bd"
+				 data-get-off="^(?!bd).*"
+				 data-set="input"
+				 data-set-on="bd"
+				 data-set-off=""
+				 data-on-color="black"
+				 data-off-color="#808080"
+				 data-on-background-color="cornflowerblue"
+				 data-off-background-color="#3D4C66"
+				 data-icon="ro-bluray"
+				 class="">
+			</div>
+			<div class="">HTPC
+			</div>
+		</div>
+		<div class="inline">
+			<div data-type="switch"
+				 data-device="vsx_510"
+				 data-get="input"
+				 data-get-on="internetRadio"
+				 data-get-off="^(?!internetRadio).*"
+				 data-set="input"
+				 data-set-on="internetRadio"
+				 data-set-off=""
+				 data-on-color="black"
+				 data-off-color="#808080"
+				 data-on-background-color="cornflowerblue"
+				 data-off-background-color="#3D4C66"
+				 data-icon="fa-globe"
+				 class="">
+			</div>
+			<div class="">I-Radio
+			</div>
+		</div>
+		<div class="inline">
+			<div data-type="switch"
+				 data-device="vsx_510"
+				 data-get="input"
+				 data-get-on="tuner"
+				 data-get-off="^(?!tuner).*"
+				 data-set="input"
+				 data-set-on="tuner"
+				 data-set-off=""
+				 data-on-color="black"
+				 data-off-color="#808080"
+				 data-on-background-color="cornflowerblue"
+				 data-off-background-color="#3D4C66"
+				 data-icon="ro-radio"
+				 class="">
+			</div>
+			<div class="">Radio
+			</div>
+		</div>
+	</div>
+	<div class="top-space">
+		<div class="inline">
+			<div data-type="switch"
+				 data-device="vsx_510"
+				 data-get="input"
+				 data-get-on="game"
+				 data-get-off="^(?!game).*"
+				 data-set="input"
+				 data-set-on="game"
+				 data-set-off=""
+				 data-on-color="black"
+				 data-off-color="#808080"
+				 data-on-background-color="cornflowerblue"
+				 data-off-background-color="#3D4C66"
+				 data-icon="ro-gamepad"
+				 class="">
+			</div>
+			<div class="">Game
+			</div>
+		</div>
+		<div class="inline">
+			<div data-type="switch"
+				 data-device="vsx_510"
+				 data-get="input"
+				 data-get-on="iPodUsb"
+				 data-get-off="^(?!iPodUsb).*"
+				 data-set="input"
+				 data-set-on="iPodUsb"
+				 data-set-off=""
+				 data-on-color="black"
+				 data-off-color="#808080"
+				 data-on-background-color="cornflowerblue"
+				 data-off-background-color="#3D4C66"
+				 data-icon="fa-usb"
+				 class="">
+			</div>
+			<div class="">USB
+			</div>
+		</div>
+		<div class="inline">
+			<div data-type="switch"
+				 data-device="vsx_510"
+				 data-get="input"
+				 data-get-on="adapterPort"
+				 data-get-off="^(?!adapterPort).*"
+				 data-set="input"
+				 data-set-on="adapterPort"
+				 data-set-off=""
+				 data-on-color="black"
+				 data-off-color="#808080"
+				 data-on-background-color="cornflowerblue"
+				 data-off-background-color="#3D4C66"
+				 data-icon="fa-bluetooth"
+				 class="">
+			</div>
+			<div class="">BT
+			</div>
+		</div>
+		<div class="inline">
+			<div data-type="switch"
+				 data-device="vsx_510"
+				 data-get="input"
+				 data-get-on="cd"
+				 data-get-off="^(?!cd).*"
+				 data-set="input"
+				 data-set-on="cd"
+				 data-set-off=""
+				 data-on-color="black"
+				 data-off-color="#808080"
+				 data-on-background-color="cornflowerblue"
+				 data-off-background-color="#3D4C66"
+				 data-icon="ma-input"
+				 class="">
+			</div>
+			<div class="">AUX
+			</div>
+		</div>
+		<div class="inline">
+			<div data-type="switch"
+				 data-device="vsx_510"
+				 data-get="input"
+				 data-get-on="mhl"
+				 data-get-off="^(?!mhl).*"
+				 data-set="input"
+				 data-set-on="mhl"
+				 data-set-off=""
+				 data-on-color="black"
+				 data-off-color="#808080"
+				 data-on-background-color="cornflowerblue"
+				 data-off-background-color="#3D4C66"
+				 data-icon="ma-settings_input_hdmi"
+				 class="">
+			</div>
+			<div class="">Front
+			</div>
+		</div>
+	</div>
+	<div class="top-space-2">
+		<div class="inline">
+			<div data-type="switch"
+				 data-device="dummy_wz_tv_auto"
+				 data-on-color="black"
+				 data-off-color="#808080"
+				 data-on-background-color="cornflowerblue"
+				 data-off-background-color="#3D4C66"
+				 data-icon="ro-tv2"
+				 class="">
+			</div>
+			<div class="">Auto<br />An/Aus
+			</div>
+		</div>
+		<div class="inline">
+			<div data-type="switch"
+				 data-device="dummy_wz_subs_auto"
+				 data-on-color="black"
+				 data-off-color="#808080"
+				 data-on-background-color="cornflowerblue"
+				 data-off-background-color="#3D4C66"
+				 data-icon="ma-speaker"
+				 class="">
+			</div>
+			<div class="">Auto<br />An/Aus
+			</div>
+		</div>
+	</div>
+</li>
+
+</ul>
+</div>
+</body>
+</html>

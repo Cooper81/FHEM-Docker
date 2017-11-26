@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+	<div class="page" id="content_sprit">
+		<section>
+			<div class="big">SB
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div class="">Super
+						</div>
+					</td>
+					<td>
+						<div class="">Diesel
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="35%">
+						<div data-type="label"
+							 data-device="spritpreise"
+							 data-get="SBSuper"
+							 data-limits='["0","1.30","1.50"]'
+							 data-colors='["green","#aa6900","firebrick"]'
+							 data-unit="9&euro;"
+							 class="tall thin">
+						</div>
+					</td>
+					<td width="35%">
+						<div data-type="label"
+							 data-device="spritpreise"
+							 data-get="SBDiesel"
+							 data-limits='["0","1.30","1.50"]'
+							 data-colors='["green","#aa6900","firebrick"]'
+							 data-unit="9&euro;"
+							 class="tall thin">
+						</div>
+					</td>
+				</tr>
+			</table>
+			<div class="big">Aral
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div class="">Super
+						</div>
+					</td>
+					<td>
+						<div class="">Diesel
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div data-type="label"
+							 data-device="spritpreise"
+							 data-get="AralSuper"
+							 data-limits='["0","1.30","1.50"]'
+							 data-colors='["green","#aa6900","firebrick"]'
+							 data-unit="9&euro;"
+							 class="tall thin">
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-device="spritpreise"
+							 data-get="AralDiesel"
+							 data-limits='["0","1.30","1.50"]'
+							 data-colors='["green","#aa6900","firebrick"]'
+							 data-unit="9&euro;"
+							 class="tall thin">
+						</div>
+					</td>
+				</tr>
+			</table>
+			<div class="big">Star
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div class="">Super
+						</div>
+					</td>
+					<td>
+						<div class="">Diesel
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div data-type="label"
+							 data-device="spritpreise"
+							 data-get="StarSuper"
+							 data-limits='["0","1.30","1.50"]'
+							 data-colors='["green","#aa6900","firebrick"]'
+							 data-unit="9&euro;"
+							 class="tall thin">
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-device="spritpreise"
+							 data-get="StarDiesel"
+							 data-limits='["0","1.30","1.50"]'
+							 data-colors='["green","#aa6900","firebrick"]'
+							 data-unit="9&euro;"
+							 class="tall thin">
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<div class="inline">Letzte Aktualisierung vor:
+						</div>
+						<div data-type="label"
+							 data-device="spritpreise"
+							 data-get="AralSuper"
+							 data-refresh="1"
+							 data-substitution="toDate().ago()"
+							 class="timestamp inline">
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<div data-type="push"
+							 data-fhem-cmd="get spritpreise SBSuper;get spritpreise SBDiesel;get spritpreise AralSuper;get spritpreise AralDiesel;get spritpreise StarSuper;get spritpreise StarDiesel"
+							 data-icon="fa-refresh"
+							 class="">
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<div class="">Alle&nbsp;aktualisieren
+						</div>
+					</td>
+				</tr>
+			</table>
+		</section>
+	</div>
+</body>
+</html>

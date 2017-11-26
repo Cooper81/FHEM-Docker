@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FHEM - Hausautomatisierung</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<!-- Mobile-Web-Config -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
+	<!-- Favicon-Icon -->
+	<link rel="shortcut icon" type="image/x-icon" href="images/home.ico" />
+	<!-- Cache -->
+    <!--<meta http-equiv="Cache-Control" content="no-store" />-->
+	<!-- FTUI-Settings -->
+	<meta name="longpoll_type" content="1" />
+	<meta name="toast" content="0"> <!-- 1,2,3...= n Toast-Messages, 0: No Toast-Messages -->
+	<!-- Scripts -->
+    <script type="text/javascript" src="js/fhem-tablet-ui.js" defer></script>
+	<!-- Icon Fonts -->
+	<link rel="stylesheet" href="fonts/roman/style.css" />
+     <link rel="stylesheet" href="fonts/dennis/style.css">
+	<!-- Custom CSS -->
+    <link rel="stylesheet" href="css/fhem-mobil-ui.css" />
+    <link rel="stylesheet" href="css/fhem-tablet-ui-user.css" />
+</head>
+<body>
+	<div data-type="loading" data-icon="fa-hourglass" data-color="firebrick" data-effect="fa-pulse" class="bigger" style="position:absolute;top:50%;left:50%;margin-left:-17.38px;"></div>
+
+	<nav id="menu">
+		<div data-type="link" class="default large center top-space-mobile-2 left-space-3"
+			 data-width="205"
+			 data-icon-left="fa-home"
+			 data-color="#eee"
+			 data-text-align="center"
+			 data-load="div#content_home"
+			 data-url="#content_home.html"
+			 data-active-color="#0088CC"
+			 data-active-pattern="(.*index.html|.*#content_home.html)">Home
+		</div>
+
+		<div style="display:inline-block;height:1px;width:80%;background-color:darkorange;"></div>
+		<div data-type="link" class="large center top-space-mobile-2 left-space-3"
+			 data-width="205"
+			 data-icon-left="ro-sofa"
+			 data-color="#eee"
+			 data-text-align="center"
+			 data-load="div#content_wohnen"
+			 data-url="#content_wohnen.html"
+			 data-active-color="#0088CC"
+			 data-active-pattern=".*#content_wohnen.html">Wohnen
+		</div>
+		<div data-type="link" class="large center top-space-mobile-2 left-space-3"
+			 data-width="205"
+			 data-icon-left="fa-cutlery"
+			 data-color="#eee"
+			 data-text-align="center"
+			 data-load="div#content_kuche"
+			 data-url="#content_kuche.html"
+			 data-active-color="#0088CC"
+			 data-active-pattern=".*#content_kuche.html">K&uuml;che
+		</div>
+		<div data-type="link" class="large center top-space-mobile left-space-3"
+			 data-width="205"
+			 data-icon-left="oa-scene_childs_room"
+			 data-color="#eee"
+			 data-text-align="center"
+			 data-load="div#content_kind"
+			 data-url="#content_kind.html"
+			 data-active-color="#0088CC"
+			 data-active-pattern=".*#content_kind.html">Emily
+		</div>
+		<div data-type="link" class="large center top-space-mobile-2 left-space-3"
+			 data-width="205"
+			 data-icon-left="ro-pc"
+			 data-color="#eee"
+			 data-text-align="center"
+			 data-load="div#content_buro"
+			 data-url="#content_buro.html"
+			 data-active-color="#0088CC"
+			 data-active-pattern=".*#content_buro.html">B&uuml;ro
+		</div>
+		<div data-type="link" class="large center top-space-mobile-2 left-space-3"
+			 data-width="205"
+			 data-icon-left="fa-bed"
+			 data-color="#eee"
+			 data-text-align="center"
+			 data-load="div#content_schlafen"
+			 data-url="#content_schlafen.html"
+			 data-active-color="#0088CC"
+			 data-active-pattern=".*#content_schlafen.html">Schlafen
+		</div>
+		<div data-type="link" class="large center top-space-mobile left-space-3"
+			 data-width="205"
+			 data-icon-left="fa-shower"
+			 data-color="#eee"
+			 data-text-align="center"
+			 data-load="div#content_bad"
+			 data-url="#content_bad.html"
+			 data-active-color="#0088CC"
+			 data-active-pattern=".*#content_bad.html">Bad
+		</div>
+		<div style="display:inline-block;height:1px;width:80%;background-color:darkorange;"></div>
+		<div data-type="link" class="large center top-space-mobile left-space-3"
+			 data-width="205"
+			 data-icon-left="fa-th-list"
+			 data-color="#eee"
+			 data-text-align="center"
+			 data-load="div#content_annabel"
+			 data-url="#content_annabel.html"
+			 data-active-color="#0088CC"
+			 data-active-pattern=".*#content_annabel.html">Annabel
+		</div>
+		<div data-type="link" class="large center top-space-mobile left-space-3"
+			 data-width="205"
+			 data-icon-left="fa-th-list"
+			 data-color="#eee"
+			 data-text-align="center"
+			 data-load="div#content_dennis"
+			 data-url="#content_dennis.html"
+			 data-active-color="#0088CC"
+			 data-active-pattern=".*#content_dennis.html">Dennis
+		</div>
+		<div style="display:inline-block;height:1px;width:80%;background-color:darkorange;"></div>
+		<div data-type="link" class="large center top-space-mobile left-space-3"
+			 data-width="205"
+			 data-icon-left="fa-cloud"
+			 data-color="#eee"
+			 data-text-align="center"
+			 data-load="div#content_wetter"
+			 data-url="#content_wetter.html"
+			 data-active-color="#0088CC"
+			 data-active-pattern=".*#content_wetter.html">Wetter
+		</div>
+		<div data-type="link" class="prefetch large center top-space-mobile-2 left-space-3"
+			 data-width="205"
+			 data-icon-left="fa-bolt"
+			 data-color="#eee"
+			 data-text-align="center"
+			 data-load="div#content_dwd"
+			 data-url="#content_dwd.html"
+			 data-active-color="#0088CC"
+			 data-active-pattern=".*#content_dwd.html">DWD
+		</div>
+		<div style="display:inline-block;height:1px;width:80%;background-color:darkorange;"></div>
+		<div data-type="link" class="prefetch large center top-space-mobile-2 left-space-3"
+			 data-width="205"
+			 data-icon-left="f1-Botvac_VR200"
+			 data-color="#eee"
+			 data-text-align="center"
+			 data-load="div#content_vorwerk"
+			 data-url="#content_vorwerk.html"
+			 data-active-color="#0088CC"
+			 data-active-pattern=".*#content_vorwerk.html">R2D2
+		</div>
+		<div style="display:inline-block;height:1px;width:80%;background-color:darkorange;"></div>
+		<div data-type="link" class="large center top-space-mobile left-space-3"
+			 data-width="205"
+			 data-icon-left="mi-local_gas_station"
+			 data-color="#eee"
+			 data-text-align="center"
+			 data-load="div#content_sprit"
+			 data-url="#content_sprit.html"
+			 data-active-color="#0088CC"
+			 data-active-pattern=".*#content_sprit.html">Spritpreise
+		</div>
+		<div style="display:inline-block;height:1px;width:80%;background-color:darkorange;"></div>
+		<div data-type="link" class="large center top-space-mobile left-space-3"
+			 data-width="205"
+			 data-icon-left="fa-server"
+			 data-color="#eee"
+			 data-text-align="center"
+			 data-load="div#content_system"
+			 data-url="#content_system.html"
+			 data-active-color="#0088CC"
+			 data-active-pattern=".*#content_system.html">System
+		</div>
+		<div style="display:inline-block;height:1px;width:80%;background-color:darkorange;"></div>
+		<div data-type="link" class="large center top-space-mobile left-space-3"
+			 data-width="205"
+			 data-icon-left="fa-cogs"
+			 data-color="#eee"
+			 data-text-align="center"
+			 data-load="div#content_config"
+			 data-url="#content_config.html"
+			 data-active-color="#0088CC"
+			 data-active-pattern=".*#content_config.html">Einstellungen
+		</div>
+			<div data-type="link" class="large centered" style="display:none;"
+				 data-width="150"
+				 data-height="50"
+				 data-icon-left="fa-file-o"
+				 data-color="#eee"
+				 data-background-color="#333"
+				 data-load="div#config_heizung"
+				 data-url="#config_heizung.html"
+				 data-active-color="#0088CC"
+				 data-active-pattern=".*#config_heizung.html">Heizung
+			</div>
+			<div data-type="link" class="large centered" style="display:none;"
+				 data-width="150"
+				 data-height="50"
+				 data-icon-left="fa-file-o"
+				 data-color="#eee"
+				 data-background-color="#333"
+				 data-load="div#config_befehl"
+				 data-url="#config_befehl.html"
+				 data-active-color="#0088CC"
+				 data-active-pattern=".*#config_befehl.html">Befehl
+			</div>
+			<div data-type="link" class="large centered" style="display:none;"
+				 data-width="150"
+				 data-height="50"
+				 data-icon-left="fa-file-o"
+				 data-color="#eee"
+				 data-background-color="#333"
+				 data-load="div#config_start"
+				 data-url="#config_start.html"
+				 data-active-color="#0088CC"
+				 data-active-pattern=".*#config_start.html">Startseite
+			</div>
+	</nav>
+
+	<header id="header-nav" class="fixed row">
+		<table>
+			<tr>
+				<td style="border-right:1px #1D1F20 dashed;">
+					<div data-type="link"
+					     data-load="div#content_home"
+						data-url="#content_home.html" 
+						data-icon="fa-home"
+						data-color="black"
+						class="inline cell">
+
+					</div>
+				</td>
+				<td width="20%" style="border-right:1px #1D1F20 dashed;">
+					<div data-type="clock"
+						 data-format="H:i"
+						 data-interval="1000"
+						 class="bigger centered"
+						 style="color:darkorange;">
+					</div>
+				</td>
+				<td style="border-right:1px #1D1F20 dashed;">
+					<div class="large" data-type="popup" data-mode="fade" data-width="750px" data-height="510px">
+						<div data-type="symbol"
+							data-device="Unwetterzentrale"
+							data-get="WarnCount"
+							data-states='["^[1-9][0-9]|[1-9]","0"]'
+							data-icons='["fa-bolt warn","fa-bolt warn"]'
+							data-colors='["darkorange","white"]'>
+						</div>
+						<div class="dialog">					
+						<div class="col-1-2 inline cell">
+						<div style="font-size:150%" class="dialog">
+						<header><div class="thin crimson" style="font-size:140%">Warnungen Unwetterzentrale</div></header>
+								<div class="top-space">
+								<div class="hbox center">
+								<div data-type="uwz"
+									data-device="Unwetterzentrale"
+									data-imgsize="50" data-detail='["WarnUWZLevel_Color", "IconURL", "ShortText","WarnTime"]']'
+									data-max="5" class="left-space-2x col-1-1">
+								</div>
+								<div data-type="link" class="round"
+									data-color="lightgrey"
+									data-border-color="#505050"
+									data-text-align="center"
+									data-width="125px"
+									onclick="$('.dialog-close').trigger('click');">Schliessen
+								</div>
+								</div>
+								</div>
+						</div>
+						</div>
+						</div>
+					</div>
+				</td>
+				<td width="40%" style="border-right:1px #1D1F20 dashed;">
+					<div id="linkname"
+						 class="bigger robotothin centered">
+					</div>
+				</td>
+				<td>
+					<div data-type="slideout"
+						 data-position="right"
+						 class="big notouch">
+					</div>
+				</td>
+			</tr>
+		</table>
+	</header>
+	
+	<main id="panel" class="">
+		<div data-type="popup"
+			 data-device="fbCallMonitor"
+			 data-get="event"
+			 data-get-on="ring"
+			 data-get-off="disconnect"
+			 data-mode="fade"
+			 data-width="300"
+			 data-height="400">
+			<div class="dialog">
+				<header>ANRUF</header>
+				<div data-type="symbol"
+					 data-device="fbCallMonitor"
+					 data-get="event"
+					 data-states='["ring","connect"]'
+					 data-icons='["mi-ring_volume fa-blink","mi-phone_in_talk"]'
+					 data-colors='["firebrick","#aa6900"]'
+					 class="tall">
+				</div>
+				<div data-type="label"
+					 data-device="fbCallMonitor"
+					 data-get="external_number"
+					 class="bigger top-space">
+				</div>
+				<div data-type="label"
+					 data-device="fbCallMonitor"
+					 data-get="external_name"
+					 class="bigger">
+				</div>
+				<div data-type="symbol"
+					 data-device="fbCallMonitor"
+					 data-get="internal_number"
+					 data-states='["7062471","7062472","Answering_Machine_1"]'
+					 data-icons='["ro-sofa","ro-pc","mi-voicemail"]'
+					 data-colors='["#eee","#eee","#eee"]'
+					 class="bigger">
+				</div>
+			</div>
+		</div>
+		<div id="screensaver" data-type="screensaver" data-timeout="120">
+			<section>
+				<div data-type="analogclock"
+					 data-size="400"
+					 data-body="none"
+					 data-dial="austria"
+					 data-dial-color="#666"
+					 data-hour-color="#888"
+					 data-minute-color="#888"
+					 data-second-color="#0088CC"
+					 data-mbehave="ebounce"
+					 data-sbehave="ebounce">
+				</div>
+				<div data-type="clock"
+					 data-format="l, d.m.Y"
+					 data-interval="1000"
+					 class="large">
+				</div>
+			</section>
+			<table>
+				<tr>
+					<td>
+						<div data-type="weather"
+							 data-device="Wetter_Pro"
+							 data-get="weather"
+							 data-imageset="kleinklima"
+							 class="centered top-space-2x"
+							 style="width:300px;">
+
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div data-type="label"
+							 data-device="Wetter_Pro"
+							 data-get="weather"
+							 class="centered">
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+        <div class="page" id="content_home"></div>
+        <div class="page" id="content_wohnen"></div>
+        <div class="page" id="content_kuche"></div>
+        <div class="page" id="content_kind"></div>
+        <div class="page" id="content_buro"></div>
+        <div class="page" id="content_schlafen"></div>
+        <div class="page" id="content_bad"></div>
+        <div class="page" id="content_annabel"></div>
+        <div class="page" id="content_dennis"></div>
+        <div class="page" id="content_wetter"></div>
+        <div class="page" id="content_dwd"></div>
+        <div class="page" id="content_wecker"></div>
+        <div class="page" id="content_vorwerk"></div>
+        <div class="page" id="content_system"></div>
+        <div class="page" id="content_sprit"></div>
+        <div class="page" id="content_config"></div>
+        <div class="page" id="config_heizung"></div>
+        <div class="page" id="config_befehl"></div>
+        <div class="page" id="config_start"></div>
+    </main>
+</body>
+</html>

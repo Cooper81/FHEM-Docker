@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+	<div class="page" id="content_system">
+		<section>
+			<div class="big">Temperatur
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div data-type="label"
+							 data-device="rpi_sys"
+							 data-get="cpu_temp"
+							 data-unit="%B0C%0A"
+							 data-limits='[0,50,60]'
+							 data-colors='["green","#aa6900","firebrick"]'
+							 data-fix="1"
+							 class="large thin">
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-device="rpi_sz"
+							 data-get="cpu_temp"
+							 data-unit="%B0C%0A"
+							 data-limits='[0,50,60]'
+							 data-colors='["green","#aa6900","firebrick"]'
+							 data-fix="1"
+							 data-hide="rpi_sz:STATE"
+							 data-hide-on="disconnected"
+							 class="large thin">
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-device="rpi_bad"
+							 data-get="cpu_temp"
+							 data-unit="%B0C%0A"
+							 data-limits='[0,50,60]'
+							 data-colors='["green","#aa6900","firebrick"]'
+							 data-fix="1"
+							 data-hide="rpi_bad:STATE"
+							 data-hide-on="disconnected"
+							 class="large thin">
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="">RPi 3<br />FHEM
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-hide="rpi_sz:STATE"
+							 data-hide-on="disconnected"
+							 class="">RPi 2<br />Schlafzimmer
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-hide="rpi_bad:STATE"
+							 data-hide-on="disconnected"
+							 class="">RPi 1<br />Bad
+						</div>
+					</td>
+				</tr>
+			</table>
+			<div class="big top-space">Durchschnittstemperatur&nbsp;&Oslash;
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div data-type="label"
+							 data-device="rpi_sys"
+							 data-get="cpu_temp_avg"
+							 data-unit="%B0C%0A"
+							 data-limits='[0,50,60]'
+							 data-colors='["green","#aa6900","firebrick"]'
+							 data-fix="1"
+							 class="large thin">
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-device="rpi_sz"
+							 data-get="cpu_temp_avg"
+							 data-unit="%B0C%0A"
+							 data-limits='[0,50,60]'
+							 data-colors='["green","#aa6900","firebrick"]'
+							 data-fix="1"
+							 data-hide="rpi_sz:STATE"
+							 data-hide-on="disconnected"
+							 class="large thin">
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-device="rpi_bad"
+							 data-get="cpu_temp_avg"
+							 data-unit="%B0C%0A"
+							 data-limits='[0,50,60]'
+							 data-colors='["green","#aa6900","firebrick"]'
+							 data-fix="1"
+							 data-hide="rpi_bad:STATE"
+							 data-hide-on="disconnected"
+							 class="large thin">
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="">RPi 3<br />FHEM
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-hide="fhem_flur:STATE"
+							 data-hide-on="disconnected"
+							 class="">RPi 2<br />Schlafzimmer
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-hide="fhem_garage:STATE"
+							 data-hide-on="disconnected"
+							 class="">RPi 1<br />Bad
+						</div>
+					</td>
+				</tr>
+			</table>
+		</section>
+		<section>
+			<div class="big">Auslastung
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div data-type="label"
+							 data-device="rpi_sys"
+							 data-get="stat_cpu_text"
+							 data-part="2"
+							 data-unit="%"
+							 data-limits='[0,25]'
+							 data-colors='["green","firebrick"]'
+							 class="large thin">
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-device="rpi_sz"
+							 data-get="stat_cpu_text"
+							 data-part="2"
+							 data-unit="%"
+							 data-limits='[0,25]'
+							 data-colors='["green","firebrick"]'
+							 data-hide="rpi_sz:STATE"
+							 data-hide-on="disconnected"
+							 class="large thin">
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-device="rpi_bad"
+							 data-get="stat_cpu_text"
+							 data-part="2"
+							 data-unit="%"
+							 data-limits='[0,25]'
+							 data-colors='["green","firebrick"]'
+							 data-hide="rpi_bad:STATE"
+							 data-hide-on="disconnected"
+							 class="large thin">
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="">RPi 3<br />FHEM
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-hide="rpi_sz:STATE"
+							 data-hide-on="disconnected"
+							 class="">RPi 2<br />Schlafzimmer
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-hide="fhem_garage:STATE"
+							 data-hide-on="disconnected"
+							 class="">RPi 1<br />Bad
+						</div>
+					</td>
+				</tr>
+			</table>
+		</section>
+		<section>
+			<div class="big">Arbeitsspeicher
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div data-type="label"
+							 data-device="rpi_sys"
+							 data-get="ram"
+							 data-part="5"
+							 data-unit="MB"
+							 data-fix="1"
+							 data-limits='["0","486.55","729.82"]'
+							 data-colors='["#32a054","#aa6900","firebrick"]'
+							 class="large thin">
+						</div>
+						<div data-type="level"
+							 data-device="rpi_sys"
+							 data-get="ram"
+							 data-part="5"
+							 data-min="0"
+							 data-max="973.10"
+							 data-width="85"
+							 data-limits='["0","486.55","729.82"]'
+							 data-colors='["#32a054","#aa6900","firebrick"]'
+							 data-background-color="#333"
+							 class="horizontal top-space centered">
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-device="rpi_sz"
+							 data-get="ram"
+							 data-part="5"
+							 data-unit="MB"
+							 data-fix="1"
+							 data-limits='["0","486.55","729.82"]'
+							 data-colors='["#32a054","#aa6900","firebrick"]'
+							 data-hide="rpi_sz:STATE"
+							 data-hide-on="disconnected"
+							 class="large thin">
+						</div>
+						<div data-type="level"
+							 data-device="rpi_sz"
+							 data-get="ram"
+							 data-part="5"
+							 data-min="0"
+							 data-max="973.10"
+							 data-width="85"
+							 data-limits='["0","486.55","729.82"]'
+							 data-colors='["#32a054","#aa6900","firebrick"]'
+							 data-background-color="#333"
+							 data-hide="fhem_flur:STATE"
+							 data-hide-on="disconnected"
+							 class="horizontal top-space centered">
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-device="rpi_bad"
+							 data-get="ram"
+							 data-part="5"
+							 data-unit="MB"
+							 data-fix="1"
+							 data-limits='["0","217.38","326.08"]'
+							 data-colors='["#32a054","#aa6900","firebrick"]'
+							 data-hide="rpi_bad:STATE"
+							 data-hide-on="disconnected"
+							 class="large thin">
+						</div>
+						<div data-type="level"
+							 data-device="rpi_bad"
+							 data-get="ram"
+							 data-part="5"
+							 data-min="0"
+							 data-max="482.32"
+							 data-width="85"
+							 data-limits='["0","241.16","361.74"]'
+							 data-colors='["#32a054","#aa6900","firebrick"]'
+							 data-background-color="#333"
+							 data-hide="rpi_bad:STATE"
+							 data-hide-on="disconnected"
+							 class="horizontal top-space centered">
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="">RPi 3<br />FHEM
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-hide="fhem_flur:STATE"
+							 data-hide-on="disconnected"
+							 class="">RPi 2<br />Schlafzimmer
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-hide="rpi_sz:STATE"
+							 data-hide-on="disconnected"
+							 class="">RPi Z<br />Bad
+						</div>
+					</td>
+				</tr>
+			</table>
+		</section>
+		<section>
+			<div class="big">Konfiguration
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div data-type="label"
+							 data-device="notify_savestate"
+							 data-get="text"
+							 data-color="notify_savestate:color"
+							 class="">
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-device="notify_savestate_flur"
+							 data-get="text"
+							 data-color="notify_savestate_flur:color"
+							 data-hide="fhem_flur:STATE"
+							 data-hide-on="disconnected"
+							 class="">
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-device="notify_savestate_garage"
+							 data-get="text"
+							 data-color="notify_savestate_garage:color"
+							 data-hide="rpi_bad:STATE"
+							 data-hide-on="disconnected"
+							 class="">
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div onclick="ftui.setFhemStatus('save')"
+							 data-type="symbol"
+							 data-device="notify_savestate"
+							 data-get="savestate"
+							 data-states='["0","1"]'
+							 data-icons='["fa-check","fa-floppy-o fa-blink"]'
+							 data-background-icons='["fa-floppy-o","fa-circle-thin"]'
+							 data-colors='["green","firebrick"]'
+							 data-background-colors='["#333","#888"]'
+							 class="">
+						</div>
+					</td>
+					<td>
+						<div onclick="ftui.setFhemStatus('trigger fhem_save_schlafen')"
+							 data-type="symbol"
+							 data-device="notify_savestate_flur"
+							 data-get="savestate"
+							 data-states='["0","1"]'
+							 data-icons='["fa-check","fa-floppy-o fa-blink"]'
+							 data-background-icons='["fa-floppy-o","fa-circle-thin"]'
+							 data-colors='["green","firebrick"]'
+							 data-background-colors='["#333","#888"]'
+							 data-hide="fhem_flur:STATE"
+							 data-hide-on="disconnected"
+							 class="">
+						</div>
+					</td>
+					<td>
+						<div onclick="ftui.setFhemStatus('trigger fhem_save_garage')"
+							 data-type="symbol"
+							 data-device="notify_savestate_garage"
+							 data-get="savestate"
+							 data-states='["0","1"]'
+							 data-icons='["fa-check","fa-floppy-o fa-blink"]'
+							 data-background-icons='["fa-floppy-o","fa-circle-thin"]'
+							 data-colors='["green","firebrick"]'
+							 data-background-colors='["#333","#888"]'
+							 data-hide="fhem_garage:STATE"
+							 data-hide-on="disconnected"
+							 class="">
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="">RPi 3<br />FHEM
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-hide="rpi_sz:STATE"
+							 data-hide-on="disconnected"
+							 class="">RPi 2<br />Schlafzimmer
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-hide="rpi_sz:STATE"
+							 data-hide-on="disconnected"
+							 class="">RPi Z<br />Bad
+						</div>
+					</td>
+				</tr>
+			</table>
+		</section>
+		<section>
+			<div class="big">Neustart
+			</div>
+			<div style="display:inline-block;height:1px;width:80%;background-color:#0088CC;"></div>
+			<table>
+				<tr>
+					<td>
+						<div onclick="var answer = confirm('FHEM Neustart...\nBitte bestätigen!',''); function delay () { $('#fhem1').removeClass('invalid'); } if (answer) { ftui.setFhemStatus('shutdown restart'); $.toast({heading:'Neustart!',text:'FHEM wird neu gestartet...',textAlign:'center',hideAfter:30000,icon:'success',loader:true,loaderBg:'#0088CC'}); } else { $('#fhem1').addClass('invalid'); setTimeout(delay,500); }"
+							 id="fhem1"
+							 class="famultibutton fa-stack fa-2x">
+							 <i id="fg" class="fa fa-stack-1x fs-system_fhem" style="color:rgb(136,136,136);"></i>
+							 <i id="bg" class="fa fa-stack-2x fa-circle-thin" style="color:rgb(136,136,136);"></i>
+						</div>
+					</td>
+					<td>
+						<div onclick="var answer = confirm('FHEM Neustart...\nBitte bestätigen!',''); function delay () { $('#fhem2').removeClass('invalid'); } if (answer) { ftui.setFhemStatus('trigger fhem_reboot_flur'); $.toast({heading:'Neustart!',text:'FHEM wird neu gestartet...',textAlign:'center',hideAfter:30000,icon:'success',loader:true,loaderBg:'#0088CC'}); } else { $('#fhem2').addClass('invalid'); setTimeout(delay,500); }"
+							 id="fhem2"
+							 class="famultibutton fa-stack fa-2x">
+							 <i id="fg" class="fa fa-stack-1x fs-system_fhem" style="color:rgb(136,136,136);"></i>
+							 <i id="bg" class="fa fa-stack-2x fa-circle-thin" style="color:rgb(136,136,136);"></i>
+						</div>
+					</td>
+					<td>
+						<div onclick="var answer = confirm('FHEM Neustart...\nBitte bestätigen!',''); function delay () { $('#fhem3').removeClass('invalid'); } if (answer) { ftui.setFhemStatus('trigger fhem_reboot_garage'); $.toast({heading:'Neustart!',text:'FHEM wird neu gestartet...',textAlign:'center',hideAfter:30000,icon:'success',loader:true,loaderBg:'#0088CC'}); } else { $('#fhem3').addClass('invalid'); setTimeout(delay,500); }"
+							 id="fhem3"
+							 class="famultibutton fa-stack fa-2x">
+							 <i id="fg" class="fa fa-stack-1x fs-system_fhem" style="color:rgb(136,136,136);"></i>
+							 <i id="bg" class="fa fa-stack-2x fa-circle-thin" style="color:rgb(136,136,136);"></i>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div onclick="var answer = confirm('RaspPi Neustart...\nBitte bestätigen!',''); function delay () { $('#raspi1').removeClass('invalid'); } if (answer) { ftui.setFhemStatus('{system(\'sudo reboot &\')}'); $.toast({heading:'Neustart!',text:'RaspPi wird neu gestartet...',textAlign:'center',hideAfter:30000,icon:'success',loader:true,loaderBg:'#0088CC'}); } else { $('#raspi1').addClass('invalid'); setTimeout(delay,500); }"
+							 id="raspi1"
+							 class="famultibutton fa-stack fa-2x">
+							 <i id="fg" class="fa fa-stack-1x ro-raspi" style="color:rgb(136,136,136);"></i>
+							 <i id="bg" class="fa fa-stack-2x fa-circle-thin" style="color:rgb(136,136,136);"></i>
+						</div>
+					</td>
+					<td>
+						<div onclick="var answer = confirm('RaspPi Neustart...\nBitte bestätigen!',''); function delay () { $('#raspi2').removeClass('invalid'); } if (answer) { ftui.setFhemStatus('trigger rpi_reboot_flur'); $.toast({heading:'Neustart!',text:'RaspPi wird neu gestartet...',textAlign:'center',hideAfter:30000,icon:'success',loader:true,loaderBg:'#0088CC'}); } else { $('#raspi2').addClass('invalid'); setTimeout(delay,500); }"
+							 id="raspi2"
+							 class="famultibutton fa-stack fa-2x">
+							 <i id="fg" class="fa fa-stack-1x ro-raspi" style="color:rgb(136,136,136);"></i>
+							 <i id="bg" class="fa fa-stack-2x fa-circle-thin" style="color:rgb(136,136,136);"></i>
+						</div>
+					</td>
+					<td>
+						<div onclick="var answer = confirm('RaspPi Neustart...\nBitte bestätigen!',''); function delay () { $('#raspi3').removeClass('invalid'); } if (answer) { ftui.setFhemStatus('trigger rpi_reboot_garage'); $.toast({heading:'Neustart!',text:'RaspPi wird neu gestartet...',textAlign:'center',hideAfter:30000,icon:'success',loader:true,loaderBg:'#0088CC'}); } else { $('#raspi3').addClass('invalid'); setTimeout(delay,500); }"
+							 id="raspi3"
+							 class="famultibutton fa-stack fa-2x">
+							 <i id="fg" class="fa fa-stack-1x ro-raspi" style="color:rgb(136,136,136);"></i>
+							 <i id="bg" class="fa fa-stack-2x fa-circle-thin" style="color:rgb(136,136,136);"></i>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td >
+						<div class="">RPi 3<br />FHEM
+						</div>
+					</td>
+					<td >
+						<div data-type="label"
+							 data-hide="fhem_flur:STATE"
+							 data-hide-on="disconnected"
+							 class="">RPi 2<br />Schlafzimmer
+						</div>
+					</td>
+					<td>
+						<div data-type="label"
+							 data-hide="fhem_garage:STATE"
+							 data-hide-on="disconnected"
+							 class="">RPi 1<br />Bad
+						</div>
+					</td>
+				</tr>
+			</table>
+		</section>
+	</div>
+</body>
+</html>
