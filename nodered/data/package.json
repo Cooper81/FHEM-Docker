@@ -1,5 +1,16 @@
 {
-    "name": "node-red-project",
-    "description": "A Node-RED Project",
-    "version": "0.0.1"
+  "name": "node-red-project",
+  "description": "A Node-RED Project",
+  "version": "0.0.1",
+  "dependencies": {
+    "node-red-contrib-ibm-watson-iot": "^0.2.8",
+    "node-red-contrib-play-audio": "^2.2.2",
+    "node-red-dashboard": "~2.6.2",
+    "node-red-node-openweathermap": "~0.1.16",
+    "node-red-node-ping": "0.0.14",
+    "node-red-node-random": "0.0.8",
+    "node-red-node-serialport": "^0.6.0",
+    "node-red-node-smooth": "0.0.11",
+    "node-red-node-weather-underground": "~0.1.10"
+  }
 }
