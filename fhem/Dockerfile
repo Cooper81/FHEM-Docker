@@ -1,6 +1,6 @@
-FROM debian:jessie
+FROM debian:stretch
 
-MAINTAINER Matthias Kleine <info@haus-automatisierung.com>
+MAINTAINER Dennis Oderwald <toni_stark81@web.de>
 
 ENV FHEM_VERSION 5.8
 ENV DEBIAN_FRONTEND noninteractive
