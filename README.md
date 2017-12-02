@@ -11,7 +11,7 @@ Docker
 Docker-Compose
 Install
 
-git clone https://github.com/klein0r/fhem-docker.git fhem-docker
+git clone https://github.com/Cooper81/fhem-docker.git fhem-docker
 cd fhem-docker
 docker-compose up -d
 FHEM: http://[ip]:8083/fhem
