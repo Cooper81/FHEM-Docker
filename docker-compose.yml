@@ -19,11 +19,6 @@ services:
             - "mysql"
             - "mqtt"
 
-    habridge:
-        restart: always
-        build: habridge
-        network_mode: host
-
     mysql:
         restart: always
         expose:
